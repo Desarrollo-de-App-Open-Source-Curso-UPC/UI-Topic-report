@@ -1,13 +1,12 @@
 # **Descripción de la Startup**  
 
-Nuestra startup nace con el propósito de transformar la gestión de inventarios en la industria gastronómica. En un sector donde la falta de control en el almacenamiento y los pedidos genera desperdicio y pérdidas económicas, ofrecemos una solución tecnológica innovadora: una plataforma automatizada que optimiza el manejo de insumos y la gestión de pedidos en restaurantes.  
+**UI-Topic** nace con el propósito de transformar la gestión de inventarios en la industria gastronómica. En un sector donde la falta de control en el almacenamiento y los pedidos genera desperdicio y pérdidas económicas, ofrecemos una solución tecnológica innovadora: una plataforma automatizada que optimiza el manejo de insumos y la gestión de pedidos en restaurantes.  
 
 Nuestra plataforma permite a los restaurantes monitorear su inventario en tiempo real, prever necesidades de abastecimiento y reducir el desperdicio de productos, todo desde una interfaz intuitiva y fácil de usar. Además, facilitamos la conexión con proveedores, agilizando los procesos de compra y asegurando un flujo de insumos eficiente.  
 
 Nos enfocamos en apoyar tanto a pequeños restaurantes como a grandes cadenas, brindándoles herramientas tecnológicas accesibles para mejorar su rentabilidad y sostenibilidad. Creemos en la digitalización como un pilar fundamental para la evolución del sector gastronómico, ayudando a los negocios a ser más eficientes y competitivos en un mercado en constante cambio.  
 
-En nuestra startup, aspiramos a liderar la transformación digital en la gestión de inventarios y pedidos, ofreciendo soluciones que impulsen la productividad y minimicen el desperdicio, contribuyendo así a un ecosistema gastronómico más organizado, rentable y sustentable.  
-
+En **UI-Topic**, aspiramos a liderar la transformación digital en la gestión de inventarios y pedidos, ofreciendo soluciones que impulsen la productividad y minimicen el desperdicio, contribuyendo así a un ecosistema gastronómico más organizado, rentable y sustentable.  
 ---
 
 # **Misión y Visión**  
