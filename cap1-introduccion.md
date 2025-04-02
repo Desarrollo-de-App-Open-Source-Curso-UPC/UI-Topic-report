@@ -37,19 +37,6 @@ Esta falta de automatización conlleva a una serie de problemas críticos:
 Por tanto, se evidencia una clara necesidad de una solución tecnológica accesible, fácil de usar y que permita automatizar la administración de inventario, con reportes útiles, alertas y una interfaz intuitiva adaptada a las necesidades reales de los propietarios de restaurantes.
 
 ### 1.2.2 **Lean UX**  
-#### 1.2.2.3 **Lean UX Hypothesis Statements**  
-
-1. **Creemos que** al proporcionar un sistema automatizado de gestión de inventario y pedidos para restaurantes, reduciremos la desorganización y el desperdicio de insumos.  
-   **Sabremos que** hemos tenido éxito **cuando** los restaurantes reporten una disminución en la pérdida de productos y una mejora en la eficiencia operativa.  
-
-2. **Creemos que** al diseñar una plataforma intuitiva y fácil de usar, facilitaremos la adopción del sistema por parte de dueños de restaurantes y su personal.  
-   **Sabremos que** hemos tenido éxito **cuando** la mayoría de los usuarios completen la configuración inicial sin asistencia y registren un uso recurrente del sistema.  
-
-3. **Creemos que** al integrar herramientas de análisis y reportes en tiempo real, ayudaremos a los restaurantes a tomar decisiones estratégicas basadas en datos.  
-   **Sabremos que** hemos tenido éxito **cuando** los usuarios utilicen estos informes para optimizar su inventario y mejorar la rentabilidad de su negocio.  
-
-4. **Creemos que** al permitir la conexión entre restaurantes y proveedores dentro de la plataforma, facilitaremos la gestión de pedidos y reduciremos los tiempos de espera en el abastecimiento.  
-   **Sabremos que** hemos tenido éxito **cuando** los restaurantes reporten una mejora en la disponibilidad de insumos y una reducción en retrasos en la entrega de productos.  
 
 #### 1.2.2.1 Lean UX Problem Statement
 
@@ -76,3 +63,17 @@ Ante esto, surge la pregunta: ¿Cómo podemos optimizar la gestión de inventari
 - Control en tiempo real del inventario para reducir pérdidas.
 - Procesos de abastecimiento más eficientes mediante integración con proveedores.
 - Mayor rentabilidad y competitividad a través de la digitalización de la gestión operativa.
+
+#### 1.2.2.3 **Lean UX Hypothesis Statements**  
+
+1. **Creemos que** al proporcionar un sistema automatizado de gestión de inventario y pedidos para restaurantes, reduciremos la desorganización y el desperdicio de insumos.  
+   **Sabremos que** hemos tenido éxito **cuando** los restaurantes reporten una disminución en la pérdida de productos y una mejora en la eficiencia operativa.  
+
+2. **Creemos que** al diseñar una plataforma intuitiva y fácil de usar, facilitaremos la adopción del sistema por parte de dueños de restaurantes y su personal.  
+   **Sabremos que** hemos tenido éxito **cuando** la mayoría de los usuarios completen la configuración inicial sin asistencia y registren un uso recurrente del sistema.  
+
+3. **Creemos que** al integrar herramientas de análisis y reportes en tiempo real, ayudaremos a los restaurantes a tomar decisiones estratégicas basadas en datos.  
+   **Sabremos que** hemos tenido éxito **cuando** los usuarios utilicen estos informes para optimizar su inventario y mejorar la rentabilidad de su negocio.  
+
+4. **Creemos que** al permitir la conexión entre restaurantes y proveedores dentro de la plataforma, facilitaremos la gestión de pedidos y reduciremos los tiempos de espera en el abastecimiento.  
+   **Sabremos que** hemos tenido éxito **cuando** los restaurantes reporten una mejora en la disponibilidad de insumos y una reducción en retrasos en la entrega de productos.
