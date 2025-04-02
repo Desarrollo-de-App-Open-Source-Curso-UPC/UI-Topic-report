@@ -2,7 +2,7 @@
 
 _UPC_  
 _Ingeniería de Software_  
-_2025_  
+_2025-10_  
 
 **Código:** _1ASI0729_  
 **Nombre:** _Desarrollo de Aplicaciones Open Source_  
