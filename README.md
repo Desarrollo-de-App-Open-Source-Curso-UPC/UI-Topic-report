@@ -1,7 +1,7 @@
 # Carátula  
 
 _UPC_  
-_Ingeniería de Software _  
+_Ingeniería de Software_  
 _2025_  
 
 **Código:** _1ASI0729_  
