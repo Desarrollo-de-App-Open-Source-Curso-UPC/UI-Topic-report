@@ -7,7 +7,7 @@ _2025_
 **Código:** _1ASI0729_  
 **Nombre:** _Desarrollo de Aplicaciones Open Source_  
 
-_Sección X_  
+_Sección 4292_  
 
 _Prof. Velásquez Núñez, Ángel Augusto_  
 
