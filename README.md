@@ -1,13 +1,13 @@
 # Carátula  
 
-_UPC_  
-_Ingeniería de Software _  
-_2025_  
+_Universidad Peruana de Ciencias Aplicadas_  
+_Ingeniería de Software_  
+_2025-10_  
 
 **Código:** _1ASI0729_  
 **Nombre:** _Desarrollo de Aplicaciones Open Source_  
 
-_Sección X_  
+_Sección 4292_  
 
 _Prof. Velásquez Núñez, Ángel Augusto_  
 
