@@ -77,3 +77,11 @@ Ante esto, surge la pregunta: ¿Cómo podemos optimizar la gestión de inventari
 
 4. **Creemos que** al permitir la conexión entre restaurantes y proveedores dentro de la plataforma, facilitaremos la gestión de pedidos y reduciremos los tiempos de espera en el abastecimiento.  
    **Sabremos que** hemos tenido éxito **cuando** los restaurantes reporten una mejora en la disponibilidad de insumos y una reducción en retrasos en la entrega de productos.
+
+## 1.3 Segmentos objetivos
+
+**Segmento Objetivo 1: Dueños de Restaurantes**
+Dueños de restaurantes en Lima, con edades entre 20 y 60 años, que buscan optimizar la gestión de sus establecimientos para mejorar la experiencia del cliente y aumentar la rentabilidad.
+
+**Segmento Objetivo 2: Proveedores para Restaurantes**
+Proveedores de alimentos, bebidas y utensilios que abastecen a restaurantes en Lima y otras ciudades que buscan establecer relaciones comerciales con restaurantes que valoren la calidad y confiabilidad en las entregas.
