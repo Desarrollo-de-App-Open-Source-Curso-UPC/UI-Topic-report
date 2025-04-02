@@ -6,7 +6,8 @@ Nuestra plataforma permite a los restaurantes monitorear su inventario en tiempo
 
 Nos enfocamos en apoyar tanto a pequeños restaurantes como a grandes cadenas, brindándoles herramientas tecnológicas accesibles para mejorar su rentabilidad y sostenibilidad. Creemos en la digitalización como un pilar fundamental para la evolución del sector gastronómico, ayudando a los negocios a ser más eficientes y competitivos en un mercado en constante cambio.  
 
-Aspiramos a liderar la transformación digital en la gestión de inventarios y pedidos, ofreciendo soluciones que impulsen la productividad y minimicen el desperdicio, contribuyendo así a un ecosistema gastronómico más organizado, rentable y sustentable.  
+En **UI-Topic**, aspiramos a liderar la transformación digital en la gestión de inventarios y pedidos, ofreciendo soluciones que impulsen la productividad y minimicen el desperdicio, contribuyendo así a un ecosistema gastronómico más organizado, rentable y sustentable.  
+
 ---
 
 # **Misión y Visión**  
