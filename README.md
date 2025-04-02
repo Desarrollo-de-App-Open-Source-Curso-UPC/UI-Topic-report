@@ -1,6 +1,6 @@
 # Carátula  
 
-_UPC_  
+_Universidad Peruana de Ciencias Aplicadas_  
 _Ingeniería de Software_  
 _2025-10_  
 
