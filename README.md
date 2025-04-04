@@ -77,38 +77,38 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ## Project Report Collaboration Insights (A EVALUAR - ASIGNACION INDIVIDUAL DE TAREAS?)
 
-### 📌 Descripción del proceso colaborativo – Entrega TB1
+### Descripción del proceso colaborativo – Entrega TB1
 
-#### 🗓️ Paso 1: Reunión inicial del equipo
+#### Paso 1: Reunión inicial del equipo
 
 El equipo se reunió a través de **Discord** para revisar en conjunto los entregables correspondientes a la entrega TB1. Durante esta reunión, se discutió el alcance de cada parte del trabajo, se resolvieron dudas sobre la rúbrica y se acordó la estructura preliminar del informe. Esta instancia fue fundamental para alinear criterios, distribuir roles y garantizar que todos tuvieran claridad sobre los objetivos de la entrega.
 
-**📸 Captura de la reunión en Discord:**
+**Captura de la reunión en Discord:**
 
 ![Reunión Discord](./images/evidencia1.jpeg)
 
 
-#### 📅 Paso 2: Planificación y asignación de responsabilidades
+#### Paso 2: Planificación y asignación de responsabilidades
 
 Tras la reunión, el equipo elaboró un **cronograma de trabajo** donde se establecieron las tareas clave, fechas de entrega internas y responsables por sección. Se tuvo especial cuidado en **identificar dependencias entre tareas**, por ejemplo, asegurando que los antecedentes y problemática estuvieran listos antes de redactar las soluciones o el análisis competitivo.
 
 El cronograma ayudó a mantener el orden, permitió cumplir con los plazos propuestos y facilitó la colaboración sincrónica y asincrónica.
 
-**📸 Captura del cronograma de tareas y responsables:**
+**Captura del cronograma de tareas y responsables:**
 
 ![Cronograma de trabajo](./images/evidencia2.jpeg)
 
-#### 🌿 Paso 3: Organización del trabajo con Git Flow
+#### Paso 3: Organización del trabajo con Git Flow
 
 Siguiendo buenas prácticas de control de versiones, el equipo implementó la metodología **Git Flow** para estructurar el repositorio. Se crearon ramas con la nomenclatura `feature/nombre-tarea` para facilitar la trazabilidad del trabajo individual y grupal.
 
 Cada integrante desarrolló su parte en su respectiva rama, y luego se enviaban **pull requests** (PRs) para revisión por parte del equipo. Una vez aprobadas, se realizaba el **merge** a la rama principal del informe (`main`). Esta estrategia garantizó control de calidad, integración progresiva del contenido y evitó conflictos durante la redacción simultánea.
 
-**📸 Captura de ramas con nomenclatura Git Flow:**
+**Captura de ramas con nomenclatura Git Flow:**
 
 ![Ramas Git Flow](./evidencias/ramas-feature-tb1.png)
 
-**📸 Captura de Pull Requests y revisiones cruzadas:**
+**Captura de Pull Requests y revisiones cruzadas:**
 
 ![PRs](./evidencias/pull-requests-revisiones-tb1.png)
 
