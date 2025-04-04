@@ -72,7 +72,7 @@ _Abril 2025_
   - [1.1.1 Descripción de la Startup](cap1-introduccion.md#111-descripción-de-la-startup)  
   - [1.1.2 Perfiles de integrantes del equipo](cap1-introduccion.md#112-perfiles-de-integrantes-del-equipo)  
 - [1.2 Solution Profile](cap1-introduccion.md#12-solution-profile)  
-  - [1.2.1 Antecedentes y problemática](cap1-introduccion.md#121-antecedentes-y-problematica)  
+  - [1.2.1 Antecedentes y problemática](cap1-introduccion.md#121-antecedentes-y-problemática)
   - [1.2.2 Lean UX](cap1-introduccion.md#122-lean-ux)  
     - [1.2.2.1 Problem Statement](cap1-introduccion.md#1221-lean-ux-problem-statement)  
     - [1.2.2.2 Assumptions](cap1-introduccion.md#1222-lean-ux-assumptions)  
