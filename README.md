@@ -75,6 +75,44 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 | **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Yaku Guzmán** <br> TB1: Redacción de Problem Statements y Assumptions; entrevistas y análisis de entrevistas; elaboración de User Task Matrix, Scenarios, Labeling Systems, Wireframes y Mock-ups; evidencia de desarrollo y documentación de servicios. <br><br> **Gabriela Shapiama** <br> TB1: Desarrollo de Lean UX Canvas, registro de entrevistas, Impact Mapping, Style Guidelines, Landing Page y User Flow Diagrams. <br><br> **Williams Avendaño** <br> TB1: Diseño de entrevistas, Journey Mapping, SEO y sistemas de búsqueda, configuración de entorno de desarrollo, sprint backlog. <br><br> **Jahaziel Guerra** <br> TB1: Redacción de antecedentes, análisis competitivo, Product Backlog, arquitectura, prototipado y despliegue de software. <br><br> **Julio Castro** <br> TB1: Redacción del perfil de la startup y estrategias competitivas, creación de user personas, arquitectura de software, gestión de código y ejecución de sprint. | Como grupo hemos mejorado nuestras habilidades de comunicación oral a través de exposiciones sincrónicas y grabadas, explicando conceptos técnicos a audiencias mixtas. Las entrevistas realizadas fortalecieron nuestra capacidad para adaptar el lenguaje al perfil del usuario, y los prototipos presentados evidenciaron claridad en la narrativa funcional. |
 | **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Yaku Guzmán** <br> TB1: Documentación de escenarios, tareas, diseño visual, evidencia de desarrollo y reflexión del equipo. <br><br> **Gabriela Shapiama** <br> TB1: Redacción de contenido estructurado en el Canvas, benchmarking de competidores y desarrollo visual de la interfaz. <br><br> **Williams Avendaño** <br> TB1: Diseño de entrevistas, desarrollo de base de datos, documentación técnica, convenciones de código. <br><br> **Jahaziel Guerra** <br> TB1: Redacción técnica de análisis de contexto, backlog, lenguaje ubicuo, arquitectura, despliegue y prototipado. <br><br> **Julio Castro** <br> TB1: Redacción de secciones estratégicas, documentación de diagramas y evidencias de ejecución. | Hemos fortalecido la redacción de documentos técnicos y metodológicos con claridad y enfoque en el lector objetivo. Desde stakeholders hasta usuarios finales, cada entregable ha buscado transmitir la propuesta con lenguaje adecuado, apoyado en recursos visuales y metodologías ágiles. La colaboración en herramientas digitales reforzó también la coherencia y calidad de los entregables escritos. |
 
+## Project Report Collaboration Insights (A EVALUAR - ASIGNACION INDIVIDUAL DE TAREAS?)
+
+### Descripción del proceso colaborativo – Entrega TB1
+
+#### Paso 1: Reunión inicial del equipo
+
+El equipo se reunió a través de **Discord** para revisar en conjunto los entregables correspondientes a la entrega TB1. Durante esta reunión, se discutió el alcance de cada parte del trabajo, se resolvieron dudas sobre la rúbrica y se acordó la estructura preliminar del informe. Esta instancia fue fundamental para alinear criterios, distribuir roles y garantizar que todos tuvieran claridad sobre los objetivos de la entrega.
+
+**Captura de la reunión en Discord:**
+
+![Reunión Discord](./images/evidencia1.jpeg)
+
+
+#### Paso 2: Planificación y asignación de responsabilidades
+
+Tras la reunión, el equipo elaboró un **cronograma de trabajo** donde se establecieron las tareas clave, fechas de entrega internas y responsables por sección. Se tuvo especial cuidado en **identificar dependencias entre tareas**, por ejemplo, asegurando que los antecedentes y problemática estuvieran listos antes de redactar las soluciones o el análisis competitivo.
+
+El cronograma ayudó a mantener el orden, permitió cumplir con los plazos propuestos y facilitó la colaboración sincrónica y asincrónica.
+
+**Captura del cronograma de tareas y responsables:**
+
+![Cronograma de trabajo](./images/evidencia2.jpeg)
+
+#### Paso 3: Organización del trabajo con Git Flow
+
+Siguiendo buenas prácticas de control de versiones, el equipo implementó la metodología **Git Flow** para estructurar el repositorio. Se crearon ramas con la nomenclatura `feature/nombre-tarea` para facilitar la trazabilidad del trabajo individual y grupal.
+
+Cada integrante desarrolló su parte en su respectiva rama, y luego se enviaban **pull requests** (PRs) para revisión por parte del equipo. Una vez aprobadas, se realizaba el **merge** a la rama principal del informe (`main`). Esta estrategia garantizó control de calidad, integración progresiva del contenido y evitó conflictos durante la redacción simultánea.
+
+**Captura de ramas con nomenclatura Git Flow:**
+
+![Ramas Git Flow](./evidencias/ramas-feature-tb1.png)
+
+**Captura de Pull Requests y revisiones cruzadas:**
+
+![PRs](./evidencias/pull-requests-revisiones-tb1.png)
+
+
 # Tabla de contenidos
 
 ## [Capítulo I: Introducción](cap1-introduccion.md)
