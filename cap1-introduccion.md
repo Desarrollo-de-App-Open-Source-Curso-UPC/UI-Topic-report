@@ -36,7 +36,6 @@ A futuro, aspiro a especializarme en el desarrollo de aplicaciones web, un área
 ![Foto de Williams](images/williams.png)
 
 
-
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
 
