@@ -64,3 +64,17 @@ _Abril 2025_
 | TB1.9     | 19/04/25 | Jahaziel Guerra      | Se realizó Web Applications Prototyping y Software Deployment <br> Evidence for Sprint Review.																			 |
 | TB1.10    | 21/04/25 | Yaku Guzmán          | Se realizaron Development Evidence y Services Documentation  <br> Evidence for Sprint Review. Se elaboró Team Collaboration  <br> Insights during Sprint y Conclusiones. |
 
+# Tabla de contenidos
+
+## [Capítulo I: Introducción](#capitulo-i-introduccion)
+- ### [1.1. Startup Profile](#11-startup-profile)
+  - [1.1.1. Descripción de la Startup](#111-descripcion-de-la-startup)
+  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+- ### [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problematica)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+- ### [1.3. Segmentos objetivo](#13-segmentos-objetivo)
