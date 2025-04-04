@@ -64,7 +64,7 @@ _Abril 2025_
 | TB1.9     | 19/04/25 | Jahaziel Guerra      | Se realizó Web Applications Prototyping y Software Deployment <br> Evidence for Sprint Review.																			 |
 | TB1.10    | 21/04/25 | Yaku Guzmán          | Se realizaron Development Evidence y Services Documentation  <br> Evidence for Sprint Review. Se elaboró Team Collaboration  <br> Insights during Sprint y Conclusiones. |
 
-## ABET – EAC - Student Outcome 3
+## ABET – EAC - Student Outcome 3 (A EVALUAR)
 
 **Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
 
