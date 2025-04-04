@@ -33,7 +33,16 @@ A futuro, aspiro a especializarme en el desarrollo de aplicaciones web, un área
 &nbsp;  
 ![Foto de Williams](images/williams.png)
 
+| **Julio Castro Alejos** |
+|--------------------------|
+| Soy estudiante de Ingeniería de Software con un gran interés en el desarrollo web y el enfoque DevOps. Me apasiona entender cómo funcionan los sistemas a nivel técnico y cómo integrarlos de forma eficiente para ofrecer soluciones escalables.  
+Me motiva trabajar en equipo, aprender nuevas herramientas y metodologías que potencien tanto el desarrollo como la entrega continua de software de calidad.  
+Cuento con habilidades en diseño de arquitecturas web, control de versiones con Git, integración y despliegue continuo (CI/CD), además de conocimientos sólidos en tecnologías frontend y backend.  
+A futuro, busco especializarme en la automatización de procesos y el diseño de sistemas robustos, contribuyendo al crecimiento tecnológico en diversos sectores.  
+Puedo aportar al equipo capacidades de liderazgo técnico, organización de flujos de trabajo (Git Flow), configuración de entornos de desarrollo y una mentalidad orientada a soluciones prácticas y eficientes. |
 
+&nbsp;  
+![Foto de Julio](images/julio.png)
 
 
 ## 1.2 Solution Profile
