@@ -44,7 +44,6 @@
 9. ¿Qué tan abierto estaría a utilizar una plataforma digital para mejorar la gestión de sus pedidos y relaciones comerciales?  
 10. ¿Cómo maneja la comunicación con los dueños de restaurantes para asegurar la calidad y puntualidad de las entregas?  
 
-
 ## 2.4. Ubiquitous Language
 
 En esta sección se presentan los términos clave del proyecto UI-Topic. Estos términos han sido acordados en el equipo del proyecto y serán usados de manera consistente en la comunicación, documentación y desarrollo del sistema.
@@ -66,3 +65,4 @@ En esta sección se presentan los términos clave del proyecto UI-Topic. Estos t
 | Aplicación Web           | Sistema interactivo que permite al usuario gestionar el inventario.       |
 | Front of house            | La parte visible a los clientes de un restaurante. Donde los clientes son recibidos y atendidos. |
 | Back of house    | La parte operativa de un restaurante. Incluye cocinas, áreas de almacenamiento y oficinas.    | 
+=======
