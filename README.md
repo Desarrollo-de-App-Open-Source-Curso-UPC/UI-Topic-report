@@ -40,7 +40,7 @@ _Abril 2025_
 ## **Registro de Versiones**
 (Falta registrar elaboración diagrama de Containers - C4)
 
-| *Versión* | *Fecha*  | *Autor*              | *Descripción de modificación*                                                                                                                                            |
+| *Versión* | *Fecha*  |: *Autor*            :|: *Descripción de modificación*                                                                                                                                          :|
 |:---------:|:--------:|:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TB1.0     | 04/04/25 | Yaku Guzmán          | Se redactó Lean UX Problem Statements y Assumptions.                                                                                                                     |
 | TB1.0     | 04/04/25 | Gabriela Shapiama    | Se elaboró el Lean UX Canvas y se redactaron los competidores.                                                                                                           |
