@@ -78,7 +78,7 @@ _Abril 2025_
     - [1.2.2.2 Assumptions](cap1-introduccion.md#1222-lean-ux-assumptions)  
     - [1.2.2.3 Hypothesis](cap1-introduccion.md#1223-lean-ux-hypothesis-statements)  
     - [1.2.2.4 Lean UX Canvas](cap1-introduccion.md#1224-lean-ux-canvas)  
-- [1.3 Segmentos Objetivo](cap1-introduccion.md#13-segmentos-objetivos)
+- [1.3 Segmentos Objetivos](cap1-introduccion.md#13-segmentos-objetivos)
 
 ## [Capítulo II: Requirements Elicitation & Analysis](cap-2-Requirements%20Elicitation%20%26%20Analysis.md)
 
