@@ -24,20 +24,12 @@ Visualizamos un futuro donde todos los restaurantes, sin importar su tamaño, cu
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
+| **Williams Eduardo Avendaño Balarezo** |
+|----------------------------------------|
+| Soy estudiante de Ingeniería de Software con una fuerte inclinación por la resolución de problemas y la creación de algoritmos. Me motiva mejorar constantemente mis habilidades en programación. Además de mi pasión por la tecnología, el deporte es una parte esencial de mi vida, ayudándome a mantener el equilibrio y la disciplina en todo lo que hago. A futuro, aspiro a especializarme en el desarrollo de aplicaciones web, un área clave en la transformación digital y la innovación tecnológica.  
+<br>  
 
-  <div style="flex: 1;">
-    <strong>Williams Eduardo Avendaño Balarezo</strong><br><br>
-    Soy estudiante de Ingeniería de Software con una fuerte inclinación por la resolución de problemas y la creación de algoritmos. Me motiva mejorar constantemente mis habilidades en programación.
-    Además de mi pasión por la tecnología, el deporte es una parte esencial de mi vida, ayudándome a mantener el equilibrio y la disciplina en todo lo que hago.
-    A futuro, aspiro a especializarme en el desarrollo de aplicaciones web, un área clave en la transformación digital y la innovación tecnológica.
-  </div>
-
-  <div>
-    <img src="images/williams.png" alt="Foto de Williams" style="width: 150px; border-radius: 8px;">
-  </div>
-
-</div>
+![Foto de Williams](images/williams.png) |
 
 
 
