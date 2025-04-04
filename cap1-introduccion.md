@@ -50,7 +50,7 @@ A futuro, me gustaría especializarme en informática forense y ciberseguridad. 
 Me considero analítico, con buenas prácticas en trabajo en equipo y organización usando Git. Siempre busco aportar ideas prácticas y resolver problemas de forma eficiente. |
 
 &nbsp;  
-![Foto de Yaku](images/yaku.png){width=200 height=350}
+![Foto de Yaku](images/yaku.png)
 
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
