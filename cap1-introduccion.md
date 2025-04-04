@@ -78,6 +78,10 @@ Ante esto, surge la pregunta: ¿Cómo podemos optimizar la gestión de inventari
 4. **Creemos que** al permitir la conexión entre restaurantes y proveedores dentro de la plataforma, facilitaremos la gestión de pedidos y reduciremos los tiempos de espera en el abastecimiento.  
    **Sabremos que** hemos tenido éxito **cuando** los restaurantes reporten una mejora en la disponibilidad de insumos y una reducción en retrasos en la entrega de productos.
 
+#### 1.2.2.4 **Lean UX Canvas**  
+
+![Lean UX Canvas](images/Canvas.jpg)
+
 ## 1.3 Segmentos objetivos
 
 **Segmento Objetivo 1: Dueños de Restaurantes**
