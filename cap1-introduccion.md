@@ -24,16 +24,16 @@ Visualizamos un futuro donde todos los restaurantes, sin importar su tamaño, cu
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
-| **Williams Eduardo Avendaño Balarezo** |
+| **Williams Eduardo Avendaño Balarezo (u202315325)** |
 |-----------------------------------------|
-| Soy estudiante de Ingeniería de Software con una fuerte inclinación por la resolución de problemas y la creación de algoritmos. Me motiva mejorar constantemente mis habilidades en programación.  
-Además de mi pasión por la tecnología, el deporte es una parte esencial de mi vida, ayudándome a mantener el equilibrio y la disciplina en todo lo que hago.  
-A futuro, aspiro a especializarme en el desarrollo de aplicaciones web, un área clave en la transformación digital y la innovación tecnológica. |
+| Soy estudiante de Ingeniería de Software, con un fuerte enfoque en el desarrollo de soluciones eficientes a través de la programación y los algoritmos. Tengo experiencia en desarrollo web, tanto en frontend como en backend, y conocimientos en AWS (como S3 Storage y AWS Lex). Me apasiona aprender nuevas tecnologías y mejorar continuamente mis habilidades.
+
+Puedo aportar al equipo una capacidad sólida para desarrollar aplicaciones escalables y optimizadas, integrando servicios de AWS para mejorar la eficiencia. Mi mentalidad orientada a resultados y mi enfoque en la resolución de problemas me permiten mantener altos estándares de calidad en el desarrollo. |
 
 &nbsp;  
 ![Foto de Williams](images/williams.png)
 
-| **Julio Castro Alejos** |
+| **Julio Castro Alejos (u202021885)** |
 |--------------------------|
 | Soy estudiante de Ingeniería de Software con un gran interés en el desarrollo web y el enfoque DevOps. Me apasiona entender cómo funcionan los sistemas a nivel técnico y cómo integrarlos de forma eficiente para ofrecer soluciones escalables.  
 Me motiva trabajar en equipo, aprender nuevas herramientas y metodologías que potencien tanto el desarrollo como la entrega continua de software de calidad.  
