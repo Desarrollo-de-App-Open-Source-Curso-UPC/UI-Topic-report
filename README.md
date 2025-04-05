@@ -21,7 +21,7 @@ _Prof. Velásquez Núñez, Ángel Augusto_
 **Nombre:** _UI-Topic_  
 
 ## Nombre del Producto  
-**Producto:** _Nombre del producto_  
+**Producto:** _ChefSuite_  
 
 ## Relación de Integrantes  
 | Código	 | Apellidos y Nombres				   |
