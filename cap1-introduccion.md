@@ -22,6 +22,56 @@ Visualizamos un futuro donde todos los restaurantes, sin importar su tamaño, cu
 
 ---
 
+### 1.1.2 Perfiles de integrantes del equipo
+
+| **Williams Eduardo Avendaño Balarezo (u202315325)** |
+|-----------------------------------------|
+| Soy estudiante de Ingeniería de Software, con un fuerte enfoque en el desarrollo de soluciones eficientes a través de la programación y los algoritmos. Tengo experiencia en desarrollo web, tanto en frontend como en backend, y conocimientos en AWS (como S3 Storage y AWS Lex). Me apasiona aprender nuevas tecnologías y mejorar continuamente mis habilidades.
+Puedo aportar al equipo una capacidad sólida para desarrollar aplicaciones escalables y optimizadas, integrando servicios de AWS para mejorar la eficiencia. Mi mentalidad orientada a resultados y mi enfoque en la resolución de problemas me permiten mantener altos estándares de calidad en el desarrollo. |
+
+&nbsp;  
+![Foto de Williams](images/williams.png)
+
+| **Julio Castro Alejos (u202021885)** |
+|--------------------------|
+| Soy estudiante de Ingeniería de Software con un gran interés en el desarrollo web y el enfoque DevOps. Me apasiona entender cómo funcionan los sistemas a nivel técnico y cómo integrarlos de forma eficiente para ofrecer soluciones escalables.  
+Me motiva trabajar en equipo, aprender nuevas herramientas y metodologías que potencien tanto el desarrollo como la entrega continua de software de calidad.  
+Cuento con habilidades en diseño de arquitecturas web, control de versiones con Git, integración y despliegue continuo (CI/CD), además de conocimientos sólidos en tecnologías frontend y backend.  
+A futuro, busco especializarme en la automatización de procesos y el diseño de sistemas robustos, contribuyendo al crecimiento tecnológico en diversos sectores.  
+Puedo aportar al equipo capacidades de liderazgo técnico, organización de flujos de trabajo (Git Flow), configuración de entornos de desarrollo y una mentalidad orientada a soluciones prácticas y eficientes. |
+
+&nbsp;  
+![Foto de Julio](images/julio.png)
+
+| **Yaku Mateo Guzmán Cabrejos (u20231b173)** |
+|--------------------------|
+| Soy estudiante de Ingeniería de Software, motivado por el desarrollo de aplicaciones y por entender cómo funcionan las tecnologías detrás de ellas. Me gusta crear soluciones útiles, eficientes y seguras. Tengo experiencia en frontend y backend, y conocimientos sólidos en estructuras de datos, patrones de diseño y arquitectura de software, lo que me permite construir sistemas bien organizados y escalables.
+A futuro, me gustaría especializarme en informática forense y ciberseguridad. Me interesa aprender nuevas herramientas y metodologías que mejoren el desarrollo y la calidad del software.
+Me considero analítico, con buenas prácticas en trabajo en equipo y organización usando Git. Siempre busco aportar ideas prácticas y resolver problemas de forma eficiente. |
+
+&nbsp;  
+![Foto de Yaku](images/yaku.png)
+
+
+| **Gabriela Nicole Shapiama Rivera (u202319448)** |
+|--------------------------|
+|Soy estudiante del quinto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, motivada por una fuerte pasión por la lógica y el razonamiento, pilares fundamentales en la programación.
+Mi interés por comprender a fondo el funcionamiento de los sistemas de software que utilizamos diariamente me ha llevado a desarrollar habilidades en el lenguaje de programación C++, así como una base sólida en tecnologías web como HTML y CSS. Además, manejo herramientas de control de versiones como Git y plataformas colaborativas como GitHub.
+También, he fortalecido mis competencias en el diseño de proyectos de software, acompañado de un liderazgo asertivo. Estoy comprometida con seguir aprendiendo y aportar valor a cada equipo en el que participo. |
+
+&nbsp;  
+<img src="images/Gaby.jpeg" alt="Foto de Gaby" width="300px" />
+
+| **José Jahaiel Guerra Perez (u202319831)** |
+|--------------------------|
+| Soy estudiante de Ingeniería de Software, actualmente en el quinto ciclo de la carrera. Me apasiona el aprendizaje continuo, la planificación detallada y la búsqueda de soluciones eficientes a problemas reales.
+Mi enfoque profesional está orientado al desarrollo backend, con especial interés en la construcción de sistemas distribuidos, escalables y resilientes, aplicando arquitecturas basadas en microservicios, mensajería asincrónica y herramientas de CI/CD modernas.
+Actualmente me interesa cómo los modelos de lenguaje (LLM) pueden actuar como agentes autónomos dentro de una arquitectura empresarial, integrándose con servicios como Apache Kafka, Spring Boot y sistemas de orquestación para tomar decisiones, responder eventos o ejecutar tareas de forma inteligente.
+Mi objetivo a futuro es convertirme en un Full Stack Developer con visión sistémica, capaz de diseñar soluciones innovadoras que no solo funcionen, sino que mejoren activamente el ecosistema donde se implementan, aprovechando tecnologías emergentes como inteligencia artificial, automatización y cloud computing. |
+
+&nbsp;  
+<img src="images/jahaziel.jpg" alt="Foto de Jahaziel" width="300px" />
+
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
 
