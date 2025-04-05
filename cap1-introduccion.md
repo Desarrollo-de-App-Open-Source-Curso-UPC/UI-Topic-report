@@ -2,7 +2,7 @@
 
 ### 1.1.1 Descripción de la Startup
 
-**UI-Topic** nace con el propósito de transformar la gestión de inventarios en la industria gastronómica. En un sector donde la falta de control en el almacenamiento y los pedidos genera desperdicio y pérdidas económicas, ofrecemos una solución tecnológica innovadora: una plataforma automatizada que optimiza el manejo de insumos y la gestión de pedidos en restaurantes.  
+**UI-Topic** nace con el propósito de automatizar la gestión de inventario y pedidos en restaurantes para la maximización de sus ganancias. En un sector donde la falta de control en el almacenamiento y los pedidos genera desperdicio y pérdidas económicas, ofrecemos una solución tecnológica innovadora: una plataforma automatizada que optimiza el manejo de insumos y la gestión de pedidos en restaurantes.  
 
 Nuestra plataforma permite a los restaurantes monitorear su inventario en tiempo real, prever necesidades de abastecimiento y reducir el desperdicio de productos, todo desde una interfaz intuitiva y fácil de usar. Además, facilitamos la conexión con proveedores, agilizando los procesos de compra y asegurando un flujo de insumos eficiente.  
 
