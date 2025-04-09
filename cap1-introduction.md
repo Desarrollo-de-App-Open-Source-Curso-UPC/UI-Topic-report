@@ -1,3 +1,5 @@
+## 1.1 Startup Profile
+
 ### 1.1.2 Perfiles de integrantes del equipo
 
 | **Williams Eduardo Avendaño Balarezo (u202315325)** |
@@ -6,7 +8,7 @@
 Puedo aportar al equipo una capacidad sólida para desarrollar aplicaciones escalables y optimizadas, integrando servicios de AWS para mejorar la eficiencia. Mi mentalidad orientada a resultados y mi enfoque en la resolución de problemas me permiten mantener altos estándares de calidad en el desarrollo. |
 
 &nbsp;  
-![Foto de Williams](images/williams.png)
+![Foto de Williams](assets/images/williams.png)
 
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
