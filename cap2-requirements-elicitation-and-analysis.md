@@ -37,6 +37,49 @@
 10. ¿Cómo maneja la comunicación con los dueños de restaurantes para asegurar la calidad y puntualidad de las entregas?  
 
 
+### 2.2.2 Registro de entrevistas
+
+## Segmento 1: Dueños de Restaurantes
+
+### Entrevista 1:
+**Nombre:** Lincoln Chauca Rubio  
+**Edad:** 36 años  
+**Distrito:** Breña  
+**Timing:** (05:01 - 09:09 min)  
+
+![Foto de Entrevista](assets/images/entrevista1.png)  
+[Ver entrevista (05:01 - 09:09 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
+
+El señor Lincoln Chauca Rubio es el propietario del restaurante “Amazonas Restaurant”, el cual viene administrando desde hace 5 años.  
+Entre los principales desafíos que enfrenta menciona la **rotación de personal**, ya que no cuenta con un equipo estable y constantemente deben contratar nuevos empleados.  
+Otro reto importante es el **manejo del inventario**, lo cual impacta directamente en la operatividad del negocio.
+
+Actualmente utiliza un software llamado **Vidal**, que le permite gestionar el restaurante de forma más eficiente. Gracias a esta herramienta, los mozos pueden tomar los pedidos a través de una tablet o celular, y también se mantiene una base de datos de los clientes.
+
+Respecto a los proveedores, el señor Chauca menciona que trabajan con **2 o 3 distintos** para obtener mejores precios, ya que estos suelen variar con frecuencia.
+
+En cuanto a la inversión en tecnología, actualmente destina alrededor de **300 soles mensuales**, pero está dispuesto a aumentar ese monto hasta **500 soles** si con ello puede mejorar la gestión de su restaurante.
+
+### Entrevista 2:
+_Pendiente_
+
+### Entrevista 3:
+_Pendiente_
+
+---
+
+## Segmento 2: Proveedores para Restaurantes
+
+### Entrevista 1:
+_Pendiente_
+
+### Entrevista 2:
+_Pendiente_
+
+### Entrevista 3:
+_Pendiente_
+
+
 
 ### 2.2.3 Análisis de entrevistas
 
