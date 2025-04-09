@@ -36,7 +36,7 @@ Mi interés por comprender a fondo el funcionamiento de los sistemas de software
 También, he fortalecido mis competencias en el diseño de proyectos de software, acompañado de un liderazgo asertivo. Estoy comprometida con seguir aprendiendo y aportar valor a cada equipo en el que participo. |
 
 &nbsp;  
-<img src="images/gaby.jpeg" alt="Foto de Gaby" width="300px" />
+<img src="assets/images/gaby.jpeg" alt="Foto de Gaby" width="300px" />
 
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
