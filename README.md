@@ -48,7 +48,7 @@ _Abril 2025_
 | TB1.1     | 05/04/25 | Jahaziel Guerra      | Se redactó antecedentes y problemática, y análisis competitivo.                                                                                                          |
 | TB1.1     | 05/04/25 | Julio Castro         | Se redactó perfil de la startup y estrategias frente a competidores.                                                                                                     |
 | TB1.2     | 09/04/25 | Williams Avendaño    | Se registró 1 entrevista y se elaboró el Journey Mapping.                                                                                                            |
-| TB1.3     | 10/04/25 | Yaku Guzmán          | Se realizaron 2 entrevistas y se redactó el análisis de entrevistas. <br> Se elaboró el User Task Matrix y tanto el As-Is como el To-Be Scenario Mapping.                |
+| TB1.3     | 10/04/25 | Yaku Guzmán          | Se realizaron 3 entrevistas y se redactó el análisis de entrevistas. <br> Se elaboró el User Task Matrix y tanto el As-Is como el To-Be Scenario Mapping.                |
 | TB1.4     | 11/04/25 | Julio Castro         | Se realizó User Personas, Empathy Mapping y User Stories.                                                                                                                |
 | TB1.5     | 13/04/25 | Gabriela Shapiama    | Se registraron 2 entrevistas. Se elaboró el Impact Mapping <br> y general Style Guidelines.                                                                              |
 | TB1.5     | 13/04/25 | Jahaziel Guerra      | Se realizó el Ubiquitous Language, Product Backlog y Web <br>Style Guidelines.                                                                                           |
