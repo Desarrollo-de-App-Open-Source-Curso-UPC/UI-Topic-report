@@ -18,6 +18,16 @@ Me considero analítico, con buenas prácticas en trabajo en equipo y organizaci
 &nbsp;  
 ![Foto de Yaku](assets/images/yaku.png)
 
+| **José Jahaiel Guerra Perez (u202319831)** |
+|--------------------------|
+| Soy estudiante de Ingeniería de Software, actualmente en el quinto ciclo de la carrera. Me apasiona el aprendizaje continuo, la planificación detallada y la búsqueda de soluciones eficientes a problemas reales.
+Mi enfoque profesional está orientado al desarrollo backend, con especial interés en la construcción de sistemas distribuidos, escalables y resilientes, aplicando arquitecturas basadas en microservicios, mensajería asincrónica y herramientas de CI/CD modernas.
+Actualmente me interesa cómo los modelos de lenguaje (LLM) pueden actuar como agentes autónomos dentro de una arquitectura empresarial, integrándose con servicios como Apache Kafka, Spring Boot y sistemas de orquestación para tomar decisiones, responder eventos o ejecutar tareas de forma inteligente.
+Mi objetivo a futuro es convertirme en un Full Stack Developer con visión sistémica, capaz de diseñar soluciones innovadoras que no solo funcionen, sino que mejoren activamente el ecosistema donde se implementan, aprovechando tecnologías emergentes como inteligencia artificial, automatización y cloud computing. |
+
+&nbsp;  
+<img src="assets/images/jahaziel.jpg" alt="Foto de Jahaziel" width="300px" />
+
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
 
