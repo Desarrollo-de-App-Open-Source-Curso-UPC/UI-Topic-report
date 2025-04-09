@@ -50,6 +50,8 @@
 ![Foto de Entrevista](assets/images/entrevista1.png)  
 [Ver entrevista (05:01 - 09:09 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
 
+**Resumen:**
+
 El señor Lincoln Chauca Rubio es el propietario del restaurante “Amazonas Restaurant”, el cual viene administrando desde hace 5 años.  
 Entre los principales desafíos que enfrenta menciona la **rotación de personal**, ya que no cuenta con un equipo estable y constantemente deben contratar nuevos empleados.  
 Otro reto importante es el **manejo del inventario**, lo cual impacta directamente en la operatividad del negocio.
