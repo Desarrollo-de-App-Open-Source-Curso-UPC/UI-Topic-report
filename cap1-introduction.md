@@ -6,4 +6,4 @@
 Puedo aportar al equipo una capacidad sólida para desarrollar aplicaciones escalables y optimizadas, integrando servicios de AWS para mejorar la eficiencia. Mi mentalidad orientada a resultados y mi enfoque en la resolución de problemas me permiten mantener altos estándares de calidad en el desarrollo. |
 
 &nbsp;  
-![Foto de Williams](images/williams.png)
+![Foto de Williams](assets/images/williams.png)
