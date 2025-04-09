@@ -10,15 +10,6 @@ Puedo aportar al equipo una capacidad sólida para desarrollar aplicaciones esca
 &nbsp;  
 ![Foto de Williams](assets/images/williams.png)
 
-| **Yaku Mateo Guzmán Cabrejos (u20231b173)** |
-|-----------------------------------------|
-|Soy estudiante de Ingeniería de Software, motivado por el desarrollo de aplicaciones y por entender cómo funcionan las tecnologías detrás de ellas. Me gusta crear soluciones útiles, eficientes y seguras. Tengo experiencia en frontend y backend, y conocimientos sólidos en estructuras de datos, patrones de diseño y arquitectura de software, lo que me permite construir sistemas bien organizados y escalables.
-A futuro, me gustaría especializarme en informática forense y ciberseguridad. Me interesa aprender nuevas herramientas y metodologías que mejoren el desarrollo y la calidad del software.
-Me considero analítico, con buenas prácticas en trabajo en equipo y organización usando Git. Siempre busco aportar ideas prácticas y resolver problemas de forma eficiente. |
-
-&nbsp;  
-![Foto de Yaku](assets/images/yaku.png)
-
 | **José Jahaiel Guerra Perez (u202319831)** |
 |--------------------------|
 | Soy estudiante de Ingeniería de Software, actualmente en el quinto ciclo de la carrera. Me apasiona el aprendizaje continuo, la planificación detallada y la búsqueda de soluciones eficientes a problemas reales.
@@ -28,6 +19,24 @@ Mi objetivo a futuro es convertirme en un Full Stack Developer con visión sist�
 
 &nbsp;  
 <img src="assets/images/jahaziel.jpg" alt="Foto de Jahaziel" width="300px" />
+
+| **Yaku Mateo Guzmán Cabrejos (u20231b173)** |
+|-----------------------------------------|
+|Soy estudiante de Ingeniería de Software, motivado por el desarrollo de aplicaciones y por entender cómo funcionan las tecnologías detrás de ellas. Me gusta crear soluciones útiles, eficientes y seguras. Tengo experiencia en frontend y backend, y conocimientos sólidos en estructuras de datos, patrones de diseño y arquitectura de software, lo que me permite construir sistemas bien organizados y escalables.
+A futuro, me gustaría especializarme en informática forense y ciberseguridad. Me interesa aprender nuevas herramientas y metodologías que mejoren el desarrollo y la calidad del software.
+Me considero analítico, con buenas prácticas en trabajo en equipo y organización usando Git. Siempre busco aportar ideas prácticas y resolver problemas de forma eficiente. |
+
+&nbsp;  
+![Foto de Yaku](assets/images/yaku.png)
+
+| **Gabriela Nicole Shapiama Rivera (u202319448)** |
+|--------------------------|
+|Soy estudiante del quinto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, motivada por una fuerte pasión por la lógica y el razonamiento, pilares fundamentales en la programación.
+Mi interés por comprender a fondo el funcionamiento de los sistemas de software que utilizamos diariamente me ha llevado a desarrollar habilidades en el lenguaje de programación C++, así como una base sólida en tecnologías web como HTML y CSS. Además, manejo herramientas de control de versiones como Git y plataformas colaborativas como GitHub.
+También, he fortalecido mis competencias en el diseño de proyectos de software, acompañado de un liderazgo asertivo. Estoy comprometida con seguir aprendiendo y aportar valor a cada equipo en el que participo. |
+
+&nbsp;  
+<img src="assets/images/gaby.jpeg" alt="Foto de Gaby" width="300px" />
 
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
