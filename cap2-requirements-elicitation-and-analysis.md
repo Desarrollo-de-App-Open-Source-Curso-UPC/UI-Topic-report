@@ -42,6 +42,20 @@
 ## Segmento 1: Dueños de Restaurantes
 
 ### Entrevista 1:
+**Nombre:** Alex Guardia
+**Edad:** ---
+**Distrito:** ---
+**Timing:** (00:05 - 05:00 min) 
+
+![Foto de Entrevista](assets/images/entrevista1.png) 
+[Ver entrevista (00:05 - 05:00 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
+
+**Resumen:**
+El señor Alex Guardia ha sido gerente de restaurantes durante aproximadamente 5 a 6 años. Identifica dos grandes desafíos en la gestión: las casuísticas con los clientes y la coordinación con proveedores, especialmente en temas de modalidad de pago y horarios de entrega, que muchas veces no se alinean con las necesidades operativas del restaurante.
+
+En cuanto al inventario, realiza un control diario físico, y una verificación electrónica semanal o quincenal. Utiliza software de gestión, pero considera que la mayoría son genéricos y no se adaptan a la realidad de cada restaurante. Además, señala que el soporte postventa suele ser deficiente, lo cual afecta la rapidez de respuesta ante problemas técnicos.
+
+También menciona que algunos sistemas no actualizan correctamente los ítems hasta que se cancela la cuenta, lo cual considera una funcionalidad clave. Comenta que estaría dispuesto a invertir entre 500 y 800 dólares en una solución tecnológica que incluya implementación, capacitación y actualizaciones, siempre que ofrezca buen soporte postventa.
 
 ### Entrevista 2:
 **Nombre:** Lincoln Chauca Rubio  
@@ -49,7 +63,7 @@
 **Distrito:** Breña  
 **Timing:** (05:01 - 09:09 min)  
 
-![Foto de Entrevista](assets/images/entrevista2.png)  
+![Foto de Entrevista](assets/images/entrevista2.png) 
 [Ver entrevista (05:01 - 09:09 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
 
 **Resumen:**
@@ -90,7 +104,20 @@ Amparo está **totalmente dispuesta a invertir** en un software que le permita a
 ## Segmento 2: Proveedores para Restaurantes
 
 ### Entrevista 1:
-_Pendiente_
+**Nombre:** José Santos Tapia Bustamante
+**Edad:** ---
+**Distrito:** ---
+**Timing:** (14:27 - 09:09 min)
+
+![Foto de Entrevista](assets/images/entrevista4.png) 
+[Ver entrevista (14:27 - 09:09 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
+
+**Resumen:**
+El señor José Santos Tapia Bustamante tiene 38 años de experiencia en el rubro de abarrotes y ofrece productos de primera necesidad, limpieza y licores. Generalmente establece relaciones comerciales directamente con los propietarios de restaurantes, a través de recomendaciones o contacto presencial.
+
+Realiza la gestión de pedidos de forma manual, revisando cada producto antes del envío para asegurar que el pedido llegue completo. Utiliza WhatsApp como principal medio de comunicación con los restaurantes.
+
+Considera fundamentales la calidad de los productos, la atención al cliente y ofrecer facilidades de pago. Además, estaría abierto a utilizar una plataforma digital si esta facilita la facturación y mejora la eficiencia en la entrega de productos. También destaca la importancia de contar con movilidad propia y personal de confianza para la logística.
 
 ### Entrevista 2:
 **Nombre:** Percy Polo Ferrera
@@ -116,8 +143,22 @@ Percy considera que lo primordial es una buena atencion a los clientes para logr
 Respecto al tema de pagos y facturacion, comenta que es **esencial una buena comunicación con los clientes** para evitar poblemas en este aspecto.  
  
 ### Entrevista 3:
-_Pendiente_
+**Nombre:** Benjamín Pacheco Quesada
+**Edad:** ---
+**Distrito:** ---
+**Timing:** (23:41 - 29:13 min)
 
+![Foto de Entrevista](assets/images/entrevista6.png) 
+[Ver entrevista (23:41 - 29:13 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
+
+**Resumen:**
+El señor Benjamín Pacheco Quesada trabaja para la bodega Santiago Queirolo como proveedor de licores. Atiende a restaurantes de Lima con marcas como Santiago Queirolo, Intipalka y Don Santiago. El contacto con los restaurantes suele realizarse por WhatsApp, correo electrónico o presencialmente.
+
+Uno de los principales desafíos que enfrenta es el cumplimiento de horarios de atención de los restaurantes, ya que muchos no permiten entregas durante su horario operativo. Aunque no utilizan una plataforma digital para gestionar pedidos, sí cuentan con una página web para contacto inicial. El resto del proceso se gestiona directamente con vendedores.
+
+Actualmente no tiene problemas con inventarios debido a que cuentan con un centro de distribución amplio. Benjamín destaca la importancia de mantener relaciones a largo plazo con los clientes, basadas en la honestidad y el cumplimiento. Estaría dispuesto a usar una plataforma que permita optimizar rutas y coordinar horarios de entrega de manera eficiente.
+
+---
 
 ### 2.2.3 Análisis de entrevistas
 
