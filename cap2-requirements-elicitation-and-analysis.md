@@ -42,12 +42,14 @@
 ## Segmento 1: Dueños de Restaurantes
 
 ### Entrevista 1:
+
+### Entrevista 2:
 **Nombre:** Lincoln Chauca Rubio  
 **Edad:** 36 años  
 **Distrito:** Breña  
 **Timing:** (05:01 - 09:09 min)  
 
-![Foto de Entrevista](assets/images/entrevista1.png)  
+![Foto de Entrevista](assets/images/entrevista2.png)  
 [Ver entrevista (05:01 - 09:09 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
 
 **Resumen:**
@@ -62,11 +64,26 @@ Respecto a los proveedores, el señor Chauca menciona que trabajan con **2 o 3 d
 
 En cuanto a la inversión en tecnología, actualmente destina alrededor de **300 soles mensuales**, pero está dispuesto a aumentar ese monto hasta **500 soles** si con ello puede mejorar la gestión de su restaurante.
 
-### Entrevista 2:
-_Pendiente_
-
 ### Entrevista 3:
-_Pendiente_
+**Nombre:** Amparo Soledad Robles Vásquez
+**Edad:** 56 años  
+**Distrito:** Bellavista  
+**Timing:** (09:10 - 14:12 min)  
+
+![Foto de Entrevista](assets/images/entrevista3.png)  
+[Ver entrevista (09:10 - 14:12 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
+
+**Resumen:**
+
+La señora Amparo Robles Vásquez es dueña del restaurante y cevichería "El 1er Puerto", el cual administra con responsabilidad desde hace 20 años.
+
+Los principales desafíos que enfrenta en la gestión de su restaurantes son el contar con un **personal adecuado y el marketing digital**, debido a que se le dificulta el uso de la tecnología.
+
+Actualmente, maneja su **inventario de manera manual**. Sin embargo, planea contratar un sistema que le permita acelerar procesos y expandir su negocio, debido a que es bastante complicado realizar todo manualmente.
+Amparo considera que la mejora de atención a los clientes mediante tecnología es esencial.
+
+Por otro lado, menciona que la **seriedad, puntualidad y calidad de productos** son aspectos importantes para elegir a un proveedor.
+Amparo está **totalmente dispuesta a invertir** en un software que le permita automatizar su negocio.
 
 ---
 
@@ -76,11 +93,30 @@ _Pendiente_
 _Pendiente_
 
 ### Entrevista 2:
-_Pendiente_
+**Nombre:** Percy Polo Ferrera
+**Edad:** 38 años  
+**Distrito:** Chorrillos  
+**Timing:** (19:22 - 23:40 min)  
 
+![Foto de Entrevista](assets/images/entrevista5.png)  
+[Ver entrevista (19:22 - 23:40 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
+
+**Resumen:**
+
+El seño Percy Polo Ferrera es un responsable proveedor que trabaja en la **distribución de diversas bebidas**, principalmente aguas y gaseosas. 
+
+Usualmente, contacta a los resturantes mediante redes sociales. Usa **WhatsApp** la mayoría del tiempo, plataforma en la que sus clientes le hacen llegar sus pedidos, en un primer momento.
+
+Acerca de la gestión de inventario, Percy se encarga de transportar los pedidos y, al final del día, realizan un **cuadre de inventario** con los supervisores adecuados. 
+
+Comenta que **usa una plataforma digital** para gestionar los pedidos de manera inmediata, la cual le facilita bastante dicho proceso. 
+
+Percy considera que lo primordial es una buena atencion a los clientes para lograr fidelizarlos.
+
+Respecto al tema de pagos y facturacion, comenta que es **esencial una buena comunicación con los clientes** para evitar poblemas en este aspecto.  
+ 
 ### Entrevista 3:
 _Pendiente_
-
 
 
 ### 2.2.3 Análisis de entrevistas
