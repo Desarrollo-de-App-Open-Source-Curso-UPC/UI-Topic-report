@@ -95,6 +95,23 @@ Además, la ausencia de herramientas que integren la planificación con datos en
 
 Ante esta situación, surge la pregunta: ¿Cómo podríamos optimizar la gestión de inventarios y pedidos en restaurantes mediante una solución automatizada que se adapte a sus procesos, mejore la eficiencia y fortalezca su toma de decisiones?
 
+#### 1.2.2.2 Lean UX Assumptions
+
+### Business Assumptions
+- Existe una demanda creciente en el mercado por soluciones tecnológicas que optimicen la gestión de inventarios y pedidos en restaurantes.
+- Los restaurantes estarán dispuestos a invertir en nuestra plataforma si esta demuestra una reducción en el desperdicio de insumos y mejora en la eficiencia operativa.
+- La integración con proveedores permitirá mejorar la trazabilidad, reducir errores y agilizar los procesos de abastecimiento.
+
+### Business Outcomes
+- Reducción del desperdicio de insumos y mayor control sobre el inventario.
+- Mejora en la rentabilidad de los restaurantes mediante una gestión automatizada y precisa de pedidos.
+- Adopción creciente de la plataforma en el sector gastronómico y fortalecimiento de su posicionamiento en el mercado.
+
+### User Benefits
+- Visibilidad en tiempo real del inventario para tomar decisiones informadas y reducir pérdidas.
+- Procesos de abastecimiento más eficientes gracias a la integración directa con proveedores confiables.
+- Mayor competitividad y rentabilidad al digitalizar las operaciones clave del restaurante.
+
 #### 1.2.2.4 Lean UX Canvas
 
 | **1. Problema de negocios** | **5. Ideas de las soluciones** | **2. Resultados comerciales** |
