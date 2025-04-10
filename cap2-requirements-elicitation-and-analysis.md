@@ -248,6 +248,16 @@ Por otro lado, el User Persona **Jorge Torres** encarna al proveedor tradicional
 
 ![user persona jorge torres](<./assets/images/user-persona-jorge-torres.png>)
 
+### 2.3.4. Empathy Mapping
+
+## Carolina Rivas
+
+![empathy map carolina rivas](<./assets/images/empathy-map-carolina.png>)
+
+## Jorge Torres
+
+![empathy map jorge torres](<./assets/images/empathy-map-jorge.png>)
+
 ## 2.4. Ubiquitous Language
 
 En esta sección se presentan los términos clave del proyecto UI-Topic. Estos términos han sido acordados en el equipo del proyecto y serán usados de manera consistente en la comunicación, documentación y desarrollo del sistema.
