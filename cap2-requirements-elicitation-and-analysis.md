@@ -236,6 +236,8 @@ Aún con estructuras operativas consolidadas, la mayoría depende de medios manu
 **4. La facturación digital resolvería un punto crítico**  
 El manejo de facturas y pagos al crédito es visto como una parte vulnerable de la operación. Señalan que automatizar este proceso (emisión, seguimiento, entrega) permitiría ahorrar tiempo, reducir errores y fortalecer la relación financiera con el restaurante.
 
+### 2.3. Needfinding
+
 ### 2.3.1. User Personas
 
 En esta sección se presentan dos User Personas que representan los segmentos clave del proyecto: los Dueños de Restaurantes y los Proveedores para Restaurantes. Estos perfiles permiten comprender en profundidad las necesidades, motivaciones, frustraciones y comportamientos de los usuarios potenciales del sistema, el cual busca mejorar la gestión de inventarios, pedidos y relaciones comerciales en el sector gastronómico.
@@ -247,6 +249,65 @@ El User Persona **Carolina Rivas** representa a las administradoras y propietari
 Por otro lado, el User Persona **Jorge Torres** encarna al proveedor tradicional de productos para restaurantes, especialmente aquellos dedicados a la distribución de abarrotes y bebidas. Con más de una década en el rubro, Jorge opera principalmente con métodos manuales apoyados por WhatsApp y Excel. Valora las relaciones comerciales de confianza con sus clientes y la puntualidad en las entregas como pilares de su éxito. Aunque no es nativo digital, muestra alta apertura hacia plataformas tecnológicas que le permitan organizar mejor sus rutas, facturación y seguimiento de pagos. Su mayor necesidad es una solución que simplifique su operación sin romper la cercanía con los restaurantes a los que abastece.
 
 ![user persona jorge torres](<./assets/images/user-persona-jorge-torres.png>)
+
+### 2.3.2. User Task Matrix
+
+Se presenta el User Task Matrix, que concentra las tareas que los User Persona realizan para cumplir sus objetivos. Estas tareas comprenden funciones específicas, son actividades que los usuarios llevan a cabo en su día a día, independientemente de la existencia de una solución tecnológica.
+
+Los segmentos considerados para este análisis son:
+
+- Dueños de Restaurantes
+- Proveedores para Restaurantes
+
+## Segmento 1: Dueños de restaurantes
+
+Carolina Rivas es propietaria y administradora de un restaurante ubicado en una zona urbana altamente competitiva. Con más de 10 años de experiencia, busca optimizar su operación sin depender de soporte externo. Aunque ha probado diversas soluciones tecnológicas, sus frustraciones con herramientas poco intuitivas la han llevado a preferir procesos controlados por ella misma. Su principal objetivo es tener una gestión eficiente y un control riguroso del inventario y de los ingresos del restaurante.
+
+| Tarea | User Persona 1 ||
+|---------------------------------------------------------------|------------|-------------|
+| | Frecuencia | Importancia |
+| Supervisar y controlar el inventario                      | often      | high        |
+| Revisar ingresos y gastos del día                         | often      | high        |
+| Capacitar al personal en procedimientos internos          | sometimes  | medium      |
+| Atender y resolver reclamos de clientes                   | sometimes  | medium      |
+| Coordinar pedidos con proveedores                         | often      | high        |
+| Evaluar precios y ajustar carta según rentabilidad        | sometimes  | high        |
+| Analizar ventas y tomar decisiones operativas             | often      | high        |
+| Buscar herramientas para mejorar la gestión               | rarely     | medium      |
+
+### Análisis
+
+Las tareas más frecuentes e importantes para Carolina se centran en el control del inventario, el manejo de ingresos diarios y la toma de decisiones operativas basadas en datos. Estas acciones son claves para mantener el control dentro de su restaurante.
+
+Otras tareas como la capacitación del personal o la resolución de reclamos son importantes pero no diarias. La búsqueda de herramientas tecnológicas se da ocasionalmente y está condicionada por experiencias previas negativas con sistemas poco intuitivos.
+
+Carolina prioriza la autonomía y el control total sobre su negocio. Su perfil racional la lleva a tomar decisiones informadas y a buscar eficiencia sin perder contacto con los procesos clave del restaurante.
+
+---
+
+## Segmento 2: Proveedores para Restaurantes
+
+Jorge Torres es un proveedor tradicional con más de una década en el rubro, dedicado a la distribución de abarrotes y bebidas a restaurantes. Opera de forma manual con apoyo de WhatsApp y Excel, y valora las relaciones de confianza. Aunque no es un usuario experto en tecnología, muestra interés en soluciones que le permitan mejorar sus operaciones sin sacrificar la cercanía con sus clientes.
+
+| Tarea | User Persona 2 | |
+|---------------------------------------------------------------|------------|-------------|
+| | Frecuencia | Importancia |
+| Preparar y organizar pedidos del día                         | often      | high        |
+| Coordinar entregas con restaurantes                          | often      | high        |
+| Registrar pagos y realizar seguimiento de cobros             | often      | high        |
+| Optimizar rutas de reparto                                   | sometimes  | medium      |
+| Comunicarse con clientes por WhatsApp o llamada              | often      | high        |
+| Revisar stock disponible antes de despachar                  | sometimes  | high        |
+| Gestionar imprevistos en ruta o cambios de pedidos           | sometimes  | medium      |
+| Evaluar nuevas formas de mejorar su organización             | rarely     | medium      |
+
+### Análisis
+
+Las tareas más frecuentes e importantes para Jorge están enfocadas en la logística diaria como la preparación de pedidos, coordinación con restaurantes, gestión de pagos y comunicación directa. Estas actividades son escenciales para mantener la eficiencia y cumplir con las entregas a tiempo.
+
+Actividades como optimizar rutas o explorar formas de mejorar la operación tienen menor frecuencia, pero reflejan su interés por crecer sin complicar su sistema actual. Las tareas asociadas a imprevistos también son comunes, aunque las considera parte natural de su trabajo.
+
+A diferencia de Carolina, Jorge trabaja con una estructura más directa y basada en relaciones personales. Sin embargo, ambos coinciden en mejorar la eficiencia, el cumplimiento de tiempos y el deseo de mantener el control de sus respectivos negocios.
 
 ### 2.3.4. Empathy Mapping
 
