@@ -103,7 +103,7 @@ _Pendiente_
 
 **Resumen:**
 
-El seño Percy Polo Ferrera es un responsable proveedor que trabaja en la **distribución de diversas bebidas**, principalmente aguas y gaseosas. 
+El señor Percy Polo Ferrera es un responsable proveedor que trabaja en la **distribución de diversas bebidas**, principalmente aguas y gaseosas. 
 
 Usualmente, contacta a los resturantes mediante redes sociales. Usa **WhatsApp** la mayoría del tiempo, plataforma en la que sus clientes le hacen llegar sus pedidos, en un primer momento.
 
