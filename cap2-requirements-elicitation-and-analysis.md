@@ -24,6 +24,64 @@ A través de este estudio, buscamos tomar decisiones informadas para diseñar un
 | **Debilidades**                       | Implementación y personalización complejas, requiere inversión significativa de tiempo y recursos.                                                                                                                           | Precios por módulo pueden ser altos para restaurantes pequeños que no necesitan todas las funciones.                                                                                                                  | Enfoque limitado a Latinoamérica, soporte y presencia internacional más reducidos.                                                                                                                                                                                                                    |
 | **Participación de Mercado**         | Presencia en 180 países, atendiendo a una gran variedad de establecimientos de alimentos y bebidas.                                                                                                                          | Más de 23,000 restaurantes a nivel mundial confían en su plataforma.                                                                                                                                                    | Sirve a 42,000 restaurantes en 11 países de América Latina, con fuerte presencia regional.    
 
+### 2.1.2 Estrategias y tácticas frente a competidores
+
+#### Enfoque Estratégico de UI-Topic
+
+UI-Topic surge como una solución enfocada y especializada en la **gestión automatizada de inventarios y pedidos**, con una propuesta de valor centrada en la **usabilidad, automatización predictiva** y **conectividad con proveedores locales**, diferenciándose de sus competidores en simplicidad, escalabilidad y precio. A continuación, se detallan las estrategias y tácticas específicas frente a los principales actores del mercado.
+
+#### 1. Frente a Oracle Simphony
+
+##### Fortalezas del Competidor
+- Solución robusta con integración completa (POS, cocina, back-office).
+- Amplia presencia global en más de 180 países.
+- Análisis en tiempo real y escalabilidad avanzada.
+
+##### Debilidades del Competidor
+- Implementación compleja y costosa.
+- Mayormente orientado a grandes cadenas o negocios con alto presupuesto.
+- Requiere mayor inversión de tiempo y recursos.
+
+##### Estrategias y Tácticas de UI-Topic
+- **Estrategia de nicho accesible**: UI-Topic se enfocará en **PYMEs gastronómicas** que no pueden acceder a soluciones como Oracle, ofreciendo un sistema más simple y económico.
+- **Táctica de experiencia de usuario**: Interfaz más intuitiva y amigable para facilitar la adopción sin necesidad de formación especializada.
+- **Soporte y personalización local**: UI-Topic ofrecerá asistencia directa y adaptada a contextos regionales, lo que Oracle no prioriza.
+
+#### 2. Frente a RestroWorks
+
+##### Fortalezas del Competidor
+- Plataforma unificada con múltiples módulos (POS, cocina, inventario, análisis).
+- Fuerte presencia internacional, con más de 23,000 restaurantes.
+- Capacidad para escalar con el crecimiento del negocio.
+
+##### Debilidades del Competidor
+- Precios por módulo pueden elevar el costo total.
+- Puede ser excesivo para negocios que solo requieren control de inventario y pedidos.
+- Dependencia de conexión constante y complejidad técnica en su implementación.
+
+##### Estrategias y Tácticas de UI-Topic
+- **Estrategia de especialización funcional**: UI-Topic se centrará exclusivamente en inventarios y pedidos, ofreciendo profundidad y eficacia donde otros ofrecen dispersión.
+- **Táctica de modelo todo-en-uno simple**: Un solo plan que integre las funciones esenciales, sin costos ocultos por módulo.
+- **Alineación con cocinas en la nube**: UI-Topic desarrollará funcionalidades específicas para cloud kitchens con foco en insumos y abastecimiento.
+
+#### 3. Frente a SoftRestaurant
+
+##### Fortalezas del Competidor
+- Amplia experiencia en Latinoamérica.
+- Funcionalidades completas: gestión operativa, personal, clientes, facturación.
+- Gran base de usuarios en la región: más de 42,000 restaurantes.
+
+##### Debilidades del Competidor
+- Interfaz anticuada y experiencia de usuario limitada.
+- Enfoque regional con escasa presencia fuera de LATAM.
+- Menor capacidad de innovación tecnológica frente a soluciones en la nube.
+
+##### Estrategias y Tácticas de UI-Topic
+- **Estrategia tecnológica cloud-native**: Posicionarse como una alternativa moderna, ágil y accesible desde cualquier dispositivo sin instalaciones físicas.
+- **Táctica de actualización generacional**: Apuntar a restaurantes que quieren migrar desde sistemas obsoletos, ofreciendo herramientas de **migración y capacitación gratuita**.
+- **Foco en eficiencia operativa automatizada**: UI-Topic hará énfasis en la **reducción de desperdicios y anticipación de necesidades** mediante inteligencia de datos.         |
+
+
 ## 2.2 Entrevistas  
 
 ### 2.2.1 Diseño de entrevistas  
