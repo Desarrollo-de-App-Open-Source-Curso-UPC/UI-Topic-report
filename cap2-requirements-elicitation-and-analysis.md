@@ -1,4 +1,12 @@
 
+## 2.1 Competidores
+
+- **Oracle Simphony**  (competidor directo): Es una plataforma basada en la nube que permite a los propietarios de restaurantes automatizar sus procesos, lo que contribuye a mantener un control óptimo del inventario, minimizar el desperdicio de alimentos y gestionar eficazmente el flujo de caja. Se enfoca en empresas de hospitalidad, cadenas de restaurantes grandes, y resorts. Su uso está presente especialmente en Estados Unidos, Canadá y en países de Europa como Reino Unido.
+
+- **RestroWorks** (competidor directo): Es una solución integral basada en la nube para la gestión de restaurantes. Incluye funciones de control de inventario, manejo de pedidos, informes financieros y gestión de operaciones en tiempo real. Se enfoca en restaurantes de tamaño pequeño a mediano. Se usa principalmente en Latinoamérica, con una fuerte presencia en países como México, Colombia, y Argentina.  
+
+- **SoftRestaurant** (competidor directo): Es un software de gestión para restaurantes que permite controlar inventarios, ventas, compras, reportes y más. Enfocado en restaurantes pequeños y medianos. Es utilizado principalmente en Latinoamérica para mejorar la eficiencia operativa y el control de los procesos internos en restaurantes.
+
 ## 2.2 Entrevistas  
 
 ### 2.2.1 Diseño de entrevistas  
