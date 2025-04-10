@@ -384,6 +384,20 @@ Actividades como optimizar rutas o explorar formas de mejorar la operación tien
 
 A diferencia de Carolina, Jorge trabaja con una estructura más directa y basada en relaciones personales. Sin embargo, ambos coinciden en mejorar la eficiencia, el cumplimiento de tiempos y el deseo de mantener el control de sus respectivos negocios.
 
+### 2.3.3. User Journey Mapping
+
+En esta sección se presentan los User Journey Maps (As-Is) de los segmentos representados, correspondientes a sus respectivas User Personas. Se ilustra el recorrido actual de los usuarios sin la intervención de la solución UI-Topic, con el fin de identificar sus necesidades, puntos de fricción y oportunidades de mejora. Cada mapa refleja las etapas clave de interacción, acciones realizadas, puntos de contacto, experiencias emocionales, dificultades enfrentadas y posibles mejoras. Los diagramas fueron elaborados en la herramienta indicada y están vinculados a las fichas de User Persona previamente desarrolladas.
+
+## Carolina Rivas
+
+![user journey mapping carolina rivas](<./assets/images/user journey map 1.png>)
+
+
+## Jorge Torres
+
+![user journey mapping jorge torres](<./assets/images/user journey map 2.png>)
+
+
 ### 2.3.4. Empathy Mapping
 
 ## Carolina Rivas
