@@ -85,7 +85,17 @@ Esta falta de automatización conlleva a una serie de problemas críticos:
 
 Por tanto, se evidencia una clara necesidad de una solución tecnológica accesible, fácil de usar y que permita automatizar la administración de inventario, con reportes útiles, alertas y una interfaz intuitiva adaptada a las necesidades reales de los propietarios de restaurantes.
 
-#### 1.2.2.4 **Lean UX Canvas**  
+### 1.2.2 Lean UX Proccess
+
+#### 1.2.2.1. Lean UX Problem Statements
+
+En el sector gastronómico, la gestión de inventarios y pedidos sigue dependiendo de métodos manuales como hojas de cálculo, cuadernos físicos y mensajería informal. Esta falta de automatización genera ineficiencias operativas, desperdicio de insumos, errores humanos y una baja capacidad de reacción ante cambios en la demanda.
+
+Además, la ausencia de herramientas que integren la planificación con datos en tiempo real limita la toma de decisiones estratégicas y el control financiero de los administradores.
+
+Ante esta situación, surge la pregunta: ¿Cómo podríamos optimizar la gestión de inventarios y pedidos en restaurantes mediante una solución automatizada que se adapte a sus procesos, mejore la eficiencia y fortalezca su toma de decisiones?
+
+#### 1.2.2.4 Lean UX Canvas
 
 | **1. Problema de negocios** | **5. Ideas de las soluciones** | **2. Resultados comerciales** |
 |-----------|-----------|-----------|
