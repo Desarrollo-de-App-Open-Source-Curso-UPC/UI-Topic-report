@@ -2,25 +2,21 @@
 
 ### 1.1.1 Descripción de la Startup
 
-**UI-Topic** nace con el propósito de automatizar la gestión de inventario y pedidos en restaurantes para la maximización de sus ganancias. En un sector donde la falta de control en el almacenamiento y los pedidos genera desperdicio y pérdidas económicas, ofrecemos una solución tecnológica innovadora: una plataforma automatizada que optimiza el manejo de insumos y la gestión de pedidos en restaurantes.  
+**UI-Topic** nace con el propósito de automatizar la gestión de inventario y los pedidos a proveedores en restaurantes para la maximización de sus ganancias. En un sector donde la falta de control en el almacenamiento y en los pedidos a proveedores genera desperdicio y pérdidas económicas, ofrecemos una solución tecnológica innovadora: una plataforma automatizada que optimiza el manejo de insumos y la gestión de pedidos a proveedores en restaurantes.
 
-Nuestra plataforma permite a los restaurantes monitorear su inventario en tiempo real, prever necesidades de abastecimiento y reducir el desperdicio de productos, todo desde una interfaz intuitiva y fácil de usar. Además, facilitamos la conexión con proveedores, agilizando los procesos de compra y asegurando un flujo de insumos eficiente.  
+Nuestra plataforma permite a los restaurantes monitorear su inventario en tiempo real, prever necesidades de abastecimiento y reducir el desperdicio de productos, todo desde una interfaz intuitiva y fácil de usar. Además, facilitamos la conexión con proveedores, agilizando los procesos de compra y asegurando un flujo de insumos eficiente.
 
 Nos enfocamos en apoyar tanto a pequeños restaurantes como a grandes cadenas, brindándoles herramientas tecnológicas accesibles para mejorar su rentabilidad y sostenibilidad. Creemos en la digitalización como un pilar fundamental para la evolución del sector gastronómico, ayudando a los negocios a ser más eficientes y competitivos en un mercado en constante cambio.  
 
-En **UI-Topic**, aspiramos a liderar la transformación digital en la gestión de inventarios y pedidos, ofreciendo soluciones que impulsen la productividad y minimicen el desperdicio, contribuyendo así a un ecosistema gastronómico más organizado, rentable y sustentable.  
-
----
+En **UI-Topic**, aspiramos a liderar la transformación digital en la gestión de inventarios y pedidos a proveedores, ofreciendo soluciones que impulsen la productividad y minimicen el desperdicio, contribuyendo así a un ecosistema gastronómico más organizado, rentable y sustentable.
 
 # **Misión y Visión**  
 
 ## **Misión**  
-Nuestra misión es revolucionar la gestión de inventarios en la industria gastronómica mediante una plataforma automatizada que optimiza el control de insumos y la gestión de pedidos. Buscamos reducir el desperdicio, mejorar la eficiencia operativa y fortalecer la rentabilidad de los restaurantes, proporcionando una herramienta intuitiva y adaptable a sus necesidades.  
+Nuestra misión es revolucionar la gestión de inventarios en la industria gastronómica mediante una plataforma automatizada que optimiza el control de insumos y la gestión de pedidos a provedores. Buscamos reducir el desperdicio, mejorar la eficiencia operativa y fortalecer la rentabilidad de los restaurantes, proporcionando una herramienta intuitiva y adaptable a sus necesidades.  
 
 ## **Visión**  
 Visualizamos un futuro donde todos los restaurantes, sin importar su tamaño, cuenten con un sistema de gestión automatizado que les permita operar con mayor precisión y sostenibilidad. Aspiramos a ser líderes en la transformación digital del sector gastronómico, impulsando la innovación y facilitando la toma de decisiones estratégicas a través de la tecnología.  
-
----
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
@@ -247,13 +243,11 @@ Retención: retención del 60%
 | **6. Hipótesis** | **7. ¿Qué es lo más importante que necsitamos aprender primero?** | **8. ¿Cuál es la menor cantidad de trabajo que necesitamos hacer para resolver las dudas y para hacer siguiente más importante?** | 
 | <br>- Creemos que la reducción del desperdicio de insumos se logrará si los restaurantes logran optimizar su inventario con la siguiente función: un sistema automatizado de gestión de inventarios y pedidos.<br><br>- Creemos que la adopción del sistema se logrará si los dueños de restaurantes y su personal logran completar la configuración inicial sin asistencia con la siguiente función: una plataforma intuitiva y fácil de usar.<br><br> - Creemos que la mejora en la rentabilidad de los restaurantes se logrará si los usuarios logran tomar decisiones estratégicas basadas en datos con la siguiente función: herramientas de análisis y reportes en tiempo real.<br><br>- Creemos que la reducción en los tiempos de espera en el abastecimiento se logrará si los restaurantes logran mejorar la disponibilidad de insumos con la siguiente función: la conexión entre restaurantes y proveedores dentro de la plataforma. | - Si el sistema no es capaz de integrar de manera eficiente los datos de inventarios, los dueños de restaurantes no confiarán en su capacidad para reducir el desperdicio de insumos.<br><br> - Si el sistema es difícil de usar o requiere una curva de aprendizaje larga, los dueños de restaurantes no lo adoptarán y no lo utilizarán regularmente.<br><br> - Si los reportes y análisis de datos no son claros y fáciles de interpretar, los usuarios no tomarán decisiones basadas en esos datos, lo que impedirá que la rentabilidad mejore.<br><br> - Si los proveedores no están dispuestos o no pueden integrarse al sistema, los tiempos de espera no se reducirán y la mejora en la gestión de pedidos no ocurrirá. |<br> - Entrevistas y Encuestas a Usuarios: Realizar entrevistas con dueños de restaurantes y proveedores para comprender mejor sus necesidades, percepciones y expectativas sobre el sistema.<br><br> - Pruebas de Usabilidad con Prototipos: Crear un prototipo funcional de la plataforma y realizar pruebas de usabilidad con usuarios reales (dueños de restaurantes y personal).<br><br> - Realizar una prueba piloto en un pequeño grupo de restaurantes: Seleccionar algunos restaurantes interesados para que usen el sistema durante un tiempo limitado.   |
 
-
 ## 1.3 Segmentos objetivos
 
 **Segmento Objetivo 1: Dueños de Restaurantes**
 
 Los dueños de restaurantes en Lima, con edades entre 20 y 60 años que buscan optimizar la gestión de sus establecimientos para mejorar la experiencia del cliente y aumentar la rentabilidad. Enfrentan desafíos en la administración de inventarios, pedidos y coordinación del personal, por lo que requieren soluciones tecnológicas eficientes. Según el Instituto Nacional de Estadística e Informática (INEI), en abril de 2023, la actividad de restaurantes en Perú creció un 9,16% respecto al año anterior, reflejando un sector en recuperación y expansión. 
-
 
 **Segmento Objetivo 2: Proveedores para Restaurantes**
 
