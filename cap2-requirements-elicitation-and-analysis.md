@@ -334,7 +334,7 @@ Los segmentos considerados para este análisis son:
 - Dueños de Restaurantes
 - Proveedores para Restaurantes
 
-### Tabla comparativa de tareas – User Task Matrix unificado
+##### Task Matrix
 
 | Tarea                                                    | User Persona 1 |         | User Persona 2 |          |
 |----------------------------------------------------------|----------------|---------|----------------|----------|
