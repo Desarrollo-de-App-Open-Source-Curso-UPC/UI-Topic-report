@@ -10,7 +10,7 @@ Puedo aportar al equipo una capacidad sólida para desarrollar aplicaciones esca
 &nbsp;  
 ![Foto de Williams](assets/images/williams.png)
 
-| **José Jahaiel Guerra Perez (u202319831)** |
+| **José Jahaziel Guerra Perez (u202319831)** |
 |--------------------------|
 | Soy estudiante de Ingeniería de Software, actualmente en el quinto ciclo de la carrera. Me apasiona el aprendizaje continuo, la planificación detallada y la búsqueda de soluciones eficientes a problemas reales.
 Mi enfoque profesional está orientado al desarrollo backend, con especial interés en la construcción de sistemas distribuidos, escalables y resilientes, aplicando arquitecturas basadas en microservicios, mensajería asincrónica y herramientas de CI/CD modernas.
