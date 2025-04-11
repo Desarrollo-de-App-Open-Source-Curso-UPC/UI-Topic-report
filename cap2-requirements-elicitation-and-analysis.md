@@ -126,9 +126,9 @@ UI-Topic surge como una solución enfocada y especializada en la **gestión auto
 
 ### Entrevista 1:
 **Nombre:** Alex Guardia
-**Edad:** ---
-**Distrito:** ---
-**Timing:** (00:05 - 05:00 min) 
+**Edad:** 38 años
+**Distrito:** Chorrillos
+**Timing:** (00:05 - 05:00 min)
 
 ![Foto de Entrevista](assets/images/entrevista1.png) 
 [Ver entrevista (00:05 - 05:00 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
@@ -188,8 +188,8 @@ Amparo está **totalmente dispuesta a invertir** en un software que le permita a
 
 ### Entrevista 1:
 **Nombre:** José Santos Tapia Bustamante
-**Edad:** ---
-**Distrito:** ---
+**Edad:** 68 años
+**Distrito:** chorrillos
 **Timing:** (14:27 - 09:09 min)
 
 ![Foto de Entrevista](assets/images/entrevista4.png) 
@@ -227,8 +227,8 @@ Respecto al tema de pagos y facturacion, comenta que es **esencial una buena com
  
 ### Entrevista 3:
 **Nombre:** Benjamín Pacheco Quesada
-**Edad:** ---
-**Distrito:** ---
+**Edad:** 57 años
+**Distrito:** Miraflores
 **Timing:** (23:41 - 29:13 min)
 
 ![Foto de Entrevista](assets/images/entrevista6.png) 
