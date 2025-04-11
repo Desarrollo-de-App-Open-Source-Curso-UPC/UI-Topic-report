@@ -113,11 +113,13 @@ Por tanto, se evidencia una clara necesidad de una solución tecnológica accesi
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-En el sector gastronómico, la gestión de inventarios y pedidos sigue dependiendo de métodos manuales como hojas de cálculo, cuadernos físicos y mensajería informal. Esta falta de automatización genera ineficiencias operativas, desperdicio de insumos, errores humanos y una baja capacidad de reacción ante cambios en la demanda.
+El estado actual de la operación en restaurantes ha dependido principalmente de la gestión manual de inventarios y pedidos por parte de administradores y proveedores. Utilizan hojas de cálculo, cuadernos físicos y mensajería informal. Estos procesos generan errores, desperdicio de insumos y falta de control operativo.
 
-Además, la ausencia de herramientas que integren la planificación con datos en tiempo real limita la toma de decisiones estratégicas y el control financiero de los administradores.
+Lo que los productos actuales no resuelven es la necesidad de una solución accesible y sencilla que integre a proveedores y permita automatizar la operación sin requerir conocimientos muy técnicos.
 
-Ante esta situación, surge la pregunta: ¿Cómo podríamos optimizar la gestión de inventarios y pedidos en restaurantes mediante una solución automatizada que se adapte a sus procesos, mejore la eficiencia y fortalezca su toma de decisiones?
+Nuestro producto abordará esta brecha mediante una plataforma que digitaliza la gestión de inventario, automatiza pedidos a proveedores y centraliza la comunicación entre las dos partes.
+
+Nuestro enfoque inicial estará dirigido a administradores de restaurantes y proveedores. Sabremos que hemos tenido éxito cuando veamos una reducción del desperdicio, una mejora en los tiempos de abastecimiento, y un uso recurrente de la plataforma para registrar inventario y coordinar pedidos por parte de los usuarios
 
 #### 1.2.2.2 Lean UX Assumptions
 
