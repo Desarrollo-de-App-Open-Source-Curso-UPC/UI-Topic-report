@@ -133,4 +133,3 @@ Los dueños de restaurantes en Lima, con edades entre 20 y 60 años que buscan o
 **Segmento Objetivo 2: Proveedores para Restaurantes**
 
 Los proveedores de alimentos, bebidas y utensilios que abastecen a restaurantes en Lima y otras ciudades que buscan establecer relaciones comerciales con clientes que valoren la calidad y confiabilidad en las entregas. Este segmento incluye desde pequeños productores locales hasta grandes distribuidores. Según el INEI, en diciembre de 2023, la actividad de restaurantes aumentó un 3,66%, impulsando la demanda de insumos y beneficiando a los proveedores del sector.
-
