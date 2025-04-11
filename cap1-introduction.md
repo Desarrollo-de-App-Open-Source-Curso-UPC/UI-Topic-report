@@ -123,20 +123,105 @@ Nuestro enfoque inicial estará dirigido a administradores de restaurantes y pro
 
 #### 1.2.2.2 Lean UX Assumptions
 
-### Business Assumptions
-- Existe una demanda creciente en el mercado por soluciones tecnológicas que optimicen la gestión de inventarios y pedidos en restaurantes.
-- Los restaurantes estarán dispuestos a invertir en nuestra plataforma si esta demuestra una reducción en el desperdicio de insumos y mejora en la eficiencia operativa.
-- La integración con proveedores permitirá mejorar la trazabilidad, reducir errores y agilizar los procesos de abastecimiento.
+### User Assumptions
 
-### Business Outcomes
-- Reducción del desperdicio de insumos y mayor control sobre el inventario.
-- Mejora en la rentabilidad de los restaurantes mediante una gestión automatizada y precisa de pedidos.
-- Adopción creciente de la plataforma en el sector gastronómico y fortalecimiento de su posicionamiento en el mercado.
+**¿Quién es el usuario?**
+
+- Segmento 1: Administradores y dueños de restaurantes medianos ubicados en zonas urbanas, con operaciones activas y contacto frecuente con proveedores. Buscan optimizar su control operativo, evitar pérdidas de insumos y mejorar su capacidad de decisión sin depender de herramientas complejas.
+
+- Segmento 2: Proveedores tradicionales de productos para restaurantes (bebidas, abarrotes), que aún trabajan con métodos manuales como Excel y WhatsApp. Priorizan la eficiencia en entregas, el registro de pedidos y el seguimiento de pagos.
+
+**¿Dónde encaja nuestro producto en su trabajo o vida?**
+
+- Segmento 1: Nuestra plataforma se integra en su rutina diaria como una herramienta central para el control de inventario, la automatización de pedidos y la toma de decisiones basada en datos.
+
+- Segmento 2: La solución actúa como una plataforma comercial liviana que centraliza la recepción de pedidos, optimiza las rutas de entrega y permite registrar pagos de forma simple y rápida.
+
+**¿Qué problemas tiene nuestro producto para resolver?**
+
+- Segmento 1:
+  - Desorganización en el control de insumos.
+  - Errores por registros manuales.
+  - Falta de datos para tomar decisiones operativas.
+  - Baja trazabilidad con proveedores.
+- Segmento 2:
+  - Desorden en la gestión de pedidos y entregas.
+  - Dificultad para registrar pagos o controlar cuentas pendientes.
+  - Pérdida de tiempo al usar múltiples canales.
+  - Falta de herramientas simples para organizar su operación.
+
+**¿Cuándo y cómo es nuestro producto usado?**
+
+- Cuándo:
+  - Diario: para registrar o consultar inventario, recibir alertas y generar pedidos.
+  - Al inicio y fin de jornada: para ver pedidos entrantes, coordinar entregas y cerrar operaciones.
+  - Al momento de recibir productos o registrar pagos.
+- Cómo:
+  - Desde su celular o PC, en una interfaz simple y responsiva, con módulos personalizados para cada segmento.
+
+**¿Qué características son importantes?**
+
+- Panel de control de inventario en tiempo real.
+- Alertas automáticas por escasez de productos.
+- Generación y envío de pedidos a proveedores desde la plataforma.
+- Registro de pagos y gestión de deudas de forma rápida.
+- Rutas de entrega optimizadas para proveedores.
+- Comunicación centralizada entre proveedor y restaurante.
+
+¿Cómo debe verse nuestro producto y cómo comportarse?
+
+- Apariencia: Interfaz limpia, moderna e intuitiva. De una fácil manera de navegar, enfocandose en la experiencia del usuario
+- Comportamiento: Fluido y adaptable. Navegación simple, con módulos organizados por tareas frecuentes. Las alertas deben ser visibles y el flujo debe permitir completar tareas en pocos pasos.
+
+**Objetivos comerciales:**
+- Crecimiento de usuarios: Nos enfocaremos en construir una base sólida de usuarios activos que utilicen regularmente la plataforma en sus operaciones diarias. Se proyecta alcanzar 500 usuarios activos en los primeros 6 meses, consolidando una comunidad inicial de administradores de restaurantes y proveedores
+Retención: retención del 60%
+- Retención: La retención de usuarios será clave para asegurar que la plataforma genere valor sostenido. Se espera lograr una tasa de retención del 60% al finalizar el primer mes de uso, lo que indicaría que la plataforma cumple con las expectativas de y mejora operativa de los segmentos objetivo.
+
+---
+
+### Business Assumptions
+
+- **Creemos que los restaurantes y proveedores necesitan** una plataforma accesible que automatice su operación diaria sin complejidad técnica.
+- **Estas necesidades pueden resolverse** con una solución liviana y centralizada, que integre la gestión de inventario, pedidos, proveedores y pagos en un solo sistema.
+- **Nuestros primeros clientes serán** restaurantes y proveedores que buscan mejorar sus operaciones sin grandes inversiones ni capacitaciones extensas.
+- **El valor #1 que nuestros clientes buscan es** mayor control operativo y reducción de errores.
+- **También obtendrán beneficios adicionales** como trazabilidad, ahorro de tiempo, y mejor relación entre restaurantes y proveedores.
+- **Adquiriremos la mayoría de clientes a través de** recomendaciones boca a boca, redes sociales y contacto directo con negocios gastronómicos.
+- **Generaremos ingresos mediante** suscripciones accesibles por segmento
+- **Nuestra competencia principal serán** Oracle Simphony, RestroWorks y SoftRestaurant
+- **Los superaremos ofreciendo** una solución más específica, simple, con posibilidad a una personalización mayor y que no requiera un alto conocimiento técnico
+- **El mayor riesgo de producto es** que los usuarios no adopten la plataforma por falta de tiempo o familiaridad digital.
+- **Resolveremos esto con** un soporte personalizado y una interfaz centrada en tareas frecuentes.
+
+---
 
 ### User Benefits
-- Visibilidad en tiempo real del inventario para tomar decisiones informadas y reducir pérdidas.
-- Procesos de abastecimiento más eficientes gracias a la integración directa con proveedores confiables.
-- Mayor competitividad y rentabilidad al digitalizar las operaciones clave del restaurante.
+
+- Control de inventario más preciso y actualizado.
+- Reducción de pérdidas por sobrestock o faltantes.
+- Procesos más rápidos y automatizados.
+- Toma de decisiones basadas en datos reales.
+- Menor dependencia de llamadas, mensajes y papel.
+- Comunicación clara y directa entre restaurante y proveedor.
+
+---
+
+### Business Outcomes
+
+- Aumento del uso diario de la plataforma por parte de ambos segmentos.
+- Mejora en la frecuencia y precisión de pedidos gestionados a través de la app.
+- Reducción del desperdicio reportado por los restaurantes.
+- Retención del 60% de usuarios luego del primer mes de uso.
+
+---
+
+### Features
+
+- La plataforma incluirá un sistema automatizado de gestión de inventario que actualiza los niveles de stock en tiempo real, emite alertas inteligentes ante escasez o exceso de insumos y mantiene un historial completo de movimientos, lo que permitirá reducir el desorden y el desperdicio.
+- Contará con una interfaz intuitiva, diseñada para facilitar la adopción por parte de administradores y proveedores, con un sencillo proceso de configuración inicial y un organizador con las tareas frecuentes de forma clara y accesible.
+- Incorporará herramientas de análisis y reportes automáticos, con indicadores clave como rotación de productos, márgenes por plato y comparativas semanales o mensuales. Esto ayudará a tomar decisiones estratégicas en el negocio.
+- Finalmente, permitirá la conexión directa con proveedores mediante un catálogo compartido, un sistema de pedidos con seguimiento de pedidos, un canal de comunicación, agilizando el abastecimiento y reduciendo los retrasos.
 
 #### 1.2.2.3 **Lean UX Hypothesis Statements**  
 
