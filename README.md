@@ -64,6 +64,7 @@ _Abril 2025_
 | TB1.9     | 19/04/25 | Jahaziel Guerra      | Se realizó Web Applications Prototyping y Software Deployment <br> Evidence for Sprint Review.																			 |
 | TB1.10    | 21/04/25 | Yaku Guzmán          | Se realizaron Development Evidence y Services Documentation  <br> Evidence for Sprint Review. Se elaboró Team Collaboration  <br> Insights during Sprint y Conclusiones. |
 
+# Project Report Collaboration Insights
 
 # Tabla de contenidos
 
@@ -159,3 +160,14 @@ _Abril 2025_
 ## [Bibliografía](bibliografia.md)
 
 ## [Anexos](anexos.md)
+
+# ABET – EAC - Student Outcome 3
+
+**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
+
+En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|-------------------------|--------------------------|-------------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Yaku Guzmán** <br> TB1: Redacción de Problem Statements y Assumptions; entrevistas y análisis de entrevistas; elaboración de User Task Matrix, Scenarios, Labeling Systems, Wireframes y Mock-ups; evidencia de desarrollo y documentación de servicios. <br><br> **Gabriela Shapiama** <br> TB1: Desarrollo de Lean UX Canvas, registro de entrevistas, Impact Mapping, Style Guidelines, Landing Page y User Flow Diagrams. <br><br> **Williams Avendaño** <br> TB1: Diseño de entrevistas, Journey Mapping, SEO y sistemas de búsqueda, configuración de entorno de desarrollo, sprint backlog. <br><br> **Jahaziel Guerra** <br> TB1: Redacción de antecedentes, análisis competitivo, Product Backlog, arquitectura, prototipado y despliegue de software. <br><br> **Julio Castro** <br> TB1: Redacción del perfil de la startup y estrategias competitivas, creación de user personas, arquitectura de software, gestión de código y ejecución de sprint. | Como grupo hemos mejorado nuestras habilidades de comunicación oral a través de exposiciones sincrónicas y grabadas, explicando conceptos técnicos a audiencias mixtas. Las entrevistas realizadas fortalecieron nuestra capacidad para adaptar el lenguaje al perfil del usuario, y los prototipos presentados evidenciaron claridad en la narrativa funcional. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Yaku Guzmán** <br> TB1: Documentación de escenarios, tareas, diseño visual, evidencia de desarrollo y reflexión del equipo. <br><br> **Gabriela Shapiama** <br> TB1: Redacción de contenido estructurado en el Canvas, benchmarking de competidores y desarrollo visual de la interfaz. <br><br> **Williams Avendaño** <br> TB1: Diseño de entrevistas, desarrollo de base de datos, documentación técnica, convenciones de código. <br><br> **Jahaziel Guerra** <br> TB1: Redacción técnica de análisis de contexto, backlog, lenguaje ubicuo, arquitectura, despliegue y prototipado. <br><br> **Julio Castro** <br> TB1: Redacción de secciones estratégicas, documentación de diagramas y evidencias de ejecución. | Hemos fortalecido la redacción de documentos técnicos y metodológicos con claridad y enfoque en el lector objetivo. Desde stakeholders hasta usuarios finales, cada entregable ha buscado transmitir la propuesta con lenguaje adecuado, apoyado en recursos visuales y metodologías ágiles. La colaboración en herramientas digitales reforzó también la coherencia y calidad de los entregables escritos. |
