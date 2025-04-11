@@ -1,4 +1,87 @@
 
+## 2.1 Competidores
+
+- **Oracle Simphony**  (competidor directo): Es una plataforma basada en la nube que permite a los propietarios de restaurantes automatizar sus procesos, lo que contribuye a mantener un control óptimo del inventario, minimizar el desperdicio de alimentos y gestionar eficazmente el flujo de caja. Se enfoca en empresas de hospitalidad, cadenas de restaurantes grandes, y resorts. Su uso está presente especialmente en Estados Unidos, Canadá y en países de Europa como Reino Unido.
+
+- **RestroWorks** (competidor directo): Es una solución integral basada en la nube para la gestión de restaurantes. Incluye funciones de control de inventario, manejo de pedidos, informes financieros y gestión de operaciones en tiempo real. Se enfoca en restaurantes de tamaño pequeño a mediano. Se usa principalmente en Latinoamérica, con una fuerte presencia en países como México, Colombia, y Argentina.  
+
+- **SoftRestaurant** (competidor directo): Es un software de gestión para restaurantes que permite controlar inventarios, ventas, compras, reportes y más. Enfocado en restaurantes pequeños y medianos. Es utilizado principalmente en Latinoamérica para mejorar la eficiencia operativa y el control de los procesos internos en restaurantes.
+
+### 2.1.1 Análisis Competitivo
+
+El objetivo de este análisis es evaluar las oportunidades reales de competir en el mercado, identificando los segmentos objetivos, características de producto y estrategias de venta de los principales actores.
+A través de este estudio, buscamos tomar decisiones informadas para diseñar una propuesta de valor diferenciada que nos permita destacar en el mercado objetivo.
+
+| **Componente**                         | **Oracle Simphony**                                                                                                                                                                                                                                                                                       | **RestroWorks**                                                                                                                                                                                                                                               | **SoftRestaurant**                                                                                                                                                                                                                                                                                  |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Mercado Objetivo**                   | Hemos identificado tres segmentos objetivos: Grandes cadenas de restaurantes, establecimientos de servicio rápido o locales, y negocios de retail que requieren sistemas POS integrados.                                                                           | Analizando su mercado identificamos dos segmentos objetivos: Restaurantes de todos los tamaños y cocinas en la nube (Cloud Kitchen).                                                                                                                          | Su mercado se segmenta en dos objetivos: Franquicias emergentes y restaurantes pequeños y medianos.                                                                                                                                                                                                 |
+| **Propuesta de Valor**                | Ofrece una solución POS en la nube que integra operaciones de front-of-house, cocina y back-office, permitiendo una gestión eficiente de pedidos en línea, recogida en la acera y entrega.                                                                         | Proporciona una plataforma tecnológica unificada que permite a los restaurantes crecer a escala, optimizando operaciones y reduciendo costos.                                                                                                                  | Ofrece un software de gestión integral que centraliza múltiples funciones operativas, mejorando la eficiencia y el servicio al cliente.                                                                                                                                                            |
+| **Características del Producto/Servicio** | Incluye procesamiento rápido de pedidos, paneles de análisis potentes, gestión de inventario en tiempo real y capacidades de pedidos móviles.                                                                                                                      | Ofrece gestión de pedidos, control de inventario, suite de cocina, análisis en tiempo real y pedidos digitales.                                                                                                                                               | Proporciona herramientas para la gestión de pedidos, inventario, personal y relaciones con clientes, gestión de menús y facturación.                                                                                                                                                                |
+| **Estrategia de Precios**             | Simphony Essentials: 55 USD por mes. Simphony Plus: 75 USD por mes.                                                                                                | Precios basados en módulos: POS, inventario, suite de cocina, análisis, etc. Plan básico estimado desde 200 USD al año.                                                                                                      | Soft Restaurant 11 LITE: 37 USD al mes. Soft Restaurant 11 PRO: 54 USD al mes.                                                                                                                                                                                           |
+| **Canales de Distribución**          | Comercializa su producto a través de ventas directas y asociaciones con distribuidores autorizados.                                                                                                                         | Ofrece demostraciones y consultas en línea.                                                                                                                                                                             | Proporciona información y opciones de contacto a través de su sitio web.                                                                                                                                                                                                                             |
+| **Estrategias de Marketing y Promoción** | Destaca la flexibilidad de su solución en la nube y su capacidad para adaptarse a diferentes tamaños y tipos de restaurantes, enfatizando seguridad y eficiencia.                                                           | Enfatiza la confianza de más de 23,000 restaurantes a nivel mundial, mostrando casos de éxito y testimonios.                                                                                                            | Subraya su experiencia de más de 20 años en el mercado y presencia en 11 países de América Latina, enfocándose en eficiencia operativa.                                                                                                                                                              |
+| **Fortalezas**                        | Integración completa de operaciones, análisis en tiempo real y escalabilidad para negocios de cualquier tamaño.                                                                                                              | Plataforma unificada para gestión de todo el restaurante, incluyendo pedidos digitales y análisis.                                                                                                                     | Centralización de múltiples funciones en un solo sistema, mejora de gestión y experiencia del cliente.                                                                                                                                                                                               |
+| **Debilidades**                       | Implementación y personalización complejas, requiere inversión significativa de tiempo y recursos.                                                                                                                           | Precios por módulo pueden ser altos para restaurantes pequeños que no necesitan todas las funciones.                                                                                                                  | Enfoque limitado a Latinoamérica, soporte y presencia internacional más reducidos.                                                                                                                                                                                                                    |
+| **Participación de Mercado**         | Presencia en 180 países, atendiendo a una gran variedad de establecimientos de alimentos y bebidas.                                                                                                                          | Más de 23,000 restaurantes a nivel mundial confían en su plataforma.                                                                                                                                                    | Sirve a 42,000 restaurantes en 11 países de América Latina, con fuerte presencia regional.    
+
+### 2.1.2 Estrategias y tácticas frente a competidores
+
+#### Enfoque Estratégico de UI-Topic
+
+UI-Topic surge como una solución enfocada y especializada en la **gestión automatizada de inventarios y pedidos**, con una propuesta de valor centrada en la **usabilidad, automatización predictiva** y **conectividad con proveedores locales**, diferenciándose de sus competidores en simplicidad, escalabilidad y precio. A continuación, se detallan las estrategias y tácticas específicas frente a los principales actores del mercado.
+
+#### 1. Frente a Oracle Simphony
+
+##### Fortalezas del Competidor
+- Solución robusta con integración completa (POS, cocina, back-office).
+- Amplia presencia global en más de 180 países.
+- Análisis en tiempo real y escalabilidad avanzada.
+
+##### Debilidades del Competidor
+- Implementación compleja y costosa.
+- Mayormente orientado a grandes cadenas o negocios con alto presupuesto.
+- Requiere mayor inversión de tiempo y recursos.
+
+##### Estrategias y Tácticas de UI-Topic
+- **Estrategia de nicho accesible**: UI-Topic se enfocará en **PYMEs gastronómicas** que no pueden acceder a soluciones como Oracle, ofreciendo un sistema más simple y económico.
+- **Táctica de experiencia de usuario**: Interfaz más intuitiva y amigable para facilitar la adopción sin necesidad de formación especializada.
+- **Soporte y personalización local**: UI-Topic ofrecerá asistencia directa y adaptada a contextos regionales, lo que Oracle no prioriza.
+
+#### 2. Frente a RestroWorks
+
+##### Fortalezas del Competidor
+- Plataforma unificada con múltiples módulos (POS, cocina, inventario, análisis).
+- Fuerte presencia internacional, con más de 23,000 restaurantes.
+- Capacidad para escalar con el crecimiento del negocio.
+
+##### Debilidades del Competidor
+- Precios por módulo pueden elevar el costo total.
+- Puede ser excesivo para negocios que solo requieren control de inventario y pedidos.
+- Dependencia de conexión constante y complejidad técnica en su implementación.
+
+##### Estrategias y Tácticas de UI-Topic
+- **Estrategia de especialización funcional**: UI-Topic se centrará exclusivamente en inventarios y pedidos, ofreciendo profundidad y eficacia donde otros ofrecen dispersión.
+- **Táctica de modelo todo-en-uno simple**: Un solo plan que integre las funciones esenciales, sin costos ocultos por módulo.
+- **Alineación con cocinas en la nube**: UI-Topic desarrollará funcionalidades específicas para cloud kitchens con foco en insumos y abastecimiento.
+
+#### 3. Frente a SoftRestaurant
+
+##### Fortalezas del Competidor
+- Amplia experiencia en Latinoamérica.
+- Funcionalidades completas: gestión operativa, personal, clientes, facturación.
+- Gran base de usuarios en la región: más de 42,000 restaurantes.
+
+##### Debilidades del Competidor
+- Interfaz anticuada y experiencia de usuario limitada.
+- Enfoque regional con escasa presencia fuera de LATAM.
+- Menor capacidad de innovación tecnológica frente a soluciones en la nube.
+
+##### Estrategias y Tácticas de UI-Topic
+- **Estrategia tecnológica cloud-native**: Posicionarse como una alternativa moderna, ágil y accesible desde cualquier dispositivo sin instalaciones físicas.
+- **Táctica de actualización generacional**: Apuntar a restaurantes que quieren migrar desde sistemas obsoletos, ofreciendo herramientas de **migración y capacitación gratuita**.
+- **Foco en eficiencia operativa automatizada**: UI-Topic hará énfasis en la **reducción de desperdicios y anticipación de necesidades** mediante inteligencia de datos.         |
+
+
 ## 2.2 Entrevistas  
 
 ### 2.2.1 Diseño de entrevistas  
@@ -228,6 +311,112 @@ Aún con estructuras operativas consolidadas, la mayoría depende de medios manu
 **4. La facturación digital resolvería un punto crítico**  
 El manejo de facturas y pagos al crédito es visto como una parte vulnerable de la operación. Señalan que automatizar este proceso (emisión, seguimiento, entrega) permitiría ahorrar tiempo, reducir errores y fortalecer la relación financiera con el restaurante.
 
+### 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+En esta sección se presentan dos User Personas que representan los segmentos clave del proyecto: los Dueños de Restaurantes y los Proveedores para Restaurantes. Estos perfiles permiten comprender en profundidad las necesidades, motivaciones, frustraciones y comportamientos de los usuarios potenciales del sistema, el cual busca mejorar la gestión de inventarios, pedidos y relaciones comerciales en el sector gastronómico.
+
+El User Persona **Carolina Rivas** representa a las administradoras y propietarias de restaurantes con trayectoria, principalmente medianos y grandes negocios ubicados en zonas urbanas de alta competencia. Carolina tiene amplia experiencia en la gestión operativa, y aunque ha intentado digitalizar procesos clave como el inventario o la facturación, se ha encontrado con soluciones poco intuitivas y difíciles de adaptar. Su motivación principal es lograr un control más riguroso de su inventario y aumentar la eficiencia general del negocio sin perder autonomía. Busca una plataforma accesible, personalizable y fácil de usar, que le permita mejorar la toma de decisiones operativas sin requerir soporte técnico constante.
+
+![user persona carolina rivas](<./assets/images/user-persona-carolina-rivas.png>)
+
+Por otro lado, el User Persona **Jorge Torres** encarna al proveedor tradicional de productos para restaurantes, especialmente aquellos dedicados a la distribución de abarrotes y bebidas. Con más de una década en el rubro, Jorge opera principalmente con métodos manuales apoyados por WhatsApp y Excel. Valora las relaciones comerciales de confianza con sus clientes y la puntualidad en las entregas como pilares de su éxito. Aunque no es nativo digital, muestra alta apertura hacia plataformas tecnológicas que le permitan organizar mejor sus rutas, facturación y seguimiento de pagos. Su mayor necesidad es una solución que simplifique su operación sin romper la cercanía con los restaurantes a los que abastece.
+
+![user persona jorge torres](<./assets/images/user-persona-jorge-torres.png>)
+
+### 2.3.2. User Task Matrix
+
+Se presenta el User Task Matrix, que concentra las tareas que los User Persona realizan para cumplir sus objetivos. Estas tareas comprenden funciones específicas, son actividades que los usuarios llevan a cabo en su día a día, independientemente de la existencia de una solución tecnológica.
+
+Los segmentos considerados para este análisis son:
+
+- Dueños de Restaurantes
+- Proveedores para Restaurantes
+
+## Segmento 1: Dueños de restaurantes
+
+Carolina Rivas es propietaria y administradora de un restaurante ubicado en una zona urbana altamente competitiva. Con más de 10 años de experiencia, busca optimizar su operación sin depender de soporte externo. Aunque ha probado diversas soluciones tecnológicas, sus frustraciones con herramientas poco intuitivas la han llevado a preferir procesos controlados por ella misma. Su principal objetivo es tener una gestión eficiente y un control riguroso del inventario y de los ingresos del restaurante.
+
+| Tarea | User Persona 1 ||
+|---------------------------------------------------------------|------------|-------------|
+| | Frecuencia | Importancia |
+| Supervisar y controlar el inventario                      | often      | high        |
+| Revisar ingresos y gastos del día                         | often      | high        |
+| Capacitar al personal en procedimientos internos          | sometimes  | medium      |
+| Atender y resolver reclamos de clientes                   | sometimes  | medium      |
+| Coordinar pedidos con proveedores                         | often      | high        |
+| Evaluar precios y ajustar carta según rentabilidad        | sometimes  | high        |
+| Analizar ventas y tomar decisiones operativas             | often      | high        |
+| Buscar herramientas para mejorar la gestión               | rarely     | medium      |
+
+### Análisis
+
+Las tareas más frecuentes e importantes para Carolina se centran en el control del inventario, el manejo de ingresos diarios y la toma de decisiones operativas basadas en datos. Estas acciones son claves para mantener el control dentro de su restaurante.
+
+Otras tareas como la capacitación del personal o la resolución de reclamos son importantes pero no diarias. La búsqueda de herramientas tecnológicas se da ocasionalmente y está condicionada por experiencias previas negativas con sistemas poco intuitivos.
+
+Carolina prioriza la autonomía y el control total sobre su negocio. Su perfil racional la lleva a tomar decisiones informadas y a buscar eficiencia sin perder contacto con los procesos clave del restaurante.
+
+---
+
+## Segmento 2: Proveedores para Restaurantes
+
+Jorge Torres es un proveedor tradicional con más de una década en el rubro, dedicado a la distribución de abarrotes y bebidas a restaurantes. Opera de forma manual con apoyo de WhatsApp y Excel, y valora las relaciones de confianza. Aunque no es un usuario experto en tecnología, muestra interés en soluciones que le permitan mejorar sus operaciones sin sacrificar la cercanía con sus clientes.
+
+| Tarea | User Persona 2 | |
+|---------------------------------------------------------------|------------|-------------|
+| | Frecuencia | Importancia |
+| Preparar y organizar pedidos del día                         | often      | high        |
+| Coordinar entregas con restaurantes                          | often      | high        |
+| Registrar pagos y realizar seguimiento de cobros             | often      | high        |
+| Optimizar rutas de reparto                                   | sometimes  | medium      |
+| Comunicarse con clientes por WhatsApp o llamada              | often      | high        |
+| Revisar stock disponible antes de despachar                  | sometimes  | high        |
+| Gestionar imprevistos en ruta o cambios de pedidos           | sometimes  | medium      |
+| Evaluar nuevas formas de mejorar su organización             | rarely     | medium      |
+
+### Análisis
+
+Las tareas más frecuentes e importantes para Jorge están enfocadas en la logística diaria como la preparación de pedidos, coordinación con restaurantes, gestión de pagos y comunicación directa. Estas actividades son escenciales para mantener la eficiencia y cumplir con las entregas a tiempo.
+
+Actividades como optimizar rutas o explorar formas de mejorar la operación tienen menor frecuencia, pero reflejan su interés por crecer sin complicar su sistema actual. Las tareas asociadas a imprevistos también son comunes, aunque las considera parte natural de su trabajo.
+
+A diferencia de Carolina, Jorge trabaja con una estructura más directa y basada en relaciones personales. Sin embargo, ambos coinciden en mejorar la eficiencia, el cumplimiento de tiempos y el deseo de mantener el control de sus respectivos negocios.
+
+### 2.3.3. User Journey Mapping
+
+En esta sección se presentan los User Journey Maps (As-Is) de los segmentos representados, correspondientes a sus respectivas User Personas. Se ilustra el recorrido actual de los usuarios sin la intervención de la solución UI-Topic, con el fin de identificar sus necesidades, puntos de fricción y oportunidades de mejora. Cada mapa refleja las etapas clave de interacción, acciones realizadas, puntos de contacto, experiencias emocionales, dificultades enfrentadas y posibles mejoras. Los diagramas fueron elaborados en la herramienta indicada y están vinculados a las fichas de User Persona previamente desarrolladas.
+
+## Carolina Rivas
+
+![user journey mapping carolina rivas](<./assets/images/user journey map 1.png>)
+
+
+## Jorge Torres
+
+![user journey mapping jorge torres](<./assets/images/user journey map 2.png>)
+
+
+### 2.3.4. Empathy Mapping
+
+## Carolina Rivas
+
+![empathy map carolina rivas](<./assets/images/empathy-map-carolina.png>)
+
+## Jorge Torres
+
+![empathy map jorge torres](<./assets/images/empathy-map-jorge.png>)
+
+### 2.3.5 As-is Scenario Mapping
+
+El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisis de comportamiento del perfil de Carolina Rivas. Se identificaron las principales fases que conforman su flujo de trabajo diario como administradora de un restaurante
+
+![Foto de As-Is Scenario Mapping Sector 1](assets/images/as-is_sector1.png)
+
+El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisis del comportamiento del perfil de Jorge Torres. Se identificaron las principales fases que conforman su flujo de trabajo diario como proveedor tradicional de abarrotes y bebidas para restaurantes.
+
+![Foto de As-Is Scenario Mapping Sector 2](assets/images/as-is_sector2.png)
 
 ## 2.4. Ubiquitous Language
 
