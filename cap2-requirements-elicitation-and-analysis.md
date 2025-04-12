@@ -40,54 +40,26 @@ UI-Topic surge como una solución enfocada y especializada en la **gestión auto
 
 #### 1. Frente a Oracle Simphony
 
-##### Fortalezas del Competidor
-- Solución robusta con integración completa (POS, cocina, back-office).
-- Amplia presencia global en más de 180 países.
-- Análisis en tiempo real y escalabilidad avanzada.
+- **Estrategia de nicho accesible**: Dirigido a **PYMEs gastronómicas** con presupuesto limitado, ofreciendo una alternativa más asequible y fácil de implementar.
+- **Táctica centrada en experiencia de usuario**: Interfaz intuitiva que facilita la adopción sin necesidad de formación técnica avanzada.
+- **Soporte localizado**: Asistencia personalizada con enfoque regional, fortaleciendo la cercanía con el cliente.
+- **Agilidad en implementación**: Reducción de tiempos y costos para comenzar a operar, en contraste con soluciones complejas.
 
-##### Debilidades del Competidor
-- Implementación compleja y costosa.
-- Mayormente orientado a grandes cadenas o negocios con alto presupuesto.
-- Requiere mayor inversión de tiempo y recursos.
-
-##### Estrategias y Tácticas de UI-Topic
-- **Estrategia de nicho accesible**: UI-Topic se enfocará en **PYMEs gastronómicas** que no pueden acceder a soluciones como Oracle, ofreciendo un sistema más simple y económico.
-- **Táctica de experiencia de usuario**: Interfaz más intuitiva y amigable para facilitar la adopción sin necesidad de formación especializada.
-- **Soporte y personalización local**: UI-Topic ofrecerá asistencia directa y adaptada a contextos regionales, lo que Oracle no prioriza.
 
 #### 2. Frente a RestroWorks
 
-##### Fortalezas del Competidor
-- Plataforma unificada con múltiples módulos (POS, cocina, inventario, análisis).
-- Fuerte presencia internacional, con más de 23,000 restaurantes.
-- Capacidad para escalar con el crecimiento del negocio.
+- **Estrategia de especialización funcional**: Concentración exclusiva en la automatización de inventarios y pedidos para ofrecer mayor profundidad y eficiencia.
+- **Táctica de simplicidad operativa**: Modelo todo-en-uno sin cargos ocultos, ideal para negocios con necesidades específicas y sin recursos para soluciones complejas.
+- **Adaptación al modelo de cloud kitchens**: Funcionalidades diseñadas para cocinas virtuales, optimizando abastecimiento y rotación de insumos.
+- **Optimización del uso de recursos**: Minimización de dependencia tecnológica avanzada, facilitando el uso en entornos con conectividad limitada.
 
-##### Debilidades del Competidor
-- Precios por módulo pueden elevar el costo total.
-- Puede ser excesivo para negocios que solo requieren control de inventario y pedidos.
-- Dependencia de conexión constante y complejidad técnica en su implementación.
-
-##### Estrategias y Tácticas de UI-Topic
-- **Estrategia de especialización funcional**: UI-Topic se centrará exclusivamente en inventarios y pedidos, ofreciendo profundidad y eficacia donde otros ofrecen dispersión.
-- **Táctica de modelo todo-en-uno simple**: Un solo plan que integre las funciones esenciales, sin costos ocultos por módulo.
-- **Alineación con cocinas en la nube**: UI-Topic desarrollará funcionalidades específicas para cloud kitchens con foco en insumos y abastecimiento.
 
 #### 3. Frente a SoftRestaurant
 
-##### Fortalezas del Competidor
-- Amplia experiencia en Latinoamérica.
-- Funcionalidades completas: gestión operativa, personal, clientes, facturación.
-- Gran base de usuarios en la región: más de 42,000 restaurantes.
-
-##### Debilidades del Competidor
-- Interfaz anticuada y experiencia de usuario limitada.
-- Enfoque regional con escasa presencia fuera de LATAM.
-- Menor capacidad de innovación tecnológica frente a soluciones en la nube.
-
-##### Estrategias y Tácticas de UI-Topic
-- **Estrategia tecnológica cloud-native**: Posicionarse como una alternativa moderna, ágil y accesible desde cualquier dispositivo sin instalaciones físicas.
-- **Táctica de actualización generacional**: Apuntar a restaurantes que quieren migrar desde sistemas obsoletos, ofreciendo herramientas de **migración y capacitación gratuita**.
-- **Foco en eficiencia operativa automatizada**: UI-Topic hará énfasis en la **reducción de desperdicios y anticipación de necesidades** mediante inteligencia de datos.         |
+- **Estrategia cloud-native**: Oferta basada en la nube, moderna y accesible desde cualquier dispositivo, eliminando instalaciones locales.
+- **Táctica de actualización generacional**: Captación de negocios que desean migrar desde sistemas antiguos mediante herramientas de **migración y capacitación gratuita**.
+- **Enfoque en automatización inteligente**: Énfasis en reducir desperdicios y prever necesidades operativas con inteligencia de datos.
+- **Propuesta visual moderna**: Interfaz fresca y ágil como ventaja frente a sistemas visualmente obsoletos.
 
 
 ## 2.2 Entrevistas  
