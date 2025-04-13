@@ -69,17 +69,20 @@ UI-Topic surge como una solución enfocada y especializada en la **gestión auto
 #### **Segmento 1: Dueños de Restaurantes**  
 
 ##### **Preguntas principales:**  
-1. ¿Cuál es su nombre y cuánto tiempo lleva administrando su restaurante?  
-2. ¿Cuáles son los principales desafíos que enfrenta en la gestión de su restaurante?  
-3. ¿Cómo maneja actualmente el inventario y los pedidos de insumos?  
-4. ¿Utiliza algún software o herramienta digital para gestionar su negocio? Si es así, ¿cuáles son sus principales beneficios y limitaciones?  
-5. ¿Qué tan importante es para usted mejorar la experiencia del cliente a través de tecnología?  
-6. ¿Cuáles son las principales dificultades al momento de recibir y gestionar pedidos de proveedores?  
+1. ¿Cuál es su nombre y cuánto tiempo lleva administrando su restaurante?
+2. ¿Podría indicarme su edad, estado civil y el distrito en el que reside actualmente?
+3. ¿Cómo describiría su trayectoria profesional hasta convertirse en administrador(a) de su restaurante?
+4. ¿Cuáles son los principales desafíos que enfrenta en la gestión de su restaurante?
+5. ¿Cómo maneja actualmente el inventario y los pedidos de insumos?
+6. ¿Utiliza algún software o herramienta digital para gestionar su negocio? Si es así, ¿cuáles son sus principales beneficios y limitaciones?  
+7. ¿Qué tan importante es para usted mejorar la experiencia del cliente a través de tecnología?  
+8. ¿Cuáles son las principales dificultades al momento de recibir y gestionar pedidos de proveedores?  
 
 ##### **Preguntas complementarias:**  
-7. ¿Cuáles son los criterios clave que considera al elegir un proveedor?  
-8. ¿Ha intentado digitalizar su negocio en el pasado? ¿Qué obstáculos ha encontrado?  
-9. ¿Cuánto estaría dispuesto a invertir en una solución tecnológica para mejorar la gestión de su restaurante?  
+9. ¿Cuáles son los criterios clave que considera al elegir un proveedor?  
+10. ¿Ha intentado digitalizar su negocio en el pasado? ¿Qué obstáculos ha encontrado?  
+11. ¿Qué tipo de dispositivos tecnológicos utiliza para gestionar su restaurante? ¿Hay marcas,  modelos de negocio o referentes que influyen en su forma de administrar?
+12. ¿Cuánto estaría dispuesto a invertir en una solución tecnológica para mejorar la gestión de su restaurante?
 
 ---
 
