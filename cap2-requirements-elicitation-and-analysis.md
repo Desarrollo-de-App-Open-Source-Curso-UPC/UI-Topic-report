@@ -172,7 +172,7 @@ En cuanto a la inversión en tecnología, actualmente destina alrededor de **300
 
 **Resumen:**
 
-La señora Amparo Robles Vásquez es dueña del restaurante y cevichería "El 1er Puerto", el cual administra con responsabilidad desde hace 20 años.
+La señora Amparo Robles Vásquez es dueña del restaurante y cevichería "El 1er Puerto", el cual administra desde hace 20 años. Amparo Robles tiene 56 años y reside en el distrito de Bellavista. Se caracteriza por ser una persona perseverante, responsable y amable.
 
 Los principales desafíos que enfrenta en la gestión de su restaurantes son el contar con un **personal adecuado y el marketing digital**, debido a que se le dificulta el uso de la tecnología.
 
@@ -213,7 +213,7 @@ Considera fundamentales la calidad de los productos, la atención al cliente y o
 
 **Resumen:**
 
-El señor Percy Polo Ferrera es un responsable proveedor que trabaja en la **distribución de diversas bebidas**, principalmente aguas y gaseosas. 
+El señor Percy Polo Ferrera es un proveedor que trabaja en la **distribución de diversas bebidas**, principalmente aguas y gaseosas. Percy Polo tiene 38 años y reside en el distrito de Chorrillos. Se caracteriza por ser una persona trabajadora, responsable y organizada.
 
 Usualmente, contacta a los resturantes mediante redes sociales. Usa **WhatsApp** la mayoría del tiempo, plataforma en la que sus clientes le hacen llegar sus pedidos, en un primer momento.
 
