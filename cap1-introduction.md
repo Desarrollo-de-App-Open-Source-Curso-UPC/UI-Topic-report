@@ -123,7 +123,7 @@ Nuestro enfoque inicial estará dirigido a administradores de restaurantes y pro
 
 **¿Quién es el usuario?**
 
-- Segmento 1: Administradores y dueños de restaurantes medianos ubicados en zonas urbanas, con operaciones activas y contacto frecuente con proveedores. Buscan optimizar su control operativo, evitar pérdidas de insumos y mejorar su capacidad de decisión sin depender de herramientas complejas.
+- Segmento 1: Administradores y gerentes de restaurantes medianos ubicados en zonas urbanas, con operaciones activas y contacto frecuente con proveedores. Buscan optimizar su control operativo, evitar pérdidas de insumos y mejorar su capacidad de decisión sin depender de herramientas complejas.
 
 - Segmento 2: Proveedores tradicionales de productos para restaurantes (bebidas, abarrotes), que aún trabajan con métodos manuales como Excel y WhatsApp. Priorizan la eficiencia en entregas, el registro de pedidos y el seguimiento de pagos.
 
@@ -131,7 +131,7 @@ Nuestro enfoque inicial estará dirigido a administradores de restaurantes y pro
 
 - Segmento 1: Nuestra plataforma se integra en su rutina diaria como una herramienta central para el control de inventario, la automatización de pedidos y la toma de decisiones basada en datos.
 
-- Segmento 2: La solución actúa como una plataforma comercial liviana que centraliza la recepción de pedidos, optimiza las rutas de entrega y permite registrar pagos de forma simple y rápida.
+- Segmento 2: La solución actúa como una plataforma comercial liviana que centraliza la recepción de pedidos y permite registrar pagos de forma simple y rápida.
 
 **¿Qué problemas tiene nuestro producto para resolver?**
 
@@ -206,10 +206,10 @@ Retención: retención del 60%
 
 ### Business Outcomes
 
-- Aumento del uso diario de la plataforma por parte de ambos segmentos.
-- Mejora en la frecuencia y precisión de pedidos gestionados a través de la app.
-- Reducción del desperdicio reportado por los restaurantes.
-- Retención del 60% de usuarios luego del primer mes de uso.
+- Aumentar el uso diario de la plataforma en un 30% por parte de ambos segmentos de usuarios en los próximos 2 meses.
+- Incrementar en un 40% la frecuencia de pedidos gestionados desde la app y reducir errores de pedido en un 25%.
+- Reducir en un 35% el desperdicio de insumos reportado por los restaurantes registrados.
+- Lograr una retención de usuarios del 60% al finalizar el primer mes de uso.
 
 ---
 
