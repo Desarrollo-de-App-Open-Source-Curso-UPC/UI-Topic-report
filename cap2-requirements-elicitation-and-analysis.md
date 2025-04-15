@@ -111,20 +111,23 @@ UI-Topic surge como una solución enfocada y especializada en la **gestión auto
 ## Segmento 1: Dueños de Restaurantes
 
 ### Entrevista 1:
+
 **Nombre:** Alex Guardia
-**Edad:** 38 años
-**Distrito:** Chorrillos
-**Timing:** (00:05 - 05:00 min)
+**Edad:** 38 años  
+**Distrito:** Chorrillos  
+**Timing:** (00:05- 05:00 min)  
 
 ![Foto de Entrevista](assets/images/entrevista1.png) 
 [Ver entrevista (00:05 - 05:00 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
 
 **Resumen:**
-El señor Alex Guardia ha sido gerente de restaurantes durante aproximadamente 5 a 6 años. Identifica dos grandes desafíos en la gestión: las casuísticas con los clientes y la coordinación con proveedores, especialmente en temas de modalidad de pago y horarios de entrega, que muchas veces no se alinean con las necesidades operativas del restaurante.
+El señor Alex Guardia es gerente de restaurantes con aproximadamente 5 a 6 años de experiencia. Tiene 38 años y reside en el distrito de Chorrillos. Se caracteriza por ser una persona analítica, comprometida y orientada a la mejora continua.
 
-En cuanto al inventario, realiza un control diario físico, y una verificación electrónica semanal o quincenal. Utiliza software de gestión, pero considera que la mayoría son genéricos y no se adaptan a la realidad de cada restaurante. Además, señala que el soporte postventa suele ser deficiente, lo cual afecta la rapidez de respuesta ante problemas técnicos.
+Los principales desafíos que enfrenta son las casuísticas con los clientes y la coordinación con proveedores. Específicamente en aspectos a las modalidades de pago y los horarios de entrega, los cuales muchas veces no se ajustan a las necesidades operativas del local.
 
-También menciona que algunos sistemas no actualizan correctamente los ítems hasta que se cancela la cuenta, lo cual considera una funcionalidad clave. Comenta que estaría dispuesto a invertir entre 500 y 800 dólares en una solución tecnológica que incluya implementación, capacitación y actualizaciones, siempre que ofrezca buen soporte postventa.
+Respecto al inventario, realiza un control físico diario y una verificación electrónica semanal o quincenal. Utiliza software de gestión, pero considera que la mayoría no son personalizables. Además, menciona que el soporte técnico postventa suele ser deficiente.
+
+Estaría dispuesto a invertir entre 500 y 800 dólares en una solución tecnológica integral que incluya implementación, capacitación y soporte eficiente, siempre que se adapte a sus procesos y mejore la eficiencia general del negocio.
 
 ### Entrevista 2:
 **Nombre:** Lincoln Chauca Rubio  
@@ -137,8 +140,9 @@ También menciona que algunos sistemas no actualizan correctamente los ítems ha
 
 **Resumen:**
 
-El señor Lincoln Chauca Rubio es el propietario del restaurante “Amazonas Restaurant”, el cual viene administrando desde hace 5 años.  
-Entre los principales desafíos que enfrenta menciona la **rotación de personal**, ya que no cuenta con un equipo estable y constantemente deben contratar nuevos empleados.  
+El señor Lincoln Chauca Rubio es el propietario del restaurante “Amazonas Restaurant”, el cual viene administrando desde hace 5 años.
+Chauca Rubio tiene 36 años y reside en el distrito de Breña. Se caracteriza por ser una persona disciplianda, responsable y dedicado. 
+Entre los principales desafíos que enfrenta menciona la **rotación de personal**, ya que no cuenta con un equipo estable y constantemente deben contratar nuevos empleados.
 Otro reto importante es el **manejo del inventario**, lo cual impacta directamente en la operatividad del negocio.
 
 Actualmente utiliza un software llamado **Vidal**, que le permite gestionar el restaurante de forma más eficiente. Gracias a esta herramienta, los mozos pueden tomar los pedidos a través de una tablet o celular, y también se mantiene una base de datos de los clientes.
@@ -158,7 +162,7 @@ En cuanto a la inversión en tecnología, actualmente destina alrededor de **300
 
 **Resumen:**
 
-La señora Amparo Robles Vásquez es dueña del restaurante y cevichería "El 1er Puerto", el cual administra con responsabilidad desde hace 20 años.
+La señora Amparo Robles Vásquez es dueña del restaurante y cevichería "El 1er Puerto", el cual administra desde hace 20 años. Amparo Robles tiene 56 años y reside en el distrito de Bellavista. Se caracteriza por ser una persona perseverante, responsable y amable.
 
 Los principales desafíos que enfrenta en la gestión de su restaurantes son el contar con un **personal adecuado y el marketing digital**, debido a que se le dificulta el uso de la tecnología.
 
@@ -173,20 +177,23 @@ Amparo está **totalmente dispuesta a invertir** en un software que le permita a
 ## Segmento 2: Proveedores para Restaurantes
 
 ### Entrevista 1:
-**Nombre:** José Santos Tapia Bustamante
-**Edad:** 68 años
-**Distrito:** chorrillos
-**Timing:** (14:27 - 09:09 min)
+
+**Nombre:** José Santos Tapia Bustamente
+**Edad:** 68 años  
+**Distrito:** Chorrillos  
+**Timing:** (14:27 - 09:09 min)  
 
 ![Foto de Entrevista](assets/images/entrevista4.png) 
 [Ver entrevista (14:27 - 09:09 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
 
 **Resumen:**
-El señor José Santos Tapia Bustamante tiene 38 años de experiencia en el rubro de abarrotes y ofrece productos de primera necesidad, limpieza y licores. Generalmente establece relaciones comerciales directamente con los propietarios de restaurantes, a través de recomendaciones o contacto presencial.
+El señor José Santos Tapia Bustamante es proveedor de abarrotes, productos de limpieza y licores. Tiene 68 años y reside en el distrito de Chorrillos. Se caracteriza por ser una persona responsable, comprometida con sus clientes y con gran experiencia en el rubro.
 
-Realiza la gestión de pedidos de forma manual, revisando cada producto antes del envío para asegurar que el pedido llegue completo. Utiliza WhatsApp como principal medio de comunicación con los restaurantes.
+Cuenta con 38 años de trayectoria como proveedor y suele establecer relaciones comerciales directamente con los dueños de restaurantes, ya sea por recomendaciones o por contacto presencial.
 
-Considera fundamentales la calidad de los productos, la atención al cliente y ofrecer facilidades de pago. Además, estaría abierto a utilizar una plataforma digital si esta facilita la facturación y mejora la eficiencia en la entrega de productos. También destaca la importancia de contar con movilidad propia y personal de confianza para la logística.
+Realiza la gestión de pedidos de forma manual, revisando cada producto antes del envío para asegurarse de que el pedido esté completo. Utiliza WhatsApp como principal canal de comunicación para coordinar con los restaurantes.
+
+Él considera esenciales la calidad del producto, la atención al cliente y brindar facilidades de pago. Está abierto a utilizar una plataforma digital si esta le permite mejorar la facturación y hacer más eficiente el proceso de entrega.
 
 ### Entrevista 2:
 **Nombre:** Percy Polo Ferrera
@@ -199,7 +206,7 @@ Considera fundamentales la calidad de los productos, la atención al cliente y o
 
 **Resumen:**
 
-El señor Percy Polo Ferrera es un responsable proveedor que trabaja en la **distribución de diversas bebidas**, principalmente aguas y gaseosas. 
+El señor Percy Polo Ferrera es un proveedor que trabaja en la **distribución de diversas bebidas**, principalmente aguas y gaseosas. Percy Polo tiene 38 años y reside en el distrito de Chorrillos. Se caracteriza por ser una persona trabajadora, responsable y organizada.
 
 Usualmente, contacta a los resturantes mediante redes sociales. Usa **WhatsApp** la mayoría del tiempo, plataforma en la que sus clientes le hacen llegar sus pedidos, en un primer momento.
 
@@ -212,20 +219,23 @@ Percy considera que lo primordial es una buena atencion a los clientes para logr
 Respecto al tema de pagos y facturacion, comenta que es **esencial una buena comunicación con los clientes** para evitar poblemas en este aspecto.  
  
 ### Entrevista 3:
+
 **Nombre:** Benjamín Pacheco Quesada
-**Edad:** 57 años
-**Distrito:** Miraflores
-**Timing:** (23:41 - 29:13 min)
+**Edad:** 57 años  
+**Distrito:** Miraflores  
+**Timing:** (23:41 - 29:13 min)  
 
 ![Foto de Entrevista](assets/images/entrevista6.png) 
 [Ver entrevista (23:41 - 29:13 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
 
 **Resumen:**
-El señor Benjamín Pacheco Quesada trabaja para la bodega Santiago Queirolo como proveedor de licores. Atiende a restaurantes de Lima con marcas como Santiago Queirolo, Intipalka y Don Santiago. El contacto con los restaurantes suele realizarse por WhatsApp, correo electrónico o presencialmente.
+El señor Benjamín Pacheco Quesada trabaja como proveedor de licores para la bodega Santiago Queirolo. Tiene 57 años y reside en el distrito de Miraflores. Se caracteriza por ser una persona cordial, organizada y comprometida con el cumplimiento en sus relaciones comerciales.
 
-Uno de los principales desafíos que enfrenta es el cumplimiento de horarios de atención de los restaurantes, ya que muchos no permiten entregas durante su horario operativo. Aunque no utilizan una plataforma digital para gestionar pedidos, sí cuentan con una página web para contacto inicial. El resto del proceso se gestiona directamente con vendedores.
+Atiende a restaurantes de Lima distribuyendo marcas como Santiago Queirolo, Intipalka y Don Santiago. El contacto con los restaurantes suele realizarse mediante WhatsApp, correo electrónico o de manera presencial.
 
-Actualmente no tiene problemas con inventarios debido a que cuentan con un centro de distribución amplio. Benjamín destaca la importancia de mantener relaciones a largo plazo con los clientes, basadas en la honestidad y el cumplimiento. Estaría dispuesto a usar una plataforma que permita optimizar rutas y coordinar horarios de entrega de manera eficiente.
+Uno de los principales desafíos que enfrenta es coordinar las entregas en horarios adecuados, ya que algunos restaurantes no permiten recibir productos durante sus horas de atención. Menciona que su empresa cuenta con una página web para contacto inicial, y el resto del proceso se lleva a cabo directamente con los vendedores.
+
+Benjamín valora mantener relaciones comerciales a largo plazo, basadas en la honestidad y el cumplimiento. Estaría dispuesto a utilizar una plataforma que le ayude a coordinar mejor los horarios de entrega y optimizar sus rutas de distribución.
 
 ---
 
