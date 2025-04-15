@@ -154,8 +154,9 @@ Estaría dispuesto a invertir entre 500 y 800 dólares en una solución tecnoló
 
 **Resumen:**
 
-El señor Lincoln Chauca Rubio es el propietario del restaurante “Amazonas Restaurant”, el cual viene administrando desde hace 5 años.  
-Entre los principales desafíos que enfrenta menciona la **rotación de personal**, ya que no cuenta con un equipo estable y constantemente deben contratar nuevos empleados.  
+El señor Lincoln Chauca Rubio es el propietario del restaurante “Amazonas Restaurant”, el cual viene administrando desde hace 5 años.
+Chauca Rubio tiene 36 años y reside en el distrito de Breña. Se caracteriza por ser una persona disciplianda, responsable y dedicado. 
+Entre los principales desafíos que enfrenta menciona la **rotación de personal**, ya que no cuenta con un equipo estable y constantemente deben contratar nuevos empleados.
 Otro reto importante es el **manejo del inventario**, lo cual impacta directamente en la operatividad del negocio.
 
 Actualmente utiliza un software llamado **Vidal**, que le permite gestionar el restaurante de forma más eficiente. Gracias a esta herramienta, los mozos pueden tomar los pedidos a través de una tablet o celular, y también se mantiene una base de datos de los clientes.
