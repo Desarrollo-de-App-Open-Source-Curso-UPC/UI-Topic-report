@@ -246,9 +246,9 @@ Retención: retención del 60%
 
 ## 1.3 Segmentos objetivos
 
-**Segmento Objetivo 1: Dueños de Restaurantes**
+**Segmento Objetivo 1: Dueños o Administradores de Restaurantes**
 
-Los dueños de restaurantes en Lima, con edades entre 20 y 60 años que buscan optimizar la gestión de sus establecimientos para mejorar la experiencia del cliente y aumentar la rentabilidad. Enfrentan desafíos en la administración de inventarios, pedidos y coordinación del personal, por lo que requieren soluciones tecnológicas eficientes. Según el Instituto Nacional de Estadística e Informática (INEI), en abril de 2023, la actividad de restaurantes en Perú creció un 9,16% respecto al año anterior, reflejando un sector en recuperación y expansión. 
+Los dueños o administradores de restaurantes en Lima, con edades entre 20 y 60 años que buscan optimizar la gestión de sus establecimientos para mejorar la experiencia del cliente y aumentar la rentabilidad. Enfrentan desafíos en la administración de inventarios, pedidos y coordinación del personal, por lo que requieren soluciones tecnológicas eficientes. Según el Instituto Nacional de Estadística e Informática (INEI), en abril de 2023, la actividad de restaurantes en Perú creció un 9,16% respecto al año anterior, reflejando un sector en recuperación y expansión. 
 
 **Segmento Objetivo 2: Proveedores para Restaurantes**
 
