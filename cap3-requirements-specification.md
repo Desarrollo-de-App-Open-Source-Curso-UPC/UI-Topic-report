@@ -11,3 +11,12 @@ Este escenario To-Be fue construido tras una revisión detallada del escenario A
 Este escenario To-Be fue construido a partir del análisis del escenario As-Is de Jorge Torres. se incorporaron mejoras basadas en las necesidades y frustraciones. El equipo propuso una experiencia futura donde Jorge cuenta con una plataforma digital para gestionar pedidos, organizar rutas, registrar pagos y comunicarse con los restaurantes
 
 ![Foto de To-Be Scenario Mapping Sector 1](assets/images/to-be_sector2.png)
+
+
+## 3.2 User Stories
+
+
+
+## 3.3 Impact Mapping
+
+![Foto de Impact Mapping](assets/images/impact-map.png)
