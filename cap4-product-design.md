@@ -46,7 +46,7 @@ En el diseño de Restock, hemos tomado decisiones cuidadosas para garantizar una
 
 ##### Branding
 
-El branding de Restock está diseñado para reflejar simplicidad, confianza y profesionalismo. El logo y los íconos adoptan un enfoque minimalista, con líneas claras y formas simples que comunican el propósito de la plataforma. El diseño incluye un ícono que simboliza finanzas y crecimiento personal, manteniendo una apariencia limpia que es fácilmente reconocible tanto en entornos web como móviles.
+El branding de Restock está diseñado para reflejar simplicidad, confianza y profesionalismo. El logo y los íconos adoptan un enfoque minimalista, con líneas claras y formas simples que comunican el propósito de la plataforma. El diseño incluye un ícono que simboliza gestión y orden, manteniendo una apariencia limpia que es fácilmente reconocible tanto en entornos web como móviles.
 
 ##### Typography
 
