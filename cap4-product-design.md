@@ -148,4 +148,3 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
   - 🟢 Pedido entregado.
   - 🟡 Pedido pendiente.
   - 🔴 Pedido retrasado.
->>>>>>> 55007635226f36ce60075968ffb4180e164de651
