@@ -178,3 +178,8 @@ La navegación también se adapta según el tipo de usuario. Por ejemplo, los pr
 
 **Container Diagrams**
 ![Container Diagrams](assets/images/opensource-container.png)
+
+### 4.6.3. Software Architecture Component Diagrams
+
+**Component Diagram: Web Service**
+![Container Diagrams](assets/images/opensource-component.jpg)
