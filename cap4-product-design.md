@@ -4,27 +4,29 @@
 
 ### 4.1.1 General Style Guidelines
 
-Se seleccionó la siguiente paleta de colores debido a su compatibilidad, el contraste que tienen y la elegancia que proporcionan a la página. De esta manera, buscamos lograr una comodidad visual para nuestros usuarios en la plataforma Restock.
-	
-La elección de estos colores se realizó por las siguientes razones:
+En el diseño de Restock, se tomaron decisiones cuidadosas para garantizar una experiencia de usuario coherente y efectiva. 
+
+#### Colores
+La paleta de colores de Restock fue seleccionada con un enfoque en la armonía visual y la accesibilidad. Cada color cumple un rol específico para mejorar la experiencia del usuario:
+
+![Foto de paleta de colores](assets/images/cap4/paleta-colores.png) 
+
+- Naranja mandarina – #F28C38: Este color transmite energía, dinamismo y entusiasmo. En Restock, lo utilizamos para incentivar la acción en botones especiales como el del lector de texto o de retroceder. Representa proactividad y movimiento, ideales para un entorno de gestión ágil de inventarios.
+
+- Rojo coral – #D9534F: Este color simboliza urgencia y atención, por lo que lo empleamos estratégicamente en alertas o notificaciones importantes dentro de la plataforma, así como en botones de cancelación. Su intensidad refuerza el enfoque en tareas prioritarias o advertencias, ayudando a los usuarios a tomar decisiones rápidas.
+
+- Verde oscuro – #4F8A5B: Este color está asociado con estabilidad, crecimiento y seguridad. En Restock, este color refuerza la confianza en los procesos, especialmente en la gestión eficiente de productos. Por ello, ser usa en subtítulos principales y botones de confirmación y selección. Aporta equilibrio visual y solidez al diseño general.
+
+- Verde claro – #B5D99C: Este color representa frescura y renovación. Se utiliza en fondos de secciones especiales para transmitir un ambiente amigable y limpio dentro de la interfaz, fomentando una sensación de ligereza y bienestar mientras se interactúa con la plataforma. 
+
+- Verde menta claro – #CDE7D3: Este color evoca serenidad, limpieza y claridad. Se usa en fondos y para destacar opciones seleccionadas. Apoya la legibilidad y aporta una atmósfera relajada en las secciones de consulta o visualización de datos, facilitando la concentración. 
+
+- Blanco grisáceo - #F4F4F4: Este color simboliza simplicidad, orden y neutralidad. Usado principalmente en los fondos, este color ofrece un lienzo limpio que mejora el contraste con otros elementos y asegura una experiencia visual clara y sin distracciones.
+
+- Gris oscuro – #3C3C3C: Este color refleja profesionalismo y solidez. En Restock, se utiliza para resaltar textos importantes y títulos, aportando un contraste elegante que estructura visualmente la información clave.
+
+- Beige cálido – #FAF1E7: Este color transmite calidez y cercanía. Se usa en fondos pequeños, ya que añade un toque humano al diseño de la plataforma, suavizando los espacios y brindando una sensación acogedora sin perder la sobriedad. 
  
-- El color anaranjado mandarina transmite energía, dinamismo y entusiasmo. En Restock, lo utilizamos para incentivar la acción y mantener a los usuarios motivados mientras navegan por la plataforma. Representa proactividad y movimiento, ideales para un entorno de gestión ágil de inventarios.
-
-- El color rojo coral simboliza urgencia y atención, por lo que lo empleamos estratégicamente en alertas o notificaciones importantes dentro de la plataforma. Su intensidad refuerza el enfoque en tareas prioritarias o advertencias, ayudando a los usuarios a tomar decisiones rápidas.
-
-- El color verde oscuro está asociado con estabilidad, crecimiento y seguridad. En Restock, este color refuerza la confianza en los procesos, especialmente en la gestión eficiente de productos. Aporta equilibrio visual y solidez al diseño general.
-
-- El color verde claro representa frescura y renovación. Se utiliza para transmitir un ambiente amigable y limpio dentro de la interfaz, fomentando una sensación de ligereza y bienestar mientras se interactúa con la plataforma.
-
-- El color verde menta claro evoca serenidad, limpieza y claridad. Este color apoya la legibilidad y aporta una atmósfera relajada en las secciones de consulta o visualización de datos, facilitando la concentración.
-
-- El color blanco grisáceo simboliza simplicidad, orden y neutralidad. Usado principalmente en los fondos, este color ofrece un lienzo limpio que mejora el contraste con otros elementos y asegura una experiencia visual clara y sin distracciones.
-
-- El color gris oscuro refleja profesionalismo y solidez. En Restock, se utiliza para resaltar textos importantes y títulos, aportando un contraste elegante que estructura visualmente la información clave.
-
-- El color beige claro transmite calidez y cercanía. Añade un toque humano al diseño de la plataforma, suavizando los espacios y brindando una sensación acogedora sin perder la sobriedad.
-
-![Foto de paleta de colores](assets/images/cap4/paleta-colores.png)
 
 #### Tipografía 
 
@@ -36,78 +38,20 @@ Asimismo, optamos por la tipografía "Inter" como fuente secundaria para los tex
 
 ![Foto de ejemplo Inter](assets/images/cap4/ejemplo-inter.png)
 
+ En cuanto al tamaño, se utiliza jerárquicamente para resaltar títulos, botones y texto de soporte. Los tamaños más grandes captan la atención en puntos clave de la navegación, mientras que los más pequeños se emplean para detalles secundarios, lo que mejora tanto la comprensión como la eficiencia en la interacción.
+
 #### Branding
 
-En cuanto al ícono/logo de la plataforma, se eligió un diseño minimalista que comunica de manera clara y directa el sector al que está orientado, siendo fácilmente reconocible a primera vista.
+El branding de Restock está diseñado para reflejar simplicidad, confianza y profesionalismo. El logo y los íconos adoptan un enfoque minimalista, con líneas claras y formas simples que comunican el propósito de la plataforma. El diseño incluye la incial del nombre del producto ofrecido, representado de tal manera que simboliza gestión y orden con una apariencia limpia que es fácilmente reconocible, tanto en entornos web como móviles.
+ 
+&nbsp;  
+<img src="assets/images/cap4/logo.jpeg" alt="Foto de logo" width="200px" />
 
-![Foto de logo](assets/images/cap4/logo.png)
-
-En el diseño de Restock, hemos tomado decisiones cuidadosas para garantizar una experiencia de usuario coherente y efectiva.
-
-##### Branding
-
-El branding de Restock está diseñado para reflejar simplicidad, confianza y profesionalismo. El logo y los íconos adoptan un enfoque minimalista, con líneas claras y formas simples que comunican el propósito de la plataforma. El diseño incluye un ícono que simboliza gestión y orden, manteniendo una apariencia limpia que es fácilmente reconocible tanto en entornos web como móviles.
-
-##### Typography
-
-- Poppins: Se utiliza como fuente principal para títulos y encabezados gracias a su estilo moderno y claro. Su versatilidad y fácil legibilidad aseguran que los elementos importantes de la interfaz se destaquen sin esfuerzo, manteniendo una apariencia profesional y accesible.
-
-
-![Foto de poppins](assets/images/cap4/poppins.png)
-
-- Inter: Elegida para el cuerpo del texto, esta fuente combina elegancia y comodidad de lectura. Su diseño suave y amigable la hace perfecta para bloques de texto largos, ofreciendo una experiencia de lectura fluida y agradable en cualquier dispositivo.
-
-![Foto de inter](assets/images/cap4/inter.png)
-
-##### Colors
-
-La paleta de colores de Restock fue seleccionada con un enfoque en la armonía visual y la accesibilidad. Cada color cumple un rol específico para mejorar la experiencia del usuario:
-
-- Naranja mandarina – #F28C38
-
-    - Uso: CTA, botones destacados, alertas informativas 
-    - Razón: Es energético, cercano y visible. Genera impulso visual sin resultar agresivo.
-
-- Rojo coral – #D9534F
-
-    - Uso: En errores, campos inválidos, cancelaciones 
-    - Razón: Se asocia con atención crítica, pero mantiene calidez. Ideal para interfaces gastronómicas sin parecer corporativo.
-  
-- Verde oscuro – #4F8A5B
-
-    - Uso: En navegación principal, botones sólidos, encabezados. 
-    - Razón: Comunica naturalidad, control y eficiencia operativa. Ideal para una plataforma enfocada en inventarios y sostenibilidad
-
-- Verde claro – #B5D99C
-
-    - Uso: En confirmaciones, íconos de éxito, etiquetas positivas. 
-    - Razón: Representa frescura, disponibilidad y balance. Ideal para estados positivos y visualización de stock saludable.
-
-- Verde menta claro – #CDE7D3
-
-    - Uso: Como hover en botones verdes, badges positivos, fondos secundarios.
-    - Razón: Prolongación suave del verde. Añade aire y matices positivos sin romper la estética. 
-
-- Blanco grisáceo - #F4F4F4
-
-    - Uso: En fondo de inputs, cards blancas, separaciones.
-    - Razón: Mantiene la interfaz ligera y limpia, ideal para dashboards o formularios
-
-- Gris oscuro – #3C3C3C
-
-    - Uso: En texto principal o títulos.
-    - Razón: Permite contraste óptimo sobre fondos claros. Sustituye al negro con mejor suavidad visual.
-
-- o	Beige cálido – #FAF1E7
-
-    - Uso: En fondo alterno, secciones destacadas, hover suaves.
-    - Razón: genera profundidad, aporta calidez visual y refuerza el enfoque humano del producto.
-
-##### Spacing
+#### Espaciado
 
 El diseño de Restock se centra en una estrategia que aprovecha de manera inteligente los espacios en blanco, tanto a gran escala como en detalles más pequeños, con el objetivo de brindar una experiencia de usuario clara y fluida. Estos espacios no solo cumplen una función estética, sino que también son fundamentales para mejorar la comprensión del contenido y resaltar elementos importantes como los botones de acción y las secciones más destacadas. El contenido de cada página se presenta dentro de un ancho máximo definido, lo que previene la sobrecarga visual. Además, los márgenes que rodean los bloques de contenido generan una estructura visual armoniosa. Por su parte, los rellenos laterales se ajustan en función del ancho del navegador, garantizando una distribución adecuada y una interfaz adaptable a distintos dispositivos.
 
-##### Dimensiones para el tono de comunicación y lenguaje aplicado
+#### Dimensiones para el tono de comunicación y lenguaje aplicado
 
 En Restock, definimos cuidadosamente el tono de nuestra comunicación para alinearlo con la misión de nuestra plataforma: facilitar la gestión de inventarios para dueños de restaurantes y proveedores, creando una conexión cercana y empática con nuestro público objetivo. Nuestro tono de voz busca motivar y brindar seguridad, combinando una comunicación clara, accesible y profesional.
 
@@ -121,9 +65,23 @@ Además, se han considerado los siguientes aspectos clave en el diseño de Resto
 
 - Accesibilidad: La plataforma fue diseñada para adaptarse a todo tipo de usuarios y dispositivos. Desde computadoras hasta tablets o celulares, Restock ofrece botones grandes, opciones de ajuste de idioma, lector de texto y navegación simplificada, permitiendo a dueños de restaurantes y proveedores utilizar la plataforma incluso en ambientes dinámicos y de alta demanda.
 
+#### Elementos de diseño
 
+Además de los lineamientos generales sobre colores, tipografía y branding, en el diseño visual de Restock se han aplicado de manera consciente diversos elementos fundamentales del diseño gráfico que enriquecen la experiencia del usuario y refuerzan la identidad visual de la plataforma.
 
+Uno de los elementos clave es la **línea**, utilizada para dividir secciones, delimitar formularios o separar tarjetas de contenido. Su uso sutil organiza visualmente la interfaz, guiando la lectura y evitando la saturación. El **color** también cumple un rol fundamental, no solo en la identidad visual sino en la comunicación funcional. La paleta incluye tonos como el mandarina, el verde oscuro y el rojo coral, seleccionados por su asociación emocional y su capacidad para transmitir estados como éxito, alerta o error.
 
+En cuanto al **tamaño**, se utiliza jerárquicamente para resaltar títulos, botones y texto de soporte. Los tamaños más grandes captan la atención en puntos clave de la navegación, mientras que los más pequeños se emplean para detalles secundarios, lo que mejora tanto la comprensión como la eficiencia en la interacción. Por su parte, la **textura** es sutil, gracias al uso de fondos suaves como el blanco grisáceo y el beige cálido, los cuales aportan profundidad y calidez sin distraer de la funcionalidad principal.
 
+El **espacio** es uno de los elementos más destacados del diseño de Restock. Se han implementado márgenes amplios, rellenos generosos y separación adecuada entre secciones, lo que permite una interfaz despejada, fácil de recorrer y cómoda para los usuarios, especialmente en contextos de uso intensivo como cocinas o almacenes. A nivel de valor o **brillo** (value), se aplican contrastes suaves que dan lugar a jerarquías visuales claras: botones destacados, hovers, textos principales y elementos de fondo se diferencian sutilmente para guiar al usuario sin abrumarlo.
 
+Respecto a las **formas**, se ha optado por geometrías simples y amigables. Los botones redondeados, las tarjetas con bordes suaves y los íconos estilizados no solo mejoran la estética, sino que también transmiten accesibilidad, orden y modernidad. Estas formas, ya sean geométricas o abstractas, se alinean con la imagen de una herramienta tecnológica funcional pero cercana.
+
+#### Principios de diseño
+
+En cuanto a los principios de diseño, el **contraste** se emplea para asegurar que los elementos importantes, como llamados a la acción (CTA) o errores, sean claramente visibles. Este principio es clave en la accesibilidad visual. La **repetición** de colores, formas e iconografía refuerza la familiaridad y la consistencia del sistema visual, haciendo que los usuarios comprendan rápidamente el uso de cada componente.
+
+La **alineación** contribuye a la profesionalidad del diseño: los formularios, encabezados y listas mantienen una disposición coherente, alineada y clara, lo que facilita la navegación intuitiva. Por último, el principio de **proximidad** agrupa de manera lógica los elementos relacionados (como inputs y botones, o productos y sus descripciones), mejorando la lectura, la interacción y la comprensión de cada bloque de información.
+E
+Estos elementos y principios no se aplican de forma aislada, sino como parte integral de un sistema visual que busca ser funcional, estético y coherente con la misión de Restock: facilitar la gestión de inventarios a través de una experiencia clara, empática y eficiente.
 
