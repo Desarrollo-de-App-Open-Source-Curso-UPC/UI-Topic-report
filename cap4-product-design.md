@@ -282,3 +282,10 @@ La navegación también se adapta según el tipo de usuario. Por ejemplo, los pr
 
 **Component Diagram: Web Service**
 ![Container Diagrams](assets/images/opensource-component.jpg)
+
+## 4.8 Database Design
+
+### 4.8.1 Database Diagram
+
+![Database diagram](assets/images/cap4/database-diagram.png)
+
