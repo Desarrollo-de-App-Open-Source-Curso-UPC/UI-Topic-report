@@ -249,11 +249,11 @@ Durante este sprint se completó el diseño e implementación del Landing Page d
 
 -Deployment del landing page.
 
-### 🌐 Recursos del Sprint
+### Recursos del Sprint
 
 | Recurso      | Acción implementada   | Método HTTP | URL / Endpoint                      | Link de repositorio         |
 |--------------|------------------------|-------------|-------------------------------------|---------------------------|
-| Landing Page | Visualización inicial | GET         | http://xxxxxxxxxxx.netlify               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing   |
+| Landing Page | Visualización inicial | GET         | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing   |
 
 **Documentacion**
 Commit 556268a: Initial commit
