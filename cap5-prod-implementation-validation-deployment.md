@@ -93,6 +93,22 @@ A continuación, se presenta la planificación correspondiente a nuestro Sprint 
 | Sprint 1 Velocity | 27 puntos |
 | Sum of Story Points |  27 puntos |
 
+## 5.2.1.2 Aspect Leaders and Collaborators
+
+# Aspect Leaders and Collaborators
+
+Durante el Sprint 1, se han definido los principales aspectos a desarrollar, correspondientes a funcionalidades específicas como la visualización de contenido, navegación fluida, adaptabilidad responsiva y gestión de autenticación de usuarios.
+
+Con el objetivo de asegurar una comunicación clara y eficiente dentro del equipo, se elaboró la siguiente matriz de liderazgo y colaboración (LACX), asignando para cada aspecto un líder responsable (L) y colaboradores de apoyo (C).
+
+| Team Member (Last Name, First Name) | GitHub Username       | Mostrar Mensaje de Valor | Beneficios Segmentados | CTA con Redirección y Descarga | Barra de Navegación | Pasos del Funcionamiento | Video Explicativo | Footer Landing Page | Testimonios de Clientes | Preguntas Frecuentes | Formulario de Contacto | Navegación Fluida | Responsive Desktop | Responsive Móviles | Responsive Tablet | Registro | Inicio de Sesión | Recuperación de Contraseña |
+|:------------------------------------|:----------------------|:------------------------|:------------------------|:-----------------------------|:-------------------|:------------------------|:-----------------|:--------------------|:------------------------|:--------------------|:----------------------|:------------------|:-------------------|:------------------|:------------------|:--------|:----------------|:---------------------------|
+| Vendaño Balarezo, Williams Eduardo  | dev-willy-code         | L                        | C                        | C                             | C                   | C                        | L                 | C                    | C                        | C                    | C                      | L                  | C                   | C                  | C                  | C      | C                | C                         |
+| Castro Alejos, Julio                | JulioXC4               | C                        | L                        | C                             | C                   | C                        | C                 | L                    | C                        | C                    | C                      | C                  | L                   | C                  | C                  | C      | C                | C                         |
+| Guerra Perez, José Jahaziel         | jahazielgp             | C                        | C                        | L                             | C                   | L                        | C                 | C                    | L                        | C                    | C                      | C                  | C                   | L                  | C                  | C      | C                | C                         |
+| Guzmán Cabrejos, Yaku Mateo         | yak-cod                | C                        | C                        | C                             | L                   | C                        | C                 | C                    | C                        | L                    | L                      | C                  | C                   | C                  | L                  | L      | C                | C                         |
+| Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28     | C                        | C                        | C                             | C                   | C                        | C                 | C                    | C                        | C                    | C                      | C                  | C                   | C                  | C                  | C      | L                | L                         |
+
 
 ## 5.2.1.3 Sprint Backlog 1
 
