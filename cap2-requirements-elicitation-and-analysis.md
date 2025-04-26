@@ -86,7 +86,7 @@ UI-Topic surge como una solución enfocada y especializada en la **gestión auto
 
 ### 2.2.1 Diseño de entrevistas  
 
-#### **Segmento 1: Dueños de Restaurantes**  
+#### **Segmento 1: Dueños o administradores de Restaurantes**  
 
 ##### **Preguntas principales:**  
 1. ¿Cuál es su nombre y cuánto tiempo lleva administrando su restaurante?  
@@ -122,7 +122,7 @@ UI-Topic surge como una solución enfocada y especializada en la **gestión auto
 
 ### 2.2.2 Registro de entrevistas
 
-## Segmento 1: Dueños de Restaurantes
+## Segmento 1: Dueños o administradores de Restaurantes
 
 ### Entrevista 1:
 
@@ -255,7 +255,7 @@ Benjamín valora mantener relaciones comerciales a largo plazo, basadas en la ho
 
 ### 2.2.3 Análisis de entrevistas
 
-## Segmento 1: Dueños de Restaurantes
+## Segmento 1: Dueños o administradores de Restaurantes
 
 Se analizaron **3 entrevistas** a administradores con amplia experiencia en el manejo de restaurantes. La información obtenida permitió identificar características objetivas y subjetivas clave para construir al arquetipo de dueño de restaurantes.
 
@@ -344,7 +344,7 @@ Los segmentos considerados para este análisis son:
 - Dueños de Restaurantes
 - Proveedores para Restaurantes
 
-## Segmento 1: Dueños de restaurantes
+## Segmento 1: Dueños o administradores de restaurantes
 
 Carolina Rivas es propietaria y administradora de un restaurante ubicado en una zona urbana altamente competitiva. Con más de 10 años de experiencia, busca optimizar su operación sin depender de soporte externo. Aunque ha probado diversas soluciones tecnológicas, sus frustraciones con herramientas poco intuitivas la han llevado a preferir procesos controlados por ella misma. Su principal objetivo es tener una gestión eficiente y un control riguroso del inventario y de los ingresos del restaurante.
 
