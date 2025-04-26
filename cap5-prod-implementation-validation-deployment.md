@@ -67,7 +67,7 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ## 5.1.3. Source Code Style Guide & Conventions.
 
-## 🌐 Frontend (Landing Page - HTML, CSS, JavaScript)
+## Frontend (Landing Page - HTML, CSS, JavaScript)
 
 ### Convenciones generales:
 - **Idioma**: Todo el código, incluyendo nombres de variables, funciones y clases, está escrito en **inglés**.
@@ -85,7 +85,7 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ---
 
-## 🧩 Frontend Web App (Angular + TypeScript)
+## Frontend Web App (Angular + TypeScript)
 
 ### Convenciones generales:
 - **Idioma**: Código completamente en **inglés**.
@@ -106,7 +106,7 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ---
 
-## 🔧 Backend (Java + Spring Boot)
+## Backend (Java + Spring Boot)
 
 ### Convenciones generales:
 - **Idioma**: Código y documentación interna en **inglés**.
@@ -125,14 +125,6 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 - **Paquetes**: Todo en minúsculas y separados por punto (ej. `com.project.backend.controller`)
 
 ---
-
-## 📚 Referencias Adoptadas:
-- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
-- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
-- [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
-- [Angular Coding Style Guide](https://angular.io/guide/styleguide)
-- [Spring Boot Official Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/)
-- [W3Schools HTML Style Guide](https://www.w3schools.com/html/html5_syntax.asp)
 
 
 
