@@ -67,6 +67,75 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ## 5.1.3. Source Code Style Guide & Conventions.
 
+## 🌐 Frontend (Landing Page - HTML, CSS, JavaScript)
+
+### Convenciones generales:
+- **Idioma**: Todo el código, incluyendo nombres de variables, funciones y clases, está escrito en **inglés**.
+- **Indentación**: 2 espacios.
+- **Formato de archivos**: `.html`, `.css`, `.js`
+- **Estilo de código adoptado**:
+  - [W3Schools HTML Style Guide](https://www.w3schools.com/html/html5_syntax.asp)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+### Nomenclatura:
+- **Clases CSS**: `kebab-case` (ej. `main-container`)
+- **IDs HTML**: `camelCase` (ej. `mainContent`)
+- **Variables JS**: `camelCase` (ej. `userName`)
+- **Funciones JS**: `camelCase` (ej. `handleClick()`)
+
+---
+
+## 🧩 Frontend Web App (Angular + TypeScript)
+
+### Convenciones generales:
+- **Idioma**: Código completamente en **inglés**.
+- **Estructura de carpetas**: Segregación por módulos y componentes.
+- **Indentación**: 2 espacios.
+- **Formato de archivos**: `.ts`, `.html`, `.css`
+
+### Estilo de código adoptado:
+- [Angular Style Guide (Oficial)](https://angular.io/guide/styleguide)
+- [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+
+### Nomenclatura:
+- **Componentes**: `PascalCase` (ej. `UserProfileComponent`)
+- **Servicios**: `camelCase` + sufijo `Service` (ej. `authService`)
+- **Interfaces**: `PascalCase`, prefijo `I` opcional (ej. `User`, `IUser`)
+- **Archivos**: `kebab-case` (ej. `user-profile.component.ts`)
+- **Variables y funciones**: `camelCase`
+
+---
+
+## 🔧 Backend (Java + Spring Boot)
+
+### Convenciones generales:
+- **Idioma**: Código y documentación interna en **inglés**.
+- **Indentación**: 4 espacios.
+- **Formato de archivos**: `.java`
+
+### Estilo de código adoptado:
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Spring Boot Features & Best Practices](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html)
+
+### Nomenclatura:
+- **Clases**: `PascalCase` (ej. `UserService`)
+- **Variables**: `camelCase` (ej. `userRepository`)
+- **Constantes**: `UPPER_SNAKE_CASE` (ej. `MAX_USERS`)
+- **Endpoints**: `kebab-case` para URLs (ej. `/api/user-profile`)
+- **Paquetes**: Todo en minúsculas y separados por punto (ej. `com.project.backend.controller`)
+
+---
+
+## 📚 Referencias Adoptadas:
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+- [Angular Coding Style Guide](https://angular.io/guide/styleguide)
+- [Spring Boot Official Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/)
+- [W3Schools HTML Style Guide](https://www.w3schools.com/html/html5_syntax.asp)
+
+
+
 ## 5.1.4. Software Deployment Configuration
 
 
@@ -92,6 +161,22 @@ A continuación, se presenta la planificación correspondiente a nuestro Sprint 
 | Sprint 1 Goal | Nos enfocamos en implementar la estructura principal y las funcionalidades clave de la landing page pública de Restock.<br>Creemos que esto aportará una percepción más sólida del producto y despertará mayor interés entre los usuarios potenciales, al comunicar de forma clara el valor y los beneficios de la plataforma.<br>Esto se confirmará cuando los visitantes puedan navegar de manera fluida por la página, comprendan fácilmente qué ofrece Restock y muestren intención de interactuar o registrarse. |
 | Sprint 1 Velocity | 27 puntos |
 | Sum of Story Points |  27 puntos |
+
+## 5.2.1.2 Aspect Leaders and Collaborators
+
+# Aspect Leaders and Collaborators
+
+Durante el Sprint 1, se han definido los principales aspectos a desarrollar, correspondientes a funcionalidades específicas como la visualización de contenido, navegación fluida, adaptabilidad responsiva y gestión de autenticación de usuarios.
+
+Con el objetivo de asegurar una comunicación clara y eficiente dentro del equipo, se elaboró la siguiente matriz de liderazgo y colaboración (LACX), asignando para cada aspecto un líder responsable (L) y colaboradores de apoyo (C).
+
+| Team Member (Last Name, First Name) | GitHub Username       | Mostrar Mensaje de Valor | Beneficios Segmentados | CTA con Redirección y Descarga | Barra de Navegación | Pasos del Funcionamiento | Video Explicativo | Footer Landing Page | Testimonios de Clientes | Preguntas Frecuentes | Formulario de Contacto | Navegación Fluida | Responsive Desktop | Responsive Móviles | Responsive Tablet | Registro | Inicio de Sesión | Recuperación de Contraseña |
+|:------------------------------------|:----------------------|:------------------------|:------------------------|:-----------------------------|:-------------------|:------------------------|:-----------------|:--------------------|:------------------------|:--------------------|:----------------------|:------------------|:-------------------|:------------------|:------------------|:--------|:----------------|:---------------------------|
+| Vendaño Balarezo, Williams Eduardo  | dev-willy-code         | L                        | C                        | C                             | C                   | C                        | L                 | C                    | C                        | C                    | C                      | L                  | C                   | C                  | C                  | C      | C                | C                         |
+| Castro Alejos, Julio                | JulioXC4               | C                        | L                        | C                             | C                   | C                        | C                 | L                    | C                        | C                    | C                      | C                  | L                   | C                  | C                  | C      | C                | C                         |
+| Guerra Perez, José Jahaziel         | jahazielgp             | C                        | C                        | L                             | C                   | L                        | C                 | C                    | L                        | C                    | C                      | C                  | C                   | L                  | C                  | C      | C                | C                         |
+| Guzmán Cabrejos, Yaku Mateo         | yak-cod                | C                        | C                        | C                             | L                   | C                        | C                 | C                    | C                        | L                    | L                      | C                  | C                   | C                  | L                  | L      | C                | C                         |
+| Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28     | C                        | C                        | C                             | C                   | C                        | C                 | C                    | C                        | C                    | C                      | C                  | C                   | C                  | C                  | C      | L                | L                         |
 
 
 ## 5.2.1.3 Sprint Backlog 1
