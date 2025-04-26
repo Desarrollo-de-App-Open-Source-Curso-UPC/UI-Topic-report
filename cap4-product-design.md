@@ -327,7 +327,7 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Container Diagrams](assets/images/opensource-component.jpg)
 
 **Component Diagram: SPA UI-Topic**
-![Component diagram SPA](assets/images/)
+![Component diagram SPA](assets/images/opensource-component-spa.png)
 
 ## 4.7 Software Object-Oriented Design
 
