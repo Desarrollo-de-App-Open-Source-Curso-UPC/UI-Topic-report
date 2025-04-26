@@ -167,6 +167,7 @@ https://trello.com/invite/b/680c05f1fac416bfdb0ea024/ATTI41428da9336a1d11b087843
 Durante este sprint se completó el diseño e implementación del Landing Page del sistema, el cual forma parte del acceso inicial al sistema y constituye un punto de entrada fundamental para los usuarios. Aunque no se implementaron endpoints tradicionales de tipo REST en este sprint, se documenta a continuación la URL del recurso publicado, junto con evidencia de despliegue, interacción y commits relacionados.
 
 **Descripción del Logro:**
+
 -Implementación del Landing Page estático.
 
 -Deployment del landing page.
