@@ -326,6 +326,36 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 **Component Diagram: Web Service**
 ![Container Diagrams](assets/images/opensource-component.jpg)
 
+## 4.7 Software Object-Oriented Design
+
+### 4.7.1 Class Diagram
+
+![Class diagram](assets/images/cap4/UML_Java.png)
+
+### 4.7.2 Class Dictionary
+
+A continuación, se explicará el detalle de cada entidad representada en el diagrama de clases:
+
+
+| Entidad	| Descripción |
+|----------|--------------|
+|Subscription | Suscripción activa o pasada que un usuario ha contratado. |
+|User	| Cualquier persona que interactúa con el sistema. |
+|Subscriber | Tipo de usuario que tiene una suscripción activa para utilizar servicios adicionales/premium del sistema.|
+| Supplier	| Representa a un suscriptor de tipo proveedor que gestiona sus pedidos e inventario. |
+| RestaurantAdmin	| Representa a un suscriptor de tipo administrador de restaurante encargado de gestionar internamente el restaurante, sus operaciones, inventario y pedidos. |
+| Comment	| Comentario hecho por un administrador de restaurante a un pedido de proveedor. |
+| OrderToSupplier	| Pedido de productos o insumos realizado por el restaurante hacia un proveedor. |
+| PaymentInfo	| Contiene los detalles de métodos y transacciones de pago. |
+| Alert	| Representa una notificación automática que informa al suscriptor sobre eventos importantes. |
+| Inventory	| Representa el registro de todos los insumos, productos y materiales disponibles del suscriptor. |
+| ProductCatalog	| Catálogo o listado de platos ofrecidos por el restaurante a sus clientes. |
+| RestaurantCustomerOrder	| Pedido que un cliente realiza al restaurante. |
+| Report	| Resumen generado sobre eventos o métricas del sistema. |
+| Supply	| Insumo o materia prima almacenada en el inventario. |
+| RecipeIngredient	| Ingrediente específico que forma parte de una receta. |
+| Recipe	| Representa la receta de un plato del restaurante.
+
 ## 4.8 Database Design
 
 ### 4.8.1 Database Diagram
