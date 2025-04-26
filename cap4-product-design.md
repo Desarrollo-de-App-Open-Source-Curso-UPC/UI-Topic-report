@@ -272,52 +272,43 @@ La navegación también se adapta según el tipo de usuario. Por ejemplo, los pr
 
 Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow para cada User Goal, teniendo en cuenta los User Persona definidos para las aplicaciones que forman parte del alcance.
 
-**User Goal 1:** Como nuevo usuario o visitante, quiero acceder fácilmente a la plataforma (ya sea registrándome, iniciando sesión o recuperando mi cuenta) para comenzar a gestionar mi restaurante.
+#### User Persona 1:  Dueño o administrador de restaurante
+
+**User Goal 1:** Como administrador de restaurante, quiero registrar y actualizar manualmente el inventario de insumos, para mantener el control de stock, evitar sobreabastecimientos y detectar discrepancias.
 ![User Goal 1](assets/images/cap4/usergoal_1.png)
 
-**User Goal 2:** Como visitante, quiero entender claramente el valor de la plataforma y cómo se adapta a mi perfil (administrador o proveedor), para decidir si me interesa registrarme o seguir explorando.
+**User Goal 2:** Como administrador de restaurante, quiero gestionar manualmente el inventario de insumos (ingresarlos, actualizarlos, descontarlos o registrar compras), para mantener datos precisos que eviten pérdidas y faciliten la toma de decisiones.
 ![User Goal 2](assets/images/cap4/usergoal_2.png)
 
-**User Goal 3:** Como visitante de la plataforma, quiero acceder a información útil, confiable y directa (testimonios, preguntas frecuentes y contacto), para resolver mis dudas y decidir si deseo registrarme o usar el sistema.
+**User Goal 3:** Como administrador de restaurante, quiero gestionar y consultar información de mis proveedores (agregarlos, buscarlos y ver su historial de compras), para mantener organizada la relación comercial y controlar mejor mis gastos.
 ![User Goal 3](assets/images/cap4/usergoal_3.png)
 
-**User Goal 4:** Como visitante, quiero comprender fácilmente cómo funciona la plataforma, ya sea viendo los pasos explicados o mediante un video, para poder usarla sin dificultad desde el principio. 
+**User Goal 4:** Como administrador de restarante, quiero que mi empleado registre ventas completas desde la carta (platos e insumos adicionales), para automatizar el descuento de stock y mantener el inventario sincronizado sin tener que gestionarlo manualmente.
 ![User Goal 4](assets/images/cap4/usergoal_4.png)
 
-**User Goal 5:** Como administrador de restaurante, quiero registrar y actualizar manualmente el inventario de insumos, para mantener el control de stock, evitar sobreabastecimientos y detectar discrepancias.
+**User Goal 5:** Como administrador de restaurante, quiero gestionar mi cuenta (perfil y suscripción) para tener acceso completo a la plataforma y asegurarme de que mis datos estén siempre actualizados.
 ![User Goal 5](assets/images/cap4/usergoal_5.png)
 
-**User Goal 6:** Como administrador de restaurante, quiero gestionar manualmente el inventario de insumos (ingresarlos, actualizarlos, descontarlos o registrar compras), para mantener datos precisos que eviten pérdidas y faciliten la toma de decisiones.
+**User Goal 6:** Como administrador de restaurante, quiero evaluar los pedidos que recibo de los proveedores, para dejar retroalimentación y asegurar la calidad de los insumos en futuras compras.
 ![User Goal 6](assets/images/cap4/usergoal_6.png)
 
-**User Goal 7:** Como administrador de restaurante, quiero gestionar y consultar información de mis proveedores (agregarlos, buscarlos y ver su historial de compras), para mantener organizada la relación comercial y controlar mejor mis gastos.
+**User Goal 7:** Como administrador de restaurante, quiero crear recetas vinculadas a insumos del inventario, para estandarizar los platos, calcular sus costos y controlar el consumo de ingredientes automáticamente.
 ![User Goal 7](assets/images/cap4/usergoal_7.png)
 
-**User Goal 8:** Como empleado del restaurante, quiero registrar ventas completas desde la carta (platos e insumos adicionales), para automatizar el descuento de stock y mantener el inventario sincronizado sin tener que gestionarlo manualmente.
+#### User Persona 2: Proveedores para restaurante
+
+**User Goal 8:** Como proveedor, quiero gestionar mi catálogo de productos (agregarlos, actualizarlos o desactivarlos temporalmente), para asegurar que los restaurantes vean solo productos disponibles y vigentes.
 ![User Goal 8](assets/images/cap4/usergoal_8.png)
 
-**User Goal 9:** Como administrador de restaurante, quiero gestionar mi cuenta (perfil y suscripción) para tener acceso completo a la plataforma y asegurarme de que mis datos estén siempre actualizados.
+**User Goal 9:** Como proveedor, quiero gestionar y actualizar el estado de las órdenes recibidas, para organizar mis entregas, coordinar con los restaurantes y brindar visibilidad sobre el proceso de despacho.
 ![User Goal 9](assets/images/cap4/usergoal_9.png)
 
-**User Goal 10:** Como administrador de restaurante, quiero evaluar los pedidos que recibo de los proveedores, para dejar retroalimentación y asegurar la calidad de los insumos en futuras compras.
+**User Goal 10:** Como proveedor, quiero analizar el rendimiento de mis ventas y el feedback de los restaurantes, para identificar a mis mejores clientes, mejorar mi servicio y fortalecer relaciones comerciales.
 ![User Goal 10](assets/images/cap4/usergoal_10.png)
 
-**User Goal 11:** Como administrador de restaurante, quiero crear recetas vinculadas a insumos del inventario, para estandarizar los platos, calcular sus costos y controlar el consumo de ingredientes automáticamente.
+
+**User Goal 11:** Como proveedor, quiero tener control total sobre los productos de mi inventario, para poder visualizar, actualizar o eliminar aquellos que ya no están disponibles o no deseo ofrecer.
 ![User Goal 11](assets/images/cap4/usergoal_11.png)
-
-
-**User Goal 12:** Como proveedor, quiero gestionar mi catálogo de productos (agregarlos, actualizarlos o desactivarlos temporalmente), para asegurar que los restaurantes vean solo productos disponibles y vigentes.
-![User Goal 12](assets/images/cap4/usergoal_12.png)
-
-**User Goal 13:** Como proveedor, quiero gestionar y actualizar el estado de las órdenes recibidas, para organizar mis entregas, coordinar con los restaurantes y brindar visibilidad sobre el proceso de despacho.
-![User Goal 13](assets/images/cap4/usergoal_13.png)
-
-**User Goal 14:** Como proveedor, quiero analizar el rendimiento de mis ventas y el feedback de los restaurantes, para identificar a mis mejores clientes, mejorar mi servicio y fortalecer relaciones comerciales.
-![User Goal 14](assets/images/cap4/usergoal_14.png)
-
-
-**User Goal 15:** Como proveedor, quiero tener control total sobre los productos de mi inventario, para poder visualizar, actualizar o eliminar aquellos que ya no están disponibles o no deseo ofrecer.
-![User Goal 15](assets/images/cap4/usergoal_15.png)
 
 
 ### 4.6.1 Software Architecture Context Diagram
