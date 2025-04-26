@@ -334,9 +334,6 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ### 4.7.2 Class Dictionary
 
-A continuación, se explicará el detalle de cada entidad representada en el diagrama de clases:
-
-
 | Entidad	| Descripción |
 |----------|--------------|
 |Subscription | Suscripción activa o pasada que un usuario ha contratado. |
