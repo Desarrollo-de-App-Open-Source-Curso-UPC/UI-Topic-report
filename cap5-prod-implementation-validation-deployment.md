@@ -90,6 +90,6 @@ A continuación, se presenta la planificación correspondiente a nuestro Sprint 
 | Sprint 0 Retrospective Summary | Dado que este es el sprint inicial, no se presenta una retroalimentación del sprint anterior. |
 | **Sprint Goal & User Stories** |
 | Sprint 1 Goal | Nos enfocamos en implementar la estructura principal y las funcionalidades clave de la landing page pública de Restock.<br>Creemos que esto aportará una percepción más sólida del producto y despertará mayor interés entre los usuarios potenciales, al comunicar de forma clara el valor y los beneficios de la plataforma.<br>Esto se confirmará cuando los visitantes puedan navegar de manera fluida por la página, comprendan fácilmente qué ofrece Restock y muestren intención de interactuar o registrarse. |
-| Sprint 1 Velocity | 27 puntos |
-| Sum of Story Points |  27 puntos |
+| Sprint 1 Velocity | 56 puntos |
+| Sum of Story Points |  56 puntos |
 
