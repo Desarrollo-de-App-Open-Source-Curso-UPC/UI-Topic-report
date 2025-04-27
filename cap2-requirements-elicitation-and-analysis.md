@@ -104,7 +104,7 @@ UI-Topic surge como una solución enfocada y especializada en la **gestión auto
 10. ¿Ha experimentado problemas con pagos o facturación en su relación con los restaurantes?  
 11. ¿Qué tan abierto estaría a utilizar una plataforma digital para mejorar la gestión de sus pedidos y relaciones comerciales? 
 12. ¿Qué tipo de dispositivos tecnológicos utiliza para gestionar su restaurante? ¿Hay marcas,  modelos de negocio o referentes que influyen en su forma de administrar? 
-13. ¿Cómo maneja la comunicación con los dueños de restaurantes para asegurar la calidad y puntualidad de las entregas?  
+13. ¿Cómo maneja la comunicación con los dueños o administradores de restaurantes para asegurar la calidad y puntualidad de las entregas?  
 
 
 ### 2.2.2 Registro de entrevistas
@@ -190,7 +190,7 @@ Amparo está **totalmente dispuesta a invertir** en un software que le permita a
 **Resumen:**
 El señor José Santos Tapia Bustamante es proveedor de abarrotes, productos de limpieza y licores. Tiene 68 años y reside en el distrito de Chorrillos. Se caracteriza por ser una persona responsable, comprometida con sus clientes y con gran experiencia en el rubro.
 
-Cuenta con 38 años de trayectoria como proveedor y suele establecer relaciones comerciales directamente con los dueños de restaurantes, ya sea por recomendaciones o por contacto presencial.
+Cuenta con 38 años de trayectoria como proveedor y suele establecer relaciones comerciales directamente con los dueños o administradores de restaurantes, ya sea por recomendaciones o por contacto presencial.
 
 Realiza la gestión de pedidos de forma manual, revisando cada producto antes del envío para asegurarse de que el pedido esté completo. Utiliza WhatsApp como principal canal de comunicación para coordinar con los restaurantes.
 
@@ -288,7 +288,7 @@ Se analizaron **3 entrevistas** a proveedores de productos para restaurantes (ab
 | Uso de WhatsApp para pedidos                  | 3/3     | 100%  | Mencionan WhatsApp como canal primario para recibir pedidos                                 |
 | Manejo logístico manual o con supervisores   | 2/3     | 66.7% | No usan plataformas; dependen de listas físicas y personal de reparto                      |
 | No utilizan plataformas digitales especializadas | 2/3  | 66.7% | Uno menciona tener app, los otros usan WhatsApp y gestión manual                           |
-| Trato directo con dueños de restaurante      | 3/3     | 100%  | Priorizan relaciones directas como parte de su estrategia comercial                         |
+| Trato directo con dueños o administradores de restaurante      | 3/3     | 100%  | Priorizan relaciones directas como parte de su estrategia comercial                         |
 | Apertura a digitalizar su operación          | 3/3     | 100%  | Dispuestos a adoptar apps si estas mejoran su gestión                                      |
 | Importancia de la confianza con el cliente    | 3/3     | 100%  | Señalan que la confianza es clave para continuidad y créditos                             |
 | Valoración de la puntualidad y cumplimiento   | 3/3     | 100%  | Mencionan cumplimiento de horario y entregas completas como vitales                        |
@@ -312,7 +312,7 @@ El manejo de facturas y pagos al crédito es visto como una parte vulnerable de 
 
 ### 2.3.1. User Personas
 
-En esta sección se presentan dos User Personas que representan los segmentos clave del proyecto: los Dueños de Restaurantes y los Proveedores para Restaurantes. Estos perfiles permiten comprender en profundidad las necesidades, motivaciones, frustraciones y comportamientos de los usuarios potenciales del sistema, el cual busca mejorar la gestión de inventarios, pedidos y relaciones comerciales en el sector gastronómico.
+En esta sección se presentan dos User Personas que representan los segmentos clave del proyecto: los Dueños o Administradores de Restaurantes y los Proveedores para Restaurantes. Estos perfiles permiten comprender en profundidad las necesidades, motivaciones, frustraciones y comportamientos de los usuarios potenciales del sistema, el cual busca mejorar la gestión de inventarios, pedidos y relaciones comerciales en el sector gastronómico.
 
 El User Persona **Carolina Rivas** representa a las administradoras y propietarias de restaurantes con trayectoria, principalmente medianos y grandes negocios ubicados en zonas urbanas de alta competencia. Carolina tiene amplia experiencia en la gestión operativa, y aunque ha intentado digitalizar procesos clave como el inventario o la facturación, se ha encontrado con soluciones poco intuitivas y difíciles de adaptar. Su motivación principal es lograr un control más riguroso de su inventario y aumentar la eficiencia general del negocio sin perder autonomía. Busca una plataforma accesible, personalizable y fácil de usar, que le permita mejorar la toma de decisiones operativas sin requerir soporte técnico constante.
 
@@ -380,7 +380,7 @@ En esta sección se presentan los User Journey Maps (As-Is) de los segmentos rep
 
 ### 2.3.5 As-is Scenario Mapping
 
-**Segmento Objetivo 1:** Dueños de Restaurantes
+**Segmento Objetivo 1:** Dueños o Administradores de Restaurantes
 
 El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisis de comportamiento del perfil de Carolina Rivas. Se identificaron las principales fases que conforman su flujo de trabajo diario como administradora de un restaurante
 
