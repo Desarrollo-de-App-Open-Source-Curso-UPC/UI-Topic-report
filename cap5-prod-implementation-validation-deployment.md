@@ -136,8 +136,23 @@ Para la Landing Page desarrollada en HTML, CSS y JavaScript, la configuración d
 
 **Repositorio de Código Fuente**
 
-Se debe crear un repositorio en GitHub y subir todos los archivos del proyecto (HTML, CSS, JS).  
-Es obligatorio que el archivo `index.html` esté ubicado en la raíz del repositorio para poder realizar el despliegue correctamente.
+Se creó un repositorio en GitHub donde se subieron todos los archivos del proyecto (HTML, CSS, JS).  
+Es obligatorio que el archivo `index.html` esté ubicado en la raíz del repositorio para realizar el despliegue correctamente.
+
+
+#### Pasos de Despliegue en GitHub Pages:
+
+1. En GitHub, ir a la sección **Settings** del repositorio.
+2. En el menú lateral, seleccionar **Pages**.
+3. En la opción **Source**, seleccionar la rama main y la carpeta raíz (`/root`).
+4. Guardar los cambios.
+5. GitHub generará automáticamente la URL pública donde la Landing Page estará disponible.
+
+---
+
+### Configuración Adicional:
+
+- El despliegue se realiza automáticamente cada vez que se actualiza la rama configurada (por ejemplo, `main`).
 
 <br/>
 
