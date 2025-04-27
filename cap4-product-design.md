@@ -274,6 +274,21 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 #### Task Flow 1: Administrar la cuenta
 
+**Objetivo del usuario**: Gestionar la información de su cuenta y su suscripción para mantener el acceso y los beneficios de la plataforma.
+
+**Pasos del Task Flow:**
+
+1. Acceder a la sección "Perfil" o "Cuenta" desde el menú lateral.
+2. Visualizar los datos personales registrados.
+3. Actualizar la información de perfil (nombre, apellidos, correo electrónico, dirección o país).
+4. Guardar los cambios realizados en el perfil.
+5. Acceder a la sección "Suscripción" desde el menú lateral.
+6. Visualizar los planes de suscripción disponibles.
+7. Seleccionar el plan de suscripción deseado.
+8. Ingresar los datos de pago requeridos (correo, tarjeta, dirección).
+9. Confirmar y completar el pago de la suscripción.
+
+
 **User Goal 1:** Como suscriptor, quiero gestionar mi cuenta para tener acceso completo a la plataforma y asegurarme de que mis datos estén siempre actualizados.  
 ![User Goal 1](assets/images/cap4/taskflow1_ug1.png)
 
@@ -282,7 +297,21 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ### User Persona 1:  Dueño o administrador de restaurante
 
-#### Task Flow 2: Monitorear el inventario 
+#### Task Flow 2: Monitorear el inventario
+
+**Objetivo del usuario**: Gestionar y monitorear manualmente el inventario de insumos para mantener la disponibilidad de productos y detectar problemas a tiempo.
+
+**Pasos del Task Flow:**
+
+1. Acceder a la sección "Inventario" desde el menú lateral.
+2. Visualizar el listado general de insumos registrados.
+3. Ingresar un nuevo insumo manualmente (nombre, categoría, unidad de medida, stock máximo).
+4. Editar la información de un insumo existente (stock disponible, estado de visibilidad, fecha de vencimiento).
+5. Registrar una compra de insumos realizada a un proveedor.
+6. Consultar las últimas alertas registradas relacionadas con stock o vencimientos.
+7. Acceder al historial completo de alertas del inventario.
+8. Visualizar el panel de resumen del inventario (ingredientes más usados, productos próximos a vencer, alertas críticas).
+9. Tomar decisiones de reposición, corrección o eliminación de insumos según los datos mostrados.
 
 **User Goal 3** Como administrador de restaurante, quiero gestionar manualmente el inventario de insumos (ingresarlos, actualizarlos, descontarlos o registrar compras), para mantener datos precisos que eviten pérdidas y faciliten la toma de decisiones.  
 ![User Goal 3](assets/images/cap4/taskflow2_ug3.png)
@@ -292,6 +321,20 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 #### Task Flow 3: Monitorear pedidos a los proveedores
 
+**Objetivo del usuario**: Gestionar la relación con los proveedores y evaluar la calidad de los insumos recibidos mediante pedidos y retroalimentación.
+
+**Pasos del Task Flow:**
+
+1. Acceder a la sección "Proveedores" desde el menú lateral.
+2. Visualizar el listado general de proveedores registrados.
+3. Buscar o filtrar proveedores por nombre, tipo de insumo o estado.
+4. Seleccionar un proveedor para consultar su historial de compras y catálogo de productos.
+5. Crear un nuevo pedido seleccionando un insumo disponible en el catálogo del proveedor.
+6. Confirmar la cantidad deseada y registrar el pedido.
+7. Acceder a la sección "Pedidos" desde el menú lateral.
+8. Visualizar la lista de pedidos pendientes, aprobados, rechazados o completados.
+9. Calificar y dejar comentarios sobre los pedidos recibidos para retroalimentar al proveedor.
+
 **User Goal 5:** Como administrador de restaurante, consultar información de mis proveedores, para mantener organizada la relación comercial y controlar mejor mis gastos.  
 ![User Goal 5](assets/images/cap4/taskflow3_ug5.png)
 
@@ -300,6 +343,19 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 
 #### Task Flow 4: Gestionar el servicio del restaurante
+
+**Objetivo del usuario**: Facilitar la administración del stock a través del registro de ventas y la estandarización de platos mediante recetas vinculadas al inventario.
+
+**Pasos del Task Flow:**
+
+1. Acceder a la sección "Ventas" desde el menú lateral.
+2. Iniciar un nuevo registro de venta seleccionando platos y/o insumos adicionales desde la carta.
+3. Visualizar el detalle del pedido para verificar precios y cantidades.
+4. Confirmar la venta y actualizar automáticamente el inventario descontando el stock utilizado.
+5. Acceder a la sección "Recetas" desde el menú lateral.
+6. Visualizar el listado de recetas registradas en el sistema.
+7. Crear una nueva receta ingresando el nombre del plato, el costo total y los insumos utilizados.
+8. Guardar la receta para vincularla automáticamente con el inventario y controlar el consumo de insumos por plato.
 
 **User Goal 7:** Como administrador de restaurante, quiero que mi empleado registre ventas completas desde la carta (platos e insumos adicionales), para automatizar el descuento de stock y mantener el inventario sincronizado sin tener que gestionarlo manualmente.  
 ![User Goal 7](assets/images/cap4/taskflow4_ug7.png)
