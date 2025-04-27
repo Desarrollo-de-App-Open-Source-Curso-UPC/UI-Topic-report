@@ -324,6 +324,23 @@ Durante este sprint se completó el diseño e implementación del Landing Page d
 |--------------|------------------------|-------------|-------------------------------------|---------------------------|
 | Landing Page | Visualización inicial | GET         | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing   |
 
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+![Foto deployment step 1](assets/images/cap5/step-1.png) 
+<br/>
+
+![Foto deployment step 2](assets/images/cap5/step-2.png) 
+<br/>
+
+![Foto deployment step 3](assets/images/cap5/step-3.png) 
+<br/>
+
+![Foto deployment step 4](assets/images/cap5/step-4.png) 
+<br/>
+
+![Foto deployment step 5](assets/images/cap5/step-5.png) 
+<br/>
+
 #### 5.2.1.8 Team Collaboration Insights during Sprint
 
 ### Desarrollo de las Actividades de Implementación
