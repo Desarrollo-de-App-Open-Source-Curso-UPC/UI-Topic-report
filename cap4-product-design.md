@@ -337,6 +337,25 @@ Se aplicaron criterios de diseño visual, diseño inclusivo y arquitectura de in
 
 ### 4.3.2 Landing Page Mock-up
 
+A continuación, se presentan los mock-ups de las principales secciones de la landing page. Cada imagen ilustra el diseño propuesto para las diferentes funcionalidades, flujos de navegación y elementos de interacción de la plataforma.
+
+![Bienvenida](assets/images/cap4/mockup-landing/bienvenida.png)
+![Cambio de idioma](assets/images/cap4/mockup-landing/cambio-Idioma.png)
+![Lecto de texto](assets/images/cap4/mockup-landing/lector-texto.png)
+![Inicio de sesion](assets/images/cap4/mockup-landing/inicio-de-sesion.png)
+![Registro](assets/images/cap4/mockup-landing/registro.png)
+![Contraseña olvidada](assets/images/cap4/mockup-landing/contraseña-olvidada.png)
+![Nosotros](assets/images/cap4/mockup-landing/nosotros.png)
+![Beneficios1](assets/images/cap4/mockup-landing/beneficios.png)
+![Beneficios2](assets/images/cap4/mockup-landing/Beneficios2.png)
+![Testimonios](assets/images/cap4/mockup-landing/testimonios.png)
+![Preguntas frecuentes](assets/images/cap4/mockup-landing/preguntas-frecuentes.png)
+![Tutorial1](assets/images/cap4/mockup-landing/tutorial1.png)
+![Tutorial2](assets/images/cap4/mockup-landing/tutorial2.png)
+![Contacto](assets/images/cap4/mockup-landing/contacto.png)
+![Descargar](assets/images/cap4/mockup-landing/descargar-app.png)
+![Footer](assets/images/cap4/mockup-landing/footer.png)
+
 ## 4.4. Web Applications UX/UI Design.
 
 ### 4.4.1. Web Applications Wireframes
