@@ -331,22 +331,27 @@ Durante este Sprint, se realizaron actividades de despliegue de la Landing Page 
 1- Se accedió a la sección Settings del repositorio.
 Dentro de Pages, se seleccionó la rama (main o master) y la carpeta (root o /docs) desde la cual GitHub Pages debía publicar el sitio.
 Se guardaron los cambios para activar la publicación automática.
+
 ![Foto deployment step 1](assets/images/cap5/step-1.png) 
 <br/>
 
 2- por default ya esta activado el https
+
 ![Foto deployment step 2](assets/images/cap5/step-2.png) 
 <br/>
 
 3- En la seccion "All workflows" se puede ver que la app se esta deployando.
+
 ![Foto deployment step 3](assets/images/cap5/step-3.png) 
 <br/>
 
 4- El landing page fue exitosamente deployado
+
 ![Foto deployment step 4](assets/images/cap5/step-4.png) 
 <br/>
 
 5- Se obtuvo y verificó la URL pública proporcionada por GitHub Pages.
+
 ![Foto deployment step 5](assets/images/cap5/step-5.png) 
 <br/>
 
