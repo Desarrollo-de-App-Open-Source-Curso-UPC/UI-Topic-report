@@ -411,6 +411,30 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 **User Goal 13:** Como proveedor, quiero analizar el rendimiento de mis ventas y el feedback de los restaurantes, para identificar a mis mejores clientes, mejorar mi servicio y fortalecer relaciones comerciales.  
 ![User Goal 13](assets/images/cap4/taskflow6_ug12.png)
 
+### 4.4.3 Web Applications Mock-ups
+
+#### Versión Mobile Web Browser
+
+**Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/1.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/2.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/3.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/4.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/5.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/6.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/7.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/8.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/9.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/10.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/11.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/12.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/13.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/14.png)
+
+
+
+
 ### 4.4.4 Web Applications User Flow Diagrams
 
 #### User Flows Mobile
