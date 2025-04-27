@@ -1,3 +1,5 @@
+# Capítulo V: Product Implementation, Validation & Deployment
+
 ## 5.1. Software Configuration Management.
 
 ### 5.1.1 Software Development Environment Configuration
@@ -17,7 +19,7 @@ A continuación, se listan las herramientas y estándares adoptados por el equip
 | Software Deployment | Railway / Render | Despliegue continuo del sistema en ambientes de testing. | SaaS – [https://railway.app](https://railway.app) / [https://render.com](https://render.com) |
 | Software Documentation | Notion + Postman | Documentación de APIs, funcionalidades y criterios técnicos. | SaaS – [https://www.notion.so](https://www.notion.so) / [https://www.postman.com](https://www.postman.com) |
 
-## 5.1.2. Source Code Management
+### 5.1.2. Source Code Management
 
 En esta sección el equipo establece los medios y esquema de organización que aplicará para el seguimiento de modificaciones. Para ello se utilizará **GitHub** como plataforma y sistema de control de versiones.
 
@@ -67,8 +69,69 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ## 5.1.3. Source Code Style Guide & Conventions.
 
+## Frontend (Landing Page - HTML, CSS, JavaScript)
 
-## 5.1.4. Source Code Management
+### Convenciones generales:
+- **Idioma**: Todo el código, incluyendo nombres de variables, funciones y clases, está escrito en **inglés**.
+- **Indentación**: 2 espacios.
+- **Formato de archivos**: `.html`, `.css`, `.js`
+- **Estilo de código adoptado**:
+  - [W3Schools HTML Style Guide](https://www.w3schools.com/html/html5_syntax.asp)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+### Nomenclatura:
+- **Clases CSS**: `kebab-case` (ej. `main-container`)
+- **IDs HTML**: `camelCase` (ej. `mainContent`)
+- **Variables JS**: `camelCase` (ej. `userName`)
+- **Funciones JS**: `camelCase` (ej. `handleClick()`)
+
+---
+
+## Frontend Web App (Angular + TypeScript)
+
+### Convenciones generales:
+- **Idioma**: Código completamente en **inglés**.
+- **Estructura de carpetas**: Segregación por módulos y componentes.
+- **Indentación**: 2 espacios.
+- **Formato de archivos**: `.ts`, `.html`, `.css`
+
+### Estilo de código adoptado:
+- [Angular Style Guide (Oficial)](https://angular.io/guide/styleguide)
+- [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+
+### Nomenclatura:
+- **Componentes**: `PascalCase` (ej. `UserProfileComponent`)
+- **Servicios**: `camelCase` + sufijo `Service` (ej. `authService`)
+- **Interfaces**: `PascalCase`, prefijo `I` opcional (ej. `User`, `IUser`)
+- **Archivos**: `kebab-case` (ej. `user-profile.component.ts`)
+- **Variables y funciones**: `camelCase`
+
+---
+
+## Backend (Java + Spring Boot)
+
+### Convenciones generales:
+- **Idioma**: Código y documentación interna en **inglés**.
+- **Indentación**: 4 espacios.
+- **Formato de archivos**: `.java`
+
+### Estilo de código adoptado:
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Spring Boot Features & Best Practices](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html)
+
+### Nomenclatura:
+- **Clases**: `PascalCase` (ej. `UserService`)
+- **Variables**: `camelCase` (ej. `userRepository`)
+- **Constantes**: `UPPER_SNAKE_CASE` (ej. `MAX_USERS`)
+- **Endpoints**: `kebab-case` para URLs (ej. `/api/user-profile`)
+- **Paquetes**: Todo en minúsculas y separados por punto (ej. `com.project.backend.controller`)
+
+---
+
+
+
+## 5.1.4. Software Deployment Configuration
+
 
 # 5.2. Landing Page, Services & Applications Implementation
 
@@ -90,8 +153,109 @@ A continuación, se presenta la planificación correspondiente a nuestro Sprint 
 | Sprint 0 Retrospective Summary | Dado que este es el sprint inicial, no se presenta una retroalimentación del sprint anterior. |
 | **Sprint Goal & User Stories** |
 | Sprint 1 Goal | Nos enfocamos en implementar la estructura principal y las funcionalidades clave de la landing page pública de Restock.<br>Creemos que esto aportará una percepción más sólida del producto y despertará mayor interés entre los usuarios potenciales, al comunicar de forma clara el valor y los beneficios de la plataforma.<br>Esto se confirmará cuando los visitantes puedan navegar de manera fluida por la página, comprendan fácilmente qué ofrece Restock y muestren intención de interactuar o registrarse. |
-| Sprint 1 Velocity | 27 puntos |
-| Sum of Story Points |  27 puntos |
+| Sprint 1 Velocity | 56 puntos |
+| Sum of Story Points |  56 puntos |
+
+## 5.2.1.2 Aspect Leaders and Collaborators
+
+# Aspect Leaders and Collaborators
+
+Durante el Sprint 1, se han definido los principales aspectos a desarrollar, correspondientes a funcionalidades específicas como la visualización de contenido, navegación fluida, adaptabilidad responsiva y gestión de autenticación de usuarios.
+
+Con el objetivo de asegurar una comunicación clara y eficiente dentro del equipo, se elaboró la siguiente matriz de liderazgo y colaboración (LACX), asignando para cada aspecto un líder responsable (L) y colaboradores de apoyo (C).
+
+| Team Member (Last Name, First Name) | GitHub Username       | Mostrar Mensaje de Valor | Beneficios Segmentados | CTA con Redirección y Descarga | Barra de Navegación | Pasos del Funcionamiento | Video Explicativo | Footer Landing Page | Testimonios de Clientes | Preguntas Frecuentes | Formulario de Contacto | Navegación Fluida | Responsive Desktop | Responsive Móviles | Responsive Tablet | Registro | Inicio de Sesión | Recuperación de Contraseña |
+|:------------------------------------|:----------------------|:------------------------|:------------------------|:-----------------------------|:-------------------|:------------------------|:-----------------|:--------------------|:------------------------|:--------------------|:----------------------|:------------------|:-------------------|:------------------|:------------------|:--------|:----------------|:---------------------------|
+| Vendaño Balarezo, Williams Eduardo  | dev-willy-code         | L                        | C                        | C                             | C                   | C                        | L                 | C                    | C                        | C                    | C                      | L                  | C                   | C                  | C                  | C      | C                | C                         |
+| Castro Alejos, Julio                | JulioXC4               | C                        | L                        | C                             | C                   | C                        | C                 | L                    | C                        | C                    | C                      | C                  | L                   | C                  | C                  | C      | C                | C                         |
+| Guerra Perez, José Jahaziel         | jahazielgp             | C                        | C                        | L                             | C                   | L                        | C                 | C                    | L                        | C                    | C                      | C                  | C                   | L                  | C                  | C      | C                | C                         |
+| Guzmán Cabrejos, Yaku Mateo         | yak-cod                | C                        | C                        | C                             | L                   | C                        | C                 | C                    | C                        | L                    | L                      | C                  | C                   | C                  | L                  | L      | C                | C                         |
+| Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28     | C                        | C                        | C                             | C                   | C                        | C                 | C                    | C                        | C                    | C                      | C                  | C                   | C                  | C                  | C      | L                | L                         |
+
+
+## 5.2.1.3 Sprint Backlog 1
+
+El objetivo principal de este Sprint es diseñar, implementar y validar las secciones del landing page, asegurando una navegación fluida, una experiencia responsiva en todos los dispositivos y funcionalidades críticas como registro, inicio de sesión y recuperación de contraseña. Se busca garantizar que el usuario final pueda interactuar de manera sencilla y eficiente con la plataforma, mejorando su satisfacción y promoviendo el cumplimiento de los objetivos de negocio.
+
+**screenshot del Board**
+
+![Container Diagrams](assets/images/cap5/board-sprint.png)
+![Container Diagrams](assets/images/cap5/board-sprint-detallado.png)
+
+https://trello.com/invite/b/680c05f1fac416bfdb0ea024/ATTI41428da9336a1d11b0878438a247c3531DFD7E76/sprint-backlog-1
+
+<br>
+
+| User Story ID | User Story Title                                | Task ID | Task Title                   | Task Description                                                   | Estimated Hours |
+|---------------|--------------------------------------------------|---------|------------------------------|--------------------------------------------------------------------|-----------------|
+| US-08         | Mostrar Mensaje de Valor en la Sección Principal | T001     | Diseñar sección               | Crear diseño visual para 'mostrar mensaje de valor en la sección principal'. | 1/2 h |
+|               |                                                  | T002     | Implementar funcionalidad     | Codificar el componente necesario para 'mostrar mensaje de valor en la sección principal'. | 1h |
+|               |                                                  | T003     | Realizar pruebas              | Verificar que 'mostrar mensaje de valor en la sección principal' funcione correctamente. | 1/2h |
+| US-09         | Mostrar Beneficios Segmentados por Tipo de Usuario | T004     | Diseñar sección               | Crear diseño visual para 'mostrar beneficios segmentados por tipo de usuario'. | 1/2h |
+|               |                                                  | T005     | Implementar funcionalidad     | Codificar el componente necesario para 'mostrar beneficios segmentados por tipo de usuario'. | 1h |
+|               |                                                  | T006     | Realizar pruebas              | Verificar que 'mostrar beneficios segmentados por tipo de usuario' funcione correctamente. | 1/2h |
+| US-10         | Incluir Llamados a la Acción (CTA) con Redirección y Descarga | T007     | Diseñar sección               | Crear diseño visual para 'incluir llamados a la acción (cta) con redirección y descarga'. | 1/2h |
+|               |                                                  | T008     | Implementar funcionalidad     | Codificar el componente necesario para 'incluir llamados a la acción (cta) con redirección y descarga'. | 1h |
+|               |                                                  | T009     | Realizar pruebas              | Verificar que 'incluir llamados a la acción (cta) con redirección y descarga' funcione correctamente. | 1/2h |
+| US-05         | Visualización de la barra de navegación         | T010     | Diseñar sección               | Crear diseño visual para 'visualización de la barra de navegación'. | 1/2h |
+|               |                                                  | T011     | Implementar funcionalidad     | Codificar el componente necesario para 'visualización de la barra de navegación'. | 1h |
+|               |                                                  | T012     | Realizar pruebas              | Verificar que 'visualización de la barra de navegación' funcione correctamente. | 1/2h |
+| US-06         | Visualización de pasos del funcionamiento       | T013     | Diseñar sección               | Crear diseño visual para 'visualización de pasos del funcionamiento'. | 1/2h |
+|               |                                                  | T014     | Implementar funcionalidad     | Codificar el componente necesario para 'visualización de pasos del funcionamiento'. | 1h |
+|               |                                                  | T015     | Realizar pruebas              | Verificar que 'visualización de pasos del funcionamiento' funcione correctamente. | 1/2h |
+| US-07         | Alternativa con video explicativo               | T016     | Diseñar sección               | Crear diseño visual para 'alternativa con video explicativo'. | 1/2h |
+|               |                                                  | T017     | Implementar funcionalidad     | Codificar el componente necesario para 'alternativa con video explicativo'. | 1h |
+|               |                                                  | T018     | Realizar pruebas              | Verificar que 'alternativa con video explicativo' funcione correctamente. | 1/2h |
+| US-04         | Visualización de footer en landing page         | T019     | Diseñar sección               | Crear diseño visual para 'visualización de footer en landing page'. | 1/2h |
+|               |                                                  | T020     | Implementar funcionalidad     | Codificar el componente necesario para 'visualización de footer en landing page'. | 2h |
+|               |                                                  | T021     | Realizar pruebas              | Verificar que 'visualización de footer en landing page' funcione correctamente. | 1/2h |
+| US-01         | Ver testimonios de clientes                     | T022     | Diseñar sección               | Crear diseño visual para 'ver testimonios de clientes'. | 2h |
+|               |                                                  | T023     | Implementar funcionalidad     | Codificar el componente necesario para 'ver testimonios de clientes'. | 1/2h |
+|               |                                                  | T024     | Realizar pruebas              | Verificar que 'ver testimonios de clientes' funcione correctamente. | 1h |
+| US-02         | Consultar Preguntas Frecuentes                  | T025     | Diseñar sección               | Crear diseño visual para 'consultar preguntas frecuentes'. | 1/2h |
+|               |                                                  | T026     | Implementar funcionalidad     | Codificar el componente necesario para 'consultar preguntas frecuentes'. | 1h |
+|               |                                                  | T027     | Realizar pruebas              | Verificar que 'consultar preguntas frecuentes' funcione correctamente. | 1/2h |
+| US-03         | Enviar Formulario de Contacto                   | T028     | Diseñar sección               | Crear diseño visual para 'enviar formulario de contacto'. | 1h |
+|               |                                                  | T029     | Implementar funcionalidad     | Codificar el componente necesario para 'enviar formulario de contacto'. | 1/2h |
+|               |                                                  | T030     | Realizar pruebas              | Verificar que 'enviar formulario de contacto' funcione correctamente. | 1h |
+| US-16         | Navegación fluida entre secciones               | T031     | Diseñar sección               | Crear diseño visual para 'navegación fluida entre secciones'. | 1/2h |
+|               |                                                  | T032     | Implementar funcionalidad     | Codificar el componente necesario para 'navegación fluida entre secciones'. | 1h |
+|               |                                                  | T033     | Realizar pruebas              | Verificar que 'navegación fluida entre secciones' funcione correctamente. | 1/2h |
+| US-13         | Visualización responsive en desktop             | T034     | Diseñar sección               | Crear diseño visual para 'visualización responsive en desktop'. | 1/2h |
+|               |                                                  | T035     | Implementar funcionalidad     | Codificar el componente necesario para 'visualización responsive en desktop'. | 1h |
+|               |                                                  | T036     | Realizar pruebas              | Verificar que 'visualización responsive en desktop' funcione correctamente. | 1/2h |
+| US-15         | Visualización responsive en dispositivos móviles | T037     | Diseñar sección               | Crear diseño visual para 'visualización responsive en dispositivos móviles'. | 1h |
+|               |                                                  | T038     | Implementar funcionalidad     | Codificar el componente necesario para 'visualización responsive en dispositivos móviles'. | 1/2h |
+|               |                                                  | T039     | Realizar pruebas              | Verificar que 'visualización responsive en dispositivos móviles' funcione correctamente. | 1/2h |
+| US-14         | Visualización responsive en tablet              | T040     | Diseñar sección               | Crear diseño visual para 'visualización responsive en tablet'. | 1/2h |
+|               |                                                  | T041     | Implementar funcionalidad     | Codificar el componente necesario para 'visualización responsive en tablet'. | 1h |
+|               |                                                  | T042     | Realizar pruebas              | Verificar que 'visualización responsive en tablet' funcione correctamente. | 1/2h |
+| US-17         | Registro                                         | T043     | Diseñar sección               | Crear diseño visual para 'registro'. | 2h |
+|               |                                                  | T044     | Implementar funcionalidad     | Codificar el componente necesario para 'registro'. | 2h |
+|               |                                                  | T045     | Realizar pruebas              | Verificar que 'registro' funcione correctamente. | 1h |
+| US-18         | Inicio de sesión                                 | T046     | Diseñar sección               | Crear diseño visual para 'inicio de sesión'. | 2h |
+|               |                                                  | T047     | Implementar funcionalidad     | Codificar el componente necesario para 'inicio de sesión'. | 1h |
+|               |                                                  | T048     | Realizar pruebas              | Verificar que 'inicio de sesión' funcione correctamente. | 1h |
+| US-19         | Recuperación de contraseña                      | T049     | Diseñar sección               | Crear diseño visual para 'recuperación de contraseña'. | 2h |
+|               |                                                  | T050     | Implementar funcionalidad     | Codificar el componente necesario para 'recuperación de contraseña'. | 1/2h |
+|               |                                                  | T051     | Realizar pruebas              | Verificar que 'recuperación de contraseña' funcione correctamente. | 1h |
+
+
+## 5.2.1.6 Services Documentation Evidence for Sprint Review
+
+Durante este sprint se completó el diseño e implementación del Landing Page del sistema, el cual forma parte del acceso inicial al sistema y constituye un punto de entrada fundamental para los usuarios. Aunque no se implementaron endpoints tradicionales de tipo REST en este sprint, se documenta a continuación la URL del recurso publicado, junto con evidencia de despliegue, interacción y commits relacionados.
+
+**Descripción del Logro:**
+
+-Implementación del Landing Page estático.
+
+-Deployment del landing page.
+
+### Recursos del Sprint
+
+| Recurso      | Acción implementada   | Método HTTP | URL / Endpoint                      | Link de repositorio         |
+|--------------|------------------------|-------------|-------------------------------------|---------------------------|
+| Landing Page | Visualización inicial | GET         | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing   |
 
 ### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -149,14 +313,14 @@ También se trabajó en asegurar la adaptabilidad móvil, el cumplimiento de cri
 Durante el Sprint 1 se implementó la Landing Page de Restock.
 Los principales avances fueron:
 
-Diseño responsivo para diferentes tamaños de pantalla.
+- Diseño responsivo para diferentes tamaños de pantalla.
 
-Creación de secciones: Hero, Sobre Nosotros, Beneficios, Testimonios, Preguntas Frecuentes, Tutorial, Contacto y Footer.
+- Creación de secciones: Hero, Sobre Nosotros, Beneficios, Testimonios, Preguntas Frecuentes, Tutorial, Contacto y Footer.
 
-Aplicación de buenas prácticas de accesibilidad (etiquetado semántico, contraste adecuado).
+- Aplicación de buenas prácticas de accesibilidad (etiquetado semántico, contraste adecuado).
 
-Optimización inicial para motores de búsqueda (SEO básico).
+- Optimización inicial para motores de búsqueda (SEO básico).
 
-Implementación de navegación fluida entre secciones.
+- Implementación de navegación fluida entre secciones.
 
-Validación de compatibilidad en navegadores y dispositivos.
+- Validación de compatibilidad en navegadores y dispositivos.
