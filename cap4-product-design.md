@@ -649,7 +649,10 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ### 4.4.3 Web Applications Mock-ups
 
-**Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+#### Versión Desktop Web Browser
+
+***Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+
 ![Web app mock-ups](assets/images/cap4/web-mockups-admin/1.png)
 ![Web app mock-ups](assets/images/cap4/web-mockups-admin/2.png)
 ![Web app mock-ups](assets/images/cap4/web-mockups-admin/3.png)
@@ -694,9 +697,7 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Web app mock-ups](assets/images/cap4/web-mockups-admin/42.png)
 ![Web app mock-ups](assets/images/cap4/web-mockups-admin/43.png)
 
-#### Versión Desktop Web Browser
-
-***Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+***Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
 ![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/alertas.png)
 ![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/calificaciones.png)
@@ -723,8 +724,6 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/resumen.png)
 ![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/suscripcion-comprar-suscripcion.png)
 ![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/suscripcion-listar-suscripciones.png)
-
-***Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
 #### Versión Mobile Web Browser
 
