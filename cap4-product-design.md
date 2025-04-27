@@ -413,55 +413,138 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
+#### User Flows Desktop
+
+
+**Desktop User Flow 1:**
+![Mobile User Flow 1](assets/images/cap4/UF_1.jpeg)
+
+**Desktop User Flow 2:**
+![Mobile User Flow 2](assets/images/cap4/UF_2.jpeg)
+
+**Desktop User Flow 3:**
+
+![Mobile User Flow 3](assets/images/cap4/UF_3.1.jpeg)
+![Mobile User Flow 3](assets/images/cap4/UF_3.2.jpeg)
+![Mobile User Flow 3](assets/images/cap4/UF_3.3.jpeg)
+
+**Desktop User Flow 4:**
+
+![Mobile User Flow 4](assets/images/cap4/UF_4.jpeg)
+
+**Desktop User Flow 5:**
+
+![Mobile User Flow 5](assets/images/cap4/UF_5.jpeg)
+
+**Desktop User Flow 6:**
+
+![Mobile User Flow 6](assets/images/cap4/UF_6.jpeg)
+
+**Desktop User Flow 7:**
+
+![Mobile User Flow 7](assets/images/cap4/UF_7.jpeg)
+
+**Desktop User Flow 8:**
+
+![Mobile User Flow 8](assets/images/cap4/UF_8.1.jpeg)
+![Mobile User Flow 8](assets/images/cap4/UF_8.2.jpeg)
+
+**Desktop User Flow 9:**
+
+![Mobile User Flow 9](assets/images/cap4/UF_9.jpeg)
+
+**Desktop User Flow 10:**
+
+![Mobile User Flow 10](assets/images/cap4/UF_10.jpeg)
+
+
+**Desktop User Flow 11:**
+
+![Mobile User Flow 11](assets/images/cap4/UF_11.jpeg)
+
+
+**Desktop User Flow 12:**
+
+![Mobile User Flow 12](assets/images/cap4/UF_12.jpeg)
+
+**Desktop User Flow 13:**
+
+![Mobile User Flow 13](assets/images/cap4/UF_13.jpeg)
+
+
 #### User Flows Mobile
 
 **Mobile User Flow 1:**
+
 ![Mobile User Flow 1](assets/images/cap4/mobile_ug1.png)
 
 **Mobile User Flow 2:**
+
 ![Mobile User Flow 2](assets/images/cap4/mobile_ug2.png)
 
 **Mobile User Flow 3:**
+
 ![Mobile User Flow 3](assets/images/cap4/mobile_ug3.png)
 
 **Mobile User Flow 4:**
+
 ![Mobile User Flow 4](assets/images/cap4/mobile_ug4.png)
 
 **Mobile User Flow 5:**
+
 ![Mobile User Flow 5](assets/images/cap4/mobile_ug5.png)
 
 **Mobile User Flow 6:**
+
 ![Mobile User Flow 6](assets/images/cap4/mobile_ug6.png)
 
 **Mobile User Flow 7:**
+
 ![Mobile User Flow 7](assets/images/cap4/mobile_ug7.png)
 
 **Mobile User Flow 8:**
+
 ![Mobile User Flow 8](assets/images/cap4/mobile_ug8.png)
 
 **Mobile User Flow 9:**
+
 ![Mobile User Flow 9](assets/images/cap4/mobile_ug9.png)
 
 **Mobile User Flow 10:**
+
 ![Mobile User Flow 10](assets/images/cap4/mobile_ug10.png)
 
 **Mobile User Flow 11:**
+
 ![Mobile User Flow 11](assets/images/cap4/mobile_ug11.png)
 
 **Mobile User Flow 12:**
+
 ![Mobile User Flow 12](assets/images/cap4/mobile_ug12.png)
 
 **Mobile User Flow 13:**
+
 ![Mobile User Flow 13](assets/images/cap4/mobile_ug13.png)
 
 ## 4.5 Web Applications Prototyping
 
-A continuación, se presenta el video de prototipado de la aplicación web en su versión móvil. Este prototipo muestra la interacción principal de los usuarios con la plataforma, destacando los flujos de navegación, diseño responsivo y la estructura general de la aplicación en dispositivos móviles.
+Las decisiones de interacción se basaron en principios fundamentales de diseño como el contraste para resaltar elementos críticos, la repetición para garantizar consistencia visual, la alineación para lograr una navegación clara y profesional, y la proximidad para mejorar la agrupación lógica de contenidos relacionados. Estos principios se aplicaron de forma integral en todo el sistema, priorizando una experiencia de usuario funcional, accesible y alineada a la misión de facilitar la gestión de inventarios de restaurantes y proveedores.
 
-**Video de prototipo móvil:**  
+Desde el punto de vista de arquitectura de información, RESTOCK utiliza un sistema de navegación jerárquica en su dashboard, combinado con organizadores secuenciales en flujos de acciones clave como el registro de compras o la creación de recetas. Además, se establecieron sistemas de etiquetado claros, categorizaciones específicas por tipo de usuario, y herramientas de búsqueda y filtrado avanzadas que permiten una interacción eficiente y dirigida.
+
+En cada caso, se han implementado interacciones responsivas (hover, active), validaciones visuales en formularios, retroalimentaciones de acción, y patrones de navegación adaptados al perfil de usuario (Administrador de Restaurante o Proveedor). Esto garantiza que tanto el acceso a la información como la ejecución de tareas sea coherente, accesible y orientada a la productividad.
+
+A continuación, se incluirá un screenshot extraído de un video por cada tipo de aplicación (movil y de escritorio), en donde se demuestran y explican los principales flujos de interacción que cubren los prototipos desarrollados. 
+ 
+**Web Applications Mobile:**
+
 ![Captura del video](assets/images/cap4/evidence_prototyping_mobile.png)
-[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/EaRKF2RKHfZCn0V8WPrHfU4BIDhWVMTc3ktVD6rh1A-cxQ?e=0cU69o&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319448_upc_edu_pe/EfSj1Rt16c9FvjIS8odT3v8B4Z_7IX-mqD9ElFNLo-ZcVg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5yZcMo) 
 
+**Web Applications Desktop:**
+
+![Captura del video](assets/images/cap4/evidence_prototyping_desktop.png)
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319448_upc_edu_pe/EYrbF3zXPoFNv1c-yRUyEakBiym8VJb1SBflACPr3CHGgQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WQ6NyN)
 
 ### 4.6.1 Software Architecture Context Diagram
 
