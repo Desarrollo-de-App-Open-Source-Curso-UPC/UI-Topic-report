@@ -130,14 +130,14 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 
 
-## 5.1.4. Software Deployment Configuration
+### 5.1.4. Software Deployment Configuration
 
 
-# 5.2. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation
 
-## 5.2.1 Sprint 1
+### 5.2.1 Sprint 1
 
-### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 1
 
 A continuación, se presenta la planificación correspondiente a nuestro Sprint 1, el cual tiene como enfoque principal el desarrollo de la landing page de Restock. En esta etapa inicial, el equipo definió el objetivo del sprint, seleccionó las historias de usuario más relevantes y estableció los entregables clave que permitirán construir una primera versión funcional y visualmente atractiva de la página. Esta planificación busca asegurar un entendimiento compartido entre todos los miembros del equipo y sentar las bases para comunicar eficazmente el valor de la plataforma a los usuarios potenciales.
 
@@ -156,9 +156,9 @@ A continuación, se presenta la planificación correspondiente a nuestro Sprint 
 | Sprint 1 Velocity | 56 puntos |
 | Sum of Story Points |  56 puntos |
 
-## 5.2.1.2 Aspect Leaders and Collaborators
+#### 5.2.1.2 Aspect Leaders and Collaborators
 
-# Aspect Leaders and Collaborators
+## Aspect Leaders and Collaborators
 
 Durante el Sprint 1, se han definido los principales aspectos a desarrollar, correspondientes a funcionalidades específicas como la visualización de contenido, navegación fluida, adaptabilidad responsiva y gestión de autenticación de usuarios.
 
@@ -173,7 +173,7 @@ Con el objetivo de asegurar una comunicación clara y eficiente dentro del equip
 | Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28     | C                        | C                        | C                             | C                   | C                        | C                 | C                    | C                        | C                    | C                      | C                  | C                   | C                  | C                  | C      | L                | L                         |
 
 
-## 5.2.1.3 Sprint Backlog 1
+#### 5.2.1.3 Sprint Backlog 1
 
 El objetivo principal de este Sprint es diseñar, implementar y validar las secciones del landing page, asegurando una navegación fluida, una experiencia responsiva en todos los dispositivos y funcionalidades críticas como registro, inicio de sesión y recuperación de contraseña. Se busca garantizar que el usuario final pueda interactuar de manera sencilla y eficiente con la plataforma, mejorando su satisfacción y promoviendo el cumplimiento de los objetivos de negocio.
 
@@ -240,24 +240,7 @@ https://trello.com/invite/b/680c05f1fac416bfdb0ea024/ATTI41428da9336a1d11b087843
 |               |                                                  | T050     | Implementar funcionalidad     | Codificar el componente necesario para 'recuperación de contraseña'. | 1/2h |
 |               |                                                  | T051     | Realizar pruebas              | Verificar que 'recuperación de contraseña' funcione correctamente. | 1h |
 
-
-## 5.2.1.6 Services Documentation Evidence for Sprint Review
-
-Durante este sprint se completó el diseño e implementación del Landing Page del sistema, el cual forma parte del acceso inicial al sistema y constituye un punto de entrada fundamental para los usuarios. Aunque no se implementaron endpoints tradicionales de tipo REST en este sprint, se documenta a continuación la URL del recurso publicado, junto con evidencia de despliegue, interacción y commits relacionados.
-
-**Descripción del Logro:**
-
--Implementación del Landing Page estático.
-
--Deployment del landing page.
-
-### Recursos del Sprint
-
-| Recurso      | Acción implementada   | Método HTTP | URL / Endpoint                      | Link de repositorio         |
-|--------------|------------------------|-------------|-------------------------------------|---------------------------|
-| Landing Page | Visualización inicial | GET         | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing   |
-
-### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review
 
 Durante el Sprint 1, el equipo se enfocó exclusivamente en el desarrollo de la Landing Page de la plataforma Restock.
 El objetivo principal fue construir una página pública funcional, atractiva visualmente y completamente responsiva, que comunique eficazmente la propuesta de valor de la plataforma a los usuarios potenciales.
@@ -266,45 +249,45 @@ También se trabajó en asegurar la adaptabilidad móvil, el cumplimiento de cri
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |--- | --- | --- | --- | --- | --- |
-| GabrielaShapiama/UI-Topic-landing | feature/acces | f3de2d0 | fix(access): remove incorrect image. | Removed an incorrect image that was incorrectly placed in the access module. | 2025-04-26 |
-| Yaku Guzman/UI-Topic-landing | feature/tutorial-section | 1c1d5e2 | fix(tutorial-section): fix tutorial links width | Fixed the width issue affecting the layout of tutorial links on different screens. | 2025-04-26 |
-| Williams/UI-Topic-landing | feature/seo-tags-meta-tags | b50e3c3 | feat(seo-tags-meta-tags): adding seo tags and meta tags | Added SEO and meta tags to improve page indexing and online visibility. | 2025-04-26 |
-| JulioXC4/UI-Topic-landing | feature/voice-reader-accessibility | 936c01d | feat(voice): add file voice.js | Added a new JavaScript file to handle voice-related functionalities. | 2025-04-26 |
-| JulioXC4/UI-Topic-landing | feature/language-toggle | 5bf2a4f | feat(navbar): add language switch icon and console log for future functionality | Introduced a language switcher icon and set up console logs for future multi-language support. | 2025-04-26 |
-| GabrielaShapiama/UI-Topic-landing | feature/acces | 4fd9958 | fix(access): fix text position. | Adjusted the text alignment issues on the access screen. | 2025-04-26 |
-| GabrielaShapiama/UI-Topic-landing | feature/acces | a9b89b2 | fix(access): remove incorrect css. | Removed unnecessary or incorrect CSS rules from the access styles. | 2025-04-26 |
-| GabrielaShapiama/UI-Topic-landing | feature/acces | c0f15db | style(access): change buttons format. | Updated the button styles to align with the platform's visual guidelines. | 2025-04-25 |
-| jahazielgp/UI-Topic-landing | feature/fix-navbar | e293098 | fix(navbar): fix navbar. | Fixed layout and functionality issues in the navigation bar. | 2025-04-25 |
-| jahazielgp/UI-Topic-landing | feature/benefits-section | d6cee23 | feat(benefits): add benefits section. | Added HTML and CSS structure for the Benefits section. | 2025-04-25 |
-| Yaku Guzman/UI-Topic-landing | feature/tutorial-section | 4d7e12d | fix(tutorial-section): add tutorial css file | Added a dedicated CSS file to improve the Tutorial section styling. | 2025-04-25 |
-| Yaku Guzman/UI-Topic-landing | feature/footer-section | a3187cc | fix(footer-section): fix link to css | Fixed broken or incorrect link to the footer’s CSS file. | 2025-04-25 |
-| Williams/UI-Topic-landing | feature/preguntas | c307001 | fix(preguntas): adding other files | Added missing assets and files needed for the FAQ section. | 2025-04-25 |
-| Williams/UI-Topic-landing | feature/preguntas | 057ba2e | fix(preguntas): adding add dropdown menu | Implemented the dropdown functionality for the FAQ section. | 2025-04-25 |
-| GabrielaShapiama/UI-Topic-landing | feature/access | 57c525a | feat(access): add navebar. | Created and styled the navbar for the access page. | 2025-04-25 |
-| GabrielaShapiama/UI-Topic-landing | feature/access | 1269f12 | chore(access): translate some comments. | Translated developer comments into English for better clarity. | 2025-04-25 |
-| GabrielaShapiama/UI-Topic-landing | feature/access | e48c646 | fix(access): remove incorrect function. | Removed a non-functional or unnecessary JavaScript function. | 2025-04-25 |
-| GabrielaShapiama/UI-Topic-landing | feature/access | 84764de | feat(access): add recovery password logic. | Implemented logic for the password recovery feature. | 2025-04-25 |
-| GabrielaShapiama/UI-Topic-landing | feature/access | f787614 | feat(access): add access to plataform. | Added login and basic access functionality to the platform. | 2025-04-25 |
-| Williams/UI-Topic-landing | feature/descargar | 06f232a | fix(descargar): make section fully responsive for all screen sizes | Made the Descargar section fully responsive across all devices. | 2025-04-25 |
-| Yaku Guzman/UI-Topic-landing | feature/footer-section | ef64a65 | fix(footer-section): fix vh | Adjusted viewport height (vh) settings in the footer section. | 2025-04-23 |
-| Yaku Guzman/UI-Topic-landing | feature/footer-section | 5bcde82 | feat(tutorial-section): add tutorial section | Built the complete Tutorial section (HTML and CSS). | 2025-04-23 |
-| Yaku Guzman/UI-Topic-landing | feature/footer-section | 7ecf4f2 | fix(footer-section): fix responsive | Fixed responsiveness issues in the footer layout. | 2025-04-23 |
-| Yaku Guzman/UI-Topic-landing | feature/footer-section | 1dea22f | feat(contacto-section): add responsive | Made the Contact section fully responsive. | 2025-04-23 |
-| Williams/UI-Topic-landing | feature/descargar | e4598c3 | feat(descargar): create descargar section(html,css) | Created the Download section with full HTML and CSS styling. | 2025-04-22 |
-| Williams/UI-Topic-landing | feature/preguntas | 64f1af0 | feat(preguntas): create preguntas frecuentes(html,css) | Developed the FAQ (Preguntas Frecuentes) section structure and style. | 2025-04-22 |
-| Williams/UI-Topic-landing | feature/testimonios | 74f270e | fix(testimonios): moving section to main tag | Moved the Testimonials section to the main content area for better semantics. | 2025-04-22 |
-| Williams/UI-Topic-landing | feature/testimonios | 9e3685a | fix(testimonios): updating testimonios(html) | Updated the Testimonials section HTML content. | 2025-04-22 |
-| Yaku Guzman/UI-Topic-landing | feature/footer-section | cdc23c1 | feat(footer-section): add responsive | Implemented responsive behavior for the footer section. | 2025-04-22 |
-| jahazielgp/UI-Topic-landing | feature/about-us-section | 71e82c6 | feat(about-us): add about-us section. | Added the About Us section including structure and initial styling. | 2025-04-22 |
-| Yaku Guzman/UI-Topic-landing | feature/footer-section | 7bb7da7 | feat(footer-section): add icons | Added social media icons into the footer layout. | 2025-04-22 |
-| jahazielgp/UI-Topic-landing | feature/develop | f6e104a | chore: refactor directories. | Restructured project folders for better organization and scalability. | 2025-04-21 |
-| Williams/UI-Topic-landing | feature/testimonios | 27377d0 | feat(testimonios): add testimonios(html,css,img) | Created the Testimonials section including text and images. | 2025-04-21 |
-| Yaku Guzman/UI-Topic-landing | feature/contacto-section | b469827 | feat(contacto-section): add contacto html and css | Built the Contact section with full HTML and CSS. | 2025-04-21 |
-| Yaku Guzman/UI-Topic-landing | feature/footer-section | efd9aac | feat(footer/section): add footer html and css | Implemented the complete Footer section including structure and styles. | 2025-04-21 |
-| jahazielgp/UI-Topic-landing | feature/hero-section | 9341bde | feat(hero-section): add responsive design. | Made the Hero section fully responsive for mobile and desktop. | 2025-04-20 |
-| jahazielgp/UI-Topic-landing | feature/hero-section | 7746107 | feat(hero-section): add hero html, css and js components. | Built the Hero section with its respective HTML, CSS, and JavaScript. | 2025-04-20 |
-| jahazielgp/UI-Topic-landing | feature/develop | 303ad89 | chore: initial commit | Project initialization with base structure. | 2025-04-20 |
-| jahazielgp/UI-Topic-landing | feature/develop | 556268a | Initial commit | Setup initial project files and base structure. | 2025-04-02 |
+| GabrielaShapiama/UI-Topic-landing | feature/acces | f3de2d0 | fix(access): remove incorrect image. | Removed an incorrect image that was incorrectly placed in the access module. | 26-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/tutorial-section | 1c1d5e2 | fix(tutorial-section): fix tutorial links width | Fixed the width issue affecting the layout of tutorial links on different screens. | 26-04-2025 |
+| Williams/UI-Topic-landing | feature/seo-tags-meta-tags | b50e3c3 | feat(seo-tags-meta-tags): adding seo tags and meta tags | Added SEO and meta tags to improve page indexing and online visibility. | 26-04-2025 |
+| JulioXC4/UI-Topic-landing | feature/voice-reader-accessibility | 936c01d | feat(voice): add file voice.js | Added a new JavaScript file to handle voice-related functionalities. | 26-04-2025 |
+| JulioXC4/UI-Topic-landing | feature/language-toggle | 5bf2a4f | feat(navbar): add language switch icon and console log for future functionality | Introduced a language switcher icon and set up console logs for future multi-language support. | 26-04-2025 |
+| GabrielaShapiama/UI-Topic-landing | feature/acces | 4fd9958 | fix(access): fix text position. | Adjusted the text alignment issues on the access screen. | 26-04-2025 |
+| GabrielaShapiama/UI-Topic-landing | feature/acces | a9b89b2 | fix(access): remove incorrect css. | Removed unnecessary or incorrect CSS rules from the access styles. | 26-04-2025 |
+| GabrielaShapiama/UI-Topic-landing | feature/acces | c0f15db | style(access): change buttons format. | Updated the button styles to align with the platform's visual guidelines. | 25-04-2025 |
+| jahazielgp/UI-Topic-landing | feature/fix-navbar | e293098 | fix(navbar): fix navbar. | Fixed layout and functionality issues in the navigation bar. | 25-04-2025 |
+| jahazielgp/UI-Topic-landing | feature/benefits-section | d6cee23 | feat(benefits): add benefits section. | Added HTML and CSS structure for the Benefits section. | 25-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/tutorial-section | 4d7e12d | fix(tutorial-section): add tutorial css file | Added a dedicated CSS file to improve the Tutorial section styling. | 25-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/footer-section | a3187cc | fix(footer-section): fix link to css | Fixed broken or incorrect link to the footer’s CSS file. | 25-04-2025 |
+| Williams/UI-Topic-landing | feature/preguntas | c307001 | fix(preguntas): adding other files | Added missing assets and files needed for the FAQ section. | 25-04-2025 |
+| Williams/UI-Topic-landing | feature/preguntas | 057ba2e | fix(preguntas): adding add dropdown menu | Implemented the dropdown functionality for the FAQ section. | 25-04-2025 |
+| GabrielaShapiama/UI-Topic-landing | feature/access | 57c525a | feat(access): add navebar. | Created and styled the navbar for the access page. | 25-04-2025 |
+| GabrielaShapiama/UI-Topic-landing | feature/access | 1269f12 | chore(access): translate some comments. | Translated developer comments into English for better clarity. | 25-04-2025 |
+| GabrielaShapiama/UI-Topic-landing | feature/access | e48c646 | fix(access): remove incorrect function. | Removed a non-functional or unnecessary JavaScript function. | 25-04-2025 |
+| GabrielaShapiama/UI-Topic-landing | feature/access | 84764de | feat(access): add recovery password logic. | Implemented logic for the password recovery feature. | 25-04-2025 |
+| GabrielaShapiama/UI-Topic-landing | feature/access | f787614 | feat(access): add access to plataform. | Added login and basic access functionality to the platform. | 25-04-2025 |
+| Williams/UI-Topic-landing | feature/descargar | 06f232a | fix(descargar): make section fully responsive for all screen sizes | Made the Descargar section fully responsive across all devices. | 25-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/footer-section | ef64a65 | fix(footer-section): fix vh | Adjusted viewport height (vh) settings in the footer section. | 23-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/footer-section | 5bcde82 | feat(tutorial-section): add tutorial section | Built the complete Tutorial section (HTML and CSS). | 23-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/footer-section | 7ecf4f2 | fix(footer-section): fix responsive | Fixed responsiveness issues in the footer layout. | 23-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/footer-section | 1dea22f | feat(contacto-section): add responsive | Made the Contact section fully responsive. | 23-04-2025 |
+| Williams/UI-Topic-landing | feature/descargar | e4598c3 | feat(descargar): create descargar section(html,css) | Created the Download section with full HTML and CSS styling. | 22-04-2025 |
+| Williams/UI-Topic-landing | feature/preguntas | 64f1af0 | feat(preguntas): create preguntas frecuentes(html,css) | Developed the FAQ (Preguntas Frecuentes) section structure and style. | 22-04-2025 |
+| Williams/UI-Topic-landing | feature/testimonios | 74f270e | fix(testimonios): moving section to main tag | Moved the Testimonials section to the main content area for better semantics. | 22-04-2025 |
+| Williams/UI-Topic-landing | feature/testimonios | 9e3685a | fix(testimonios): updating testimonios(html) | Updated the Testimonials section HTML content. | 22-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/footer-section | cdc23c1 | feat(footer-section): add responsive | Implemented responsive behavior for the footer section. | 22-04-2025 |
+| jahazielgp/UI-Topic-landing | feature/about-us-section | 71e82c6 | feat(about-us): add about-us section. | Added the About Us section including structure and initial styling. | 22-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/footer-section | 7bb7da7 | feat(footer-section): add icons | Added social media icons into the footer layout. | 22-04-2025 |
+| jahazielgp/UI-Topic-landing | feature/develop | f6e104a | chore: refactor directories. | Restructured project folders for better organization and scalability. | 21-04-2025 |
+| Williams/UI-Topic-landing | feature/testimonios | 27377d0 | feat(testimonios): add testimonios(html,css,img) | Created the Testimonials section including text and images. | 21-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/contacto-section | b469827 | feat(contacto-section): add contacto html and css | Built the Contact section with full HTML and CSS. | 21-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/footer-section | efd9aac | feat(footer/section): add footer html and css | Implemented the complete Footer section including structure and styles. | 21-04-2025 |
+| jahazielgp/UI-Topic-landing | feature/hero-section | 9341bde | feat(hero-section): add responsive design. | Made the Hero section fully responsive for mobile and desktop. | 20-04-2025 |
+| jahazielgp/UI-Topic-landing | feature/hero-section | 7746107 | feat(hero-section): add hero html, css and js components. | Built the Hero section with its respective HTML, CSS, and JavaScript. | 20-04-2025 |
+| jahazielgp/UI-Topic-landing | feature/develop | 303ad89 | chore: initial commit | Project initialization with base structure. | 20-04-2025 |
+| jahazielgp/UI-Topic-landing | main | 556268a | Initial commit | Setup initial project files and base structure. | 02-04-2025 |
 
 #### Productos según alcance del Sprint:
 
@@ -324,3 +307,19 @@ Los principales avances fueron:
 - Implementación de navegación fluida entre secciones.
 
 - Validación de compatibilidad en navegadores y dispositivos.
+
+#### 5.2.1.6 Services Documentation Evidence for Sprint Review
+
+Durante este sprint se completó el diseño e implementación del Landing Page del sistema, el cual forma parte del acceso inicial al sistema y constituye un punto de entrada fundamental para los usuarios. Aunque no se implementaron endpoints tradicionales de tipo REST en este sprint, se documenta a continuación la URL del recurso publicado, junto con evidencia de despliegue, interacción y commits relacionados.
+
+**Descripción del Logro:**
+
+-Implementación del Landing Page estático.
+
+-Deployment del landing page.
+
+### Recursos del Sprint
+
+| Recurso      | Acción implementada   | Método HTTP | URL / Endpoint                      | Link de repositorio         |
+|--------------|------------------------|-------------|-------------------------------------|---------------------------|
+| Landing Page | Visualización inicial | GET         | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing   |
