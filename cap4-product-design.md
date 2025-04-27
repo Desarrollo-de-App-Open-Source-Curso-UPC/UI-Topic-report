@@ -54,7 +54,7 @@ El diseño de Restock se centra en una estrategia que aprovecha de manera inteli
 
 #### Dimensiones para el tono de comunicación y lenguaje aplicado
 
-En Restock, definimos cuidadosamente el tono de nuestra comunicación para alinearlo con la misión de nuestra plataforma: facilitar la gestión de inventarios para dueños de restaurantes y proveedores, creando una conexión cercana y empática con nuestro público objetivo. Nuestro tono de voz busca motivar y brindar seguridad, combinando una comunicación clara, accesible y profesional.
+En Restock, definimos cuidadosamente el tono de nuestra comunicación para alinearlo con la misión de nuestra plataforma: facilitar la gestión de inventarios para dueños o administradores de restaurantes y proveedores, creando una conexión cercana y empática con nuestro público objetivo. Nuestro tono de voz busca motivar y brindar seguridad, combinando una comunicación clara, accesible y profesional.
 
 Optamos por un tono casual pero respetuoso, que permita a los usuarios sentirse cómodos al interactuar con funcionalidades clave para el control y abastecimiento de sus negocios. Queremos que cada interacción refleje entusiasmo, para fomentar el compromiso con una gestión eficiente, pero también serenidad, asegurando que los usuarios mantengan el control y la confianza mientras usan la plataforma. Este equilibrio nos permite inspirar acción, al tiempo que proyectamos confianza y experiencia en el sector gastronómico y logístico.
 
@@ -64,7 +64,7 @@ Además, se han considerado los siguientes aspectos clave en el diseño de Resto
 
 - Navegación: La estructura de navegación ha sido pensada para ser intuitiva y ordenada. Los usuarios pueden acceder fácilmente a secciones como control de stock, historial de pedidos, comunicación con proveedores y reportes de abastecimiento. Los menús son claros y las opciones están organizadas para ahorrar tiempo y evitar complicaciones, facilitando la toma de decisiones en entornos exigentes como las cocinas de restaurantes o los centros de distribución.
 
-- Accesibilidad: La plataforma fue diseñada para adaptarse a todo tipo de usuarios y dispositivos. Desde computadoras hasta tablets o celulares, Restock ofrece botones grandes, opciones de ajuste de idioma, lector de texto y navegación simplificada, permitiendo a dueños de restaurantes y proveedores utilizar la plataforma incluso en ambientes dinámicos y de alta demanda.
+- Accesibilidad: La plataforma fue diseñada para adaptarse a todo tipo de usuarios y dispositivos. Desde computadoras hasta tablets o celulares, Restock ofrece botones grandes, opciones de ajuste de idioma, lector de texto y navegación simplificada, permitiendo a dueños o administradores de restaurantes y proveedores utilizar la plataforma incluso en ambientes dinámicos y de alta demanda.
 
 #### Elementos de diseño
 
