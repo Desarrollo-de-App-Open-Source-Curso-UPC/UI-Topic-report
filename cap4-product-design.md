@@ -335,7 +335,7 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 8. Visualizar la lista de pedidos pendientes, aprobados, rechazados o completados.
 9. Calificar y dejar comentarios sobre los pedidos recibidos para retroalimentar al proveedor.
 
-**User Goal 5:** Como administrador de restaurante, consultar información de mis proveedores, para mantener organizada la relación comercial y controlar mejor mis gastos.  
+**User Goal 5:** Como administrador de restaurante, quiero consultar información de mis proveedores, para mantener organizada la relación comercial y controlar mejor mis gastos.  
 ![User Goal 5](assets/images/cap4/taskflow3_ug5.png)
 
 **User Goal 6:** Como administrador de restaurante, quiero evaluar los pedidos que recibo de los proveedores, para dejar retroalimentación y asegurar la calidad de los insumos en futuras compras.  
@@ -369,13 +369,38 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 #### Task Flow 5: Gestionar el catálogo de productos
 
+**Objetivo del usuario**: Mantener actualizado el catálogo de productos ofrecidos a los restaurantes, asegurando la disponibilidad y evitando confusión con productos obsoletos.
+
+**Pasos del Task Flow:**
+
+1. Acceder a la sección "Inventario" desde el menú lateral.
+2. Visualizar el listado de productos registrados en el inventario.
+3. Crear un nuevo producto completando el formulario de nombre, categoría, unidad de medida y descripción opcional.
+4. Editar un producto existente para actualizar stock, categoría o visibilidad.
+5. Desactivar temporalmente un producto para ocultarlo del catálogo cuando no esté disponible.
+6. Eliminar definitivamente un producto obsoleto o que ya no se desea ofrecer.
+
 **User Goal 9:** Como proveedor, quiero gestionar mi catálogo de productos (agregarlos, actualizarlos o desactivarlos temporalmente), para asegurar que los restaurantes vean solo productos disponibles y vigentes.  
 ![User Goal 9](assets/images/cap4/taskflow5_ug9.png)
 
 **User Goal 10:** Como proveedor, quiero tener control total sobre los productos de mi inventario, para poder visualizar, actualizar o eliminar aquellos que ya no están disponibles o no deseo ofrecer.  
 ![User Goal 10](assets/images/cap4/taskflow5_ug10.png)
 
-#### Task Flow 6: Monitorear los pedidos 
+#### Task Flow 6: Monitorear los pedidos
+
+**Objetivo del usuario**: Gestionar y hacer seguimiento de las órdenes recibidas, además de analizar el desempeño de ventas y relaciones con los clientes.
+
+**Pasos del Task Flow:**
+
+1. Acceder a la sección "Órdenes" desde el menú lateral.
+2. Visualizar el listado de órdenes recibidas por parte de restaurantes.
+3. Consultar el detalle de cada orden (producto, cantidad, fecha estimada de entrega).
+4. Actualizar el estado de la orden (preparando, en camino, entregado) para informar al restaurante del avance.
+5. Acceder a la sección de "Resumen" o "Calificaciones" desde el menú lateral.
+6. Visualizar las métricas de ventas por restaurante (historial de ventas).
+7. Identificar a los clientes más frecuentes o que realizan mayores compras.
+8. Consultar las calificaciones y comentarios recibidos de los restaurantes.
+9. Analizar la retroalimentación para tomar decisiones de mejora en productos y servicios.
 
 **User Goal 11:** Como proveedor, quiero gestionar y actualizar el estado de las órdenes recibidas, para organizar mis entregas, coordinar con los restaurantes y brindar visibilidad sobre el proceso de despacho.  
 ![User Goal 11](assets/images/cap4/taskflow6_ug11.png)
