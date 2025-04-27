@@ -65,6 +65,17 @@ _Abril 2025_
 | TB1.10    | 21/04/25 | Yaku Guzmán          | Se realizaron Development Evidence y Services Documentation  <br> Evidence for Sprint Review. Se elaboró Team Collaboration  <br> Insights during Sprint y Conclusiones. |
 
 # Project Report Collaboration Insights
+Para el desarrollo del **Project Report**, se utilizó un repositorio en la organización de GitHub del equipo. A continuación, se presenta la evidencia de colaboración correspondiente al periodo del **27 de marzo de 2025 al 27 de abril de 2025**.
+
+![Colaboraciones proyecto](assets\images\collaboration_insight.png)
+
+- 105 pull requests activos, todos fusionados exitosamente.
+- 0 issues abiertos, cerrados o nuevos.
+- 5 autores contribuyeron al repositorio.
+- 150 commits realizados en total (1 commit directo a main y 149 a otras ramas).
+- No se registraron cambios en archivos en la rama principal (0 adiciones y 0 eliminaciones).
+
+Estas actividades evidencian la colaboración de todos los integrantes del equipo en la elaboración del informe, en coherencia con el Registro de Versiones del Informe.
 
 # Tabla de contenidos
 
