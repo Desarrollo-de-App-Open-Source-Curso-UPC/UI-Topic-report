@@ -16,7 +16,7 @@ A continuación, se listan las herramientas y estándares adoptados por el equip
 | IDE | IntelliJ IDEA + WebStorm | Desarrollo, depuración y pruebas. | [https://www.jetbrains.com/idea](https://www.jetbrains.com/idea) / [https://www.jetbrains.com/webstorm](https://www.jetbrains.com/webstorm) |
 | Code Standards | Google Java Style Guide, Google TypeScript Style Guide | Mantener un código consistente y legible. | [https://google.github.io/styleguide](https://google.github.io/styleguide) |
 | Version Control | Git + GitHub | Gestión colaborativa del código fuente. | SaaS – [https://github.com](https://github.com) |
-| Software Deployment | Railway / Render | Despliegue continuo del sistema en ambientes de testing. | SaaS – [https://railway.app](https://railway.app) / [https://render.com](https://render.com) |
+| Software Deployment | Github pages | Despliegue continuo del sistema en ambientes de testing. | SaaS – [https://railway.app](https://railway.app) / [https://render.com](https://render.com) |
 | Software Documentation | Notion + Postman | Documentación de APIs, funcionalidades y criterios técnicos. | SaaS – [https://www.notion.so](https://www.notion.so) / [https://www.postman.com](https://www.postman.com) |
 
 ### 5.1.2. Source Code Management
