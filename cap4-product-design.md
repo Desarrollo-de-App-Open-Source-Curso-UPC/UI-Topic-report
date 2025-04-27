@@ -649,6 +649,38 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ### 4.4.3 Web Applications Mock-ups
 
+#### Versión Desktop Web Browser
+
+***Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/alertas.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/calificaciones.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/gestion-de-perfil.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/gestion-de-perfil-modulo.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/inventario.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/inventario-agregar-insumo.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/inventario-agregar-insumo-no-perecible.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/inventario-agregar-insumo-perecible.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/inventario-editar-insumo-de-inventario.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/inventario-editar-insumo-de-inventario-modulo.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/inventario-eliminar-insumo-del-inventario.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/inventario-insumos-agregados.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/inventario-update.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/inventario-uso.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/ordenes.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/ordenes-detalle1.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/ordenes-detalle2.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/ordenes-detalle-en-camino.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/ordenes-detalle-rechazada.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/ordenes-final.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/ordenes-listar.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/ordenes-listas.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/resumen.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/suscripcion-comprar-suscripcion.png)
+![Web app mock-ups desktop](assets/images/mockups_supplier_mobile/suscripcion-listar-suscripciones.png)
+
+***Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
+
 #### Versión Mobile Web Browser
 
 **Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
@@ -668,8 +700,6 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/13.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/14.png)
 
-
-
 **Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/1.png)
@@ -682,9 +712,6 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/8.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/9.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/10.png)
-
-
-
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
