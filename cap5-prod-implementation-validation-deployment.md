@@ -25,7 +25,7 @@ En esta sección el equipo establece los medios y esquema de organización que a
 
 A continuación se indican los URLs de los repositorios de GitHub para cada producto:
 
-- **Landing Page**: [URL del repositorio aquí]
+- **Landing Page**: [[URL del repositorio aquí](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing)]
 - **Web Services**: [URL del repositorio aquí]  
   _(Incluye el proyecto y los archivos de pruebas unitarias e integración/aceptación)_
 - **Frontend Web Application**: [URL del repositorio aquí]
@@ -317,6 +317,14 @@ Los principales avances fueron:
 - Implementación de navegación fluida entre secciones.
 
 - Validación de compatibilidad en navegadores y dispositivos.
+
+#### 5.2.1.5 Execution Evidence for Sprint Review
+
+A continuación, se presenta el video de la landing page. Este muestra la interacción principal de los usuarios con la plataforma, destacando los flujos de navegación, diseño responsivo y la estructura general de la aplicación.
+
+**Video de landing page:**  
+![Captura del video](assets\images\cap5\landing_preview.png)
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/ESr2APucfj9Ahygy-5yMSmIBAaBEuyNsfl4xjvlap9Zv-A?e=DUcHNJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
