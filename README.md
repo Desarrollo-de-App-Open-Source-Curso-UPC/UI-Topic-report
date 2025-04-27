@@ -169,7 +169,7 @@ Estas actividades evidencian la colaboración de todos los integrantes del equip
 - [Conclusiones y recomendaciones](conclusiones.md#conclusiones-y-recomendaciones)  
 - [Video About-the-Team](conclusiones.md#video-about-the-team)  
 
-## [Bibliografía](bibliografia.md)
+## [Bibliografía](bibliography.md)
 
 ## [Anexos](anexos.md)
 
