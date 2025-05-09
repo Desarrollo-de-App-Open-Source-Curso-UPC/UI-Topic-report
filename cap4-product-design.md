@@ -510,7 +510,6 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 
 ![p21](assets/images/web-applications-wireframes-proveedor/calificaciones.png)
 
-
 #### Versión Mobile Web Browser
 
 **Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
@@ -518,45 +517,45 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 **Perfil**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/1.png)
-<br/>
+`<br/>`
 
 **Suscripciones**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/2.png)
-<br/>
+`<br/>`
 
 **Resumen**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/3.png)
-<br/>
+`<br/>`
 
 **Inventario**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/4.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/5.png)
-<br/>
+`<br/>`
 
 **Provedores**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/6.png)
-<br/>
+`<br/>`
 
 **Alertas**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/7.png)
-<br/>
+`<br/>`
 
 **Pedidos**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/8.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/9.png)
-<br/>
+`<br/>`
 
 **Recetas**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/10.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/11.png)
-<br/>
+`<br/>`
 
 **Ventas**
 
@@ -564,48 +563,46 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/13.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/14.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/15.png)
-<br/>
-
+`<br/>`
 
 **Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
 **Perfil**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/1.png)
-<br/>
+`<br/>`
 
 **Suscripciones**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/2.png)
-<br/>
+`<br/>`
 
 **Resumen**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/3.png)
-<br/>
+`<br/>`
 
 **Inventario**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/4.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/5.png)
-<br/>
+`<br/>`
 
 **Alertas**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/6.png)
-<br/>
+`<br/>`
 
 **Ordenes**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/7.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/8.png)
-<br/>
+`<br/>`
 
 **Calificaciones**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/9.png)
-<br/>
-
+`<br/>`
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
@@ -635,7 +632,7 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 #### User Persona 1:  Dueño o administrador de restaurante
 
-##### Task Flow 2: Monitorear el inventario
+##### Task Flow 2: Consultar el inventario
 
 **Objetivo del usuario**: Gestionar y monitorear manualmente el inventario de insumos para mantener la disponibilidad de productos y detectar problemas a tiempo.
 
@@ -831,45 +828,45 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 **Perfil**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/1.png)
-<br/>
+`<br/>`
 
 **Suscripciones**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/2.png)
-<br/>
+`<br/>`
 
 **Resumen**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/3.png)
-<br/>
+`<br/>`
 
 **Inventario**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/4.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/5.png)
-<br/>
+`<br/>`
 
 **Provedores**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/6.png)
-<br/>
+`<br/>`
 
 **Alertas**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/7.png)
-<br/>
+`<br/>`
 
 **Pedidos**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/8.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/9.png)
-<br/>
+`<br/>`
 
 **Recetas**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/10.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/11.png)
-<br/>
+`<br/>`
 
 **Ventas**
 
@@ -877,53 +874,50 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/13.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/14.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/15.png)
-<br/>
-
+`<br/>`
 
 **Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
 **Perfil**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/1.png)
-<br/>
+`<br/>`
 
 **Suscripciones**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/2.png)
-<br/>
+`<br/>`
 
 **Resumen**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/3.png)
-<br/>
+`<br/>`
 
 **Inventario**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/4.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/5.png)
-<br/>
+`<br/>`
 
 **Alertas**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/6.png)
-<br/>
+`<br/>`
 
 **Ordenes**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/7.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/8.png)
-<br/>
+`<br/>`
 
 **Calificaciones**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/9.png)
-<br/>
-
+`<br/>`
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
 #### User Flows Desktop
-
 
 **Desktop User Flow 1:**
 ![Mobile User Flow 1](assets/images/cap4/UF_1.jpeg)
@@ -966,11 +960,9 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ![Mobile User Flow 10](assets/images/cap4/UF_10.jpeg)
 
-
 **Desktop User Flow 11:**
 
 ![Mobile User Flow 11](assets/images/cap4/UF_11.jpeg)
-
 
 **Desktop User Flow 12:**
 
@@ -979,7 +971,6 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 **Desktop User Flow 13:**
 
 ![Mobile User Flow 13](assets/images/cap4/UF_13.jpeg)
-
 
 #### User Flows Mobile
 
@@ -1043,20 +1034,19 @@ Desde el punto de vista de arquitectura de información, RESTOCK utiliza un sist
 
 En cada caso, se han implementado interacciones responsivas (hover, active), validaciones visuales en formularios, retroalimentaciones de acción, y patrones de navegación adaptados al perfil de usuario (Administrador de Restaurante o Proveedor). Esto garantiza que tanto el acceso a la información como la ejecución de tareas sea coherente, accesible y orientada a la productividad.
 
-A continuación, se incluirá un screenshot extraído de un video por cada tipo de aplicación (movil y de escritorio), en donde se demuestran y explican los principales flujos de interacción que cubren los prototipos desarrollados. 
- 
+A continuación, se incluirá un screenshot extraído de un video por cada tipo de aplicación (movil y de escritorio), en donde se demuestran y explican los principales flujos de interacción que cubren los prototipos desarrollados.
+
 **Web Applications Mobile:**
- 
+
 ![Captura del video](assets/images/cap4/evidence_prototyping_mobile.png)
-[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319448_upc_edu_pe/EfSj1Rt16c9FvjIS8odT3v8B4Z_7IX-mqD9ElFNLo-ZcVg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5yZcMo) 
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319448_upc_edu_pe/EfSj1Rt16c9FvjIS8odT3v8B4Z_7IX-mqD9ElFNLo-ZcVg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5yZcMo)
 
 **Web Applications Desktop:**
- 
+
 ![Captura del video](assets/images/cap4/evidence_prototyping_desktop.png)
 [Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319448_upc_edu_pe/EYrbF3zXPoFNv1c-yRUyEakBiym8VJb1SBflACPr3CHGgQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WQ6NyN)
- 
+
 ## 4.6. Domain-Driven Software Architecture
- 
 
 ### 4.6.1 Software Architecture Context Diagram
 
