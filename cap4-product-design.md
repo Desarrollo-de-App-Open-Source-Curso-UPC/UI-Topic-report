@@ -743,6 +743,8 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/12.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/13.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/14.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/15.png)
+
 
 **Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
@@ -755,7 +757,7 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/7.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/8.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/9.png)
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/10.png)
+
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
