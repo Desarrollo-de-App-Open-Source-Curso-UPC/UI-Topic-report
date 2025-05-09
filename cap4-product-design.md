@@ -517,7 +517,7 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 **Perfil**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/1.png)
-`<br/>`
+
 
 **Suscripciones**
 
