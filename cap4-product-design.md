@@ -1107,4 +1107,4 @@ A continuación, se incluirá un screenshot extraído de un video por cada tipo 
 
 ### 4.8.1 Database Diagram
 
-![Database diagram](assets/images/cap4/database-diagram.png)
+![Database diagram](assets/images/cap4/database_diagram.png)
