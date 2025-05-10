@@ -1,4 +1,4 @@
-# Capítulo I: Introducción
+# mCapítulo I: Introducción
 
 ## 1.1 Startup Profile
 
@@ -224,7 +224,7 @@ En cuanto al diseño, el producto debe presentar una apariencia limpia, moderna 
 - Aumentar el uso diario de la plataforma en un 30% por parte de ambos segmentos de usuarios en los próximos 2 meses.
 - Incrementar en un 40% la frecuencia de pedidos gestionados desde la app y reducir errores de pedido en un 25%.
 - Reducir en un 35% el desperdicio de insumos reportado por los restaurantes registrados.
-- Lograr una retención de usuarios del 60% al finalizar el primer mes de uso.
+- Alcanzar 500 usuarios activos en los próximos 6 meses en 2025
 
 ---
 
