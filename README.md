@@ -162,7 +162,7 @@ Estas actividades evidencian la colaboración de todos los integrantes del equip
   - [4.7.2 Class Dictionary](cap4-product-design.md#472-class-dictionary)
 - [4.8 Database Design](cap4-product-design.md#48-database-design)
   - [4.8.1 Database Diagram](cap4-product-design.md#481-database-diagram)
-- 4.9 DDD Estratégico
+- [4.9 DDD Estratégico](cap4-product-design.md#49-DDD-estratégico)
 
 ## [Capítulo V: Product Implementation, Validation &amp; Deployment](cap5-prod-implementation-validation-deployment.md)
 
