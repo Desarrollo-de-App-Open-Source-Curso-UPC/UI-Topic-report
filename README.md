@@ -41,7 +41,7 @@ _Prof. Velásquez Núñez, Ángel Augusto_
 _Abril 2025_
 
 ## **Registro de Versiones**
- 
+
 | *Versión* | *Fecha* | *Autor*          | *Descripción de modificación*                                                                                                                                                                                                                                          |
 | :----------: | :-------: | :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     1.1     | 04/04/25 | Yaku Guzmán       | Se redactó Lean UX Problem Statements y Assumptions.                                                                                                                                                                                                                      |
@@ -162,6 +162,7 @@ Estas actividades evidencian la colaboración de todos los integrantes del equip
   - [4.7.2 Class Dictionary](cap4-product-design.md#472-class-dictionary)
 - [4.8 Database Design](cap4-product-design.md#48-database-design)
   - [4.8.1 Database Diagram](cap4-product-design.md#481-database-diagram)
+- 4.9 DDD Estratégico
 
 ## [Capítulo V: Product Implementation, Validation &amp; Deployment](cap5-prod-implementation-validation-deployment.md)
 
@@ -180,7 +181,6 @@ Estas actividades evidencian la colaboración de todos los integrantes del equip
     - [5.2.X.6 Services Documentation Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md#5216-services-documentation-evidence-for-sprint-review)
     - [5.2.X.7 Software Deployment Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md#5217-software-deployment-evidence-for-sprint-review)
     - [5.2.X.8 Team Collaboration Insights during Sprint](cap5-prod-implementation-validation-deployment.md#5218-team-collaboration-insights-during-sprint)
- 
 
 ## [Conclusiones](conclusiones.md)
 

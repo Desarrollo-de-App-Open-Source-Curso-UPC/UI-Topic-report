@@ -518,7 +518,6 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/1.png)
 
-
 **Suscripciones**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/2.png)
@@ -1070,7 +1069,7 @@ A continuación, se incluirá un screenshot extraído de un video por cada tipo 
 
 ### 4.7.1 Class Diagram
 
-![Class diagram](assets/images/cap4/UML_Java.png)
+![Class diagram](assets/images/cap4/UML_Java.png "Diagrama de clases")
 
 ### 4.7.2 Class Dictionary
 
@@ -1097,4 +1096,10 @@ A continuación, se incluirá un screenshot extraído de un video por cada tipo 
 
 ### 4.8.1 Database Diagram
 
-![Database diagram](assets/images/cap4/database_diagram.png)
+![Database diagram](assets/images/cap4/database_diagram.png "Diagrama de base de datos")
+
+## 4.9 DDD Estratégico
+
+A continuación, se presenta el Event Storming de Restock, en el cual se identifican los eventos clave, actores, acciones, decisiones, reglas y relaciones entre partes del sistema.
+
+![Event Storming](assets/images/cap4/event_storming.jpg "Event Storming")
