@@ -107,9 +107,9 @@ UI-Topic surge como una solución enfocada y especializada en la **gestión auto
 
 ### 2.2.2 Registro de entrevistas
 
-## Segmento 1: Dueños o administradores de Restaurantes
+#### Segmento 1: Dueños o administradores de Restaurantes
 
-### Entrevista 1:
+##### Entrevista 1:
 
 **Nombre:** Alex Guardia
 **Edad:** 38 años
@@ -126,7 +126,7 @@ Para comunicarse, recurre frecuentemente a canales como WhatsApp y YouTube. Se i
 
 En cuanto a la gestión de inventarios, realiza controles físicos diarios y verificaciones electrónicas semanales o quincenales. Aunque utiliza software de gestión, considera que la mayoría carece de personalización y el soporte postventa suele ser deficiente. Estaría dispuesto a invertir entre 500 y 800 dólares en una solución tecnológica integral que incluya implementación, capacitación y soporte, siempre que se adapte a sus procesos y contribuya a mejorar la eficiencia del negocio.
 
-### Entrevista 2:
+##### Entrevista 2:
 
 **Nombre:** Lincoln Chauca Rubio
 **Edad:** 36 años
@@ -148,7 +148,7 @@ Otro reto significativo es el manejo del inventario, que incide directamente en 
 
 Respecto a los proveedores, trabaja con 2 o 3 distintos con el objetivo de conseguir mejores precios, ya que los costos suelen variar con regularidad. Actualmente invierte alrededor de 300 soles mensuales en herramientas tecnológicas, pero está dispuesto a incrementar esa inversión hasta 500 soles si la solución mejora sustancialmente la gestión del restaurante.
 
-### Entrevista 3:
+##### Entrevista 3:
 
 **Nombre:** Amparo Soledad Robles Vásquez
 **Edad:** 56 años
@@ -170,9 +170,9 @@ En cuanto a sus proveedores, valora mucho la seriedad, puntualidad y calidad de 
 
 ---
 
-## Segmento 2: Proveedores para Restaurantes
+#### Segmento 2: Proveedores para Restaurantes
 
-### Entrevista 1:
+##### Entrevista 1:
 
 **Nombre:** José Santos Tapia Bustamente
 **Edad:** 68 años
@@ -191,7 +191,7 @@ Realiza la gestión de pedidos de forma manual, revisando uno por uno los produc
 
 Valora la calidad del producto, la atención al cliente y las facilidades de pago como claves en el servicio. Aunque no está familiarizado con sistemas digitales, está abierto a usar una plataforma tecnológica si esta le permite mejorar su facturación y optimizar las entregas. Tiene afinidad con marcas como PlazaVea y confía en recomendaciones de otros proveedores de confianza.
 
-### Entrevista 2:
+##### Entrevista 2:
 
 **Nombre:** Percy Polo Ferrera
 **Edad:** 38 años
@@ -211,7 +211,7 @@ La gestión de inventario la realiza al finalizar el día junto a los supervisor
 
 Percy considera que la buena atención al cliente es clave para mantener relaciones comerciales sólidas. En cuanto a pagos y facturación, resalta la importancia de una comunicación clara y constante con los clientes para evitar problemas y garantizar confianza. Se siente influenciado por marcas como Makro y sigue canales como YouTube para información logística y de ventas.
 
-### Entrevista 3:
+##### Entrevista 3:
 
 **Nombre:** Benjamín Pacheco Quesada
 **Edad:** 57 años
@@ -234,11 +234,11 @@ Benjamín valora las relaciones comerciales duraderas, basadas en la honestidad 
 
 ### 2.2.3 Análisis de entrevistas
 
-## Segmento 1: Dueños o administradores de Restaurantes
+#### Segmento 1: Dueños o administradores de Restaurantes
 
 Se analizaron **3 entrevistas** a administradores con amplia experiencia en el manejo de restaurantes. La información obtenida permitió identificar características objetivas y subjetivas clave para construir al arquetipo de dueño de restaurantes.
 
-### Características
+##### Características
 
 | Característica                                   | Mención | %     | Evidencia                                                                                     |
 | ------------------------------------------------- | -------- | ----- | --------------------------------------------------------------------------------------------- |
@@ -252,7 +252,7 @@ Se analizaron **3 entrevistas** a administradores con amplia experiencia en el m
 | Necesidad de personalización                     | 3/3      | 100%  | Indican que los sistemas son genéricos y complicados de adaptar                              |
 | Valor por facilidad de uso y adaptabilidad        | 3/3      | 100%  | Expresan deseo de una solución autogestionable                                               |
 
-### Insights
+##### Insights
 
 **1. Alta disposición hacia la digitalización, pero con obstáculos prácticos**
 Existe interés por parte de todos los entrevistados en incorporar tecnología para mejorar su gestión. Sin embargo, su adopción ha sido limitada por barreras como sistemas complejos o falta de capacitación. Sugiere que la plataforma debería ser intuitiva y estar diseñada pensando en la realidad operativa del usuario.
@@ -268,11 +268,11 @@ Todos los entrevistados señalan estar dispuestos a invertir en tecnología si e
 
 ---
 
-## Segmento 2: Proveedores para Restaurantes
+#### Segmento 2: Proveedores para Restaurantes
 
 Se analizaron **3 entrevistas** a proveedores de productos para restaurantes (abarrotes, bebidas, licores), todos con una trayectoria considerable en el rubro. A partir de sus respuestas se identificaron aspectos clave para construir el arquetipo del proveedor.
 
-### Características
+##### Características
 
 | Característica                                            | Mención | %     | Evidencia                                                              |
 | ---------------------------------------------------------- | -------- | ----- | ---------------------------------------------------------------------- |
@@ -286,7 +286,7 @@ Se analizaron **3 entrevistas** a proveedores de productos para restaurantes (ab
 | Valoración de la puntualidad y cumplimiento               | 3/3      | 100%  | Mencionan cumplimiento de horario y entregas completas como vitales    |
 | Necesidad de mejorar la facturación con tecnología       | 2/3      | 66.7% | Describen problemas con gestión manual de facturas y cobros           |
 
-### Insights
+##### Insights
 
 **1. Confianza, cumplimiento y atención**
 La relación con el restaurante se construye sobre la confianza, y esta se gana a través de entregas puntuales, cumplimiento de pedidos y buena atención. Cualquier solución digital debe reforzar esta relación en lugar de reemplazarla, manteniendo la cercanía con el cliente.
@@ -300,7 +300,7 @@ Aún con estructuras operativas consolidadas, la mayoría depende de medios manu
 **4. La facturación digital resolvería un punto crítico**
 El manejo de facturas y pagos al crédito es visto como una parte vulnerable de la operación. Señalan que automatizar este proceso (emisión, seguimiento, entrega) permitiría ahorrar tiempo, reducir errores y fortalecer la relación financiera con el restaurante.
 
-### 2.3. Needfinding
+## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
@@ -351,11 +351,15 @@ En esta sección se presentan los User Journey Maps (As-Is) de los segmentos rep
 
 #### Carolina Rivas
 
-![user journey mapping carolina rivas](./assets/images/user journey map 1.png)
+A continuacion se presenta el User Journey Map de Carolina Rivas.
+
+![user journey mapping carolina rivas](./assets/images/user-journey-map-1.png)
 
 #### Jorge Torres
 
-![user journey mapping jorge torres](./assets/images/user journey map 2.png)
+A continuacion se presenta el User Journey Map de Jorge Torres.
+
+![user journey mapping jorge torres](./assets/images/user-journey-map-2.png)
 
 ### 2.3.4. Empathy Mapping
 
@@ -385,18 +389,32 @@ El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisi
 
 En esta sección se presentan los términos clave del proyecto UI-Topic. Estos términos han sido acordados en el equipo del proyecto y serán usados de manera consistente en la comunicación, documentación y desarrollo del sistema.
 
-| **Term (EN)**                                           | **Definición (ES)**                                                                                                                             |
-| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Supply item** *(Insumo)*                            | Ingrediente o producto consumible necesario para la preparación de platos en el restaurante. Su stock se monitorea continuamente.                     |
-| **Product** *(Producto)*                              | Elemento registrado en el inventario, puede ser consumible (como alimentos) o no consumible (como utensilios o envases).                               |
-| **Supplier** *(Proveedor)*                            | Entidad externa encargada de abastecer insumos al restaurante según los pedidos realizados.                                                           |
-| **Inventory manager** *(Administrador de inventario)* | Persona responsable de supervisar los niveles de stock y realizar pedidos a proveedores.                                                               |
-| **Stock level** *(Nivel de stock)*                    | Cantidad disponible de un insumo o producto en el sistema. Puede estar en estado normal, bajo o crítico.                                              |
-| **Critical stock level** *(Nivel crítico de stock)*  | Umbral mínimo definido para un insumo. Si el stock disponible cae por debajo de este valor, se activa una alerta.                                     |
-| **Supply request** *(Solicitud de insumos)*           | Pedido formal realizado al proveedor cuando un insumo necesita ser reabastecido. Puede ser generado automáticamente por el sistema o de forma manual. |
-| **Replenishment** *(Reposición)*                     | Proceso mediante el cual un insumo es reabastecido tras recibir un pedido aprobado. Afecta directamente el stock.                                      |
-| **Inventory alert** *(Alerta de inventario)*          | Notificación automática generada por el sistema cuando un insumo alcanza el nivel crítico o hay un consumo inesperado.                              |
-| **Verified supplier** *(Proveedor verificado)*        | Proveedor aprobado por el restaurante para recibir pedidos automáticos del sistema. Debe cumplir ciertos criterios de calidad y tiempo de entrega.    |
-| **Internal consumption** *(Consumo interno)*          | Uso de insumos dentro del restaurante que no está relacionado a ventas directas, como pruebas de recetas o pérdidas por caducidad.                   |
-| **Supply history** *(Historial de insumos)*           | Registro de entradas, salidas, consumos y pedidos relacionados a cada insumo del restaurante.                                                          |
-| **Menu dependency** *(Dependencia de menú)*          | Relación entre los platos del menú y los insumos requeridos para su preparación. Afecta el cálculo de stock disponible.                            |
+| **Term (EN)**                                               | **Definición (ES)**                                                                                          |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Supply item** *(Insumo)*                                | Ingrediente o producto consumible necesario para la preparación de platos. Su stock se monitorea continuamente.    |
+| **Product** *(Producto)*                                  | Elemento registrado en el inventario; puede ser consumible (alimentos) o no consumible (utensilios, envases).       |
+| **Supplier** *(Proveedor)*                                | Entidad externa que abastece insumos al restaurante según los pedidos realizados.                                  |
+| **Inventory manager** *(Administrador de inventario)*     | Persona responsable de supervisar niveles de stock y realizar pedidos a proveedores.                                |
+| **Stock level** *(Nivel de stock)*                        | Cantidad disponible de un insumo o producto en el sistema.                                                          |
+| **Critical stock level** *(Nivel crítico de stock)*      | Umbral mínimo para un insumo; si se supera a la baja dispara una alerta.                                           |
+| **Supply request** *(Solicitud de insumos)*               | Pedido formal al proveedor cuando un insumo necesita reabastecerse.                                                 |
+| **Replenishment** *(Reposición)*                         | Proceso de reabastecimiento de un insumo tras recibir un pedido aprobado.                                           |
+| **Inventory alert** *(Alerta de inventario)*              | Notificación automática cuando un insumo llega a nivel crítico o se detecta consumo inesperado.                  |
+| **Verified supplier** *(Proveedor verificado)*            | Proveedor aprobado para recibir pedidos automáticos; cumple criterios de calidad y plazos.                         |
+| **Internal consumption** *(Consumo interno)*              | Uso de insumos que no genera ventas (p.ej. pruebas de recetas, merma, caducidad).                                   |
+| **Supply history** *(Historial de insumos)*               | Registro de entradas, salidas, consumos y pedidos de cada insumo.                                                   |
+| **Menu dependency** *(Dependencia de menú)*              | Relación entre los platos del menú y los insumos requeridos para prepararlos.                                     |
+| **Order / Ticket** *(Comanda)*                            | Solicitud registrada que agrupa los platos y bebidas que un comensal o mesa desea consumir; se sigue hasta su pago. |
+| **Order item** *(Ítem de comanda)*                       | Elemento individual dentro de una comanda (plato o bebida) con cantidad y posibles modificadores.                   |
+| **Table** *(Mesa)*                                        | Recurso físico al que se asignan uno o varios comensales; puede tener varias comandas abiertas.                    |
+| **Guest / Diner** *(Comensal)*                            | Persona que consume los productos del restaurante; se asocia a una mesa y a una o varias comandas.                  |
+| **Waiter / Server** *(Mozo / Camarero)*                   | Personal que toma las comandas, entrega platos y atiende a los comensales en sala.                                  |
+| **Menu item** *(Plato del menú)*                         | Producto final listo para la venta; se deriva de uno o varios insumos y aparece impreso en la carta.                |
+| **Course** *(Tiempo)*                                     | Etapa de la comida (entrada, principal, postre) que agrupa varios*menu items*.                                    |
+| **Check / Bill** *(Cuenta)*                               | Documento que resume los ítems consumidos, impuestos y cargos; se presenta al cliente para pago.                   |
+| **Payment** *(Pago)*                                      | Transacción financiera que liquida una cuenta (efectivo, tarjeta, billetera digital, etc.).                        |
+| **Service charge / Tip** *(Cargo por servicio / Propina)* | Porcentaje o monto fijo añadido a la cuenta por concepto de atención.                                             |
+| **Promotion** *(Promoción)*                              | Regla o campaña que aplica descuentos o beneficios a ciertos ítems o cuentas.                                     |
+| **Reservation** *(Reserva)*                               | Bloqueo anticipado de una mesa y horario solicitado por uno o más comensales.                                      |
+| **Cover** *(Cubierto)*                                    | Cargo fijo por comensal que cubre aperitivos, pan o uso de la mesa.                                                 |
+| **POS terminal** *(Terminal POS)*                         | Dispositivo o software de punto de venta usado para registrar comandas y procesar pagos.                            |
