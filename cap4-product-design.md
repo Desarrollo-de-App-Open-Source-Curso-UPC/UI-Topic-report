@@ -1100,12 +1100,11 @@ A continuación, se incluirá un screenshot extraído de un video por cada tipo 
 
 ## 4.9 DDD Estratégico
 
-A continuación, se presenta el Event Storming de Restock, en el cual se identifican los eventos clave, actores, acciones, decisiones, reglas y relaciones entre partes del sistema. Se establecieron 7 bounded context:  Subscriptions and Payments, Identity and Guess Managments, Profules and Preferences, Service Design and Planning, Asset Operation and Monitoring, Service Operation and Monitoring y Analytics.
-
+A continuación, se presenta el Event Storming de Restock, en el cual se identifican los eventos clave, actores, acciones, decisiones, reglas y relaciones entre partes del sistema. Se establecieron 7 bounded context:  Subscriptions and Payments, Identity and Access Management, Profiles and Preferences, Service Design and Planning, Asset Operation and Monitoring, Service Operation and Monitoring y Analytics.
 
 ![Event Storming](assets/images/cap4/event_storming/event_storming_general.jpg "Event Storming")
 
-Identity and Guess Managments: Este bounded context contiene el proceso de ingreso del usuario a la plataforma, ya sea iniciando sesión o registrandose.
+Identity and Access Management: Este bounded context contiene el proceso de ingreso del usuario a la plataforma, ya sea iniciando sesión o registrandose.
 
 ![Identity and Guess Managments](assets/images/cap4/event_storming/event_storming_1.jpg "Identity and Guess Managments")
 
