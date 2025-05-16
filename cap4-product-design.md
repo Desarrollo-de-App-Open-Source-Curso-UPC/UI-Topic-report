@@ -87,7 +87,8 @@ En cuanto a la interactividad, los botones y enlaces son claramente identificabl
 
 ![Mockup Registro](assets/images/mockup_registro.png)
 
-![Mockup Nosotros](assets/images/mockup_nosotros.png)
+![Mockup Nosotros 1](assets/images/mockup_nosotros1.png)
+![Mockup Nosotros 2](assets/images/mockup_nosotros2.png)
 
 ![Mockup Footer](assets/images/mockup_footer.png)
 
