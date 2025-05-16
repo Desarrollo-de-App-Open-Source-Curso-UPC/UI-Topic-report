@@ -148,7 +148,7 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 
 ##### **Title (SEO)**
 
-    `<title>`UI-Topic | Automate your restaurant’s inventory and orders`</title>`
+    `<title>`UI-Topic | Automate your restaurant’s inventory and orders `</title>`
 
 ##### **Meta Description (SEO)**
 
@@ -186,7 +186,7 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 
 ##### **Title (SEO)**
 
-    `<title>`UI-Topic App | Management Panel`</title>`
+    `<title>`UI-Topic App | Management Panel `</title>`
 
 ##### **Meta Description (SEO)**
 
@@ -745,496 +745,499 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ### 4.4.3 Web Applications Mock-ups
 
-#### Versión Desktop Mockups - Administrador de Restaurantes  
+#### Versión Desktop Mockups - Administrador de Restaurantes
+
 ---
 
 ##### Inventario
 
-**Inventario vacío**  
-Vista mostrada cuando aún no se han registrado productos en el sistema.  
+**Inventario vacío**
+Vista mostrada cuando aún no se han registrado productos en el sistema.
 ![empty-inventory](assets/images/cap4/desktop_mockup_admin/empty-inventory.png)
 
-**Tabla de inventario con carrusel**  
-Visualización organizada de productos junto a un carrusel informativo.  
+**Tabla de inventario con carrusel**
+Visualización organizada de productos junto a un carrusel informativo.
 ![inventory-table-and-carousel](assets/images/cap4/desktop_mockup_admin/inventory-table-and-carousel.png)
 
-**Agregar insumo al inventario**  
-Formulario para añadir un nuevo producto al inventario.  
+**Agregar insumo al inventario**
+Formulario para añadir un nuevo producto al inventario.
 ![add-supply-to-inventory](assets/images/cap4/desktop_mockup_admin/add-supply-to-inventory.png)
 
-**Agregar insumo al inventario (variante 2)**  
-Versión alternativa del formulario de adición de producto.  
+**Agregar insumo al inventario (variante 2)**
+Versión alternativa del formulario de adición de producto.
 ![add-supply-to-inventory2](assets/images/cap4/desktop_mockup_admin/add-supply-to-inventory2.png)
 
-**Crear insumo**  
-Formulario base para registrar un nuevo insumo.  
+**Crear insumo**
+Formulario base para registrar un nuevo insumo.
 ![create-supply](assets/images/cap4/desktop_mockup_admin/create-supply.png)
 
-**Crear insumo (versión 2)**  
-Diseño alternativo para registrar productos.  
+**Crear insumo (versión 2)**
+Diseño alternativo para registrar productos.
 ![create-supply2](assets/images/cap4/desktop_mockup_admin/create-supply2.png)
 
-**Editar insumo**  
-Formulario para modificar información de un producto existente.  
+**Editar insumo**
+Formulario para modificar información de un producto existente.
 ![edit-supply](assets/images/cap4/desktop_mockup_admin/edit-supply.png)
 
-**Eliminar insumo**  
-Diálogo de confirmación para eliminar un insumo del sistema.  
+**Eliminar insumo**
+Diálogo de confirmación para eliminar un insumo del sistema.
 ![delete-supply](assets/images/cap4/desktop_mockup_admin/delete-supply.png)
 
 ---
 
 ##### Recetas
 
-**Catálogo de recetas**  
-Pantalla principal con el listado completo de recetas registradas.  
+**Catálogo de recetas**
+Pantalla principal con el listado completo de recetas registradas.
 ![recipes-catalog](assets/images/cap4/desktop_mockup_admin/recipes-catalog.png)
 
-**Recetas vacías**  
-Pantalla mostrada cuando no hay recetas registradas.  
+**Recetas vacías**
+Pantalla mostrada cuando no hay recetas registradas.
 ![empty-recipes](assets/images/cap4/desktop_mockup_admin/empty-recipes.png)
 
-**Crear receta**  
-Formulario de creación de recetas con insumos seleccionables.  
+**Crear receta**
+Formulario de creación de recetas con insumos seleccionables.
 ![create-recipe](assets/images/cap4/desktop_mockup_admin/create-recipe.png)
 
-**Crear receta (versión 2)**  
-Otra versión del formulario de registro de recetas.  
+**Crear receta (versión 2)**
+Otra versión del formulario de registro de recetas.
 ![create-recipe2](assets/images/cap4/desktop_mockup_admin/create-recipe2.png)
 
-**Editar receta**  
-Permite modificar las cantidades e ingredientes de una receta existente.  
+**Editar receta**
+Permite modificar las cantidades e ingredientes de una receta existente.
 ![edit-recipe](assets/images/cap4/desktop_mockup_admin/edit-recipe.png)
 
-**Editar receta (versión 2)**  
-Variación en la estructura del formulario de edición.  
+**Editar receta (versión 2)**
+Variación en la estructura del formulario de edición.
 ![edit-recipe2](assets/images/cap4/desktop_mockup_admin/edit-recipe2.png)
 
-**Eliminar receta**  
-Pantalla de confirmación para eliminar una receta del sistema.  
+**Eliminar receta**
+Pantalla de confirmación para eliminar una receta del sistema.
 ![delete-recipe](assets/images/cap4/desktop_mockup_admin/delete-recipe.png)
 
 ---
 
 ##### Ventas
 
-**Registrar una venta**  
-Formulario principal para registrar ventas con productos seleccionados.  
+**Registrar una venta**
+Formulario principal para registrar ventas con productos seleccionados.
 ![register-a-sale](assets/images/cap4/desktop_mockup_admin/register-a-sale.png)
 
-**Registrar una venta (versión 2)**  
-Diseño alternativo para el flujo de registro de ventas.  
+**Registrar una venta (versión 2)**
+Diseño alternativo para el flujo de registro de ventas.
 ![register-a-sale2](assets/images/cap4/desktop_mockup_admin/register-a-sale2.png)
 
-**Venta registrada con éxito**  
-Confirmación visual de que una venta fue ingresada correctamente.  
+**Venta registrada con éxito**
+Confirmación visual de que una venta fue ingresada correctamente.
 ![sale-registered-sucessfully](assets/images/cap4/desktop_mockup_admin/sale-registered-sucessfully.png)
 
-**Actualizar inventario desde una venta**  
-Interfaz para actualizar automáticamente los stocks luego de vender.  
+**Actualizar inventario desde una venta**
+Interfaz para actualizar automáticamente los stocks luego de vender.
 ![update-inventory-from-a-sale-registered](assets/images/cap4/desktop_mockup_admin/update-inventory-from-a-sale-registered.png)
 
-**Detalle de venta**  
-Vista ampliada de la información de una venta específica.  
+**Detalle de venta**
+Vista ampliada de la información de una venta específica.
 ![sale-detail](assets/images/cap4/desktop_mockup_admin/sale-detail.png)
 
-**Detalle de venta (versión 2)**  
-Diseño alternativo de la pantalla de detalle de venta.  
+**Detalle de venta (versión 2)**
+Diseño alternativo de la pantalla de detalle de venta.
 ![sale-detail2](assets/images/cap4/desktop_mockup_admin/sale-detail2.png)
 
-**Historial de ventas**  
-Listado general de todas las ventas registradas.  
+**Historial de ventas**
+Listado general de todas las ventas registradas.
 ![sales-historial](assets/images/cap4/desktop_mockup_admin/sales-historial.png)
 
-**Diálogo de confirmación de venta**  
-Ventana emergente que confirma el registro de una nueva venta.  
+**Diálogo de confirmación de venta**
+Ventana emergente que confirma el registro de una nueva venta.
 ![registered-sales-dialog](assets/images/cap4/desktop_mockup_admin/registered-sales-dialog.png)
 
 ---
 
 ##### Pedidos
 
-**Órdenes vacías**  
-Pantalla mostrada cuando no hay órdenes registradas.  
+**Órdenes vacías**
+Pantalla mostrada cuando no hay órdenes registradas.
 ![empty-orders](assets/images/cap4/desktop_mockup_admin/empty-orders.png)
 
-**Listado de órdenes por estado**  
-Organización visual de pedidos clasificados por su estado actual.  
+**Listado de órdenes por estado**
+Organización visual de pedidos clasificados por su estado actual.
 ![orders-list-with-status-by-order](assets/images/cap4/desktop_mockup_admin/orders-list-with-status-by-order.png)
 
-**Diálogo para confirmar pedido**  
-Pantalla emergente para validar la creación de una orden.  
+**Diálogo para confirmar pedido**
+Pantalla emergente para validar la creación de una orden.
 ![order-now-dialog](assets/images/cap4/desktop_mockup_admin/order-now-dialog.png)
 
-**Lista de proveedores para realizar pedido**  
-Permite seleccionar el proveedor y revisar detalles del pedido.  
+**Lista de proveedores para realizar pedido**
+Permite seleccionar el proveedor y revisar detalles del pedido.
 ![order-now-supplier-list](assets/images/cap4/desktop_mockup_admin/order-now-supplier-list.png)
 
-**Comparativa de precios por proveedor**  
-Interfaz para comparar precios de productos entre diferentes proveedores.  
+**Comparativa de precios por proveedor**
+Interfaz para comparar precios de productos entre diferentes proveedores.
 ![order-now-supply-price](assets/images/cap4/desktop_mockup_admin/order-now-supply-price.png)
 
-**Calificar proveedor tras pedido**  
-Formulario para evaluar el servicio recibido por parte del proveedor.  
+**Calificar proveedor tras pedido**
+Formulario para evaluar el servicio recibido por parte del proveedor.
 ![rate-your-order](assets/images/cap4/desktop_mockup_admin/rate-your-order.png)
 
 ---
 
 ##### Proveedores
 
-**Agregar proveedor**  
-Formulario para registrar un nuevo proveedor.  
+**Agregar proveedor**
+Formulario para registrar un nuevo proveedor.
 ![add-supplier](assets/images/cap4/desktop_mockup_admin/add-supplier.png)
 
-**Proveedores registrados**  
-Pantalla con listado general de proveedores activos en el sistema.  
+**Proveedores registrados**
+Pantalla con listado general de proveedores activos en el sistema.
 ![suppliers-list](assets/images/cap4/desktop_mockup_admin/suppliers-list.png)
 
-**Detalle del catálogo del proveedor**  
-Vista de los productos ofrecidos por un proveedor específico.  
+**Detalle del catálogo del proveedor**
+Vista de los productos ofrecidos por un proveedor específico.
 ![supplier-detail-catalog](assets/images/cap4/desktop_mockup_admin/supplier-detail-catalog.png)
 
-**Proveedor vacío**  
-Pantalla mostrada cuando no se han registrado proveedores aún.  
+**Proveedor vacío**
+Pantalla mostrada cuando no se han registrado proveedores aún.
 ![empty-supplier](assets/images/cap4/desktop_mockup_admin/empty-supplier.png)
 
 ---
 
 ##### Perfil
 
-**Datos personales**  
-Formulario para editar información básica del administrador.  
+**Datos personales**
+Formulario para editar información básica del administrador.
 ![profile-personal-data](assets/images/cap4/desktop_mockup_admin/profile-personal-data.png)
 
-**Seguridad y privacidad**  
-Configuración para modificar contraseña y seguridad de cuenta.  
+**Seguridad y privacidad**
+Configuración para modificar contraseña y seguridad de cuenta.
 ![profile-security-privacy](assets/images/cap4/desktop_mockup_admin/profile-security-privacy.png)
 
-**Datos empresariales**  
-Datos fiscales y comerciales del administrador del restaurante.  
+**Datos empresariales**
+Datos fiscales y comerciales del administrador del restaurante.
 ![profile-business-data](assets/images/cap4/desktop_mockup_admin/profile-business-data.png)
 
 ---
 
 ##### Suscripciones
 
-**Vista general de suscripción**  
-Resumen del plan activo, duración, y características.  
+**Vista general de suscripción**
+Resumen del plan activo, duración, y características.
 ![subscriptions](assets/images/cap4/desktop_mockup_admin/subscriptions.png)
 
-**Suscripciones (versión 2)**  
-Detalle con historial de pagos y opciones de renovación.  
+**Suscripciones (versión 2)**
+Detalle con historial de pagos y opciones de renovación.
 ![subscriptions2](assets/images/cap4/desktop_mockup_admin/subscriptions2.png)
 
 ---
 
 ##### Resumen general
 
-**Panel resumen del sistema**  
-Vista central del sistema con KPIs, alertas y estado general.  
+**Panel resumen del sistema**
+Vista central del sistema con KPIs, alertas y estado general.
 ![summary](assets/images/cap4/desktop_mockup_admin/summary.png)
 
-**Alertas registradas**  
-Pantalla que muestra las alertas emitidas por el sistema.  
+**Alertas registradas**
+Pantalla que muestra las alertas emitidas por el sistema.
 ![registered-alerts](assets/images/cap4/desktop_mockup_admin/registered-alerts.png)
 
-#### Versión Desktop Mockups - Proveedor  
+#### Versión Desktop Mockups - Proveedor
+
 ---
 
 ##### Inventario
 
-**Inventario vacío**  
-Pantalla mostrada cuando el proveedor aún no tiene productos registrados.  
+**Inventario vacío**
+Pantalla mostrada cuando el proveedor aún no tiene productos registrados.
 ![empty-inventory](assets/images/cap4/desktop_mockup_supplier/empty-inventory.png)
 
-**Inventario con tabla y carrusel**  
-Vista que combina listado de productos con carrusel informativo para una navegación más rica.  
+**Inventario con tabla y carrusel**
+Vista que combina listado de productos con carrusel informativo para una navegación más rica.
 ![carousel-and-inventory-table](assets/images/cap4/desktop_mockup_supplier/carousel-and-inventory-table.png)
 
-**Inventario vacío con carrusel**  
-Variante en la que el sistema aún no tiene insumos, pero se muestran sugerencias en carrusel.  
+**Inventario vacío con carrusel**
+Variante en la que el sistema aún no tiene insumos, pero se muestran sugerencias en carrusel.
 ![carousel-and-empty-inventory](assets/images/cap4/desktop_mockup_supplier/carousel-and-empty-inventory.png)
 
-**Agregar producto no perecible**  
-Formulario para registrar insumos sin fecha de caducidad.  
+**Agregar producto no perecible**
+Formulario para registrar insumos sin fecha de caducidad.
 ![add-supply-not-perishable-inventory](assets/images/cap4/desktop_mockup_supplier/add-supply-not-perishable-inventory.png)
 
-**Agregar producto perecible**  
-Formulario para productos que requieren fecha de expiración.  
+**Agregar producto perecible**
+Formulario para productos que requieren fecha de expiración.
 ![add-supply-perishable-inventory](assets/images/cap4/desktop_mockup_supplier/add-supply-perishable-inventory.png)
 
-**Crear producto**  
-Formulario básico para añadir productos al inventario.  
+**Crear producto**
+Formulario básico para añadir productos al inventario.
 ![create-supply](assets/images/cap4/desktop_mockup_supplier/create-supply.png)
 
-**Editar producto no perecible**  
-Pantalla para modificar productos sin fecha de caducidad.  
+**Editar producto no perecible**
+Pantalla para modificar productos sin fecha de caducidad.
 ![edit-supply-not-perishable](assets/images/cap4/desktop_mockup_supplier/edit-supply-not-perishable.png)
 
-**Editar producto no perecible (variante 2)**  
-Otra versión del formulario de edición para productos sin vencimiento.  
+**Editar producto no perecible (variante 2)**
+Otra versión del formulario de edición para productos sin vencimiento.
 ![edit-supply-not-perishable2](assets/images/cap4/desktop_mockup_supplier/edit-supply-not-perishable2.png)
 
-**Editar producto perecible**  
-Pantalla para modificar productos que manejan fechas límite.  
+**Editar producto perecible**
+Pantalla para modificar productos que manejan fechas límite.
 ![edit-supply-perishable](assets/images/cap4/desktop_mockup_supplier/edit-supply-perishable.png)
 
-**Eliminar producto**  
-Pantalla de confirmación para eliminar un producto del inventario.  
+**Eliminar producto**
+Pantalla de confirmación para eliminar un producto del inventario.
 ![delete-supply](assets/images/cap4/desktop_mockup_supplier/delete-supply.png)
 
 ---
 
 ##### Pedidos
 
-**Órdenes vacías desde restaurantes**  
-Pantalla mostrada cuando aún no se han recibido pedidos.  
+**Órdenes vacías desde restaurantes**
+Pantalla mostrada cuando aún no se han recibido pedidos.
 ![empty-orders-from-restaurants](assets/images/cap4/desktop_mockup_supplier/empty-orders-from-restaurants.png)
 
-**Lista de pedidos recibidos**  
-Listado de pedidos con columnas de información clave como fecha y estado.  
+**Lista de pedidos recibidos**
+Listado de pedidos con columnas de información clave como fecha y estado.
 ![orders-list](assets/images/cap4/desktop_mockup_supplier/orders-list.png)
 
-**Filtrar pedidos por estado**  
-Interfaz para clasificar pedidos por su estado de avance.  
+**Filtrar pedidos por estado**
+Interfaz para clasificar pedidos por su estado de avance.
 ![filter-orders-by-new-requests-order-and-processing](assets/images/cap4/desktop_mockup_supplier/filter-orders-by-new-requests-order-and-mine.png)
 
-**Mis pedidos organizados por estado de envío**  
-Lista de pedidos organizados por su estado logístico.  
+**Mis pedidos organizados por estado de envío**
+Lista de pedidos organizados por su estado logístico.
 ![my-orders-table-sort-by-status-of-shipping](assets/images/cap4/desktop_mockup_supplier/my-orders-table-sort-by-status-of-shipping.png)
 
-**Cancelar pedido**  
-Diálogo de confirmación para anular un pedido pendiente.  
+**Cancelar pedido**
+Diálogo de confirmación para anular un pedido pendiente.
 ![cancel-order](assets/images/cap4/desktop_mockup_supplier/cancel-order.png)
 
-**Actualizar pedido**  
-Formulario completo para modificar un pedido activo.  
+**Actualizar pedido**
+Formulario completo para modificar un pedido activo.
 ![update-order](assets/images/cap4/desktop_mockup_supplier/update-order.png)
 
-**Actualizar pedido ya aprobado**  
-Permite hacer cambios menores a un pedido ya aceptado.  
+**Actualizar pedido ya aprobado**
+Permite hacer cambios menores a un pedido ya aceptado.
 ![update-recently-aproved-order](assets/images/cap4/desktop_mockup_supplier/update-recently-aproved-order.png)
 
-**Asignar fecha y hora de entrega**  
-Formulario para establecer cuándo se entregará el pedido.  
+**Asignar fecha y hora de entrega**
+Formulario para establecer cuándo se entregará el pedido.
 ![update-order-set-date-and-hour](assets/images/cap4/desktop_mockup_supplier/update-order-set-date-and-hour.png)
 
-**Establecer tiempo estimado de llegada**  
-Pantalla donde el proveedor indica la hora en que llegará el pedido.  
+**Establecer tiempo estimado de llegada**
+Pantalla donde el proveedor indica la hora en que llegará el pedido.
 ![manage-order-set-arrive-time](assets/images/cap4/desktop_mockup_supplier/manage-order-set-arrive-time.png)
 
-**Actualizar estado del pedido (seguimiento)**  
-Flujo para cambiar el estado de entrega en tiempo real.  
+**Actualizar estado del pedido (seguimiento)**
+Flujo para cambiar el estado de entrega en tiempo real.
 ![manage-order-to-track](assets/images/cap4/desktop_mockup_supplier/manage-order-to-track.png)
 
-**Diálogo de confirmación de entrega**  
-Popup que confirma que un pedido fue entregado exitosamente.  
+**Diálogo de confirmación de entrega**
+Popup que confirma que un pedido fue entregado exitosamente.
 ![dialog-order-delivered](assets/images/cap4/desktop_mockup_supplier/dialog-order-delivered.png)
 
 ---
 
 ##### Perfil
 
-**Datos personales del proveedor**  
-Formulario para actualizar la información personal del proveedor.  
+**Datos personales del proveedor**
+Formulario para actualizar la información personal del proveedor.
 ![profile-personal-data](assets/images/cap4/desktop_mockup_supplier/profile-personal-data.png)
 
-**Seguridad y privacidad**  
-Configuraciones de contraseña y opciones de privacidad.  
+**Seguridad y privacidad**
+Configuraciones de contraseña y opciones de privacidad.
 ![profile-security-privacy](assets/images/cap4/desktop_mockup_supplier/profile-security-privacy.png)
 
-**Datos del negocio**  
-Información fiscal y legal de la empresa del proveedor.  
+**Datos del negocio**
+Información fiscal y legal de la empresa del proveedor.
 ![profile-business-data](assets/images/cap4/desktop_mockup_supplier/profile-business-data.png)
 
 ---
 
 ##### Suscripciones
 
-**Vista general de suscripciones**  
-Pantalla que muestra el plan de suscripción activo.  
+**Vista general de suscripciones**
+Pantalla que muestra el plan de suscripción activo.
 ![subscriptions](assets/images/cap4/desktop_mockup_supplier/subscriptions.png)
 
-**Historial de pagos y opciones de renovación**  
-Pantalla para gestionar pagos y revisar detalles del plan.  
+**Historial de pagos y opciones de renovación**
+Pantalla para gestionar pagos y revisar detalles del plan.
 ![subscriptions-payments](assets/images/cap4/desktop_mockup_supplier/subscriptions-payments.png)
 
 ---
 
 ##### Calificaciones
 
-**Reseñas recibidas por restaurantes**  
-Muestra las evaluaciones que los restaurantes han otorgado al proveedor.  
+**Reseñas recibidas por restaurantes**
+Muestra las evaluaciones que los restaurantes han otorgado al proveedor.
 ![reviews-by-restaurants-to-supplier](assets/images/cap4/desktop_mockup_supplier/reviews-by-restaurants-to-supplier.png)
 
 ---
 
 ##### Resumen general
 
-**Dashboard principal del proveedor**  
-Vista general con métricas clave: pedidos recibidos, entregas, calificaciones, etc.  
+**Dashboard principal del proveedor**
+Vista general con métricas clave: pedidos recibidos, entregas, calificaciones, etc.
 ![summary](assets/images/cap4/desktop_mockup_supplier/summary.png)
 
-**Alertas registradas**  
-Pantalla con alertas recibidas por parte de los restaurantes.  
+**Alertas registradas**
+Pantalla con alertas recibidas por parte de los restaurantes.
 ![registered-alerts](assets/images/cap4/desktop_mockup_supplier/registered-alerts.png)
 
-#### Versión Mobile Mockups - Administrador de Restaurantes  
+#### Versión Mobile Mockups - Administrador de Restaurantes
+
 ---
 
 ##### Alertas
 
-**Alertas**  
-Vista general de alertas importantes para el administrador, con indicadores visuales de color.  
+**Alertas**
+Vista general de alertas importantes para el administrador, con indicadores visuales de color.
 ![admin_alerts](assets/images/cap4/mobile_mockups/admin_alerts.png)
 
 ---
 
 ##### Inventario
 
-**Inventario**  
-Listado general de insumos con opciones para editar, buscar y ver detalles.  
+**Inventario**
+Listado general de insumos con opciones para editar, buscar y ver detalles.
 ![admin_inventory](assets/images/cap4/mobile_mockups/admin_inventory.png)
 
-**Inventario (Editar/Crear)**  
-Flujo para registrar o editar un insumo, incluye calendario para fecha de expiración.  
+**Inventario (Editar/Crear)**
+Flujo para registrar o editar un insumo, incluye calendario para fecha de expiración.
 ![admin_inventory2](assets/images/cap4/mobile_mockups/admin_inventory2.png)
 
 ---
 
 ##### Pedidos
 
-**Pedidos**  
-Visualización de pedidos realizados, con filtros por estado.  
+**Pedidos**
+Visualización de pedidos realizados, con filtros por estado.
 ![admin_orders](assets/images/cap4/mobile_mockups/admin_orders.png)
 
-**Pedidos (Detalle/Editar)**  
-Flujo detallado para ver y modificar un pedido específico.  
+**Pedidos (Detalle/Editar)**
+Flujo detallado para ver y modificar un pedido específico.
 ![admin_orders2](assets/images/cap4/mobile_mockups/admin_orders2.png)
 
 ---
 
 ##### Recetas
 
-**Recetas**  
-Listado de recetas disponibles, con imágenes y composición de insumos.  
+**Recetas**
+Listado de recetas disponibles, con imágenes y composición de insumos.
 ![admin_recipes](assets/images/cap4/mobile_mockups/admin_recipes.png)
 
-**Recetas (Editar/Ver)**  
-Flujo detallado para modificar recetas o ver su detalle completo.  
+**Recetas (Editar/Ver)**
+Flujo detallado para modificar recetas o ver su detalle completo.
 ![admin_recipes2](assets/images/cap4/mobile_mockups/admin_recipes2.png)
 
 ---
 
 ##### Ventas
 
-**Ventas**  
-Historial de ventas con filtros por fecha y montos.  
+**Ventas**
+Historial de ventas con filtros por fecha y montos.
 ![admin_sale](assets/images/cap4/mobile_mockups/admin_sale.png)
 
-**Ventas (Detalle)**  
-Detalle específico de una venta con totales y acciones.  
+**Ventas (Detalle)**
+Detalle específico de una venta con totales y acciones.
 ![admin_sale2](assets/images/cap4/mobile_mockups/admin_sale2.png)
 
-**Ventas (Popup acción)**  
-Confirmación para anular una venta mediante un diálogo de alerta.  
+**Ventas (Popup acción)**
+Confirmación para anular una venta mediante un diálogo de alerta.
 ![admin_sale3](assets/images/cap4/mobile_mockups/admin_sale3.png)
 
 ---
 
 ##### Suscripciones
 
-**Suscripciones**  
-Vista de gestión de suscripciones y planes de pago.  
+**Suscripciones**
+Vista de gestión de suscripciones y planes de pago.
 ![admin_subscriptions](assets/images/cap4/mobile_mockups/admin_subscriptions.png)
 
 ---
 
 ##### Proveedores
 
-**Proveedores**  
-Listado de proveedores registrados con métricas de ventas.  
+**Proveedores**
+Listado de proveedores registrados con métricas de ventas.
 ![admin_supplier](assets/images/cap4/mobile_mockups/admin_supplier.png)
 
 ---
 
 ##### Resumen
 
-**Dashboard / Resumen**  
-Pantalla de resumen con estadísticas clave como pedidos pendientes y capacidad de stock.  
+**Dashboard / Resumen**
+Pantalla de resumen con estadísticas clave como pedidos pendientes y capacidad de stock.
 ![admin_summary](assets/images/cap4/mobile_mockups/admin_summary.png)
 
 ---
 
-#### Versión Mobile Mockups - Proveedores  
+#### Versión Mobile Mockups - Proveedores
+
 ---
 
 ##### Alertas
 
-**Alertas**  
-Resumen de alertas generadas por parte del restaurante.  
+**Alertas**
+Resumen de alertas generadas por parte del restaurante.
 ![supplier_alerts](assets/images/cap4/mobile_mockups/supplier_alerts.png)
 
 ---
 
 ##### Inventario
 
-**Inventario**  
-Vista del inventario ofrecido por el proveedor.  
+**Inventario**
+Vista del inventario ofrecido por el proveedor.
 ![supplier_inventory](assets/images/cap4/mobile_mockups/supplier_inventory.png)
 
-**Inventario (Editar)**  
-Formulario para edición o creación de productos ofrecidos.  
+**Inventario (Editar)**
+Formulario para edición o creación de productos ofrecidos.
 ![supplier_inventory2](assets/images/cap4/mobile_mockups/supplier_inventory2.png)
 
 ---
 
 ##### Pedidos
 
-**Pedidos**  
-Vista general de pedidos recibidos, con estado y fechas.  
+**Pedidos**
+Vista general de pedidos recibidos, con estado y fechas.
 ![supplier_orders](assets/images/cap4/mobile_mockups/supplier_orders.png)
 
-**Pedidos (Detalle)**  
-Vista ampliada para gestión individual de cada pedido.  
+**Pedidos (Detalle)**
+Vista ampliada para gestión individual de cada pedido.
 ![supplier_orders2](assets/images/cap4/mobile_mockups/supplier_orders2.png)
 
-**Pedidos (Historial)**  
-Listado cronológico de pedidos con estado y detalles.  
+**Pedidos (Historial)**
+Listado cronológico de pedidos con estado y detalles.
 ![supplier_orders3](assets/images/cap4/mobile_mockups/supplier_orders3.png)
 
 ---
 
 ##### Perfil
 
-**Perfil**  
-Datos personales, empresa, y configuración de cuenta.  
+**Perfil**
+Datos personales, empresa, y configuración de cuenta.
 ![supplier_profile](assets/images/cap4/mobile_mockups/supplier_profile.png)
 
 ---
 
 ##### Suscripciones
 
-**Suscripciones**  
-Panel para gestionar el plan de suscripción del proveedor.  
+**Suscripciones**
+Panel para gestionar el plan de suscripción del proveedor.
 ![supplier_subscriptions](assets/images/cap4/mobile_mockups/supplier_subscriptions.png)
 
 ---
 
 ##### Resumen
 
-**Dashboard / Resumen**  
-Resumen financiero y de pedidos con métricas clave para proveedores.  
+**Dashboard / Resumen**
+Resumen financiero y de pedidos con métricas clave para proveedores.
 ![supplier_summary](assets/images/cap4/mobile_mockups/supplier_summary.png)
 
 ---
 
 ##### Calificaciones
 
-**Calificaciones**  
-Valoraciones recibidas por parte de restaurantes con comentarios.  
+**Calificaciones**
+Valoraciones recibidas por parte de restaurantes con comentarios.
 ![suppliers_rating](assets/images/cap4/mobile_mockups/suppliers_rating.png)
-
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
@@ -1277,7 +1280,6 @@ En la sección de proveedores, los administradores de restaurantes pueden visual
 
 La sección de pedidos a proveedores permite a los administradores de restaurantes revisar el historial completo de solicitudes, consultar los pedidos en proceso y acceder a información detallada de cada uno. Además, se ofrece un sistema de seguimiento que permite monitorear el estado de los pedidos paso a paso.
 
-
 ![Mobile User Flow 6](assets/images/cap4/UF_6.jpeg)
 
 **Desktop User Flow 7:**
@@ -1289,7 +1291,6 @@ La sección de comentarios a proveedores permite a los usuarios registrar opinio
 **Desktop User Flow 8:**
 
 La funcionalidad de registro de ventas permite a los administradores ingresar las operaciones comerciales diarias. El sistema también proporciona un listado actualizado de las ventas del día, con acceso a información detallada de cada transacción, lo que facilita la gestión y análisis de las actividades comerciales.
-
 
 ![Mobile User Flow 8](assets/images/cap4/UF_8.1.jpeg)
 ![Mobile User Flow 8](assets/images/cap4/UF_8.2.jpeg)
@@ -1473,30 +1474,36 @@ A continuación, se incluirá un screenshot extraído de un video por cada tipo 
 ![Database diagram](assets/images/cap4/database_diagram.png "Diagrama de base de datos")
 
 #### Bounded Context: Planning
+
 Este esquema representa la lógica del contexto de planificación. La tabla recipes almacena recetas con su información básica y usuario asociado. La tabla recipes_supplies define los insumos necesarios para cada receta, permitiendo planificar cantidades específicas.
 
 ![Database diagram](assets/images/cap4/dbd_bc/dbd_planning_bc.png "Planning")
 
 #### Bounded Context: Resource
+
 Este esquema representa la lógica del contexto de resources. Las tablas presentes son: unit_measurements, categories, supplies, alerts, alerts_states, batches, restaurant_contacts, inventories.
 
 ![Database diagram](assets/images/cap4/dbd_bc/resource_bounded_context.jpg "Resource")
 
 #### Bounded Context: Monitoring
+
 Este esquema representa la lógica del contexto de monitoring. Las tablas presentes son: sales, sales_recipes, comments, ordertosuppliers, ordertosuppliers_supplies, orderToSupplier_status y order_payments.
 
 ![Database diagram](assets/images/cap4/dbd_bc/monitoring_bounded_context.jpg "Monitoring")
 
 #### Bounded Context: Profile
+
 Este esquema representa la lógica del contexto de profile. Las tablas profile almacena: name, business_name, phone y address.
 
 ![Database diagram](assets/images/cap4/dbd_bc/db_profile.jpg "Profile")
 
 #### Bounded Context: Subscription
+
 Este esquema representa la lógica del contexto de subscription. La tablas que se muestran son: subscriptions, subscriptions_payment_details, features y subscription_features.
 ![Database diagram](assets/images/cap4/dbd_bc/db_subscription.jpg "Subscription")
 
-#### Bounded Context: Identity 
+#### Bounded Context: Identity
+
 Este esquema representa la lógica del contexto de identity. Las tablas que se muestran son: users y roles.
 ![Database diagram](assets/images/cap4/dbd_bc/db_iam.jpg "Identity")
 
