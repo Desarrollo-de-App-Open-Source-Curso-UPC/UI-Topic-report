@@ -473,8 +473,8 @@ El objetivo principal fue implementar funcionalidades claves para la gestión de
 A continuación, se presenta el video del frontend de la aplicación web interna. Este demuestra la interacción de los usuarios autenticados con los módulos principales del sistema, incluyendo la navegación por el sidebar, la gestión de productos, el seguimiento de alertas y el control de inventario.  
 
 **Video del frontend:**
-![Captura del video](assets/images/cap-5/evidence_sprint_2/video_evidence.png)
-[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/EY3GdWRDA0FFkne6vY7rA2YBNCogeN7uU70N4UnuxwgpAg?e=ZgvDYo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+![Captura del video](assets/images/cap5/evidence-sprint2/video_evidence.png)
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/ETDVDbf3CyRHspaBM0QOKCwBJu3DhOq9j9Un5OmGHZvtHA?e=4b2Tin&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review.
 
@@ -488,6 +488,7 @@ Durante este Sprint, se realizaron las actividades de despliegue del frontend de
 ng build --base-href="/UI-Topic-frontend/"
 
 ```
+![Paso 1](assets/images/cap5/evidence-sprint2/evidence_1.png)
 
 Esto generó una versión optimizada del frontend dentro de la carpeta dist/.
 
@@ -496,7 +497,7 @@ Esto generó una versión optimizada del frontend dentro de la carpeta dist/.
 ```bash
 ng add angular-cli-ghpages
 ```
-
+![Paso 1](assets/images/cap5/evidence-sprint2/evidence_2.png)
 Esto configuró automáticamente los scripts necesarios para hacer deploy desde dist/.
 
 3. Se ejecutó el siguiente comando para desplegar el contenido compilado a la rama gh-pages del repositorio:
@@ -504,12 +505,16 @@ Esto configuró automáticamente los scripts necesarios para hacer deploy desde 
 ```bash
 npx angular-cli-ghpages --dir=dist/UI-Topic-frontend
 ```
-
+![Paso 1](assets/images/cap5/evidence-sprint2/evidence_3.png)
 Esto creó la rama gh-pages, subió los archivos de producción y habilitó el sitio público.
 
 4. Luego, se accedió al repositorio en GitHub y se ingresó a la sección Settings > Pages, donde se verificó que el origen de publicación estuviera configurado correctamente (rama gh-pages y carpeta raíz /).
 
 5. Finalmente, se obtuvo y verificó la URL pública generada por GitHub Pages, validando que la aplicación se mostrara correctamente.
+![Paso 1](assets/images/cap5/evidence-sprint2/evidence_4.png)
+
+[Frontend App](https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory)
+
 #### 5.2.2.8 Team Collaboration Insights during Sprint.
 
 Se crearon ramas específicas para cada sección o funcionalidad (feature/[nombre-de-seccion]), permitiendo un trabajo paralelo organizado.
@@ -521,8 +526,8 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 
 ##### **Analíticos de colaboración**
 
-![Team Collaboration Insight](assets/images/cap-5/team_collaboration_insight.png)
+![Team Collaboration Insight](assets/images/cap5/collaboration-insight/ci_1.png)
 
 ##### **Analíticos de commits de GitHub**
 
-![Team Collaboration Insight](assets/images/cap-5/team_collaboration_insight_2.png)
+![Team Collaboration Insight](assets/images/cap5/collaboration-insight/ci_2.png)
