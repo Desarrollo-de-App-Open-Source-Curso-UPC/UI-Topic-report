@@ -8,7 +8,7 @@ A continuación, se listan las herramientas y estándares adoptados por el equip
 
 | Actividad               | Herramienta / Guía                                    | Propósito                                                     | Tipo de acceso / Ruta                                                                                                                 |
 | ----------------------- | ------------------------------------------------------ | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Project Management      | Jira Software                                          | Seguimiento de backlog, tareas y sprints.                      | SaaS –[https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira)                                                |
+| Project Management      | Trello                                          | Seguimiento de backlog, tareas y sprints.                      | [https://trello.com/](https://trello.com/)                                                |
 | Requirements Management | Gherkin Conventions                                    | Escritura legible de requisitos con formato Given/When/Then.   | [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/)                                                                   |
 | Product UX/UI Design    | Figma                                                  | Prototipos y diseño responsive.                               | SaaS –[https://figma.com](https://figma.com)                                                                                            |
 | Frontend Dev            | HTML, CSS, JavaScript, TypeScript, Angular             | Construcción del frontend del sistema.                        | [https://angular.io/guide/styleguide](https://angular.io/guide/styleguide)                                                               |
@@ -25,7 +25,7 @@ En esta sección el equipo establece los medios y esquema de organización que a
 
 A continuación se indican los URLs de los repositorios de GitHub para cada producto:
 
-- **Landing Page**: [[Restock | Landing Page](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing.git)]
+- **Landing Page**: [Restock | Landing Page](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing.git)
 - **Web Services**: [[Restock | Backend](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend.git)]
 - _(Incluye el proyecto y los archivos de pruebas unitarias e integración/aceptación)_
 - **Frontend Web Application**: [[Restock | Frontend](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend.git)]
@@ -449,3 +449,80 @@ Además, se realizaron mejoras en el *landing page*, incluyendo la implementaci�
 ![Board Sprint Details 2](assets/images/cap5/sprint-backlog2-2.png)
 
 [[Enlace al Trello Sprint 2](https://trello.com/invite/b/681ab5854ac93bbc3c456c4e/ATTI2ddc2248f5308bf6ee343af5c381ec7f2CE97AD8/sprint-backlog-2)]
+
+
+#### 5.2.2.4 Development Evidence for Sprint Review
+
+En esta sección se presentan los avances realizados durante el Sprint 2, centrado en el desarrollo de los módulos principales de la aplicación web interna de Restock.
+El objetivo principal fue implementar funcionalidades claves para la gestión de productos, inventario y resumen, con el fin de mejorar la eficiencia operativa y la trazabilidad de los recursos dentro de los administradores de restaurantes y proveedores.
+
+##### Commits Relevantes
+
+| Repository                         | Branch                   | Commit Id | Commit Message                                       | Commit Message Body                                                          | Commited on (Date) |
+| ---------------------------------- | ------------------------ | --------- | ---------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------ |
+| jahazielgg/UI-Topic-frontend       | feature/auth-module      | a23f45d   | feat(auth): implement login and registration logic   | Creación de flujo de autenticación con validaciones y redirecciones.       | 14-05-2025         |
+| GabrielaShapiama/UI-Topic-frontend | feature/dashboard-layout | b76a2fc   | feat(dashboard): add layout and navigation           | Estructura base del dashboard con navegación lateral y superior.            | 14-05-2025         |
+| Williams/UI-Topic-frontend         | feature/inventory-module | c98f312   | feat(inventory): initial inventory module            | Implementación inicial de la vista de inventario con formulario de insumos. | 14-05-2025         |
+| Yaku Guzman/UI-Topic-frontend      | feature/orders-module    | d12e7af   | feat(orders): orders module view and status tracking | Desarrollo de listado de pedidos y seguimiento de estado.                    | 13-05-2025         |
+| jahazielgg/UI-Topic-frontend       | feature/products-module  | e4501aa   | feat(products): create product management UI         | Vista para gestión de productos del restaurante y filtros por proveedor.    | 13-05-2025         |
+| GabrielaShapiama/UI-Topic-frontend | feature/sidebar          | f12cbb9   | feat(ui): add sidebar navigation                     | Integración de barra lateral con íconos y secciones principales.           | 12-05-2025         |
+| Williams/UI-Topic-frontend         | main                     | 1349abc   | chore: merge feature branches to main                | Integración de módulos principales al branch principal.                    | 12-05-2025         |
+
+#### 5.2.2.5 Execution Evidence for Sprint Review
+
+A continuación, se presenta el video del frontend de la aplicación web interna. Este demuestra la interacción de los usuarios autenticados con los módulos principales del sistema, incluyendo la navegación por el sidebar, la gestión de productos, el seguimiento de alertas y el control de inventario.  
+
+**Video del frontend:**
+![Captura del video](assets/images/cap-5/evidence_sprint_2/video_evidence.png)
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/EY3GdWRDA0FFkne6vY7rA2YBNCogeN7uU70N4UnuxwgpAg?e=ZgvDYo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review.
+
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, se realizaron las actividades de despliegue del frontend de la aplicación web `UI-Topic-frontend` utilizando la plataforma **GitHub Pages**. A continuación, se detallan los pasos ejecutados:
+
+1. Se preparó la aplicación Angular para producción ejecutando el comando de compilación con la ruta base correspondiente:
+
+```bash
+ng build --base-href="/UI-Topic-frontend/"
+
+```
+
+Esto generó una versión optimizada del frontend dentro de la carpeta dist/.
+
+2. Se instaló el paquete oficial angular-cli-ghpages para facilitar el despliegue en GitHub Pages:
+
+```bash
+ng add angular-cli-ghpages
+```
+
+Esto configuró automáticamente los scripts necesarios para hacer deploy desde dist/.
+
+3. Se ejecutó el siguiente comando para desplegar el contenido compilado a la rama gh-pages del repositorio:
+
+```bash
+npx angular-cli-ghpages --dir=dist/UI-Topic-frontend
+```
+
+Esto creó la rama gh-pages, subió los archivos de producción y habilitó el sitio público.
+
+4. Luego, se accedió al repositorio en GitHub y se ingresó a la sección Settings > Pages, donde se verificó que el origen de publicación estuviera configurado correctamente (rama gh-pages y carpeta raíz /).
+
+5. Finalmente, se obtuvo y verificó la URL pública generada por GitHub Pages, validando que la aplicación se mostrara correctamente.
+#### 5.2.2.8 Team Collaboration Insights during Sprint.
+
+Se crearon ramas específicas para cada sección o funcionalidad (feature/[nombre-de-seccion]), permitiendo un trabajo paralelo organizado.
+Cada miembro del equipo asumió la responsabilidad de desarrollar una o más secciones del Frontend.
+Se realizaron commits frecuentes, registrando avances de manera continua y detallada.
+Las funcionalidades desarrolladas se integraron mediante Pull Requests hacia la rama develop.
+Se mantuvo una comunicación constante mediante la plataforma Discord para coordinar avances y resolver dudas en tiempo real.
+Se aplicaron buenas prácticas de programación, control de versiones y colaboración en equipo.
+
+##### **Analíticos de colaboración**
+
+![Team Collaboration Insight](assets/images/cap-5/team_collaboration_insight.png)
+
+##### **Analíticos de commits de GitHub**
+
+![Team Collaboration Insight](assets/images/cap-5/team_collaboration_insight_2.png)
