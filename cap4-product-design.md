@@ -1103,6 +1103,16 @@ Este esquema representa la lógica del contexto de planificación. La tabla reci
 
 ![Database diagram](assets\images\cap4\dbd_bc\dbd_planning_bc.png "Planning")
 
+#### Bounded Context: Resource
+Este esquema representa la lógica del contexto de resources. Las tablas presentes son: unit_measurements, categories, supplies, alerts, alerts_states, batches, restaurant_contacts, inventories.
+
+![Database diagram](assets\images\cap4\dbd_bc/resource_bounded_context.jpg "Resource")
+
+#### Bounded Context: Monitoring
+Este esquema representa la lógica del contexto de monitoring. Las tablas presentes son: sales, sales_recipes, comments, ordertosuppliers, ordertosuppliers_supplies, orderToSupplier_status y order_payments.
+
+![Database diagram](assets\images\cap4\dbd_bc/monitoring_bounded_context.jpg "Monitoring")
+
 ## 4.9 DDD Estratégico
 
 A continuación, se presenta el Event Storming de Restock, en el cual se identifican los eventos clave, actores, acciones, decisiones, reglas y relaciones entre partes del sistema. Se establecieron 7 bounded context:  Subscriptions and Payments, Identity and Access Management, Profiles and Preferences, Service Design and Planning, Asset Operation and Monitoring, Service Operation and Monitoring y Analytics.
