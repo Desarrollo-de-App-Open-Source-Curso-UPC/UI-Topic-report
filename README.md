@@ -107,8 +107,6 @@ Repositorio del informe del proyecto:
 - Actividad repartida entre ramas para cada sección del informe
 - Todos los miembros participaron activamente en la redacción y revisión del contenido
 
----
-
 ## Sprint 1 - Informe inicial y Landing Page (27 de marzo - 27 de abril de 2025)
 
 Repositorio de el landing page:  
@@ -128,14 +126,12 @@ El trabajo del informe se organizó utilizando ramas separadas por secciones tem
 
 Este nivel de actividad evidencia una participación activa y equitativa de todos los miembros del equipo.
 
----
-
 ## Sprint 2 - Desarrollo del Frontend (28 de abril - 25 de mayo de 2025)
 
 Repositorio del frontend:  
 🔗 [https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-Frontend](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-Frontend)
 
-En este sprint, el equipo centró sus esfuerzos en la construcción de la interfaz de usuario de la aplicación web. Utilizando **Vue 3 con Vite**, **PrimeVue**, **axios** e **i18n**, se implementaron los principales componentes de la interfaz, así como la estructura inicial basada en **domain-driven design** con subdominios `public` y `global`.
+En este sprint, el equipo centró sus esfuerzos en la construcción de la interfaz de usuario de la aplicación web. Utilizando **Angular 19**, **Angular Material**, **axios** e **i18n**, se implementaron los principales componentes de la interfaz, así como la estructura inicial basada en **domain-driven design** con subdominios `public` y `global`.
 
 Para el informe, se documentó el diseño de la arquitectura frontend, la estructura de carpetas, las decisiones tecnológicas y se agregaron capturas del prototipo funcional. La colaboración en esta entrega se reflejó en múltiples commits, donde cada miembro aportó a secciones específicas y revisó las contribuciones de los demás.
 
@@ -144,8 +140,6 @@ Para el informe, se documentó el diseño de la arquitectura frontend, la estruc
 - 440 commits relacionados con la documentación de la arquitectura frontend y diseño de componentes.
 - Se añadieron secciones al informe: Arquitectura del Frontend, Estructura de Componentes, y Descripción Técnica del Sprint 2.
 - Participación activa de los 5 miembros en los commits y revisión de PRs.
-
----
 
 ## Sprint 3 - Desarrollo del Backend (26 de mayo - 21 de junio de 2025)
 
