@@ -749,8 +749,77 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 | Sprint 3 Goal                       | Nuestro enfoque está en entregar una experiencia funcional completa para los<br />principales segmentos de usuario de la plataforma: mejorar la landing page para <br />comunicar de forma clara nuestra propuesta de valor a nuevos visitantes; habilitar <br />la gestión de ventas, recetas y pedidos para los administradores de restaurantes; <br />permitir a los proveedores visualizar y gestionar las órdenes que reciben; e integrar <br />el flujo de pagos de suscripción para ambos perfiles. Además, buscamos proporcionar <br />APIs REST documentadas para que el equipo frontend pueda implementar las vistas <br />correspondientes de manera fluida.<br />Creemos que esto ofrece mayor usabilidad y operatividad para los administradores<br /> y proveedores, una mejor experiencia de entrada para los visitantes, y una integración <br />más eficiente entre el backend y el desarrollo frontend, a fin de facilitar la validación <br />de la plataforma, acelerar la adopción de usuarios y alinear a todos los equipos<br /> involucrados.<br />Esto se confirmará cuando los visitantes puedan acceder a la nueva landing page, <br />los administradores y proveedores puedan simular sus flujos clave (ventas, recetas, <br />pedidos, suscripciones), y el equipo frontend consuma exitosamente los endpoints <br />de backend para construir las vistas correspondientes. |
 | Sprint 3 Velocity                    | 90                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Sum of Story Points                  | 88                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
+
+**Video del sprint 3:**
+![Captura del video](assets\images\cap5\evidence_sprint_3.png)
+[https://shorturl.at/77Cv2](https://shorturl.at/77Cv2)
+
+#### 5.2.3.6 Services Documentation Evidence for Sprint Review
+
+Durante este sprint se completó al 100% el desarrollo del Landing Page del sistema, consolidando su estructura visual, diseño responsivo, traducción multilenguaje y funcionalidades de navegación. Asimismo, se avanzó de forma significativa en la construcción del frontend del sistema, incluyendo componentes claves como el menú lateral, el dashboard inicial, el módulo de gestión de insumos y la arquitectura modular en Angular bajo DDD (Domain-Driven Design).
+
+Aunque no se desplegaron endpoints REST aún, se documentan a continuación los recursos y avances relevantes del sprint, junto con evidencia de despliegue y repositorio de código.
+
+**Descripción del Logro:**
+
+- Finalización del Landing Page (100%).
+- Implementación completa de diseño responsivo, i18n, y redirecciones funcionales.
+- Estructura de frontend modular iniciada (menu sidebar, dashboard y componentes base).
+- Aplicación de buenas prácticas de organización por bounded contexts en Vue.
+- Integración visual basada en PrimeVue, PrimeFlex y PrimeIcons.
+
+### Recursos del Sprint
+
+| Recurso                  | Acción implementada                                    | Método HTTP | URL / Endpoint                                                                 | Link de repositorio                                             |
+|--------------------------|--------------------------------------------------------|-------------|--------------------------------------------------------------------------------|------------------------------------------------------------------|
+| Landing Page             | Visualización completa y funcional del landing         | GET         | https://aplicaciones-web-curso-upc.github.io/UI-Topic-landing/                | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing   |
+| UI del sistema (WIP)     | Avance en el sistema (menú, dashboard, inventario)     | GET         | https://ui-topic-frontend.vercel.app/dashboard                                | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend  |
+| Get supply by ID         | Obtener un insumo por ID                               | GET         | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}        | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Update a supply          | Actualizar un insumo                                   | PUT         | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}        | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Delete a supply          | Eliminar un insumo                                     | DELETE      | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}        | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Get all supplies         | Listar todos los insumos                               | GET         | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies             | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Create a new supply      | Crear un nuevo insumo                                  | POST        | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies             | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Get supplies by user ID  | Listar insumos por ID de usuario                       | GET         | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/user/{id}   | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Get batch by ID          | Obtener un lote por ID                                 | GET         | https://restock-platform-sprint-boot.onrender.com/api/v1/batches/{id}         | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Update a batch           | Actualizar un lote                                     | PUT         | https://restock-platform-sprint-boot.onrender.com/api/v1/batches/{id}         | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Delete a batch           | Eliminar un lote                                       | DELETE      | https://restock-platform-sprint-boot.onrender.com/api/v1/batches/{id}         | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Get all batches          | Listar todos los lotes                                 | GET         | https://restock-platform-sprint-boot.onrender.com/api/v1/batches              | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Create a new batch       | Crear un nuevo lote                                    | POST        | https://restock-platform-sprint-boot.onrender.com/api/v1/batches              | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Get batches by user ID   | Listar lotes por ID de usuario                         | GET         | https://restock-platform-sprint-boot.onrender.com/api/v1/batches/user/{id}    | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Get all ref supplies     | Ver insumos de referencia                              | GET         | https://restock-platform-sprint-boot.onrender.com/api/v1/reference-supplies   | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Get all ref categories   | Ver categorías de referencia                           | GET         | https://restock-platform-sprint-boot.onrender.com/api/v1/reference-categories | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Get recipe by ID         | Obtener receta por ID                                  | GET         | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}         | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Update recipe            | Actualizar receta                                      | PUT         | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}         | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Delete recipe            | Eliminar receta                                        | DELETE      | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}         | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Get all recipes          | Listar todas las recetas                               | GET         | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes              | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Create a new recipe      | Crear nueva receta                                     | POST        | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes              | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Get recipe supplies      | Obtener insumos de una receta                          | GET         | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}/supplies| https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Add supply to recipe     | Agregar insumo a receta                                | POST        | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}/supplies| https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend   |
+| Update recipe supply     | Actualizar insumo en receta                            | PUT         | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}/supplies/{supplyId} | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend |
+| Delete recipe supply     | Eliminar insumo de receta                              | DELETE      | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}/supplies/{supplyId} | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend |
 
 
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Seguimos usando ramas específicas para cada sección o funcionalidad (feature/[nombre-de-seccion]), permitiendo un trabajo paralelo organizado.
+
+Cada miembro del equipo asumió la responsabilidad de desarrollar una o más boundeds del Backend.
+Se realizaron commits frecuentes, registrando avances de manera continua y detallada.
+Las funcionalidades desarrolladas se integraron mediante Pull Requests hacia la rama develop.
+Se mantuvo una comunicación constante mediante la plataforma Discord para coordinar avances y resolver dudas en tiempo real.
+Se aplicaron buenas prácticas de programación, control de versiones y colaboración en equipo.
+
+##### **Analíticos de colaboración**
+
+![Team Collaboration Insight](assets/images/cap5/team_ci_3_1.png)
+
+##### **Analíticos de commits de GitHub**
+
+![Team Collaboration Insight](assets/images/cap5/team_ci_3_2.png)
 
 
 ## 5.3. Validation Interviews
@@ -980,4 +1049,20 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 **Problema:** Aunque se puede programar fechas de envío, no se ofrece una vista que permita ver de forma semanal o mensual todas las programaciones a la vez.
 **Evidencia:** Flor menciona que programa fechas de envío en un calendario interactivo, pero no indica capacidad de ver planificación agregada.
 **Recomendación:** Añadir vistas tipo "semana" o "mes" al calendario para facilitar la gestión logística de varios pedidos.
+
+## 5.4. Video About-the-Product
+
+A continuación, se presenta el video "About the Product" del sistema Restock, una solución tecnológica desarrollada para digitalizar y automatizar la gestión de inventarios y pedidos en restaurantes. Este video está dirigido principalmente a los visitantes del Landing Page, quienes desean conocer el modelo de negocio y las principales funcionalidades de la plataforma, así como a los usuarios potenciales de las aplicaciones, interesados en realizar tareas relacionadas con los procesos soportados por la solución.
+
+El video comunica de forma clara y dinámica el propósito del producto, mostrando cómo Restock ayuda a reducir el desperdicio, mejorar la eficiencia operativa y fortalecer la relación entre administradores de restaurantes y proveedores. Se utiliza un tono consistente con la propuesta visual y comunicacional del producto, combinando narración, demostraciones de uso y escenarios reales.
+
+Como parte de la validación del producto, se incluye también el testimonio de un administrador de restaurante entrevistado en la etapa de descubrimiento.
+
+A continuación, se incluye un screenshot del video, junto con los enlaces de la versión publicada en Microsoft Stream y YouTube, y el detalle del timing.
+
+
+[https://shorturl.at/kE0En](https://shorturl.at/kE0En)
+
+[https://youtu.be/f_i_Dg1ncb4](https://youtu.be/f_i_Dg1ncb4)
+
 
