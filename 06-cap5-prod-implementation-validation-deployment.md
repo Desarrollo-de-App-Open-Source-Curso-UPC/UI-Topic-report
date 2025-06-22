@@ -858,6 +858,69 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 
 ### 5.3.2. Registro de Entrevistas
 
+Segmento 1: Dueños o administradores de Restaurantes
+
+##### Entrevista 1:
+
+**Nombre:** Alfredo Bernuy
+**Edad:** 52 años
+**Distrito:** Chorrillos
+**Timing:** (00:00- 05:18 min)
+
+![Foto de Entrevista](assets/images/entrevistaFinal1.png)
+
+Ver entrevista: https://lc.cx/YT7O8G
+
+**Resumen:**
+Alfredo Bernuy, administrador de restaurantes con 4 años de experiencia, tiene 52 años, es casado y vive en el distrito de Chorrillos, Lima. Es una persona comprometida y orientada a la mejora continua.
+
+Alfredo Bernuy destaca que la plataforma le resulta muy intuitiva desde el primer acceso: los menús están organizados de forma clara, los botones de acción son fácilmente reconocibles y el flujo para crear o modificar pedidos se siente natural y ágil. Valora especialmente la sección de gestión de stock, que le permite visualizar en tiempo real los niveles de inventario, recibir alertas automáticas al alcanzar el mínimo definido y filtrar por categorías o fechas para detectar tendencias.
+
+Por otro lado, subraya que el diseño es moderno y atractivo: la paleta de colores es sobria pero actual, la tipografía resulta legible y los iconos comunican su función de un vistazo. Considera que la herramienta le brinda un control total sobre pedidos y stock, le ahorra tiempo y le transmite la confianza necesaria para optimizar sus operaciones diarias.
+
+##### Entrevista 2:
+
+**Nombre:** Mery Pilar
+**Edad:** 349 años
+**Distrito:** Chorrillos
+**Timing:** (05:19 - 10:50 min)
+
+![Foto de Entrevista](assets/images/entrevistaFinal2.png)
+
+Ver entrevista: https://lc.cx/YT7O8G
+
+**Resumen:**
+
+Mery Pilar, administradora de restaurantes con 6 años de experiencia, tiene 49 años, es casada y vive en el distrito de Chorrillos, Lima. Es una persona responsable y orientada a la mejora continua e innovación.
+
+Mery Pilar resalta que la herramienta es sumamente sencilla de usar desde el primer contacto: los apartados están dispuestos de manera ordenada, los elementos interactivos resultan intuitivos y el proceso para generar o actualizar pedidos fluye de forma muy eficiente. Aprecia de forma especial el módulo de control de inventario, que le permite monitorear al instante las existencias, recibir notificaciones automáticas cuando un artículo llega al stock mínimo y aplicar filtros por categoría o periodo para identificar patrones de consumo.
+
+Además, enfatiza que la apariencia es fresca y profesional: los tonos empleados son elegantes sin dejar de ser actuales, la tipografía se lee con total nitidez y los iconos transmiten claramente su función. En su opinión, esta solución le proporciona el dominio completo sobre pedidos e inventario, optimiza su tiempo y le infunde la seguridad necesaria para mejorar sus operaciones diarias.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Segmento 2: Proveedores para Restaurantes
+
+##### Entrevista 1:
+
+**Nombre:** Flor Medina
+**Edad:** 28 años
+**Distrito:** San Miguel
+**Timing:** (10:51 - 21:05 min)
+
+![Foto de Entrevista](assets/images/entrevistaFinal3.png)
+
+Ver entrevista: https://lc.cx/YT7O8G
+
+**Resumen:**
+
+Gerente de logistica y 7 años de experiencia
+
+Flor Medina tiene 28 años, vive en el distrito de San Miguel y es gerente de logistica de pedidos. Es una persona perseverante, responsable y amable.
+
+Comenta que la plataforma le facilita enormemente la gestión de sus pedidos entrantes: puede visualizar al instante las solicitudes de los restaurantes, confirmar o rechazar con un solo clic y programar fechas de envío en un calendario interactivo. Destaca el módulo de invetario, donde actualiza precios y descripciones de productos en tiempo real, y agradece las notificaciones automáticas que recibe cuando un cliente solicita pedidos.
+
+Por su parte, valora que el panel de análisis le proporciona métricas claras que le ayuda a ajustar su producción y planificar rutas de reparto más eficientes. En conjunto, considera que esta herramienta le otorga un control total de sus procesos de venta y logística, reduce errores administrativos y le brinda la confianza de ofrecer un servicio más ágil y profesional.
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 **Carrera:** Ingeniería de Software
@@ -865,7 +928,7 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 **Sección:** 4292
 **Profesores:** Angel Velasquez
 **Auditor:** Gabriela Nicole Shapiama Rivera y Yaku Mateo Guzman Cabrejos
-**Cliente(s):** Mery Pilar, Alfredo Barnouil y Flor Medina
+**Cliente(s):** Mery Pilar, Alfredo Bernuy y Flor Medina
 
 **Site o App a evaluar:** Restock
 
