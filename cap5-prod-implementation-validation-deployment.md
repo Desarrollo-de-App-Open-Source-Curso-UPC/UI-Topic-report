@@ -933,7 +933,7 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
 |               |                                                                            | T004    | Eliminar o desactivar la cuenta del usuario                                                                                |                                                                                                                                                                                                                                                  | 2h              |
 |               |                                                                            | T005    | Revocar tokens activos y sesiones                                                                                          |                                                                                                                                                                                                                                                  | 1/2h            |
 
-[Link Trello](https://trello.com/b/yD03C08R)
+[Link del Trello](https://trello.com/b/yD03C08R)
 
 #### 5.2.3.4 Development Evidence for Sprint Review
 
