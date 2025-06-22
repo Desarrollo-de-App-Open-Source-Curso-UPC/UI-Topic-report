@@ -381,8 +381,6 @@ Las actividades de implementación se llevaron a cabo de la siguiente manera:
 
 Gracias a esta organización, se logró cumplir de manera efectiva el objetivo del sprint, garantizando que todos los integrantes contribuyeran de forma activa en el desarrollo de la Landing Page.
 
----
-
 ##### Evidencia de Colaboración en GitHub
 
 Se presenta a continuación la captura de los insights del repositorio de GitHub, correspondiente al Sprint 1:
@@ -447,9 +445,7 @@ Además, se realizaron mejoras en el *landing page*, incluyendo la implementaci�
 
 ![Board Sprint Details 2](assets/images/cap5/sprint-backlog2-1.png)
 
-![Board Sprint Details 2](assets/images/cap5/sprint-backlog2-2.png)
-
-[[Enlace al Trello Sprint 2](https://trello.com/invite/b/681ab5854ac93bbc3c456c4e/ATTI2ddc2248f5308bf6ee343af5c381ec7f2CE97AD8/sprint-backlog-2)]
+[[Enlace al Trello Sprint 2](https://trello.com/invite/b/683647e8634b5838558bf15e/ATTI60ef402a8479e9a372596585b96dfe5b55AA829E/sprint-backlog-2)]
 
 | User Story ID | User Story Title                                      | Task ID | Task Title                | Task Description                                                                                          | Estimated Hours |
 | ------------- | ----------------------------------------------------- | ------- | ------------------------- | --------------------------------------------------------------------------------------------------------- | --------------- |
@@ -660,7 +656,7 @@ El objetivo principal fue implementar funcionalidades claves para la gestión de
 A continuación, se presenta el video del frontend de la aplicación web interna. Este demuestra la interacción de los usuarios autenticados con los módulos principales del sistema, incluyendo la navegación por el sidebar, la gestión de productos, el seguimiento de alertas y el control de inventario.
 
 **Video del frontend:** 
-![Captura del video](assets/images/cap-5/evidence_sprint_2/video_evidence.png)
+![Captura del video](assets/images/cap5/evidence-sprint2/video_evidence.png)
  
 [Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/ETDVDbf3CyRHspaBM0QOKCwBJu3DhOq9j9Un5OmGHZvtHA?e=4b2Tin&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
@@ -716,12 +712,12 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 ##### **Analíticos de colaboración**
 
  
-![Team Collaboration Insight](https://file+.vscode-resource.vscode-cdn.net/d%3A/UNIVERSIDAD/CICLO%205/DESARROLLO%20DE%20APLICACIONES%20OPEN%20SOURCE/TF/ReportSO/UI-Topic-report/assets/images/cap-5/team_collaboration_insight_2.png)
+![Team Collaboration Insight](assets/images/cap5/collaboration-insight/ci_1.png)
 
 ##### **Analíticos de commits de GitHub**
 
 
-![Team Collaboration Insight](https://file+.vscode-resource.vscode-cdn.net/d%3A/UNIVERSIDAD/CICLO%205/DESARROLLO%20DE%20APLICACIONES%20OPEN%20SOURCE/TF/ReportSO/UI-Topic-report/assets/images/cap5/IN2.png)
+![Team Collaboration Insight](assets/images/cap5/collaboration-insight/ci_2.png)
  
 ### 5.2.3. Sprint 3
 
