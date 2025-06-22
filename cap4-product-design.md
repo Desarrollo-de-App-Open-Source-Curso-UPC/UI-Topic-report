@@ -1446,6 +1446,12 @@ A continuación, se incluirá un screenshot extraído de un video por cada tipo 
 
 ![Class diagram](assets/images/cap4/UML_Java.png "Diagrama de clases")
 
+#### Bounded Context: Resource
+
+El siguiente diagrama de clases representa la estructura orientada a objetos del contexto **Resource** en Java. Se modelan las entidades principales del dominio como clases, incluyendo `Supply`, `CustomerSupply`, `Batch`, `BatchNotification`, `OrderToSupplier`, `OrderToSupplierBatch`, `OrderToSupplierState`, `OrderToSupplierSituation` y `Comment`. Estas clases encapsulan atributos y comportamientos conforme a las reglas de negocio del sistema de gestión de inventario, y se relacionan entre sí mediante asociaciones típicas del lenguaje Java, como composiciones, agregaciones o dependencias. Este diseño promueve una separación clara de responsabilidades y facilita la implementación de una arquitectura basada en el enfoque de Domain-Driven Design (DDD).
+
+![Class diagram](assets/images/cap4/class_diagram/resource_bounded_context-os.png "Resource Class Diagram")
+
 ### 4.7.2 Class Dictionary
 
 | Entidad                 | Descripción                                                                                                                                               |
@@ -1457,10 +1463,10 @@ A continuación, se incluirá un screenshot extraído de un video por cada tipo 
 | RestaurantAdmin         | Representa a un suscriptor de tipo administrador de restaurante encargado de gestionar internamente el restaurante, sus operaciones, inventario y pedidos. |
 | Comment                 | Comentario hecho por un administrador de restaurante a un pedido de proveedor.                                                                             |
 | OrderToSupplier         | Pedido de productos o insumos realizado por el restaurante hacia un proveedor.                                                                             |
-| PaymentInfo             | Contiene los detalles de métodos y transacciones de pago.                                                                                                 |
-| Alert                   | Representa una notificación automática que informa al suscriptor sobre eventos importantes.                                                              |
+| Batch             | Contiene los detalles del lote del insumo del inventario.                                                                                                 |
+| Notification                   | Representa una notificación automática que informa al suscriptor sobre eventos importantes.                                                              |
 | Inventory               | Representa el registro de todos los insumos, productos y materiales disponibles del suscriptor.                                                            |
-| ProductCatalog          | Catálogo o listado de platos ofrecidos por el restaurante a sus clientes.                                                                                 |
+| DishesCatalog          | Catálogo o listado de platos ofrecidos por el restaurante a sus clientes.                                                                                 |
 | RestaurantCustomerOrder | Pedido que un cliente realiza al restaurante.                                                                                                              |
 | Report                  | Resumen generado sobre eventos o métricas del sistema.                                                                                                    |
 | Supply                  | Insumo o materia prima almacenada en el inventario.                                                                                                        |
