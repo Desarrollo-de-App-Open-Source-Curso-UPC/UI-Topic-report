@@ -1655,7 +1655,7 @@ Este diseño permite a los usuarios personalizar su experiencia, categorizando s
 
 ### 4.8.1 Database Diagram
 
-![Database diagram](assets/images/cap4/database_diagram.png "Diagrama de base de datos")
+![Database diagram](assets/images/cap4/dbd_bc/diagrama_version_final.png "Diagrama de base de datos")
 
 #### Bounded Context: Planning
 
@@ -1673,13 +1673,13 @@ Este esquema representa el contexto **Resource** del sistema de gestión de inve
 
 Este esquema representa la lógica del contexto de monitoring. Las tablas presentes son: sales, sales_recipes, comments, ordertosuppliers, ordertosuppliers_supplies, orderToSupplier_status y order_payments.
 
-![Database diagram](assets/images/cap4/dbd_bc/monitoring_bounded_context.jpg "Monitoring")
+![Database diagram](assets/images/cap4/dbd_bc/monitoring_bounded_context.png "Monitoring")
 
 #### Bounded Context: Profile
 
 Este esquema representa la lógica del contexto de profile. Las tablas profile almacena: name, business_name, phone y address.
 
-![Database diagram](assets/images/cap4/dbd_bc/db_profile.jpg "Profile")
+![Database diagram](assets/images/cap4/dbd_bc/db_profile.png "Profile")
 
 #### Bounded Context: Subscription
 
@@ -1689,7 +1689,7 @@ Este esquema representa la lógica del contexto de subscription. La tablas que s
 #### Bounded Context: Identity
 
 Este esquema representa la lógica del contexto de identity. Las tablas que se muestran son: users y roles.
-![Database diagram](assets/images/cap4/dbd_bc/db_iam.jpg "Identity")
+![Database diagram](assets/images/cap4/dbd_bc/db_iam.png "Identity")
 
 ## 4.9 DDD Estratégico
 
