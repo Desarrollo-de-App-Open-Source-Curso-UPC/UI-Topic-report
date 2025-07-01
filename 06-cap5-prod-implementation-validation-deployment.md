@@ -1312,7 +1312,7 @@ En el backend de la plataforma se realizaron importantes avances enfocados en la
 A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
 
 **Video del sprint 3:**
-![Captura del video](assets\images\cap5\evidence_sprint_3.png)
+![Captura del video](assets/images/cap5/evidence_sprint_3.png)
 [https://shorturl.at/77Cv2](https://shorturl.at/77Cv2)
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
