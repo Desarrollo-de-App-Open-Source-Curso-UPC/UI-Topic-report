@@ -97,66 +97,79 @@ _Abril 2025_
 
 # Project Report Collaboration Insights
 
-Para el desarrollo del **Project Report**, se utilizó un repositorio en la organización de GitHub del equipo. A continuación, se presenta la evidencia de colaboración correspondiente a cada sprint del proyecto, en coherencia con el Registro de Versiones del Informe.
+Para el desarrollo del **Project Report**, se utilizó un repositorio dentro de la organización del equipo en GitHub. A continuación, se presenta la evidencia de colaboración correspondiente, en coherencia con el Registro de Versiones del Informe.
 
-Repositorio del informe del proyecto:
-🔗 [https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-report](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-report)
+**Repositorio del informe del proyecto:**  
+[https://shorturl.at/ujj4j](https://shorturl.at/ujj4j)
 
-![Evidencia de commits del repositorio](assets/images/ci-repo.png)
+![Evidencia de commits del repositorio](assets/images/ci-overview.png)
 
-- Total de commits: **325 commits**
-- Autores contribuyentes: **5 miembros del equipo**
-- Actividad repartida entre ramas para cada sección del informe
-- Todos los miembros participaron activamente en la redacción y revisión del contenido
+- **Total de commits:** 507  
+- **Autores contribuyentes:**  
+  - Williams Avendaño (`dev-willy-code`)  
+  - Yaku Guzmán (`yak-cod`)  
+  - Julio Castro (`JulioXC4`)  
+  - Gabriela Shapiama (`GabrielaShapiama28`)  
+  - Jahaziel Guerra (`jahazielgg`)  
+- Actividad distribuida por ramas correspondientes a cada sección del informe.  
+- Todos los miembros participaron activamente en la redacción y revisión del contenido.
 
-## Sprint 1 - Informe inicial y Landing Page (27 de marzo - 27 de abril de 2025)
 
-Repositorio de el landing page:
-🔗 [https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing)
+## TB1 - Informe inicial y Landing Page (5 de abril - 27 de abril de 2025)
 
-Durante este primer sprint, el equipo se enfocó en la elaboración del informe base del proyecto, que incluye la definición del problema, justificación, objetivos, y el marco teórico. Paralelamente, se desarrolló la **Landing Page** de la aplicación utilizando tecnologías web como HTML5, CSS3 y JavaScript puro.
+Durante esta fase, el equipo elaboró el informe base del proyecto, abarcando la definición del problema, justificación, objetivos y marco teórico. Simultáneamente, se desarrolló la **Landing Page** utilizando HTML5, CSS3 y JavaScript puro.
 
-El trabajo del informe se organizó utilizando ramas separadas por secciones temáticas. Cada integrante del equipo aportó contenido específico y realizó revisiones cruzadas mediante pull requests. Las decisiones sobre estructura, estilo y contenido se discutieron mediante comentarios en los PRs.
+El trabajo fue organizado mediante ramas temáticas, permitiendo que cada integrante aportara contenido específico y realizara revisiones cruzadas mediante *pull requests*. Las decisiones sobre estructura, estilo y contenido se discutieron de forma colaborativa en los comentarios de los PRs.
 
-![Colaboraciones Sprint 1](assets/images/ci-landing.png)
+![Colaboraciones TB1](assets/images/ci-tb1.png)
 
-- 105 pull requests activos, todos fusionados exitosamente.
-- 0 issues abiertos, cerrados o nuevos.
-- 5 autores contribuyeron al repositorio.
-- 112 commits realizados en total (1 commit directo a main y 111 en ramas).
-- No se registraron cambios en archivos en la rama principal (0 adiciones y 0 eliminaciones).
+- **Williams Avendaño (`dev-willy-code`)**: 34 commits, 619 adiciones, 189 eliminaciones  
+- **Yaku Guzmán (`yak-cod`)**: 42 commits, 812 adiciones, 200 eliminaciones  
+- **Julio Castro (`JulioXC4`)**: 26 commits, 387 adiciones, 61 eliminaciones  
+- **Gabriela Shapiama (`GabrielaShapiama28`)**: 33 commits, 485 adiciones, 150 eliminaciones  
+- **Jahaziel Guerra (`jahazielgg`)**: 10 commits, 1037 adiciones, 770 eliminaciones  
+- **Total de commits en TB1:** 145  
 
-Este nivel de actividad evidencia una participación activa y equitativa de todos los miembros del equipo.
+La colaboración fue activa y equitativa, con contribuciones sustanciales de todos los integrantes.
 
-## Sprint 2 - Desarrollo del Frontend (28 de abril - 25 de mayo de 2025)
 
-Repositorio del frontend:
-🔗 [https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-Frontend](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-Frontend)
+## TP1 - Desarrollo del Frontend y mejoras en la Landing Page (28 de abril - 25 de mayo de 2025)
 
-En este sprint, el equipo centró sus esfuerzos en la construcción de la interfaz de usuario de la aplicación web. Utilizando **Angular 19**, **Angular Material**, **axios** e **i18n**, se implementaron los principales componentes de la interfaz, así como la estructura inicial basada en **domain-driven design** con subdominios `public` y `global`.
+Durante este sprint, el equipo se enfocó en construir la interfaz de usuario de la aplicación web. Se utilizó **Angular**, **Angular Material**, **axios** e **i18n** para implementar los componentes principales, siguiendo principios de **domain-driven design** y organización por *bounded contexts*. También se realizaron correcciones y mejoras en la Landing Page, mejorando la accesibilidad, adaptabilidad móvil y tiempos de carga.
 
-Para el informe, se documentó el diseño de la arquitectura frontend, la estructura de carpetas, las decisiones tecnológicas y se agregaron capturas del prototipo funcional. La colaboración en esta entrega se reflejó en múltiples commits, donde cada miembro aportó a secciones específicas y revisó las contribuciones de los demás.
+En el informe se documentó el diseño de la arquitectura del frontend, la estructura de carpetas y las decisiones tecnológicas adoptadas, incluyendo capturas del prototipo funcional. La colaboración se mantuvo mediante commits individuales y revisiones cruzadas de los PRs.
 
-![Colaboraciones Sprint 2](assets/images/ci-frontend.png)
+![Colaboraciones TP1](assets/images/ci-tp1.png)
 
-- 440 commits relacionados con la documentación de la arquitectura frontend y diseño de componentes.
-- Se añadieron secciones al informe: Arquitectura del Frontend, Estructura de Componentes, y Descripción Técnica del Sprint 2.
-- Participación activa de los 5 miembros en los commits y revisión de PRs.
+- **Williams Avendaño (`dev-willy-code`)**: 9 commits, 225 adiciones, 58 eliminaciones  
+- **Yaku Guzmán (`yak-cod`)**: 10 commits, 853 adiciones, 409 eliminaciones  
+- **Julio Castro (`JulioXC4`)**: 16 commits, 405 adiciones, 415 eliminaciones  
+- **Gabriela Shapiama (`GabrielaShapiama28`)**: 11 commits, 696 adiciones, 552 eliminaciones  
+- **Jahaziel Guerra (`jahazielgg`)**: 8 commits, 364 adiciones, 360 eliminaciones  
+- **Total de commits en TP1:** 54  
 
-## Sprint 3 - Desarrollo del Backend (26 de mayo - 21 de junio de 2025)
+Este nivel de actividad refleja un esfuerzo colaborativo significativo y una distribución equilibrada del trabajo.
 
-Repositorio del backend:
-🔗 [https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend)
 
-Durante el sprint final, se implementó el backend de la aplicación usando **Spring Boot** con arquitectura DDD. Se diseñaron los agregados principales (`Supply`, `Batch`), se definieron los servicios de comandos, consultas, y los controladores REST. También se integraron herramientas como **Swagger** para documentación automática de APIs.
+## TB2 - Desarrollo del Backend, mejoras en el frontend y Landing Page (26 de mayo - 21 de junio de 2025)
 
-En el informe se agregó una sección detallada sobre el backend, incluyendo los diagramas de contexto y contenedores generados con Structurizr, y descripciones del diseño orientado a dominios. Cada integrante contribuyó con documentación técnica del backend, integraciones y pruebas.
+Durante el sprint final, se desarrolló el backend utilizando **Springboot Framewok** bajo una arquitectura DDD. Se diseñaron los agregados principales (`Recipes`,`Supply` y `Batch`), así como servicios de comandos, consultas y controladores REST. También se integró **Swagger** para la documentación automática de las APIs.
 
-![Colaboraciones Sprint 3](assets/images/ci-backend.png)
+Paralelamente, se realizaron mejoras finales tanto en el frontend como en la Landing Page, corrigiendo errores visuales, optimizando flujos y asegurando la integración entre frontend y backend.
 
-- 26 commits adicionales con contenido del backend e imágenes de arquitectura.
-- Se incorporaron las secciones: Arquitectura Backend, Agregados DDD, y Documentación API.
-- Todos los integrantes participaron activamente con commits y revisión de secciones críticas del informe.
+El informe fue ampliado con una sección dedicada al backend, incluyendo diagramas de contexto y contenedores generados con Structurizr, además de descripciones detalladas sobre el diseño basado en dominios. Todos los miembros contribuyeron con documentación técnica, pruebas e integraciones.
+
+![Colaboraciones TB2](assets/images/ci-tb2.png)
+
+- **Williams Avendaño (`dev-willy-code`)**: 3 commits, 481 adiciones, 55 eliminaciones  
+- **Yaku Guzmán (`yak-cod`)**: 2 commits, 462 adiciones, 1 eliminaciones  
+- **Julio Castro (`JulioXC4`)**: 9 commits, 255 adiciones, 30 eliminaciones  
+- **Gabriela Shapiama (`GabrielaShapiama28`)**: 7 commits, 4708 adiciones, 4227 eliminaciones  
+- **Jahaziel Guerra (`jahazielgg`)**: 7 commits, 349 adiciones, 131 eliminaciones  
+- **Total de commits en TB2:** 28  
+
+La colaboración fue continua y estratégica, con aportes clave en aspectos críticos del backend y del informe final.
+
 
 # Tabla de contenidos
 
