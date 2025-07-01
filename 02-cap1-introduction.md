@@ -78,6 +78,21 @@ Visualizamos un futuro donde todos los restaurantes, sin importar su tamaño, cu
 
 <br>
 
+**Antonio Jhair Navarro Chinga (u202314101)**
+
+<div style="display: flex; align-items: center;">
+  <img src="assets/images/antonio.jpeg" alt="Descripción de la imagen" style="width: 150px; margin-right: 20px; border-radius: 10%;">
+  <div style="flex: 1;">
+  <p> 
+  Mi nombre es Antonio Jhair Navarro Chinga, tengo 19 años y soy estudiante del quinto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Desde mis primeros cursos descubrí mi interés por la tecnología y el desarrollo de soluciones innovadoras, lo que me ha motivado a fortalecer mis conocimientos día a día. <br>
+  Soy una persona colaborativa y responsable, características que considero fundamentales para el trabajo en equipo y el logro de objetivos comunes. A lo largo de mi formación académica he adquirido sólidos conocimientos en programación estructurada, programación orientada a objetos y algoritmos, lo que me permite abordar problemas con un enfoque lógico y eficiente. <br>
+  Además, me interesa mantenerme actualizado con las nuevas tendencias y herramientas en el mundo del software, y siempre busco nuevas oportunidades para aprender y mejorar mis habilidades colaborando en equipo.
+  </p>
+  </div> 
+</div>
+
+<br>
+
 **Gabriela Nicole Shapiama Rivera (u202319448)**
 
 <div style="display: flex; align-items: center;">
@@ -88,6 +103,8 @@ Visualizamos un futuro donde todos los restaurantes, sin importar su tamaño, cu
   También, he fortalecido mis competencias en el diseño de proyectos de software, acompañado de un   liderazgo asertivo. Estoy comprometida con seguir aprendiendo y aportar valor a cada equipo en el que   participo. </p>
   </div> 
 </div>
+
+<br>
 
 ## 1.2 Solution Profile
 

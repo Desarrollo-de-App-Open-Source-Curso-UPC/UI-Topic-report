@@ -103,9 +103,26 @@ thead {
 }
 
 .center {
-  text-align: center;
+  text-align: center !important;
+}
+
+.center * {
+  text-align: center !important;
+}
+
+.center table {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .center img {
   display: inline-block;
   margin: 0 auto;
+}
+
+#cover-page * {
+  text-align: center !important;
+}
+#cover-page table {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
