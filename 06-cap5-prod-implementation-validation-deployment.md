@@ -769,22 +769,39 @@ Esto creó la rama gh-pages, subió los archivos de producción y habilitó el s
 
 Link del frontend: [https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory](https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory)
 
-#### 5.2.2.8 Team Collaboration Insights during Sprint.
+#### 5.2.2.8 Team Collaboration Insights During Sprint
 
-Se crearon ramas específicas para cada sección o funcionalidad (feature/[nombre-de-seccion]), permitiendo un trabajo paralelo organizado.
-Cada miembro del equipo asumió la responsabilidad de desarrollar una o más secciones del Frontend.
-Se realizaron commits frecuentes, registrando avances de manera continua y detallada.
-Las funcionalidades desarrolladas se integraron mediante Pull Requests hacia la rama develop.
-Se mantuvo una comunicación constante mediante la plataforma Discord para coordinar avances y resolver dudas en tiempo real.
-Se aplicaron buenas prácticas de programación, control de versiones y colaboración en equipo.
+Durante el sprint, se adoptaron estrategias de colaboración efectivas que permitieron un desarrollo fluido y bien organizado del proyecto. A continuación se detallan las prácticas aplicadas:
+
+- Se crearon ramas específicas por funcionalidad o sección, siguiendo la convención `feature/[nombre-de-seccion]`. Esto facilitó un trabajo paralelo sin conflictos y mantuvo el repositorio estructurado.
+- Cada integrante fue responsable del desarrollo de una o más secciones del frontend, distribuyéndose el trabajo de forma equitativa.
+- Se realizaron **commits frecuentes y atómicos**, lo que permitió un seguimiento detallado del progreso y facilitó la revisión del código.
+- Todas las funcionalidades fueron integradas a través de *pull requests* hacia la rama `develop`, garantizando control de calidad mediante revisiones cruzadas.
+- La comunicación entre los miembros del equipo fue constante, utilizando la plataforma **Discord** como canal principal para coordinación diaria, resolución de dudas y toma de decisiones técnicas.
+- Se aplicaron buenas prácticas de control de versiones con Git, como descripciones claras en los commits, ramas temáticas, y revisión colaborativa mediante PRs.
+- El equipo también se enfocó en la calidad del código, utilizando estructuras consistentes, siguiendo estándares de codificación, y asegurando coherencia en estilos y convenciones.
+
 
 ##### **Analíticos de colaboración**
 
 ![Team Collaboration Insight](assets/images/cap5/collaboration-insight/ci_1.png)
 
-##### **Analíticos de commits de GitHub**
+- Total de commits realizados: **146**
+- Total de autores contribuyentes: **5**
+- Nivel de participación equilibrado entre todos los miembros
+- El gráfico muestra una distribución consistente de actividad a lo largo del sprint
+
+
+##### **Analíticos de *commits* y *pull requests* en GitHub**
 
 ![Team Collaboration Insight](assets/images/cap5/collaboration-insight/ci_2.png)
+
+- Total de *pull requests* registradas: **50**
+- *Pull requests* actualmente abiertas: **1**
+- Todas las PRs contaron con revisiones por al menos un miembro del equipo
+- El flujo de integración continua fue respetado en todas las funcionalidades importantes
+
+Estas métricas reflejan una colaboración activa, estructurada y bien gestionada por parte del equipo, lo que contribuyó significativamente a la calidad final del producto entregado.
 
 ### 5.2.3. Sprint 3
 
