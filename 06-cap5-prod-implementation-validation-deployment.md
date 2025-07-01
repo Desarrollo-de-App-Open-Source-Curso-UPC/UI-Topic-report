@@ -164,19 +164,19 @@ Cualquier nuevo commit hecho a la rama `main` será detectado automáticamente p
 
 * Framework: Angular
 * Build Tool: Angular CLI (ng build)
-* Hosting: Vercel
+* Hosting: GitHub Pages
 * Configuración y Despliegue
   Repositorio vinculado:
-  El proyecto frontend está alojado en GitHub y conectado directamente a Vercel. Cada push en la rama principal dispara un nuevo despliegue automático.
+  El proyecto frontend está alojado en GitHub y conectado directamente a GitHub Pages. Cada push en la rama principal dispara un nuevo despliegue automático.
 * Build:
-  Vercel ejecuta automáticamente el comando ng build utilizando Angular CLI. El resultado (/dist) se utiliza como carpeta de salida para servir la aplicación web.
+  GitHub Pages ejecuta automáticamente el comando ng build utilizando Angular CLI. El resultado (/dist) se utiliza como carpeta de salida para servir la aplicación web.
 * Variables de entorno:
-  Las URLs de los servicios REST del backend se configuran mediante variables de entorno en Vercel y no están hardcodeadas.
+  Las URLs de los servicios REST del backend se configuran mediante variables de entorno en GitHub Pages y no están hardcodeadas.
 
 **Entornos diferenciados:**
 
 * Desarrollo: Angular se ejecuta localmente (ng serve) apuntando a un entorno de backend local o staging.
-* Producción: El entorno de producción utiliza las variables configuradas en Vercel, que apuntan al backend desplegado en Render.
+* Producción: El entorno de producción utiliza las variables configuradas en GitHub Pages, que apuntan al backend desplegado en Render.
 
 **Integración con backend:**
 El frontend se comunica con el backend a través de HTTP consumiendo la API REST pública expuesta desde Render. Se realiza control de errores y carga de recursos asincrónicos desde los endpoints definidos.
@@ -1317,7 +1317,7 @@ Aunque no se desplegaron endpoints REST aún, se documentan a continuación los 
 | Recurso                 | Acción implementada                                | Método HTTP | URL / Endpoint                                                                            | Link de repositorio                                             |
 | ----------------------- | --------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | Landing Page            | Visualización completa y funcional del landing     | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/                            | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing  |
-| UI del sistema (WIP)    | Avance en el sistema (menú, dashboard, inventario) | GET          | https://ui-topic-frontend.vercel.app/dashboard                                            | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend |
+| UI del sistema (WIP)    | Avance en el sistema (menú, dashboard, inventario) | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/dashboard                                            | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend |
 | Get supply by ID        | Obtener un insumo por ID                            | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
 | Update a supply         | Actualizar un insumo                                | PUT          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
 | Delete a supply         | Eliminar un insumo                                  | DELETE       | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
