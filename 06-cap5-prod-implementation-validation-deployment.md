@@ -726,7 +726,7 @@ Aunque no se desplegaron endpoints REST aún, se documentan a continuación los 
 - Finalización del Landing Page (100%).
 - Implementación completa de diseño responsivo, i18n, y redirecciones funcionales.
 - Estructura de frontend modular iniciada (menu sidebar, dashboard y componentes base).
-- Aplicación de buenas prácticas de organización por bounded contexts en Vue.
+- Aplicación de buenas prácticas de organización por bounded contexts en Angular.
 - Integración visual basada en Angular y Angular Material.
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
@@ -1309,8 +1309,8 @@ Aunque no se desplegaron endpoints REST aún, se documentan a continuación los 
 - Finalización del Landing Page (100%).
 - Implementación completa de diseño responsivo, i18n, y redirecciones funcionales.
 - Estructura de frontend modular iniciada (menu sidebar, dashboard y componentes base).
-- Aplicación de buenas prácticas de organización por bounded contexts en Vue.
-- Integración visual basada en PrimeVue, PrimeFlex y PrimeIcons.
+- Aplicación de buenas prácticas de organización por bounded contexts en Angular.
+- Integración visual basada en Angular Material.
 
 ### Recursos del Sprint
 
