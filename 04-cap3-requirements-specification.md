@@ -141,77 +141,77 @@ Este escenario To-Be fue construido a partir del análisis del escenario As-Is d
         <td>Acceso a la plataforma</td>
         <td>Como visitante o usuario, quiero tener la posibilidad de registrarme si no tengo una cuenta o iniciar sesión si ya la tengo, para poder acceder a los servicios de la plataforma.</td>
         <td>Escenario 1: Registro de nuevo usuario<br />Dado que el visitante no posee una cuenta registrada, <br />cuando solicita iniciar el registro como nuevo usuario, <br />entonces el sistema debe permitir el ingreso de datos personales requeridos <br />y registrar al visitante como nuevo usuario de la plataforma<br /><br />Escenario 2: Inicio de sesión de usuario existente<br /><br />Dado que el usuario ya cuenta con una cuenta registrada, <br />cuando proporciona sus credenciales para iniciar sesión, <br />entonces el sistema debe validarlas <br />y permitir el acceso a la plataforma.</td>
-        <td>EP-01</td>
+        <td>EP-03</td>
     </tr>
     <tr>
         <td>US-02</td>
         <td>Recuperación de contraseña</td>
         <td>Como usuario, quiero recuperar el acceso a mi cuenta mediante la restauración de mi contraseña, para continuar utilizando la plataforma incluso si olvidé mis credenciales.</td>
         <td>**Escenario 1: Solicitud de recuperación de contraseña**<br />Dado que el usuario no ha iniciado sesión y desea recuperar el acceso, <br />cuando solicita iniciar el proceso de recuperación de contraseña, <br />entonces el sistema le permite ingresar su dirección de correo electrónico asociada a la cuenta<br />**Escenario 2: Envío de instrucciones de recuperación**<br />Dado que el usuario ha proporcionado una dirección de correo electrónico válida, <br />cuando envía la solicitud de recuperación, <br />entonces el sistema genera un medio seguro para restablecer la contraseña y notifica al usuario que se han enviado instrucciones al canal correspondiente<br />**Escenario 3: Enlace inválido o expirado**<br />Dado que el usuario accede a un medio de recuperación previamente generado, <br />cuando dicho recurso ya no es válido o ha expirado, <br />entonces el sistema informa que la recuperación no puede completarse Y ofrece la posibilidad de generar una nueva solicitud.<br />**Escenario 4: Restablecimiento exitoso**<br />Dado que el usuario accede a un recurso válido para restaurar su contraseña, <br />cuando proporciona una nueva contraseña que cumple con las reglas establecidas, <br />entonces el sistema actualiza su información de acceso <br />Y confirma que podrá ingresar con sus nuevas credenciales</td>
-        <td>EP-01</td>
+        <td>EP-03</td>
     </tr>
     <tr>
         <td>US-03</td>
         <td>Soporte de acceso según estado de suscripción</td>
         <td>Como usuario, quiero que mi acceso al sistema esté condicionado al estado activo de mi suscripción, para garantizar que solo pueda utilizar todas las funcionalidades mientras mi plan esté vigente.</td>
         <td>**Escenario 1: Acceso completo con suscripción activa** <br />Dado que el usuario posee una suscripción vigente, <br />cuando inicia sesión en la plataforma, <br />entonces el sistema permite el uso completo de las funcionalidades habilitadas por su plan<br /><br />Escenario 2: Acceso restringido con suscripción inactiva <br />Dado que el usuario tiene una suscripción vencida o inactiva, <br />cuando intenta acceder a funcionalidades del sistema, <br />entonces el sistema restringe su acceso y muestra un mensaje que informa sobre el estado de la suscripción<br /><br />Escenario 3: Acceso denegado a funcionalidades exclusivas<br />Dado que el usuario no posee una suscripción activa, <br />cuando intenta utilizar una funcionalidad reservada para suscriptores, <br />entonces el sistema bloquea el acceso a dicha funcionalidad y ofrece la opción de renovar o actualizar su plan.<br /><br />Escenario 4: Restauración del acceso tras renovación. <br />Dado que el usuario ha renovado su suscripción de forma exitosa, <br />cuando vuelve a ingresar al sistema,<br /> entonces el sistema actualiza su estado<br /> y permite nuevamente el uso de todas las funcionalidades correspondientes a su plan</td>
-        <td>EP-01</td>
+        <td>EP-04</td>
     </tr>
     <tr>
         <td>US-04</td>
         <td>Gestión manual de stock e insumos</td>
         <td>Como visitante del sitio web, quiero acceder fácilmente a información sobre redes sociales, contacto y aspectos legales, para obtener soporte o informarme sobre las condiciones de uso de la plataforma.</td>
         <td>**Escenario 1: Registro manual de stock**<br />Dado que el administrador de restaurante se encuentra en la sección de inventario, <br />cuando agrega un insumo al catalogo de insumos registra el tipo de insumo, <br />así como el stock mínimo y máximo, <br />entonces el sistema actualiza el inventario y muestra un mensaje de éxito.<br /><br />Escenario 2: Registro manual de stoc<br />Dado que el administrador de restaurante está en la sección de inventario, <br />cuando agrega un insumo del catálogo registra el stock actual y la fecha de expiración si es perecible, <br />entonces el sistema actualiza el inventario y muestra un mensaje de éxito<br /><br />Escenario 3: Validación de datos de stock<br />Dado que el administrador ingresa datos para el stock,<br /> cuando los datos son negativos o no numéricos, <br />entonces el sistema muestra un mensaje de error y evita la actualización<br /><br />Escenario 4: Descuento manual de stock <br />Dado que el administrador identifica un insumo para descontar del stock del inventario,<br /> cuando registra una cantidad válida para descuento, <br />entonces el sistema actualiza el stock y confirma la operación; <br /><br />Escenario 5: Advertencia por descuento excesivo <br />Dado que el administrador ingresa una cantidad de descuento de stock mayor al stock actual, <br />cuando intenta guardar el descuento, <br />entonces el sistema muestra una advertencia y solicita confirmación antes de proceder.<br /></td>
-        <td>EP-01</td>
+        <td>EP-06</td>
     </tr>
     <tr>
         <td>US-05</td>
         <td>Gestión integral de notificaciones de inventario</td>
         <td>Como administrador de restaurante, quiero recibir notificaciones automáticas por vencimiento próximo, exceso o escasez de stock en los insumos, para tomar decisiones logísticas y oportunas, y evitar pérdidas, desperdicios o quiebres de stock.</td>
         <td>Escenario 1: Notificación del sistema por vencimiento próximo.<br />Dado que un insumo tiene una fecha de vencimiento registrada <br />cuando faltan 5 días o menos para su vencimiento <br />entonces el sistema marca el insumo en la lista de inventario.<br /><br /> Escenario 2: Notificación automática por vencimiento. <br />Dado que existen insumos en el inventario <br />cuando el sistema detecta insumos con vencimiento próximo<br /> entonces envía una notificación al administrador de restaurante. <br /><br />Escenario 3: Notificación del sistema por exceso de stock. <br />Dado que un insumo tiene definido un stock máximo permitido <br />cuando el stock actual es igual o mayor a ese valor <br />entonces el sistema resalta el insumo como excedente en el listado de inventario.<br /><br /> Escenario 4: Notificación del sistema por bajo stock. <br />Dado que un insumo tiene un stock mínimo de referencia <br />cuando el stock actual es menor o igual al mínimo establecido <br />entonces el sistema resalta el insumo como escaso en el listado de inventario.</td>
-        <td>EP-01</td>
+        <td>EP-10</td>
     </tr>
     <tr>
         <td>US-06</td>
         <td>Enviar comentarios y calificaciones sobre pedidos</td>
         <td>Como administrador de restaurante, quiero calificar y dejar comentarios sobre los pedidos recibidos de los proveedores, para dar retroalimentación sobre la calidad del servicio y los productos.</td>
         <td>Escenario 1: Registro exitoso de retroalimentación.<br />Dado que el pedido ha sido entregado <br />cuando el administrador de restaurante proporciona una calificación válida y un comentario <br />entonces el sistema registra la retroalimentación y la asocia al pedido y proveedor correspondiente. <br /><br />Escenario 2: Intento de calificación de pedido no entregado. <br />Dado que el pedido aún no ha sido marcado como entregado <br />cuando el administrador de restaurante intenta registrar una calificación <br />entonces el sistema rechaza la operación e informa que solo se pueden calificar pedidos entregados. <br /><br />Escenario 3: Datos inválidos en la retroalimentación. <br />Dado que el administrador de restaurante proporciona una calificación fuera del rango permitido o un comentario vacío <br />cuando intenta registrar la retroalimentación <br />entonces el sistema muestra un mensaje de error indicando los datos inválidos.</td>
-        <td>EP-01</td>
+        <td>EP-12</td>
     </tr>
     <tr>
         <td>US-07</td>
         <td>Gestionar productos en el inventario</td>
         <td>Como proveedor, quiero gestionar la información de los productos que ofrezco a los restaurantes, para mantener mi catálogo de productos actualizado y facilitar los pedidos de mis clientes.</td>
         <td>Escenario 1: Visualizar listado de productos.<br />Dado que el proveedor ha iniciado sesión <br />cuando accede a la sección de productos <br />entonces el sistema muestra todos los productos que tiene registrados y que están actualmente ofrecidos. <br /><br />Escenario 2: Registrar un nuevo producto. <br />Dado que el proveedor proporciona nombre, descripción, categoría y precio unitario del producto <br />cuando confirma el registro del nuevo producto y lo agrega a su inventario <br />entonces el sistema añade el producto al catálogo y lo hace visible para los restaurantes asociados. <br /><br />Escenario 3: Editar un producto existente.<br /> Dado que un producto ya existe en el inventario del proveedor <br />cuando actualiza uno o más de sus atributos <br />entonces el sistema guarda los cambios y los refleja en el inventario actualizado. <br /><br />Escenario 4: Eliminar un producto. <br />Dado que un producto existe en el inventario del proveedor <br />cuando el proveedor decide eliminarlo y confirma la acción <br />entonces el sistema remueve el producto y deja de mostrarlo a los restaurantes asociados. <br /><br />Escenario 5: Desactivar un producto temporalmente. <br />Dado que un producto no está disponible <br />cuando el proveedor cambia su estado a inactivo <br />entonces el sistema oculta el producto y deja de mostrarlo a los restaurantes. <br /><br />Escenario 6: Reactivar un producto. <br />Dado que un producto inactivo vuelve a estar disponible <br />cuando el proveedor cambia su estado a activo <br />entonces el sistema muestra nuevamente el producto en el catálogo disponible para los restaurantes. <br /><br />Escenario 7: Intento de gestión con datos incompletos o inválidos. <br />Dado que el proveedor omite uno o más campos obligatorios o ingresa datos inválidos al crear o actualizar un producto <br />cuando intenta completar la acción <br />entonces el sistema muestra un mensaje de error indicando qué datos faltan o son incorrectos.</td>
-        <td>EP-01</td>
+        <td>EP-06</td>
     </tr>
     <tr>
         <td>US-08</td>
         <td>Gestión de Proveedores</td>
         <td>Como administrador de restaurante, quiero seleccionar proveedores disponibles en la plataforma y guardarlos en mi lista personal, para acceder fácilmente a su información cuando necesite realizar pedidos.</td>
         <td>Escenario 1: Agregar nuevo proveedor.<br />Dado que el administrador de restaurante accede a la sección de proveedores <br />cuando ingresa el nombre del proveedor que busca lo selecciona y lo confirma <br />entonces el sistema guarda al proveedor y lo incluye en su lista de proveedores. <br /><br />Escenario 2: Visualizar lista de proveedores. <br />Dado que existen proveedores registrados<br /> cuando el administrador de restaurante accede a la sección de proveedores<br /> entonces el sistema muestra la lista con nombre contacto y estado de cada proveedor. <br /><br />Escenario 4: Eliminar proveedor. <br />Dado que el administrador desea eliminar un proveedor de su lista <br />cuando confirma la eliminación <br />entonces el sistema elimina al proveedor y se actualiza la lista de proveedores. <br /><br />Escenario 5: Búsqueda por nombre. <br />Dado que hay múltiples proveedores registrados <br />cuando el administrador ingresa un nombre parcial o completo en la búsqueda <br />entonces el sistema actualiza la lista mostrando solo los proveedores cuyo nombre coincide. <br /><br />Escenario 6: Filtrado por categoría. <br />Dado que existen proveedores con diferentes categorías <br />cuando el administrador selecciona una categoría para filtrar <br />entonces el sistema muestra solo los proveedores que coinciden con esa categoría. <br /><br />Escenario 7: Combinación de filtros. <br />Dado que el administrador aplica múltiples criterios de búsqueda<br /> cuando utiliza nombre y categoría simultáneamente <br />entonces el sistema muestra solo los proveedores que cumplen con todos los criterios aplicados.</td>
-        <td>EP-01</td>
+        <td>EP-16</td>
     </tr>
     <tr>
         <td>US-09</td>
         <td>Gestión de receta</td>
         <td>Como administrador de restaurante, quiero mantener actualizadas las recetas del menú según las necesidades del negocio, para asegurar que solo estén disponibles las preparaciones activas y relevantes.</td>
         <td>Escenario 1: Agregar una nueva receta.<br />Dado que el administrador necesita incluir una nueva preparación en el menú <br />cuando indica su nombre, ingredientes y valor de venta <br />entonces el sistema registra la preparación como receta activa <br />y la hace disponible para futuras operaciones del restaurante. <br /><br />Escenario 2: Ajustar una receta existente. <br />Dado que una receta contiene información desactualizada o requiere cambios <br />cuando el administrador actualiza sus detalles<br /> entonces el sistema almacena los cambios y asegura que se reflejen en las funciones que dependen de esa receta. <br /><br />Escenario 3: Retirar una receta no vigente. <br />Dado que una receta ya no forma parte del menú actual y no está vinculada a operaciones recientes<br /> cuando el administrador solicita su retiro<br />entonces el sistema la remueve de las recetas activas y conserva la trazabilidad histórica correspondiente.</td>
-        <td>EP-01</td>
+        <td>EP-08</td>
     </tr>
     <tr>
         <td>US-10</td>
         <td>Consultar detalles de una receta registrada</td>
         <td>Como administrador de restaurante, quiero consultar la información detallada de una receta, para revisar los ingredientes utilizados y sus cantidades por porción.</td>
         <td>Escenario 1: Consulta general.<br />Dado que existen recetas registradas <br />cuando el administrador de restaurante accede a una receta específica <br />entonces el sistema muestra el nombre porciones insumos y cantidades asociadas. <br /><br />Escenario 2: Receta inexistente. <br />Dado que se intenta acceder a una receta eliminada o inexistente<br /> cuando el administrador de restaurante la consulta por ID o nombre <br />entonces el sistema muestra un mensaje indicando que no se encuentra disponible.</td>
-        <td>EP-01</td>
+        <td>EP-08</td>
     </tr>
     <tr>
         <td>US-11</td>
         <td>Gestión de perfil</td>
         <td>Como usuario quiero actualizar mi perfil para mantener mi información al día y asegurar que sea correctamente mostrada a otros usuarios en la plataforma.</td>
         <td>Escenario 1: Edición de datos básicos.<br />Dado que el usuario ha accedido a su sección de perfil <br />cuando actualiza datos como nombre correo electrónico teléfono dirección o descripción del negocio<br /> entonces el sistema guarda los cambios y los refleja en su perfil. <br /><br />Escenario 2: Subida de imagen de perfil o logo. <br />Dado que el usuario desea personalizar la imagen de su perfil <br />cuando selecciona una imagen válida y la carga <br />entonces el sistema la almacena y la muestra correctamente en el panel de perfil. <br /><br />Escenario 3: Validación de campos obligatorios. <br /><br />Dado que el usuario está editando su perfil <br />cuando deja campos obligatorios en blanco o introduce datos inválidos <br />por ejemplo un correo con formato incorrecto <br />entonces el sistema muestra mensajes de error claros <br />y no permite guardar los cambios hasta que los datos sean válidos.</td>
-        <td>EP-02</td>
+        <td>EP-05</td>
     </tr>
     <tr>
         <td>US-12</td>
@@ -225,49 +225,49 @@ Este escenario To-Be fue construido a partir del análisis del escenario As-Is d
         <td>Ver alertas recientes</td>
         <td>Como administrador, quiero ver alertas importantes (productos por vencer, bajo stock, etc.), para tomar acciones correctivas a tiempo.</td>
         <td>Escenario 1: Visualización de alertas.<br />Dado que el administrador accede al panel de control <br />cuando el sistema detecta productos por vencer o con bajo stock<br /> entonces se muestran alertas clasificadas por tipo (vencimiento, stock, etc.).<br /><br /> Escenario 2: Archivado de alertas. <br />Dado que una alerta ha sido revisada por el administrador <br />cuando esta se marca como revisada<br /> entonces desaparece del panel principal y se almacena en un historial de alertas.</td>
-        <td>EP-02</td>
+        <td>EP-10</td>
     </tr>
     <tr>
         <td>US-14</td>
         <td>Identificar a los Mejores Clientes</td>
         <td>Como proveedor, quiero ver qué restaurantes me compran más, para poder enfocarme en mantener relaciones sólidas con ellos.</td>
         <td>**Escenario 1: Ordenamiento de clientes por volumen de ventas**<br />Dado que el proveedor solicita información sobre sus mejores clientes,<br /> cuando define un rango de fechas válido, <br />entonces el sistema presenta una lista ordenada de restaurantes<br /> según el monto total adquirido durante ese periodo</td>
-        <td>EP-02</td>
+        <td>EP-09</td>
     </tr>
     <tr>
         <td>US-15</td>
         <td>Actualización manual de estado del inventario</td>
         <td>Como administrador de restaurante, quiero actualizar manualmente el estado del inventario, para asegurar que los insumos sean descontados correctamente y el inventario refleje información actualizada.</td>
         <td>Escenario 1: Visualización previa a la actualización del inventario.<br />Dado que existen ventas registradas pendientes de aplicar al inventario<br /> cuando el administrador de restaurante accede a la sección de actualización manual del inventario<br /> entonces el sistema muestra una lista con información completa de <br />cada venta pendiente a registrar en el inventario.<br /><br /> Escenario 2: Actualización manual del estado del inventario. <br />Dado que existen ventas registradas pendientes de aplicar al inventario <br />cuando el administrador de restaurante confirma la acción<br /> entonces el sistema descuenta los insumos correspondientes y actualiza el stock del inventario.</td>
-        <td>EP-02</td>
+        <td>EP-06</td>
     </tr>
     <tr>
         <td>US-16</td>
         <td>Gestión de ventas</td>
         <td>Como empleado del restaurante, quiero registrar y gestionar las ventas del restaurante según las recetas e insumos disponibles, para para mantener un registro preciso del consumo.</td>
         <td>Escenario 1: Selección de platos e insumos adicionales.<br />Dado que el cliente del restaurante realiza una compra <br />cuando el empleado indica los platos e insumos adicionales vendidos<br /> entonces el sistema registra la venta incluyendo fecha, hora y los elementos seleccionados. <br /><br />Escenario 2: Registro de venta pendiente de actualización en el inventario. <br />Dado que la venta incluye platos con recetas registradas e insumos adicionales <br />cuando se confirma la venta<br /> entonces el sistema marca la venta como pendiente de descontar del inventario <br />y la registra en el sistema para futuras actualizaciones de stock. <br />Escenario 3: Edición previa a la actualización de inventario.<br /> Dado que el administrador de restaurante visualiza ventas aún no aplicadas al inventario <br />cuando edita o elimina una venta <br />entonces el sistema ajusta el estado de las ventas pendientes a<br />ntes de que se confirme su aplicación al inventario.</td>
-        <td>EP-02</td>
+        <td>EP-15</td>
     </tr>
     <tr>
         <td>US-17</td>
         <td>Seguimiento de una orden</td>
         <td>Como proveedor, quiero establecer el estado de una orden, para que el restaurante conozca la etapa actual de la orden.</td>
         <td>Escenario 1: Cambio exitoso de estado de una orden.<br />Dado que el proveedor visualiza una orden pendiente de actualización <br />cuando establece el nuevo estado de la orden con “Preparando”, “En camino” o “Entregado” <br />entonces el sistema actualiza el estado y notifica al restaurante sobre el cambio. <br /><br />Escenario 2: Fallo al cambiar el estado por falta de permisos. <br />Dado que el proveedor intenta modificar una orden ya finalizada <br />cuando intenta establecer un nuevo estado <br />entonces el sistema muestra un mensaje de error indicando que no se puede modificar una orden finalizada.</td>
-        <td>EP-03</td>
+        <td>EP-14</td>
     </tr>
     <tr>
         <td>US-18</td>
         <td>Visualización de calificaciones recibidas</td>
         <td>Como proveedor, quiero ver los comentarios y calificaciones de mis órdenes completadas, para evaluar mi desempeño y mejorar la calidad de mis servicios.</td>
         <td>Escenario 1: Consulta general de feedback.<br />Dado que el proveedor desea revisar su desempeño <br />cuando accede a la sección de calificaciones <br />entonces el sistema muestra los puntajes y comentarios asociados a sus servicios. <br /><br />Escenario 2: Visualizar promedio total de calificaciones. <br />Dado que el proveedor accede a la sección de calificaciones <br />cuando el sistema carga todos los comentarios y puntajes de las órdenes completadas <br />entonces muestra un valor numérico con el promedio total de las calificaciones recibidas.</td>
-        <td>EP-03</td>
+        <td>EP-12</td>
     </tr>
     <tr>
         <td>US-19</td>
         <td>Visualizar y gestionar ordenes recibidas</td>
         <td>Como proveedor, quiero visualizar la lista de órdenes solicitadas por los restaurantes, para preparar las entregas y gestionar los despachos eficientemente.</td>
         <td>Escenario 1: Visualizar todas las órdenes entrantes.<br />Dado que hay órdenes pendientes asignadas al proveedor <br />cuando accede a la sección de órdenes <br />entonces el sistema muestra una lista con el nombre del restaurante <br />los ítems solicitados las cantidades y la fecha de entrega requerida. <br /><br />Escenario 2: Confirmar una orden para despacho. Dado que una orden está en situación “pendiente” <br />cuando el proveedor la confirma entonces el sistema cambia su estado a “aprobada” y notifica al restaurante. <br /><br />Escenario 3: Rechazar una orden. <br />Dado que una orden no es viable<br /> cuando el proveedor la rechaza e<br />ntonces el sistema marca la orden como “rechazada” y notifica al restaurante con el motivo.</td>
-        <td>EP-03</td>
+        <td>EP-14</td>
     </tr>
     <tr>
         <td>US-20</td>
@@ -309,119 +309,119 @@ Este escenario To-Be fue construido a partir del análisis del escenario As-Is d
         <td>Ver testimonios de clientes</td>
         <td>Como visitante del sitio web, quiero leer testimonios de otros dueños o administradores de restaurantes y proveedores, para confiar más en la plataforma antes de registrarme.</td>
         <td>Escenario 1: Ver sección de testimonios.<br />Dado que un visitante accede al sitio web <br />cuando accede a la sección de testimonios <br />entonces ve al menos tres testimonios y cada uno muestra el nombre, el rol (dueño, proveedor, etc.) y su comentario.</td>
-        <td>EP-07</td>
+        <td>EP-01</td>
     </tr>
     <tr>
         <td>US-26</td>
         <td>Consultar Preguntas Frecuentes</td>
         <td>Como visitante, quiero ver una lista de preguntas frecuentes, para resolver mis dudas sin contactar al soporte.</td>
         <td>Escenario 1: Visualización de respuestas claras en FAQ.<br />Dado que un visitante accede a la sección de preguntas frecuentes <br />cuando consulta su contenido <br />entonces el sistema muestra una lista de al menos tres preguntas frecuentes y <br />cada pregunta está acompañada de una respuesta visible y redactada en lenguaje claro y directo.</td>
-        <td>EP-07</td>
+        <td>EP-01</td>
     </tr>
     <tr>
         <td>US-27</td>
         <td>Consultas directas al equipo de la plataforma</td>
         <td>Como visitante, quiero poder proporcionar mi nombre, correo electrónico y un mensaje, para comunicarme directamente con el equipo de la plataforma y recibir una respuesta a mis consultas o comentarios.</td>
         <td>Escenario 1: Validación y almacenamiento exitoso de la solicitud.<br />Dado que un visitante proporciona un nombre, un correo electrónico válido y un mensaje, <br />cuando envía la información <br />entonces el sistema valida los datos ingresados y almacena la solicitud correctamente. <br /><br />Escenario 2: Confirmación de recepción al visitante. <br />Dado que el sistema ha almacenado correctamente la solicitud de contacto, <br />cuando finaliza el proceso sin errores <br />entonces el sistema muestra un mensaje de confirmación con el texto “Gracias por tu mensaje, te responderemos pronto”.</td>
-        <td>EP-08</td>
+        <td>EP-01</td>
     </tr>
     <tr>
         <td>US-28</td>
         <td>Visualización persistente de información institucional en todo el sitio</td>
         <td>Como visitante del sitio web, quiero acceder fácilmente a información sobre redes sociales, contacto y aspectos legales, para obtener soporte o conocer las condiciones de uso de la plataforma.</td>
         <td>Escenario 1: Disponibilidad de información institucional.<br />Dado que el visitante navega por el sitio web <br />cuando accede a diferentes secciones <br />entonces puede consultar en todo momento la información de contacto redes sociales y aspectos legales; <br /><br />Escenario 2: Acceso a contenido legal. <br />Dado que el visitante desea consultar los términos y condiciones <br />cuando accede a la sección de Términos y Condiciones <br />entonces visualiza la información legal completa y comprensible.</td>
-        <td>EP-08</td>
+        <td>EP-01</td>
     </tr>
     <tr>
         <td>US-29</td>
         <td>Acceso a secciones principales del sitio</td>
         <td>Como visitante del sitio web, quiero acceder fácilmente a las distintas secciones del sitio desde la página principal, para orientarme y navegar sin dificultad.</td>
         <td>Escenario 1: Acceso a secciones clave desde el sitio web.<br />Dado que el visitante accede al sitio web <br />cuando el contenido inicial está disponible<br /> entonces puede acceder a las secciones principales del sitio tales como Inicio, Beneficios, Cómo funciona y Contacto.</td>
-        <td>EP-08</td>
+        <td>EP-01</td>
     </tr>
     <tr>
         <td>US-30</td>
         <td>Conocer el funcionamiento general de la plataforma</td>
         <td>Como visitante del sitio web, quiero que se presenten de forma clara y estructurada las etapas para usar la plataforma, para comprender rápidamente el flujo general de funcionamiento.</td>
         <td>Escenario 1: Presentación estructurada del funcionamiento.<br />Dado que el visitante accede al sitio web <br />cuando revisa la información sobre el funcionamiento de la plataforma<br /> entonces puede ver hasta cuatro etapas claramente definidas que explican el proceso de uso.</td>
-        <td>EP-09</td>
+        <td>EP-01</td>
     </tr>
     <tr>
         <td>US-31</td>
         <td>Opción de comprender el funcionamiento mediante recurso audiovisual</td>
         <td>Como visitante del sitio web, quiero tener la opción de acceder a un video explicativo acerca del funcionamiento de la plataforma, para entender su uso de forma visual y dinámica.</td>
         <td>Escenario 1: Visualización de video explicativo.<br />Dado que un visitante se encuentra en la sección de “¿Cómo funciona?” <br />cuando se le muestra la opción de ver el video explicativo <br />entonces el visitante puede reproducir un video embebido directamente en la página.</td>
-        <td>EP-09</td>
+        <td>EP-01</td>
     </tr>
     <tr>
         <td>US-32</td>
         <td>Comprensión del propósito y valor desde el inicio</td>
         <td>Como visitante del sitio web, quiero entender de inmediato el propósito y los beneficios de la plataforma, para decidir si es relevante para mis necesidades.</td>
         <td>Escenario 1: Claridad del mensaje principal.<br />Dado que un visitante accede al sitio web <br />cuando la página ha cargado completamente <br />entonces comprende claramente el propósito y los beneficios de la plataforma. <br /><br />Escenario 2: Accesibilidad del mensaje en diferentes dispositivos. <br />Dado que un visitante accede al sitio desde un dispositivo móvil o de escritorio <br />cuando se muestra la sección principal <br />entonces percibe el mensaje de valor de forma legible y comprensible sin importar el tipo de dispositivo.</td>
-        <td>EP-09</td>
+        <td>EP-01</td>
     </tr>
     <tr>
         <td>US-33</td>
         <td>Visualización de beneficios según perfil de usuario</td>
         <td>Como visitante del sitio web, quiero ver beneficios adaptados a mi perfil (dueño o administrador de restaurante, o proveedor), para entender cómo la plataforma me ayuda específicamente.</td>
         <td>Escenario 1: Segmentación por perfil.<br />Dado que un visitante se desplaza hasta la sección de beneficios <br />cuando visualiza el contenido de dicha sección <br />entonces encuentra información diferenciada según el perfil: <br />una para dueños o administradores de restaurantes y otra para proveedores. <br /><br />Escenario 2: Accesibilidad desde dispositivos móviles. <br /><br />Dado que un visitante accede al sitio desde un dispositivo móvil <br />cuando se desplaza hasta la sección de beneficios <br />entonces el contenido segmentado se presenta de forma legible y comprensible desde pantallas pequeñas.</td>
-        <td>EP-10</td>
+        <td>EP-01</td>
     </tr>
     <tr>
         <td>US-34</td>
         <td>Selección de idioma para una experiencia personalizada</td>
         <td>Como visitante o usuario, quiero cambiar entre los idiomas inglés y español fácilmente, para interactuar con la plataforma en el idioma que me resulte más cómodo.</td>
         <td>Escenario 1: Cambio exitoso de idioma.<br />Dado que el idioma actual de la plataforma está configurado en inglés <br />cuando el visitante o usuario solicita el uso del idioma español <br />entonces el sistema actualiza todo el contenido textual visible a español. <br /><br />Escenario 2: Persistencia del idioma seleccionado. <br />Dado que el visitante o usuario ha cambiado el idioma predeterminado de la plataforma <br />cuando se produce una nueva solicitud dentro de la misma sesión <br />entonces el idioma previamente seleccionado se mantiene sin necesidad de reconfiguración.</td>
-        <td>EP-10</td>
+        <td>EP-02</td>
     </tr>
     <tr>
         <td>US-35</td>
         <td>Navegación accesible para personas con discapacidad visual</td>
         <td>Como visitante o usuario con discapacidad visual, quiero utilizar un lector de pantalla para acceder al contenido del sitio, para comprender toda la información disponible en la plataforma sin barreras.</td>
         <td>Escenario 1: Accesibilidad de la información textual con lector de pantalla.<br />Dado que un visitante o usuario accede al sitio usando un lector de pantalla compatible <br />cuando interactúa con las distintas secciones <br />entonces el lector interpreta y vocaliza el contenido textual enlaces y botones de forma comprensible y en orden lógico. <br /><br />Escenario 2: Provisión de alternativas textuales para contenido visual. <br />Dado que el sitio incluye imágenes íconos o elementos gráficos relevantes para la comprensión del contenido <br />cuando un visitante o usuario utiliza el lector de pantalla <br />entonces el sistema proporciona alternativas textuales descriptivas <br />mediante atributos accesibles como alt aria-label o etiquetas semánticas.</td>
-        <td>EP-10</td>
+        <td>EP-02</td>
     </tr>
     <tr>
         <td>US-36</td>
         <td>Optimización para pantallas de escritorio</td>
         <td>Como proveedor, quiero marcar el estado de una entrega, para que el restaurante sepa en qué etapa va</td>
         <td>Escenario 1:Visualización adaptativa en pantallas de escritorio.<br />Dado que el usuario o visitante accede a la plataforma desde un navegador con una resolución igual o mayor a 1280px <br />cuando se carga la interfaz principal<br /> entonces el sistema organiza el contenido de forma que la información relevante <br />esté visible sin necesidad de interacción adicional <br />y los elementos estén distribuidos de forma clara para facilitar la comprensión <br />y el acceso a las funciones disponibles.</td>
-        <td>EP-11</td>
+        <td>EP-02</td>
     </tr>
     <tr>
         <td>US-37</td>
         <td>Optimización para pantallas de tablet</td>
         <td>Como usuario o visitante que accede desde una tablet u otro dispositivo con pantalla intermedia, quiero que el contenido de la plataforma se reorganice para ese formato,, para acceder a las funcionalidades sin esfuerzo adicional y con la información claramente presentada.</td>
         <td>Escenario 1: Visualización optimizada en pantallas intermedias.<br />Dado que el usuario o visitante accede a la plataforma desde un dispositivo con resolución entre 768px y 1024px <br />cuando se carga la interfaz principal <br />entonces el contenido debe presentarse con una estructura ajustada a ese ancho <br />y la información clave debe estar organizada de forma que sea legible <br />y accesible sin acciones adicionales</td>
-        <td>EP-12</td>
+        <td>EP-02</td>
     </tr>
     <tr>
         <td>US-38</td>
         <td>Optimización para dispositivos móviles móviles</td>
         <td>Como visitante del sitio web que accede desde un dispositivo móvil, quiero que el contenido de inicio se ajuste adecuadamente al tamaño de pantalla, para poder leer la información sin dificultad e interactuar por el contenido de forma cómoda.</td>
         <td>Escenario 1: Visualización optimizada en pantallas móviles.<br />Dado que el visitante accede al sitio web desde un dispositivo con resolución menor a 768px <br />cuando se carga el sitio <br />entonces el contenido debe reorganizarse en una disposición vertical con bloques apilados<br /> y los textos e imágenes deben escalarse correctamente para garantizar legibilidad <br />y evitar desbordes o desplazamiento horizontal innecesario.</td>
-        <td>EP-12</td>
+        <td>EP-02</td>
     </tr>
     <tr>
         <td>US-39</td>
         <td>Navegación fluida entre secciones</td>
         <td>Como visitante, quiero que cada sección del sitio esté claramente diferenciada, para comprender fácilmente la estructura del contenido y recorrerlo sin perderme.</td>
         <td>Escenario 1: Identificación clara de secciones.<br />Dado que un visitante accede al sitio web desde cualquier dispositivo <br />cuando se desplaza por el contenido <br />entonces identifica cada sección como una unidad separada <br />y comprende el flujo natural de lectura sin necesidad de interacción adicional.</td>
-        <td>EP-13</td>
+        <td>EP-02</td>
     </tr>
     <tr>
         <td>US-40</td>
         <td>Inclusión de videos explicativos en el sitio web</td>
         <td>Como visitante, quiero visualizar videos sobre el equipo de Restock y sobre el funcionamiento del producto para conocer quiénes están detrás del proyecto y entender mejor cómo funciona antes de usarlo.</td>
         <td>Escenario 1: Visualización del video sobre el equipo.<br />Dado que el visitante ha interactuado hasta la sección “Sobre nosotros” <br />cuando llega al final de dicha sección <br />entonces debe visualizarse un video incrustado con una breve presentación del equipo<br /> y este debe estar embebido, ser responsivo y reproducible desde diferentes dispositivos. <br /><br />Escenario 2: Visualización del video sobre el producto. <br />Dado que el visitante ha interactuado hasta la sección “Tutorial” <br />cuando llega al final de dicha sección <br />entonces debe visualizar un video incrustado que explique brevemente cómo funciona la plataforma <br />y este debe mostrarse con diseño limpio, accesibilidad adecuada y compatibilidad móvil y de escritorio.</td>
-        <td>EP-13</td>
+        <td>EP-01</td>
     </tr>
     <tr>
         <td>US-41</td>
         <td>Acceso a la plataforma</td>
         <td>Como visitante o usuario, quiero tener la posibilidad de registrarme si no tengo una cuenta o iniciar sesión si ya la tengo, para poder acceder a los servicios de la plataforma.</td>
         <td>Escenario 1: Registro de nuevo usuario.<br />Dado que el visitante no posee una cuenta registrada, <br />cuando solicita iniciar el registro como nuevo usuario <br />entonces el sistema debe permitir el ingreso de los datos personales <br />requeridos y registrar al visitante como nuevo usuario de la plataforma.<br /><br />Escenario 2: Inicio de sesión de usuario existente. <br />Dado que el usuario ya cuenta con una cuenta registrada, <br />cuando proporciona sus credenciales <br />entonces el sistema debe validarlas y permitir el acceso a la plataforma.</td>
-        <td>EP-13</td>
+        <td>EP-03</td>
     </tr>
     <tr>
         <td>TS001</td>
