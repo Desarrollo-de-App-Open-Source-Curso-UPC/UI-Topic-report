@@ -274,35 +274,35 @@ Este escenario To-Be fue construido a partir del análisis del escenario As-Is d
         <td>Visualizar información específica de una orden</td>
         <td>Como proveedor, quiero ver todos los datos asociados a una orden específica, para prepararla correctamente.</td>
         <td>Escenario 1: Seleccionar una orden desde el listado.<br />Dado que el proveedor ha seleccionado una orden desde el listado, <br />cuando se presenta la vista de detalle de la orden <br />entonces el sistema muestra todos los productos incluidos, sus cantidades, precios y descripción de la orden.</td>
-        <td>EP-04</td>
+        <td>EP-14</td>
     </tr>
     <tr>
         <td>US-21</td>
         <td>Visualizar historial de órdenes por restaurante</td>
         <td>Como proveedor, quiero ver las órdenes que he completado de cada restaurante, para llevar un registro de mis entregas anteriores y evaluar el historial de órdenes por cliente.</td>
         <td>Escenario 1: Filtrar órdenes completadas por restaurante.<br />Dado que el proveedor accede a la sección de historial de órdenes <br />cuando selecciona un restaurante específico y filtra las órdenes completadas <br />entonces el sistema muestra una lista de todas las órdenes finalizadas correspondientes a ese restaurante. <br /><br />Escenario 2: Visualizar órdenes en orden cronológico. <br />Dado que el proveedor accede a la sección de historial de órdenes<br /> cuando el sistema carga las órdenes registradas <br />entonces muestra las órdenes ordenadas de la más reciente a la más antigua.</td>
-        <td>EP-05</td>
+        <td>EP-14</td>
     </tr>
     <tr>
         <td>US-22</td>
         <td>Descargar reportes de historial de órdenes cumplidas</td>
         <td>Como proveedor, quiero descargar un reporte en Excel de las órdenes completadas, para analizar fácilmente las ventas y llevar un control detallado de mis entregas.</td>
         <td>Escenario 1: Generación de reporte con éxito.<br />Dado que el proveedor visualiza las órdenes aceptadas<br /> cuando solicita un reporte<br /> entonces el sistema debe generar un archivo Excel con los datos de todas las órdenes aceptadas. <br /><br />Escenario 2: Aplicación de filtros previos a la generación de reporte. <br />Dado que el proveedor ha definido un estado de orden o restaurante específico <br />cuando se genera el reporte <br />entonces el sistema debe generar un archivo que incluya únicamente la información filtrada.</td>
-        <td>EP-05</td>
+        <td>EP-15</td>
     </tr>
     <tr>
         <td>US-23</td>
         <td>Cambio de contraseña</td>
         <td>Como usuario autenticado, quiero tener la posibilidad de cambiar mi contraseña desde la aplicación, para mantener la seguridad de mi cuenta y prevenir accesos no autorizados.</td>
         <td>Escenario 1: Cambio exitoso de contraseña.<br />Dado que el usuario está autenticado y accede a la opción de cambiar contraseña <br />cuando proporciona su contraseña actual, una nueva contraseña válida y su confirmación <br />entonces el sistema actualiza la contraseña y muestra un mensaje de confirmación indicando que el cambio fue exitoso.<br /><br /> Escenario 2: Contraseña actual incorrecta. Dado que el usuario intenta cambiar su contraseña<br /> cuando proporciona una contraseña actual incorrecta <br />entonces el sistema rechaza la solicitud y muestra un mensaje de error indicando que la contraseña actual no coincide.</td>
-        <td>EP-06</td>
+        <td>EP-03</td>
     </tr>
     <tr>
         <td>US-24</td>
         <td>Eliminar cuenta</td>
         <td>Como usuario autenticado, quiero tener la opción de eliminar permanentemente mi cuenta, para poder dejar de utilizar el servicio y borrar todos mis datos personales asociados.</td>
         <td>Escenario 1: Eliminación exitosa de la cuenta.<br />Dado que el usuario está autenticado y accede a la opción de eliminar su cuenta <br />cuando confirma su decisión mediante un paso de verificación (hacer clic en "Confirmar eliminación") <br />entonces el sistema elimina su cuenta y datos personales <br />y muestra un mensaje de confirmación indicando que la cuenta ha sido eliminada exitosamente. <br /><br />Escenario 2: Confirmación no realizada. <br />Dado que el usuario ha iniciado el proceso de eliminación<br /> cuando no completa el paso de verificación o cancela la acción <br />entonces el sistema no elimina la cuenta y mantiene el acceso del usuario sin cambios.</td>
-        <td>EP-06</td>
+        <td>EP-03</td>
     </tr>
     <tr>
         <td>US-25</td>
