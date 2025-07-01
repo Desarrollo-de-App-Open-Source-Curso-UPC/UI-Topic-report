@@ -127,26 +127,96 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ### 5.1.4. Software Deployment Configuration
 
-Para la Landing Page desarrollada en HTML, CSS y JavaScript, la configuración del despliegue en GitHub Pages se define de la siguiente manera:
+Esta sección detalla los pasos necesarios para desplegar de forma satisfactoria los productos digitales que componen la solución: el landing page, la aplicación web (frontend) y los Web Services (backend), partiendo desde sus respectivos repositorios de código fuente.
 
-**Repositorio de Código Fuente**
+**1. Landing Page - HTML, CSS y Javascript**
 
-Se debe crear un repositorio en GitHub y subir todos los archivos del proyecto (HTML, CSS, JS).
-Es obligatorio que el archivo `index.html` esté ubicado en la raíz del repositorio para poder realizar el despliegue correctamente.
+**Tecnología Base**
 
-#### Pasos de Despliegue en GitHub Pages:
+* Lenguajes: HTML5, CSS3, JavaScript
+* Hosting: GitHub Pages
 
-1. En GitHub, ir a la sección **Settings** del repositorio.
-2. En el menú lateral, seleccionar **Pages**.
-3. En la opción **Source**, seleccionar la rama main y la carpeta raíz (`/root`).
-4. Guardar los cambios.
-5. GitHub generará automáticamente la URL pública donde la Landing Page estará disponible.
+**Configuración y Despliegue**
 
-#### Configuración Adicional:
+* Repositorio de Código Fuente:
+  La Landing Page se desarrolla utilizando HTML, CSS y JavaScript puro. Todos los archivos del proyecto deben subirse a un repositorio público en GitHub. Es obligatorio que el archivo `index.html` esté ubicado en la raíz del repositorio (`/`) para que GitHub Pages lo detecte correctamente como punto de entrada del sitio.
 
-- El despliegue se realiza automáticamente cada vez que se actualiza la rama configurada (por ejemplo, `main`).
+**Configuración del despliegue en GitHub Pages** :
 
-![Software Deployment Configuration](assets/images/cap5/repo-landing-github.png)
+* Acceder al repositorio en GitHub.
+* Ir a la sección **Settings** del repositorio.
+* En el menú lateral, seleccionar  **Pages** .
+* En el campo  **Source** , elegir:
+  * Rama: `main`
+  * Carpeta: `/ (root)`
+* Guardar los cambios.
+
+**Publicación** :
+
+Una vez guardada la configuración, GitHub generará automáticamente una URL pública donde la Landing Page estará disponible. Esta URL sigue el formato: `https://<usuario>.github.io/<repositorio>/`
+
+**Actualizaciones** :
+
+Cualquier nuevo commit hecho a la rama `main` será detectado automáticamente por GitHub Pages y aplicado en la versión publicada sin necesidad de acciones adicionales.
+
+**2. Frontend Web Application – Angular**
+**Tecnología Base**
+
+* Framework: Angular
+* Build Tool: Angular CLI (ng build)
+* Hosting: GitHub Pages
+* Configuración y Despliegue
+  Repositorio vinculado:
+  El proyecto frontend está alojado en GitHub y conectado directamente a GitHub Pages. Cada push en la rama principal dispara un nuevo despliegue automático.
+* Build:
+  GitHub Pages ejecuta automáticamente el comando ng build utilizando Angular CLI. El resultado (/dist) se utiliza como carpeta de salida para servir la aplicación web.
+* Variables de entorno:
+  Las URLs de los servicios REST del backend se configuran mediante variables de entorno en GitHub Pages y no están hardcodeadas.
+
+**Entornos diferenciados:**
+
+* Desarrollo: Angular se ejecuta localmente (ng serve) apuntando a un entorno de backend local o staging.
+* Producción: El entorno de producción utiliza las variables configuradas en GitHub Pages, que apuntan al backend desplegado en Render.
+
+**Integración con backend:**
+El frontend se comunica con el backend a través de HTTP consumiendo la API REST pública expuesta desde Render. Se realiza control de errores y carga de recursos asincrónicos desde los endpoints definidos.
+
+**3. Web Services – Java Spring Boot**
+
+**Tecnología Base**
+
+* Framework: Spring Boot
+* Lenguaje: Java 21
+* Build Tool: Maven
+* Contenedorización: Docker
+* Base de datos: MySQL (freesqldatabase.com)
+* Hosting: Render
+
+**Configuración y Despliegue**
+
+* Contenerización:
+  El proyecto backend incluye un archivo Dockerfile que define la imagen a construir. Esta imagen es utilizada por Render para levantar el contenedor de aplicación.
+* Repositorio vinculado:
+  El servicio se despliega directamente desde un repositorio Git (GitHub) vinculado a Render. Render detecta el Dockerfile y construye la imagen automáticamente.
+* Configuración de variables de entorno:
+  Las credenciales para la conexión a la base de datos MySQL en freesqldatabase.com se configuran como variables de entorno en Render, tales como:
+
+  DB_HOST
+
+  DB_PORT
+
+  DB_NAME
+
+  DB_USERNAME
+
+  DB_PASSWORD
+* Acceso a la base de datos:
+  Se utiliza una base de datos MySQL gratuita alojada en freesqldatabase.com. Los parámetros de conexión son definidos mediante variables de entorno y referenciados en el archivo application.properties o application.yml.
+* Exposición de servicios:
+  La aplicación expone una API RESTful que es consumida por el frontend. Todos los endpoints siguen la convención REST y están documentados a través del contrato OpenAPI.
+* Deploy automático:
+  Cada vez que se hace un push a la rama principal del repositorio, Render ejecuta un nuevo despliegue utilizando el Dockerfile, sin necesidad de configurar un pipeline de CI/CD adicional.
+
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -657,7 +727,7 @@ Aunque no se desplegaron endpoints REST aún, se documentan a continuación los 
 - Finalización del Landing Page (100%).
 - Implementación completa de diseño responsivo, i18n, y redirecciones funcionales.
 - Estructura de frontend modular iniciada (menu sidebar, dashboard y componentes base).
-- Aplicación de buenas prácticas de organización por bounded contexts en Vue.
+- Aplicación de buenas prácticas de organización por bounded contexts en Angular.
 - Integración visual basada en Angular y Angular Material.
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
@@ -700,22 +770,38 @@ Esto creó la rama gh-pages, subió los archivos de producción y habilitó el s
 
 Link del frontend: [https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory](https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory)
 
-#### 5.2.2.8 Team Collaboration Insights during Sprint.
+#### 5.2.2.8 Team Collaboration Insights During Sprint
 
-Se crearon ramas específicas para cada sección o funcionalidad (feature/[nombre-de-seccion]), permitiendo un trabajo paralelo organizado.
-Cada miembro del equipo asumió la responsabilidad de desarrollar una o más secciones del Frontend.
-Se realizaron commits frecuentes, registrando avances de manera continua y detallada.
-Las funcionalidades desarrolladas se integraron mediante Pull Requests hacia la rama develop.
-Se mantuvo una comunicación constante mediante la plataforma Discord para coordinar avances y resolver dudas en tiempo real.
-Se aplicaron buenas prácticas de programación, control de versiones y colaboración en equipo.
+Durante el sprint, se adoptaron estrategias de colaboración efectivas que permitieron un desarrollo fluido y bien organizado del proyecto. A continuación se detallan las prácticas aplicadas:
+
+- Se crearon ramas específicas por funcionalidad o sección, siguiendo la convención `feature/[nombre-de-seccion]`. Esto facilitó un trabajo paralelo sin conflictos y mantuvo el repositorio estructurado.
+- Cada integrante fue responsable del desarrollo de una o más secciones del frontend, distribuyéndose el trabajo de forma equitativa.
+- Se realizaron **commits frecuentes y atómicos**, lo que permitió un seguimiento detallado del progreso y facilitó la revisión del código.
+- Todas las funcionalidades fueron integradas a través de *pull requests* hacia la rama `develop`, garantizando control de calidad mediante revisiones cruzadas.
+- La comunicación entre los miembros del equipo fue constante, utilizando la plataforma **Discord** como canal principal para coordinación diaria, resolución de dudas y toma de decisiones técnicas.
+- Se aplicaron buenas prácticas de control de versiones con Git, como descripciones claras en los commits, ramas temáticas, y revisión colaborativa mediante PRs.
+- El equipo también se enfocó en la calidad del código, utilizando estructuras consistentes, siguiendo estándares de codificación, y asegurando coherencia en estilos y convenciones.
 
 ##### **Analíticos de colaboración**
 
 ![Team Collaboration Insight](assets/images/cap5/collaboration-insight/ci_1.png)
 
-##### **Analíticos de commits de GitHub**
+- Total de commits realizados: **146**
+- Total de autores contribuyentes: **5**
+- Nivel de participación equilibrado entre todos los miembros
+- El gráfico muestra una distribución consistente de actividad a lo largo del sprint
+
+
+##### **Analíticos de *commits* y *pull requests* en GitHub**
 
 ![Team Collaboration Insight](assets/images/cap5/collaboration-insight/ci_2.png)
+
+- Total de *pull requests* registradas: **50**
+- *Pull requests* actualmente abiertas: **1**
+- Todas las PRs contaron con revisiones por al menos un miembro del equipo
+- El flujo de integración continua fue respetado en todas las funcionalidades importantes
+
+Estas métricas reflejan una colaboración activa, estructurada y bien gestionada por parte del equipo, lo que contribuyó significativamente a la calidad final del producto entregado.
 
 ### 5.2.3. Sprint 3
 
@@ -963,7 +1049,7 @@ Trello: [https:/linkcuts.org/9b6h7g0n](https://trello.com/b/yD03C08R)
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
-#### Landing page:
+**Landing page:**
 
 Se ha actualizado la sección de tutoriales del sitio para ofrecer una experiencia más dinámica e intuitiva. Ahora, los videos pueden mostrarse en formato YouTube, lo que facilita su visualización directa en la página y mejora la integración de contenido educativo en la interfaz. Esta mejora busca hacer que el aprendizaje y la navegación sean más accesibles y eficientes para todos los usuarios.
 
@@ -971,7 +1057,7 @@ Se ha actualizado la sección de tutoriales del sitio para ofrecer una experienc
 | ---------------------------- | ------- | ----------- | --------- | ------------------------------------------------------------ | ------------------- | ------------------ |
 | Yaku Guzman/UI-Topic-landing | develop | Yaku Guzman | a1b950d   | feat(tutorial-section): add youtube format to tutorial video |                     | 30-05-2025         |
 
-#### Front:
+**Web Application Application (Frontend):**
 
 Se avanzó considerablemente en el desarrollo del frontend de la plataforma, enfocada en la gestión de pedidos, perfiles de usuario, inventario y relaciones con proveedores. Se implementó soporte para múltiples idiomas (i18n), se reorganizaron y mejoraron los módulos de perfil y pedidos, y se integraron nuevas funcionalidades como filtros avanzados, exportación de datos y validaciones. También se refinaron componentes visuales y formularios dinámicos para mejorar la experiencia del usuario, y se adaptaron estructuras clave como los lotes en pedidos y suministros. Estos cambios buscan robustecer la plataforma y facilitar su uso en distintos contextos operativos.
 
@@ -1176,7 +1262,8 @@ Se avanzó considerablemente en el desarrollo del frontend de la plataforma, enf
 | Yaku Guzman/UI-Topic-Frontend         | develop | Yaku Guzman         | 8ad1e8f   | feat(restaurant-inventory): enhance supply management with modals and notifications                                                     |                     | 17-05-2025         |
 | Williams/UI-Topic-Frontend            | develop | Williams            | e113bd1   | first coomit                                                                                                                            |                     | 17-05-2025         |
 
-#### Back:
+
+**Web Services (Backend):**
 
 En el backend de la plataforma se realizaron importantes avances enfocados en la gestión de recetas, suministros y lotes. Se implementaron las operaciones CRUD para recetas y el manejo detallado de sus insumos, además de validar y reforzar la integridad de datos mediante objetos de valor específicos. También se añadieron configuraciones para ambientes de desarrollo y producción, y se mejoraron las definiciones de columnas en la base de datos para optimizar el manejo de fechas, precios y cantidades. Se desarrollaron servicios y controladores que facilitan la interacción con los recursos, permitiendo una gestión eficiente y segura de los datos relacionados con el inventario y las operaciones del sistema.
 
@@ -1226,7 +1313,9 @@ En el backend de la plataforma se realizaron importantes avances enfocados en la
 A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
 
 **Video del sprint 3:**
-![Captura del video](assets\images\cap5\evidence_sprint_3.png)
+
+![Captura del video](assets/images/cap5/evidence_sprint_3.png)
+
 [https://shorturl.at/77Cv2](https://shorturl.at/77Cv2)
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -1240,40 +1329,66 @@ Aunque no se desplegaron endpoints REST aún, se documentan a continuación los 
 - Finalización del Landing Page (100%).
 - Implementación completa de diseño responsivo, i18n, y redirecciones funcionales.
 - Estructura de frontend modular iniciada (menu sidebar, dashboard y componentes base).
-- Aplicación de buenas prácticas de organización por bounded contexts en Vue.
-- Integración visual basada en PrimeVue, PrimeFlex y PrimeIcons.
+- Aplicación de buenas prácticas de organización por bounded contexts en Angular.
+- Integración visual basada en Angular Material.
 
 ### Recursos del Sprint
 
 | Recurso                 | Acción implementada                                | Método HTTP | URL / Endpoint                                                                            | Link de repositorio                                             |
 | ----------------------- | --------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| Landing Page            | Visualización completa y funcional del landing     | GET          | https://aplicaciones-web-curso-upc.github.io/UI-Topic-landing/                            | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing  |
-| UI del sistema (WIP)    | Avance en el sistema (menú, dashboard, inventario) | GET          | https://ui-topic-frontend.vercel.app/dashboard                                            | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend |
-| Get supply by ID        | Obtener un insumo por ID                            | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Update a supply         | Actualizar un insumo                                | PUT          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Delete a supply         | Eliminar un insumo                                  | DELETE       | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Get all supplies        | Listar todos los insumos                            | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies                         | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Create a new supply     | Crear un nuevo insumo                               | POST         | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies                         | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Get supplies by user ID | Listar insumos por ID de usuario                    | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/user/{id}               | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Get batch by ID         | Obtener un lote por ID                              | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/batches/{id}                     | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Update a batch          | Actualizar un lote                                  | PUT          | https://restock-platform-sprint-boot.onrender.com/api/v1/batches/{id}                     | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Delete a batch          | Eliminar un lote                                    | DELETE       | https://restock-platform-sprint-boot.onrender.com/api/v1/batches/{id}                     | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Get all batches         | Listar todos los lotes                              | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/batches                          | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Create a new batch      | Crear un nuevo lote                                 | POST         | https://restock-platform-sprint-boot.onrender.com/api/v1/batches                          | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Get batches by user ID  | Listar lotes por ID de usuario                      | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/batches/user/{id}                | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Get all ref supplies    | Ver insumos de referencia                           | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/reference-supplies               | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Get all ref categories  | Ver categorías de referencia                       | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/reference-categories             | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Get recipe by ID        | Obtener receta por ID                               | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}                     | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Update recipe           | Actualizar receta                                   | PUT          | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}                     | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Delete recipe           | Eliminar receta                                     | DELETE       | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}                     | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Get all recipes         | Listar todas las recetas                            | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes                          | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Create a new recipe     | Crear nueva receta                                  | POST         | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes                          | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Get recipe supplies     | Obtener insumos de una receta                       | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}/supplies            | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Add supply to recipe    | Agregar insumo a receta                             | POST         | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}/supplies            | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Update recipe supply    | Actualizar insumo en receta                         | PUT          | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}/supplies/{supplyId} | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
-| Delete recipe supply    | Eliminar insumo de receta                           | DELETE       | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}/supplies/{supplyId} | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-backend  |
+| Landing Page            | Visualización completa y funcional del landing     | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/                            | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing  |
+| UI del sistema (WIP)    | Avance en el sistema (menú, dashboard, inventario) | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/dashboard                                            | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend |
+| Get supply by ID        | Obtener un insumo por ID                            | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Update a supply         | Actualizar un insumo                                | PUT          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Delete a supply         | Eliminar un insumo                                  | DELETE       | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Get all supplies        | Listar todos los insumos                            | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies                         | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Create a new supply     | Crear un nuevo insumo                               | POST         | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies                         | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Get supplies by user ID | Listar insumos por ID de usuario                    | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/user/{id}               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Get batch by ID         | Obtener un lote por ID                              | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/batches/{id}                     | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Update a batch          | Actualizar un lote                                  | PUT          | https://restock-platform-sprint-boot.onrender.com/api/v1/batches/{id}                     | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Delete a batch          | Eliminar un lote                                    | DELETE       | https://restock-platform-sprint-boot.onrender.com/api/v1/batches/{id}                     | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Get all batches         | Listar todos los lotes                              | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/batches                          | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Create a new batch      | Crear un nuevo lote                                 | POST         | https://restock-platform-sprint-boot.onrender.com/api/v1/batches                          | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Get batches by user ID  | Listar lotes por ID de usuario                      | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/batches/user/{id}                | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Get all ref supplies    | Ver insumos de referencia                           | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/reference-supplies               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Get all ref categories  | Ver categorías de referencia                       | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/reference-categories             | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Get recipe by ID        | Obtener receta por ID                               | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}                     | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Update recipe           | Actualizar receta                                   | PUT          | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}                     | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Delete recipe           | Eliminar receta                                     | DELETE       | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}                     | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Get all recipes         | Listar todas las recetas                            | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes                          | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Create a new recipe     | Crear nueva receta                                  | POST         | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes                          | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Get recipe supplies     | Obtener insumos de una receta                       | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}/supplies            | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Add supply to recipe    | Agregar insumo a receta                             | POST         | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}/supplies            | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Update recipe supply    | Actualizar insumo en receta                         | PUT          | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}/supplies/{supplyId} | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
+| Delete recipe supply    | Eliminar insumo de receta                           | DELETE       | https://restock-platform-sprint-boot.onrender.com/api/v1/recipes/{id}/supplies/{supplyId} | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante este sprint, se realizaron actividades de despliegue y pruebas de los servicios desarrollados, asegurando que las funcionalidades del sistema estén operativas y accesibles para los usuarios finales. A continuación, se detallan los pasos realizados:
+
+1. Dockerfile: Se creó un Dockerfile para el backend del sistema, permitiendo la creación de una imagen que encapsula todas las dependencias y configuraciones necesarias para ejecutar el servicio.
+
+![Evidence Step 0](assets/images/cap5/evidence-sprint3/evidence-step0.png)
+
+2. Iniciar un servicio en Render: Se creó un nuevo servicio en Render para el backend.
+
+![Evidence Step 1](assets/images/cap5/evidence-sprint3/evidence-step1.png)
+
+3. Configurar el servicio: Se configuró el servicio en Render, especificando el nombre del servicio, la región y el tipo de instancia.
+
+![Evidence Step 2](assets/images/cap5/evidence-sprint3/evidence-step2.jpg)
+
+4. Variables de entorno: Se añadieron las variables de entorno necesarias para la configuración del servicio, como las credenciales de la base de datos y las claves de API.
+
+![Evidence Step 3](assets/images/cap5/evidence-sprint3/evidence-step3.png)
+
+5. Despliegue del servicio: Se inició el despliegue del servicio en Render, lo que permitió que el backend estuviera disponible en la URL proporcionada.
+
+![Evidence Step 4](assets/images/cap5/evidence-sprint3/evidence-step4.jpg)
+
+6. Verificación del despliegue: Se verificó que el servicio estuviera funcionando correctamente accediendo a la URL proporcionada por Render.
+
+![Evidence Step 5](assets/images/cap5/evidence-sprint3/evidence-step5.jpg)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -1299,13 +1414,13 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 
 Para garantizar que la aplicación cumpla con las necesidades reales de los usuarios finales, se diseñó un proceso de entrevistas de validación centrado en dos segmentos objetivos clave: **administradores de restaurantes** y **proveedores de insumos**. Cada sesión de validación incluirá interacción con el **Landing Page** y la **aplicación web** (desktop y mobile), siguiendo flujos de usuario específicos que cubren funcionalidades críticas del sistema.
 
-## Objetivo General
+**Objetivo General**
 
 Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistema a través de sesiones controladas de interacción, aplicando principios de evaluación heurística y recogiendo observaciones cualitativas.
 
-## Segmento 1: Administradores de Restaurantes
+**Segmento 1: Administradores de Restaurantes**
 
-### Elementos a validar
+* Elementos a validar
 
 - Claridad del valor ofrecido en el landing page.
 - Flujo de suscripción y pago.
@@ -1316,7 +1431,7 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 - Realización y seguimiento de pedidos.
 - Panel de alertas y resúmenes.
 
-### Flujos de Usuario a evaluar
+* Flujos de Usuario a evaluar
 
 - **Desktop & Mobile User Flow 1:** Suscripción y pago con Stripe.
 - **Desktop & Mobile User Flow 3:** Registro y gestión de insumos.
@@ -1327,7 +1442,7 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 - **Desktop & Mobile User Flow 8:** Registro y visualización de ventas.
 - **Desktop & Mobile User Flow 9:** Creación y gestión de recetas.
 
-### Actividades durante la sesión
+* Actividades durante la sesión
 
 1. Navegar el Landing Page y explicar lo que entienden del producto.
 2. Simular una suscripción desde un plan.
@@ -1338,17 +1453,16 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 7. Registrar una venta.
 8. Crear una receta.
 
-## Segmento 2: Proveedores de Restaurantes
+**Segmento 2: Proveedores de Restaurantes**
 
-### Elementos a validar
-
+* Elementos a validar
 - Claridad del valor en el Landing Page.
 - Gestión de catálogo de productos.
 - Eliminación de insumos no disponibles.
 - Revisión de pedidos realizados por restaurantes.
 - Interacción con comentarios recibidos.
 
-### Flujos de Usuario a evaluar
+* Flujos de Usuario a evaluar
 
 - **Desktop & Mobile User Flow 1:** Suscripción y pago.
 - **Desktop & Mobile User Flow 10:** Registro y gestión de productos en el catálogo.
@@ -1356,7 +1470,7 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 - **Desktop & Mobile User Flow 12:** Gestión de órdenes recibidas.
 - **Desktop & Mobile User Flow 13:** Panel principal del proveedor.
 
-### Actividades durante la sesión
+* Actividades durante la sesión
 
 1. Explorar el Landing Page y describir su comprensión del producto.
 2. Simular el proceso de registro y suscripción.
@@ -1365,7 +1479,7 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 5. Revisar pedidos recibidos de restaurantes.
 6. Comentar sobre la utilidad de la interfaz de pedidos y feedback.
 
-## Herramientas y Recursos para Validación
+**Herramientas y Recursos para Validación**
 
 - **Formato de Evaluación Heurística:** Se aplicarán los 10 principios heurísticos de Nielsen en cada sesión.
 - **Instrumento de observación:** Lista de verificación + sección de notas abiertas.
@@ -1375,7 +1489,7 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 
 Segmento 1: Dueños o administradores de Restaurantes
 
-##### Entrevista 1:
+**Entrevista 1:**
 
 **Nombre:** Alfredo Bernuy
 **Edad:** 52 años
@@ -1393,10 +1507,10 @@ Alfredo Bernuy destaca que la plataforma le resulta muy intuitiva desde el prime
 
 Por otro lado, subraya que el diseño es moderno y atractivo: la paleta de colores es sobria pero actual, la tipografía resulta legible y los iconos comunican su función de un vistazo. Considera que la herramienta le brinda un control total sobre pedidos y stock, le ahorra tiempo y le transmite la confianza necesaria para optimizar sus operaciones diarias.
 
-##### Entrevista 2:
+**Entrevista 2:**
 
 **Nombre:** Mery Pilar
-**Edad:** 349 años
+**Edad:** 49 años
 **Distrito:** Chorrillos
 **Timing:** (05:19 - 10:50 min)
 
@@ -1412,9 +1526,9 @@ Mery Pilar resalta que la herramienta es sumamente sencilla de usar desde el pri
 
 Además, enfatiza que la apariencia es fresca y profesional: los tonos empleados son elegantes sin dejar de ser actuales, la tipografía se lee con total nitidez y los iconos transmiten claramente su función. En su opinión, esta solución le proporciona el dominio completo sobre pedidos e inventario, optimiza su tiempo y le infunde la seguridad necesaria para mejorar sus operaciones diarias.
 
-#### Segmento 2: Proveedores para Restaurantes
+**Segmento 2: Proveedores para Restaurantes**
 
-##### Entrevista 1:
+**Entrevista 1:**
 
 **Nombre:** Flor Medina
 **Edad:** 28 años
@@ -1446,6 +1560,33 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 
 **Site o App a evaluar:** Restock
 
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+<table>
+    <tr>
+        <td>Nivel</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+    </tr>
+</table>
+
 **Tareas evaluadas:**
 
 1. Visualización de planes de suscripción
@@ -1457,7 +1598,7 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 
 ---
 
-### TABLA RESUMEN
+**TABLA RESUMEN**
 
 | #  | Problema                                                          | Escala de severidad | Heurística / Principio violado                                                 |
 | -- | ----------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------- |
@@ -1476,14 +1617,14 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 
 ---
 
-### DESCRIPCIÓN DE PROBLEMAS
+**DESCRIPCIÓN DE PROBLEMAS**
 
 **PROBLEMA #1: Uso de colores sin etiquetas para estados de pedido**
 **Severidad:** 2
 **Heurística violada:** Usabilidad - Visibilidad del estado del sistema
 **Problema:** Actualmente, el sistema usa colores para indicar el estado de los pedidos, pero no existe una leyenda textual que acompañe estos colores. Esto puede causar confusión a usuarios que no recuerdan o entienden el significado de cada color.
 **Evidencia:** La usuaria indicó: "Le sale de diferente color...". No mencionó saber qué significa cada color.
-**Recomendación:** Incorporar etiquetas de texto junto a los colores para que el estado sea inequívocamente identificado ("Aprobado", "Pendiente", etc.).
+**Recomendación:** Incorporar columna con dato del estado para que sea inequívocamente identificado ("En camino", "En espera", etc.).
 
 ---
 
@@ -1501,7 +1642,7 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 **Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso
 **Problema:** El sistema está centrado en tareas básicas, pero no contempla accesos rápidos, atajos o funcionalidades para usuarios frecuentes que desean operar con mayor agilidad.
 **Evidencia:** "...tener más tiempo... incluso para poder abrir otra tienda", sugiere que la eficiencia es una necesidad importante para la usuaria.
-**Recomendación:** Incluir favoritos, accesos directos desde el dashboard, filtros inteligentes o teclas rápidas.
+**Recomendación:** Incluir accesos directos desde el dashboard, filtros inteligentes o teclas rápidas.
 
 ---
 
@@ -1510,7 +1651,7 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 **Heurística violada:** Usabilidad - Correspondencia entre sistema y mundo real
 **Problema:** Algunos botones como "Place Order" no son intuitivos para un usuario hispanohablante, y su comprensión depende del color o la posición.
 **Evidencia:** "Place Order (el morado)" indica que se recuerda el color más que la acción.
-**Recomendación:** Usar etiquetas localizadas ("Realizar pedido") y añadir íconos descriptivos.
+**Recomendación:** Usar etiquetas localizadas ("Realizar pedido").
 
 ---
 
@@ -1537,7 +1678,7 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 **Heurística violada:** Arquitectura de información - Is it usable?
 **Problema:** El proceso de registrar ventas o pedidos implica múltiples pasos que pueden resultar poco intuitivos sin guías.
 **Evidencia:** "...registrar... seleccionar... luego se descuenta el stock" sugiere un flujo de acciones implícito.
-**Recomendación:** Incorporar guías visuales paso a paso (como barra de progreso o onboarding contextual).
+**Recomendación:** Incorporar guías visuales paso a paso.
 
 ---
 
@@ -1555,7 +1696,7 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 **Heurística violada:** Usabilidad - Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores
 **Problema:** Las notificaciones informan del stock mínimo o de pedidos, pero no indican directamente qué hacer a continuación.
 **Evidencia:** "...con esto ya tendríamos las notificaciones que nos alertarían" indica utilidad, pero no orientación.
-**Recomendación:** Añadir botones de acción directa en las notificaciones ("Realizar pedido", "Editar insumo").
+**Recomendación:** Añadir botones de redirección en las notificaciones.
 
 ---
 
