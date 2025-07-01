@@ -140,7 +140,7 @@ UI-Topic surge como una solución enfocada y especializada en la **gestión auto
 **Timing:** (00:05- 05:00 min)
 
 ![Foto de Entrevista](assets/images/entrevista1.png)
-[Ver entrevista (00:05 - 05:00 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
+Ver entrevista (00:05 - 05:00 min): https://short-link.me/16bOx
 
 **Resumen:**
 Alex Guardia, gerente de restaurantes con 5 a 6 años de experiencia, tiene 38 años, es casado y vive en el distrito de Chorrillos, Lima. Es una persona analítica, comprometida y orientada a la mejora continua. Utiliza dispositivos como un celular Android y una laptop con Windows, y su navegador habitual es Google Chrome.
@@ -157,7 +157,7 @@ En cuanto a la gestión de inventarios, realiza controles físicos diarios y ver
 **Timing:** (05:01 - 09:09 min)
 
 ![Foto de Entrevista](assets/images/entrevista2.png)
-[Ver entrevista (05:01 - 09:09 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
+Ver entrevista (05:01 - 09:09 min): https://short-link.me/16bOx
 
 **Resumen:**
 
@@ -179,7 +179,7 @@ Respecto a los proveedores, trabaja con 2 o 3 distintos con el objetivo de conse
 **Timing:** (09:10 - 14:12 min)
 
 ![Foto de Entrevista](assets/images/entrevista3.png)
-[Ver entrevista (09:10 - 14:12 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
+Ver entrevista (09:10 - 14:12 min): https://short-link.me/16bOx
 
 **Resumen:**
 
@@ -203,7 +203,7 @@ En cuanto a sus proveedores, valora mucho la seriedad, puntualidad y calidad de 
 **Timing:** (14:27 - 09:09 min)
 
 ![Foto de Entrevista](assets/images/entrevista4.png)
-[Ver entrevista (14:27 - 09:09 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
+Ver entrevista (14:27 - 09:09 min): https://short-link.me/16bOx
 
 **Resumen:**
 El señor José Santos Tapia Bustamante es un proveedor de abarrotes, productos de limpieza y licores. Tiene 68 años, vive en el distrito de Chorrillos y se caracteriza por ser responsable, comprometido y contar con gran experiencia en el sector. Utiliza un celular con Android y una laptop básica con Windows, navegando ocasionalmente con Google Chrome.
@@ -222,7 +222,7 @@ Valora la calidad del producto, la atención al cliente y las facilidades de pag
 **Timing:** (19:22 - 23:40 min)
 
 ![Foto de Entrevista](assets/images/entrevista5.png)
-[Ver entrevista (19:22 - 23:40 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
+Ver entrevista (19:22 - 23:40 min):[ https://short-link.me/16bOx](https://short-link.me/16bOx)
 
 **Resumen:**
 
@@ -242,7 +242,7 @@ Percy considera que la buena atención al cliente es clave para mantener relacio
 **Timing:** (23:41 - 29:13 min)
 
 ![Foto de Entrevista](assets/images/entrevista6.png)
-[Ver entrevista (23:41 - 29:13 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
+Ver entrevista (23:41 - 29:13 min): https://short-link.me/16bOx
 
 **Resumen:**
 El señor Benjamín Pacheco Quesada es proveedor de licores para la bodega Santiago Queirolo, con 57 años de edad y residente en el distrito de Miraflores. Se describe como una persona cordial, organizada y comprometida. Utiliza un celular Android y una laptop con Windows para sus gestiones. Navega principalmente con Google Chrome.

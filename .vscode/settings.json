@@ -11,9 +11,7 @@
       "left": "1cm"
     },
  
-      "markdown-pdf.pageBreakAfter": [
-    "## "
-    ],
+      "markdown-pdf.pageBreakAfter": [], 
  
     // Desactiva cabecera y pie de página
     "markdown-pdf.displayHeaderFooter": false,
