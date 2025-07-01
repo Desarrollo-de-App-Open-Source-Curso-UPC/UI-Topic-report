@@ -1,3 +1,4 @@
+<div id="cover-page">
 ---
 # **Informe de Trabajo Final**
 ---
@@ -9,9 +10,7 @@ _Ingeniería de Software_
 
 _2025-10_
 
-**Código:** _1ASI0729_
-
-**Nombre:** _Desarrollo de Aplicaciones Open Source_
+**Curso:** _Desarrollo de Aplicaciones Open Source - 1ASI0729_
 
 _Sección 4292_
 
@@ -33,12 +32,15 @@ _Prof. Velásquez Núñez, Ángel Augusto_
 | u202021885 |         Castro Alejos, Julio         |
 | u202319831 |     Guerra Perez, José Jahaziel     |
 | u20231b173 |     Guzmán Cabrejos, Yaku Mateo     |
+| u202314101 |   Navarro Chinga, Antonio Jhair   |
 | u202319448 |   Shapiama Rivera, Gabriela Nicole   |
 
 ---
 
 **Mes y Año**
 _Abril 2025_
+
+</div>
 
 ## **Registro de Versiones**
 

@@ -25,10 +25,10 @@ En esta sección el equipo establece los medios y esquema de organización que a
 
 A continuación se indican los URLs de los repositorios de GitHub para cada producto:
 
-- **Landing Page**: [Restock | Landing Page](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing.git)
-- **Web Services**: [[Restock | Backend](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend.git)]
+- **Landing Page**: [https://shorturl.at/wOqID](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing.git)
+- **Web Services**: [https://shorturl.at/O4PHS](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend.git)
 - _(Incluye el proyecto y los archivos de pruebas unitarias e integración/aceptación)_
-- **Frontend Web Application**: [[Restock | Frontend](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend.git)]
+- **Frontend Web Application**: [https://shorturl.at/tnpvh](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend.git)
 
 #### GitFlow Workflow
 
@@ -375,7 +375,7 @@ A continuación, se presenta el video de la landing page. Este muestra la intera
 
 **Video de landing page:**
 ![Captura del video](assets\images\cap5\evidence_sprint_1.png)
-[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/EfFh_aLa215IpYb2gWuRmkMBv48d7taz_93yGa29b-vC7g?e=ooggOw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[https:/linkcuts.org/5rwvpm3k](https:/linkcuts.org/5rwvpm3k)
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
@@ -500,7 +500,7 @@ Además, se realizaron mejoras en el *landing page*, incluyendo la implementaci�
 
 ![Board Sprint Details 2](assets/images/cap5/sprint-backlog2-1.png)
 
-[[Enlace al Trello Sprint 2](https://trello.com/invite/b/683647e8634b5838558bf15e/ATTI60ef402a8479e9a372596585b96dfe5b55AA829E/sprint-backlog-2)]
+Trello: [[https:/linkcuts.org/gmhr4kmc](https:/linkcuts.org/gmhr4kmc)]
 
 | User Story ID | User Story Title                                      | Task ID | Task Title                | Task Description                                                                                          | Estimated Hours |
 | ------------- | ----------------------------------------------------- | ------- | ------------------------- | --------------------------------------------------------------------------------------------------------- | --------------- |
@@ -713,7 +713,7 @@ A continuación, se presenta el video del frontend de la aplicación web interna
 **Video del frontend:**
 ![Captura del video](assets/images/cap5/evidence-sprint2/video_evidence.png)
 
-[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/ETDVDbf3CyRHspaBM0QOKCwBJu3DhOq9j9Un5OmGHZvtHA?e=4b2Tin&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Video: [https:/linkcuts.org/konqfr2w](https:/linkcuts.org/konqfr2w)
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review.
 
@@ -767,7 +767,7 @@ Esto creó la rama gh-pages, subió los archivos de producción y habilitó el s
 
 ![Paso 1](assets/images/cap5/evidence-sprint2/evidence_4.png)
 
-[Frontend App](https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory)
+Link del frontend: [https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory](https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory)
 
 #### 5.2.2.8 Team Collaboration Insights during Sprint.
 
@@ -1028,7 +1028,7 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
 |               |                                                                            | T004    | Eliminar o desactivar la cuenta del usuario                                                                                |                                                                                                                                                                                                                                                  | 2h              |
 |               |                                                                            | T005    | Revocar tokens activos y sesiones                                                                                          |                                                                                                                                                                                                                                                  | 1/2h            |
 
-[Link del Trello](https://trello.com/b/yD03C08R)
+Trello: [https:/linkcuts.org/9b6h7g0n](https://trello.com/b/yD03C08R)
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 

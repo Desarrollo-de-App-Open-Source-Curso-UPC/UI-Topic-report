@@ -1134,4 +1134,4 @@ El tablero está estructurado en torno a diversas épicas que agrupan funcionali
 
 Asimismo, se puede acceder directamente al backlog mediante el siguiente enlace:
 
-[Ver Product Backlog en Trello](https://trello.com/invite/b/681ab5854ac93bbc3c456c4e/ATTI3bc282d94f00464507f472fdaccf5ab62C45DF4D/sprint-backlog-2)
+Ver Product Backlog en Trello: [https://short-link.me/11-Cx](https://short-link.me/11-Cx)
