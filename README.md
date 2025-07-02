@@ -94,26 +94,40 @@ _Abril 2025_
 |     9.12     | 21/06/25 | Julio Castro       | Se realizó Video About-the-Product.                                                                                                                                                                                                                                     |
 |     9.13     | 21/06/25 | Williams Avendaño | Se actualizaron las conclusiones                                                                                                                                                                                                                                         |
 |     9.14     | 21/06/25 | Gabriela Shapiama  | Se actualizaron los anexos.                                                                                                                                                                                                                                              |
+|     10.1     |  1/07/25  | Jahaziel Guerra    | Se actualizó el Product Backlog y se elaboró el Sprint<br />Planning 4.                                                                                                                                                                                               |
+|     10.2     |  1/07/25  | Gabriela Shapiama  | Se elaboró Aspect Leaders and Collaborators 4.                                                                                                                                                                                                                          |
+|     10.3     |  2/07/25  | Jahaziel Guerra    | Se agregó el Sprint Backlog 4.                                                                                                                                                                                                                                          |
+|     10.4     |  2/06/25  | Julio Castro       | Se actualizó Project Report Collaboration Insights, User Stories y diagrama de clases.                                                                                                                                                                              |
+|     10.5     |  2/06/25  | Yaku Guzman        | Corregir Development Evidence for Sprint Review del Sprint 3.                                                                                                                                                                                                            |
+|     10.6     |  2/06/25  | Gabriela Shapiama  | Corrección Formato de links en el reporte.                                                                                                                                                                                                                              |
+|     10.7     |  3/06/25  | Yaku Guzman        | Corregir Development Evidence for Sprint Review del Sprint 3 y titles en Sprint Backlog 2.                                                                                                                                                                              |
+|     10.8     |  3/06/25  | Antonio Navarro    | Corrección Source Code Management y Sprint backlog 2.                                                                                                                                                                                                                   |
+|     10.9     |  4/06/25  | Julio Castro       | Software Deployment  Evidence for Sprint Review 4 y Execution Evidence for Sprint Review 4.                                                                                                                                                                              |
+|    10.10    |  4/06/25  | Jahaziel Guerra    | Se elaboró Services Documentation Evidence for Sprint<br />Review 4.                                                                                                                                                                                                    |
+|    10.11    |  4/06/25  | Gabriela Shapiama  | Se realizó Team Collaboration Insights during Sprint 3, anexos, conclusiones y bibliografía.                                                                                                                                                                         |
+|    10.12    |  5/06/25  | Julio Castro       | Video about-the-product.                                                                                                                                                                                                                                                 |
+|    10.13    |  5/06/25  | Yaku Guzman        | Development Evidence for Sprint Review 4.                                                                                                                                                                                                                                |
+|    10.14    |  5/06/25  | Antonio Navarro    | Actualizar video About-The-Team en conclusiones.                                                                                                                                                                                                                         |
+|    10.15    |  6/06/25  | Antonio Navarro    | Se elaboró conclusiones y recomendaciones.                                                                                                                                                                                                                              |
 
 # Project Report Collaboration Insights
 
 Para el desarrollo del **Project Report**, se utilizó un repositorio dentro de la organización del equipo en GitHub. A continuación, se presenta la evidencia de colaboración correspondiente, en coherencia con el Registro de Versiones del Informe.
 
-**Repositorio del informe del proyecto:**  
+**Repositorio del informe del proyecto:**
 [https://shorturl.at/ujj4j](https://shorturl.at/ujj4j)
 
 ![Evidencia de commits del repositorio](assets/images/ci-overview.png)
 
-- **Total de commits:** 507  
-- **Autores contribuyentes:**  
-  - Williams Avendaño (`dev-willy-code`)  
-  - Yaku Guzmán (`yak-cod`)  
-  - Julio Castro (`JulioXC4`)  
-  - Gabriela Shapiama (`GabrielaShapiama28`)  
-  - Jahaziel Guerra (`jahazielgg`)  
-- Actividad distribuida por ramas correspondientes a cada sección del informe.  
+- **Total de commits:** 507
+- **Autores contribuyentes:**
+  - Williams Avendaño (`dev-willy-code`)
+  - Yaku Guzmán (`yak-cod`)
+  - Julio Castro (`JulioXC4`)
+  - Gabriela Shapiama (`GabrielaShapiama28`)
+  - Jahaziel Guerra (`jahazielgg`)
+- Actividad distribuida por ramas correspondientes a cada sección del informe.
 - Todos los miembros participaron activamente en la redacción y revisión del contenido.
-
 
 ## TB1 - Informe inicial y Landing Page (5 de abril - 27 de abril de 2025)
 
@@ -123,15 +137,14 @@ El trabajo fue organizado mediante ramas temáticas, permitiendo que cada integr
 
 ![Colaboraciones TB1](assets/images/ci-tb1.png)
 
-- **Williams Avendaño (`dev-willy-code`)**: 34 commits, 619 adiciones, 189 eliminaciones  
-- **Yaku Guzmán (`yak-cod`)**: 42 commits, 812 adiciones, 200 eliminaciones  
-- **Julio Castro (`JulioXC4`)**: 26 commits, 387 adiciones, 61 eliminaciones  
-- **Gabriela Shapiama (`GabrielaShapiama28`)**: 33 commits, 485 adiciones, 150 eliminaciones  
-- **Jahaziel Guerra (`jahazielgg`)**: 10 commits, 1037 adiciones, 770 eliminaciones  
-- **Total de commits en TB1:** 145  
+- **Williams Avendaño (`dev-willy-code`)**: 34 commits, 619 adiciones, 189 eliminaciones
+- **Yaku Guzmán (`yak-cod`)**: 42 commits, 812 adiciones, 200 eliminaciones
+- **Julio Castro (`JulioXC4`)**: 26 commits, 387 adiciones, 61 eliminaciones
+- **Gabriela Shapiama (`GabrielaShapiama28`)**: 33 commits, 485 adiciones, 150 eliminaciones
+- **Jahaziel Guerra (`jahazielgg`)**: 10 commits, 1037 adiciones, 770 eliminaciones
+- **Total de commits en TB1:** 145
 
 La colaboración fue activa y equitativa, con contribuciones sustanciales de todos los integrantes.
-
 
 ## TP1 - Desarrollo del Frontend y mejoras en la Landing Page (28 de abril - 25 de mayo de 2025)
 
@@ -141,15 +154,14 @@ En el informe se documentó el diseño de la arquitectura del frontend, la estru
 
 ![Colaboraciones TP1](assets/images/ci-tp1.png)
 
-- **Williams Avendaño (`dev-willy-code`)**: 9 commits, 225 adiciones, 58 eliminaciones  
-- **Yaku Guzmán (`yak-cod`)**: 10 commits, 853 adiciones, 409 eliminaciones  
-- **Julio Castro (`JulioXC4`)**: 16 commits, 405 adiciones, 415 eliminaciones  
-- **Gabriela Shapiama (`GabrielaShapiama28`)**: 11 commits, 696 adiciones, 552 eliminaciones  
-- **Jahaziel Guerra (`jahazielgg`)**: 8 commits, 364 adiciones, 360 eliminaciones  
-- **Total de commits en TP1:** 54  
+- **Williams Avendaño (`dev-willy-code`)**: 9 commits, 225 adiciones, 58 eliminaciones
+- **Yaku Guzmán (`yak-cod`)**: 10 commits, 853 adiciones, 409 eliminaciones
+- **Julio Castro (`JulioXC4`)**: 16 commits, 405 adiciones, 415 eliminaciones
+- **Gabriela Shapiama (`GabrielaShapiama28`)**: 11 commits, 696 adiciones, 552 eliminaciones
+- **Jahaziel Guerra (`jahazielgg`)**: 8 commits, 364 adiciones, 360 eliminaciones
+- **Total de commits en TP1:** 54
 
 Este nivel de actividad refleja un esfuerzo colaborativo significativo y una distribución equilibrada del trabajo.
-
 
 ## TB2 - Desarrollo del Backend, mejoras en el frontend y Landing Page (26 de mayo - 21 de junio de 2025)
 
@@ -161,15 +173,14 @@ El informe fue ampliado con una sección dedicada al backend, incluyendo diagram
 
 ![Colaboraciones TB2](assets/images/ci-tb2.png)
 
-- **Williams Avendaño (`dev-willy-code`)**: 3 commits, 481 adiciones, 55 eliminaciones  
-- **Yaku Guzmán (`yak-cod`)**: 2 commits, 462 adiciones, 1 eliminaciones  
-- **Julio Castro (`JulioXC4`)**: 9 commits, 255 adiciones, 30 eliminaciones  
-- **Gabriela Shapiama (`GabrielaShapiama28`)**: 7 commits, 4708 adiciones, 4227 eliminaciones  
-- **Jahaziel Guerra (`jahazielgg`)**: 7 commits, 349 adiciones, 131 eliminaciones  
-- **Total de commits en TB2:** 28  
+- **Williams Avendaño (`dev-willy-code`)**: 3 commits, 481 adiciones, 55 eliminaciones
+- **Yaku Guzmán (`yak-cod`)**: 2 commits, 462 adiciones, 1 eliminaciones
+- **Julio Castro (`JulioXC4`)**: 9 commits, 255 adiciones, 30 eliminaciones
+- **Gabriela Shapiama (`GabrielaShapiama28`)**: 7 commits, 4708 adiciones, 4227 eliminaciones
+- **Jahaziel Guerra (`jahazielgg`)**: 7 commits, 349 adiciones, 131 eliminaciones
+- **Total de commits en TB2:** 28
 
 La colaboración fue continua y estratégica, con aportes clave en aspectos críticos del backend y del informe final.
-
 
 # Tabla de contenidos
 
