@@ -217,7 +217,6 @@ El frontend se comunica con el backend a través de HTTP consumiendo la API REST
 * Deploy automático:
   Cada vez que se hace un push a la rama principal del repositorio, Render ejecuta un nuevo despliegue utilizando el Dockerfile, sin necesidad de configurar un pipeline de CI/CD adicional.
 
-
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1 Sprint 1
@@ -791,7 +790,6 @@ Durante el sprint, se adoptaron estrategias de colaboración efectivas que permi
 - Nivel de participación equilibrado entre todos los miembros
 - El gráfico muestra una distribución consistente de actividad a lo largo del sprint
 
-
 ##### **Analíticos de *commits* y *pull requests* en GitHub**
 
 ![Team Collaboration Insight](assets/images/cap5/collaboration-insight/ci_2.png)
@@ -1262,7 +1260,6 @@ Se avanzó considerablemente en el desarrollo del frontend de la plataforma, enf
 | Yaku Guzman/UI-Topic-Frontend         | develop | Yaku Guzman         | 8ad1e8f   | feat(restaurant-inventory): enhance supply management with modals and notifications                                                     |                     | 17-05-2025         |
 | Williams/UI-Topic-Frontend            | develop | Williams            | e113bd1   | first coomit                                                                                                                            |                     | 17-05-2025         |
 
-
 **Web Services (Backend):**
 
 En el backend de la plataforma se realizaron importantes avances enfocados en la gestión de recetas, suministros y lotes. Se implementaron las operaciones CRUD para recetas y el manejo detallado de sus insumos, además de validar y reforzar la integridad de datos mediante objetos de valor específicos. También se añadieron configuraciones para ambientes de desarrollo y producción, y se mejoraron las definiciones de columnas en la base de datos para optimizar el manejo de fechas, precios y cantidades. Se desarrollaron servicios y controladores que facilitan la interacción con los recursos, permitiendo una gestión eficiente y segura de los datos relacionados con el inventario y las operaciones del sistema.
@@ -1334,10 +1331,10 @@ Aunque no se desplegaron endpoints REST aún, se documentan a continuación los 
 
 ### Recursos del Sprint
 
-| Recurso                 | Acción implementada                                | Método HTTP | URL / Endpoint                                                                            | Link de repositorio                                             |
-| ----------------------- | --------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| Landing Page            | Visualización completa y funcional del landing     | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/                            | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing  |
-| UI del sistema (WIP)    | Avance en el sistema (menú, dashboard, inventario) | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/dashboard                                            | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend |
+| Recurso                 | Acción implementada                                | Método HTTP | URL / Endpoint                                                                            | Link de repositorio                                                          |
+| ----------------------- | --------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Landing Page            | Visualización completa y funcional del landing     | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing  |
+| UI del sistema (WIP)    | Avance en el sistema (menú, dashboard, inventario) | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/dashboard                       | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend |
 | Get supply by ID        | Obtener un insumo por ID                            | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
 | Update a supply         | Actualizar un insumo                                | PUT          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
 | Delete a supply         | Eliminar un insumo                                  | DELETE       | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
@@ -1408,6 +1405,57 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 
 ![Team Collaboration Insight](assets/images/cap5/team_ci_3_2.png)
 
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+| Sprint #                             | Sprint 4                                                                                                                                                           |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background** |                                                                                                                                                                    |
+| Date                                 |                                                                                                                                                                    |
+| Time                                 | 08:00 pm (GMT-5)                                                                                                                                                   |
+| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                    |
+| Prepared By                          |                                                                                                                                                                    |
+| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel<br /> / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole |
+| Sprint 3 Review Summary              | Durante el Sprint 3.,,,,,,,,,,,,,                                                                                                                                  |
+| Sprint 3 Retrospective Summary       | Durante el Sprint 3,......................                                                                                                                         |
+| **Sprint Goal & User Stories** |                                                                                                                                                                    |
+| Sprint 4 Goal                        | Nuestro enfoque                                                                                                                                                    |
+| Sprint 4 Velocity                    |                                                                                                                                                                    |
+| Sum of Story Points                  |                                                                                                                                                                    |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+Durante el Sprint 4, se ha definido el desarrollo de los últimos módulos principales del frontend de la aplicación web interna Restock y del backend, abarcando funcionalidades clave como la gestión de productos, pedidos, inventario y compras. Estas implementaciones buscan optimizar los procesos internos y brindar mayor eficiencia a los administradores de restaurantes y proveedores de restaurantes.
+
+Con el fin de mantener una coordinación efectiva y una comunicación fluida entre los integrantes del equipo, se estructuró la matriz de liderazgo y colaboración (LACX), donde se asignó un líder (L) encargado de cada funcionalidad y colaboradores (C) que brindan apoyo en su implementación.
+
+<div style="font-size: 0.75em; overflow-x: auto;">
+
+| Team Member (Last Name, First Name) | GitHub Username    | Planning | Subscription | Profile | IAM | Analytics | Resource | Monitoring |
+| :---------------------------------- | :----------------- | :------- | :----------- | :------ | :-- | :-------- | :------- | :--------- |
+| Navarro Chinga, Antonio Jhair       | AntonioNavarro24   | C        | L            | C       | L   | C         | C        | C          |
+| Castro Alejos, Julio                | JulioXC4           | C        | C            | C       | C   | C         | L        | C          |
+| Guerra Perez, José Jahaziel        | jahazielgg         | L        | C            | C       | C   | L         | C        | C          |
+| Guzmán Cabrejos, Yaku Mateo        | yak-cod            | C        | C            | C       | C   | C         | C        | C          |
+| Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28 | C        | C            | L       | C   | C         | C        | L          |
+
+</div>
+
+#### 5.2.4.3. Sprint Backlog 4
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
@@ -1456,6 +1504,7 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 **Segmento 2: Proveedores de Restaurantes**
 
 * Elementos a validar
+
 - Claridad del valor en el Landing Page.
 - Gestión de catálogo de productos.
 - Eliminación de insumos no disponibles.
