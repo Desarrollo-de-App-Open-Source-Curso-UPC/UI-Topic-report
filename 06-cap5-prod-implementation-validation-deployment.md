@@ -266,45 +266,45 @@ El objetivo principal de este Sprint es diseñar, implementar y validar las secc
 
 [[Enlace al Trello](https://trello.com/invite/b/680c05f1fac416bfdb0ea024/ATTI41428da9336a1d11b0878438a247c3531DFD7E76/sprint-backlog-1)]
 
-| User Story ID | User Story Title                                                          | Task ID | Task Title   | Task Description                                                                                                                                                                                             | Estimated Hours |
-| ------------- | ------------------------------------------------------------------------- | ------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- |
-| US-001        | Ver testimonios de clientes                                               | T001    | US001TASK001 | Diseñar una sección visualmente destacada para testimonios.                                                                                                                                                | 1/2 h           |
-|               |                                                                           | T002    | US001TASK002 | Mostrar mínimo tres testimonios con nombre, rol y comentario.                                                                                                                                               | 1h              |
-|               |                                                                           | T003    | US001TASK003 | Aplicar estilos consistentes (tipografía, colores, disposición).                                                                                                                                           | 1/2h            |
-| US-0002       | Consultar Preguntas Frecuentes                                            | T004    | US002TASK001 | Definir al menos tres preguntas frecuentes con sus respuestas claras y breves.                                                                                                                               | 1/2h            |
-|               |                                                                           | T005    | US002TASK002 | Incluir las preguntas y respuestas directamente en el contenido estático de la sección FAQ.                                                                                                                | 1h              |
-|               |                                                                           | T006    | US002TASK003 | Verificar que las respuestas estén visibles de forma directa sin necesidad de interacción.                                                                                                                 | 1/2h            |
-| US-003        | Consultas directas al equipo de la plataforma                             | T007    | US003TASK001 | Diseñar un formulario limpio con campos de nombre, correo y mensaje.                                                                                                                                        | 1/2h            |
-|               |                                                                           | T008    | US003TASK002 | Aplicar validación visual (mensajes de error si faltan datos).                                                                                                                                              | 1h              |
-|               |                                                                           | T009    | US003TASK003 | Mostrar un mensaje de confirmación claro tras el envío.                                                                                                                                                    | 1/2h            |
-| US-004        | Visualización persistente de información institucional en todo el sitio | T010    | US004TASK001 | Implementar una sección fija en el pie de página con enlaces a redes sociales, contacto y aviso legal.                                                                                                     | 1/2h            |
-|               |                                                                           | T011    | US004TASK002 | Crear la sección de "Términos y Condiciones" con contenido legal claro y accesible.                                                                                                                        | 1h              |
-|               |                                                                           | T012    | US004TASK003 | Asegurar que la sección de información institucional esté visible en todas las vistas públicas del sitio.                                                                                                | 1/2h            |
-| US-005        | Acceso a secciones principales del sitio                                  | T013    | US005TASK001 | Definir y estructurar las rutas internas para las secciones: Inicio, Beneficios, Cómo funciona y Contacto.                                                                                                  | 1/2h            |
-|               |                                                                           | T014    | US005TASK002 | Implementar un menú de navegación accesible desde la página principal que enlace a las secciones principales del sitio.                                                                                   | 1h              |
-|               |                                                                           | T015    | US005TASK003 | Asegurar que cada enlace de navegación redirija correctamente a su respectiva sección dentro del sitio.                                                                                                    | 1/2h            |
-| US-006        | Conocer el funcionamiento general de la plataforma                        | T016    | US006TASK001 | Definir el contenido de las cuatro etapas que explican el funcionamiento general de la plataforma. explicativo'.                                                                                             | 1/2h            |
-|               |                                                                           | T017    | US006TASK002 | Estructurar la sección informativa que describa paso a paso cómo utilizar la plataforma.                                                                                                                   | 1h              |
-|               |                                                                           | T018    | US006TASK003 | Implementar la visualización de las cuatro etapas de forma secuencial y clara dentro del sitio.                                                                                                             | 1/2h            |
-| US-007        | Opción de comprender el funcionamiento mediante recurso audiovisual      | T019    | US007TASK001 | Implementación de estructura necesarios para asegurar que el video explicativo se muestre correctamente                                                                                                     | 1/2h            |
-| US-008        | Comprensión del propósito y valor desde el inicio                       | T020    | US008TASK001 | Implementación de estructura necesarios para asegurar que los beneficios se muestren correctamente                                                                                                          | 2h              |
-| US-009        | Visualización de beneficios según perfil de usuario                     | T025    | US009TASK001 | Implementación de estructura necesarios para asegurar que los beneficios adaptados a mi perfil se muestre correctamente.                                                                                    | 1/2h            |
-| US-011        | Selección de idioma para una experiencia personalizada                   | T028    | US011TASK001 | Preparar el contenido de la landing page y web application en dos idiomas (español e inglés).                                                                                                              | 1h              |
-|               |                                                                           | T029    | US011TASK002 | Implementar botón que permita cambiar entre ambos idiomas.                                                                                                                                                  | 1/2h            |
-|               |                                                                           | T030    | US011TASK003 | Guardar la selección del idioma para que se mantenga al recargar la página.                                                                                                                                | 1h              |
-| US012         | Navegación accesible para personas con discapacidad visual               | T031    | US012TASK001 | Crear diseño visual para 'navegación fluida entre secciones'.                                                                                                                                              | 1/2h            |
-|               |                                                                           | T032    | US012TASK002 | Codificar el componente necesario para 'navegación fluida entre secciones'.                                                                                                                                 | 1h              |
-|               |                                                                           | T033    | US012TASK003 | Verificar que 'navegación fluida entre secciones' funcione correctamente.                                                                                                                                   | 1/2h            |
-| US-013        | Optimización para pantallas de escritorio                                | T034    | US013TASK001 | Definir breakpoint específico para resolución ≥ 1280px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1/2h            |
-|               |                                                                           | T035    | US013TASK002 | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1h              |
-|               |                                                                           | T036    | US013TASK003 | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h            |
-| US-014        | Optimización para pantallas de tablet                                    | T037    | US014TASK001 | Definir breakpoint específico para resolución ≥ 1024px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1h              |
-|               |                                                                           | T038    | US014TASK002 | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1/2h            |
-|               |                                                                           | T039    | US014TASK003 | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h            |
-| US-015        | Optimización para dispositivos móviles                                  | T040    | US015TASK001 | Definir breakpoint específico para resolución ≥ 768px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                          | 1/2h            |
-|               |                                                                           | T041    | US015TASK002 | Reorganizar layout principal (header, sidebar, content) para optimizar el espacio horizontal                                                                                                                 | 1h              |
-|               |                                                                           | T042    | US015TASK003 | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas pequeñas                                                                                                                     | 1/2h            |
-| US-016        | Navegación fluida entre secciones                                        | T043    | US016TASK001 | Implementar una experiencia de navegación fluida y sin interrupciones entre las diferentes secciones de la aplicación, garantizando transiciones rápidas, suaves y coherentes con la interfaz de usuario. | 2h              |
+| User Story ID | User Story Title                                                          | Task ID | Task Title                                     | Task Description                                                                                                                                                                                             | Estimated Hours |
+| ------------- | ------------------------------------------------------------------------- | ------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- |
+| US-001        | Ver testimonios de clientes                                               | T001    | Diseño de la Sección de Testimonios          | Diseñar una sección visualmente destacada para testimonios.                                                                                                                                                | 1/2 h           |
+|               |                                                                           | T002    | Implementación de Testimonios                 | Mostrar mínimo tres testimonios con nombre, rol y comentario.                                                                                                                                               | 1h              |
+|               |                                                                           | T003    | Armonización de Estilos UI                    | Aplicar estilos consistentes (tipografía, colores, disposición).                                                                                                                                           | 1/2h            |
+| US-0002       | Consultar Preguntas Frecuentes                                            | T004    | Definición de Preguntas Frecuentes            | Definir al menos tres preguntas frecuentes con sus respuestas claras y breves.                                                                                                                               | 1/2h            |
+|               |                                                                           | T005    | Integración de Contenido Estático en FAQ     | Incluir las preguntas y respuestas directamente en el contenido estático de la sección FAQ.                                                                                                                | 1h              |
+|               |                                                                           | T006    | Asegurar Visibilidad Directa de Respuestas FAQ | Verificar que las respuestas estén visibles de forma directa sin necesidad de interacción.                                                                                                                 | 1/2h            |
+| US-003        | Consultas directas al equipo de la plataforma                             | T007    | Diseño de Formulario de Contacto                                   | Diseñar un formulario limpio con campos de nombre, correo y mensaje.                                                                                                                                        | 1/2h            |
+|               |                                                                           | T008    | Implementación de Validación Visual en Formulario                                   | Aplicar validación visual (mensajes de error si faltan datos).                                                                                                                                              | 1h              |
+|               |                                                                           | T009    | Mensaje de Confirmación de Envío de Formulario                                   | Mostrar un mensaje de confirmación claro tras el envío.                                                                                                                                                    | 1/2h            |
+| US-004        | Visualización persistente de información institucional en todo el sitio | T010    | Implementación de Footer Fijo                                   | Implementar una sección fija en el pie de página con enlaces a redes sociales, contacto y aviso legal.                                                                                                     | 1/2h            |
+|               |                                                                           | T011    | Creación de Sección "Términos y Condiciones"                                   | Crear la sección de "Términos y Condiciones" con contenido legal claro y accesible.                                                                                                                        | 1h              |
+|               |                                                                           | T012    | Visibilidad Global de Información Institucional                                   | Asegurar que la sección de información institucional esté visible en todas las vistas públicas del sitio.                                                                                                | 1/2h            |
+| US-005        | Acceso a secciones principales del sitio                                  | T013    | Definición de Rutas Internas                                   | Definir y estructurar las rutas internas para las secciones: Inicio, Beneficios, Cómo funciona y Contacto.                                                                                                  | 1/2h            |
+|               |                                                                           | T014    | Implementación de Menú de Navegación Principal                                   | Implementar un menú de navegación accesible desde la página principal que enlace a las secciones principales del sitio.                                                                                   | 1h              |
+|               |                                                                           | T015    | Verificación de Redirección de Enlaces de Navegación                                   | Asegurar que cada enlace de navegación redirija correctamente a su respectiva sección dentro del sitio.                                                                                                    | 1/2h            |
+| US-006        | Conocer el funcionamiento general de la plataforma                        | T016    | Definición de Contenido de Etapas Explicativas                                   | Definir el contenido de las cuatro etapas que explican el funcionamiento general de la plataforma. explicativo'.                                                                                             | 1/2h            |
+|               |                                                                           | T017    | Estructuración de Sección "Cómo Funciona"                                   | Estructurar la sección informativa que describa paso a paso cómo utilizar la plataforma.                                                                                                                   | 1h              |
+|               |                                                                           | T018    | Implementación Visual de Etapas Secuenciales                                   | Implementar la visualización de las cuatro etapas de forma secuencial y clara dentro del sitio.                                                                                                             | 1/2h            |
+| US-007        | Opción de comprender el funcionamiento mediante recurso audiovisual      | T019    | Estructura para Visualización de Video Explicativo                                   | Implementación de estructura necesarios para asegurar que el video explicativo se muestre correctamente                                                                                                     | 1/2h            |
+| US-008        | Comprensión del propósito y valor desde el inicio                       | T020    | Estructura para Visualización de Beneficios Generales                                   | Implementación de estructura necesarios para asegurar que los beneficios se muestren correctamente                                                                                                          | 2h              |
+| US-009        | Visualización de beneficios según perfil de usuario                     | T025    | Estructura para Visualización de Beneficios Personalizados                                   | Implementación de estructura necesarios para asegurar que los beneficios adaptados a mi perfil se muestre correctamente.                                                                                    | 1/2h            |
+| US-011        | Selección de idioma para una experiencia personalizada                   | T028    | Preparación de Contenido Multilingüe (ES/EN)                                   | Preparar el contenido de la landing page y web application en dos idiomas (español e inglés).                                                                                                              | 1h              |
+|               |                                                                           | T029    | Implementación de Selector de Idioma                                   | Implementar botón que permita cambiar entre ambos idiomas.                                                                                                                                                  | 1/2h            |
+|               |                                                                           | T030    | Persistencia de Selección de Idioma                                   | Guardar la selección del idioma para que se mantenga al recargar la página.                                                                                                                                | 1h              |
+| US012         | Navegación accesible para personas con discapacidad visual               | T031    | Diseño de Navegación Fluida                                   | Crear diseño visual para 'navegación fluida entre secciones'.                                                                                                                                              | 1/2h            |
+|               |                                                                           | T032    | Codificación de Componente de Navegación Fluida                                   | Codificar el componente necesario para 'navegación fluida entre secciones'.                                                                                                                                 | 1h              |
+|               |                                                                           | T033    | Verificación de Navegación Fluida                                   | Verificar que 'navegación fluida entre secciones' funcione correctamente.                                                                                                                                   | 1/2h            |
+| US-013        | Optimización para pantallas de escritorio                                | T034    | Definición de Breakpoint para Desktop                                   | Definir breakpoint específico para resolución ≥ 1280px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1/2h            |
+|               |                                                                           | T035    | Ajuste de Layout Principal para Desktop                                   | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1h              |
+|               |                                                                           | T036    | Mejora de Legibilidad en Desktop                                   | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h            |
+| US-014        | Optimización para pantallas de tablet                                    | T037    | Definición de Breakpoint para Tablets/Laptops                                   | Definir breakpoint específico para resolución ≥ 1024px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1h              |
+|               |                                                                           | T038    | Ajuste de Layout Principal para Tablets/Laptops                                   | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1/2h            |
+|               |                                                                           | T039    | Mejora de Legibilidad en Tablets/Laptops                                   | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h            |
+| US-015        | Optimización para dispositivos móviles                                  | T040    | Definición de Breakpoint para Tablets                                   | Definir breakpoint específico para resolución ≥ 768px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                          | 1/2h            |
+|               |                                                                           | T041    | Ajuste de Layout Principal para Tablets                                   | Reorganizar layout principal (header, sidebar, content) para optimizar el espacio horizontal                                                                                                                 | 1h              |
+|               |                                                                           | T042    | Mejora de Legibilidad en Tablets                                   | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas pequeñas                                                                                                                     | 1/2h            |
+| US-016        | Navegación fluida entre secciones                                        | T043    | Implementación de Transiciones de Navegación Fluidas                                   | Implementar una experiencia de navegación fluida y sin interrupciones entre las diferentes secciones de la aplicación, garantizando transiciones rápidas, suaves y coherentes con la interfaz de usuario. | 2h              |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -1405,7 +1405,6 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 
 ![Team Collaboration Insight](assets/images/cap5/team_ci_3_2.png)
 
-
 ### 5.2.4. Sprint 4
 
 #### 5.2.4.1. Sprint Planning 4
@@ -1454,7 +1453,6 @@ Con el fin de mantener una coordinación efectiva y una comunicación fluida ent
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
-
 
 ## 5.3. Validation Interviews
 
@@ -1600,12 +1598,12 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-**Carrera:** Ingeniería de Software  
-**Curso:** Desarrollo de Aplicaciones Open Source  
-**Sección:** 4292  
-**Profesores:** Angel Velasquez  
-**Auditor:** Gabriela Nicole Shapiama Rivera y Yaku Mateo Guzman Cabrejos  
-**Cliente(s):** Mery Pilar, Alfredo Bernuy y Flor Medina  
+**Carrera:** Ingeniería de Software
+**Curso:** Desarrollo de Aplicaciones Open Source
+**Sección:** 4292
+**Profesores:** Angel Velasquez
+**Auditor:** Gabriela Nicole Shapiama Rivera y Yaku Mateo Guzman Cabrejos
+**Cliente(s):** Mery Pilar, Alfredo Bernuy y Flor Medina
 
 **Site o App a evaluar:** Restock
 
@@ -1668,111 +1666,111 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **DESCRIPCIÓN DE PROBLEMAS**
 
-**PROBLEMA #1: Uso de colores sin etiquetas para estados de pedido**  
-**Severidad:** 2  
-**Heurística violada:** Usabilidad - Visibilidad del estado del sistema  
-**Problema:** Actualmente, el sistema usa colores para indicar el estado de los pedidos, pero no existe una leyenda textual que acompañe estos colores. Esto puede causar confusión a usuarios que no recuerdan o entienden el significado de cada color.  
-**Evidencia:** La usuaria indicó: "Le sale de diferente color...". No mencionó saber qué significa cada color.  
-**Recomendación:** Incorporar columna con dato del estado para que sea inequívocamente identificado ("En camino", "En espera", etc.).  
+**PROBLEMA #1: Uso de colores sin etiquetas para estados de pedido**
+**Severidad:** 2
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
+**Problema:** Actualmente, el sistema usa colores para indicar el estado de los pedidos, pero no existe una leyenda textual que acompañe estos colores. Esto puede causar confusión a usuarios que no recuerdan o entienden el significado de cada color.
+**Evidencia:** La usuaria indicó: "Le sale de diferente color...". No mencionó saber qué significa cada color.
+**Recomendación:** Incorporar columna con dato del estado para que sea inequívocamente identificado ("En camino", "En espera", etc.).
 
 ---
 
-**PROBLEMA #2: Falta de opciones rápidas para reutilizar recetas**  
-**Severidad:** 1  
-**Heurística violada:** Usabilidad - Reconocer mejor que recordar  
-**Problema:** El sistema permite crear recetas, pero no ofrece un mecanismo claro para reutilizarlas o seleccionarlas de forma directa. Esto puede hacer que el usuario deba rehacer pasos innecesarios.  
-**Evidencia:** La usuaria comentó: "Y puedo crear acá nuevos productos también", lo cual implica que debe crear nuevamente la receta en vez de seleccionar una ya existente.  
-**Recomendación:** Añadir un buscador o selector de recetas guardadas para ser reutilizadas.  
+**PROBLEMA #2: Falta de opciones rápidas para reutilizar recetas**
+**Severidad:** 1
+**Heurística violada:** Usabilidad - Reconocer mejor que recordar
+**Problema:** El sistema permite crear recetas, pero no ofrece un mecanismo claro para reutilizarlas o seleccionarlas de forma directa. Esto puede hacer que el usuario deba rehacer pasos innecesarios.
+**Evidencia:** La usuaria comentó: "Y puedo crear acá nuevos productos también", lo cual implica que debe crear nuevamente la receta en vez de seleccionar una ya existente.
+**Recomendación:** Añadir un buscador o selector de recetas guardadas para ser reutilizadas.
 
 ---
 
 **PROBLEMA #3: No existen accesos directos ni funciones para expertos**
-**Severidad:** 3  
-**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso  
-**Problema:** El sistema está centrado en tareas básicas, pero no contempla accesos rápidos, atajos o funcionalidades para usuarios frecuentes que desean operar con mayor agilidad.  
-**Evidencia:** "...tener más tiempo... incluso para poder abrir otra tienda", sugiere que la eficiencia es una necesidad importante para la usuaria.  
-**Recomendación:** Incluir accesos directos desde el dashboard, filtros inteligentes o teclas rápidas.  
+**Severidad:** 3
+**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso
+**Problema:** El sistema está centrado en tareas básicas, pero no contempla accesos rápidos, atajos o funcionalidades para usuarios frecuentes que desean operar con mayor agilidad.
+**Evidencia:** "...tener más tiempo... incluso para poder abrir otra tienda", sugiere que la eficiencia es una necesidad importante para la usuaria.
+**Recomendación:** Incluir accesos directos desde el dashboard, filtros inteligentes o teclas rápidas.
 
 ---
 
-**PROBLEMA #4: Botones y acciones no están claramente etiquetados**  
-**Severidad:** 2  
-**Heurística violada:** Usabilidad - Correspondencia entre sistema y mundo real  
-**Problema:** Algunos botones como "Place Order" no son intuitivos para un usuario hispanohablante, y su comprensión depende del color o la posición.  
-**Evidencia:** "Place Order (el morado)" indica que se recuerda el color más que la acción.  
-**Recomendación:** Usar etiquetas localizadas ("Realizar pedido").  
+**PROBLEMA #4: Botones y acciones no están claramente etiquetados**
+**Severidad:** 2
+**Heurística violada:** Usabilidad - Correspondencia entre sistema y mundo real
+**Problema:** Algunos botones como "Place Order" no son intuitivos para un usuario hispanohablante, y su comprensión depende del color o la posición.
+**Evidencia:** "Place Order (el morado)" indica que se recuerda el color más que la acción.
+**Recomendación:** Usar etiquetas localizadas ("Realizar pedido").
 
 ---
 
-**PROBLEMA #5: No se contempla accesibilidad visual o de navegación**  
-**Severidad:** 2  
-**Heurística violada:** Inclusive Design - Accesibilidad y compatibilidad  
-**Problema:** El sistema no ofrece opción de alto contraste, navegación por teclado o soporte para lectores de pantalla.  
-**Evidencia:** No mencionado directamente, pero se infiere por ausencia de referencia.  
-**Recomendación:** Añadir opciones de accesibilidad visual y teclas de navegación.  
+**PROBLEMA #5: No se contempla accesibilidad visual o de navegación**
+**Severidad:** 2
+**Heurística violada:** Inclusive Design - Accesibilidad y compatibilidad
+**Problema:** El sistema no ofrece opción de alto contraste, navegación por teclado o soporte para lectores de pantalla.
+**Evidencia:** No mencionado directamente, pero se infiere por ausencia de referencia.
+**Recomendación:** Añadir opciones de accesibilidad visual y teclas de navegación.
 
 ---
 
-**PROBLEMA #6: Falta de opciones para editar o cancelar un pedido**  
-**Severidad:** 2  
-**Heurística violada:** Usabilidad - Libertad y control del usuario  
-**Problema:** El sistema no deja claro si se pueden modificar o anular pedidos una vez registrados, lo cual limita el control del usuario sobre el flujo.  
-**Evidencia:** No se menciona esta posibilidad en la entrevista, y la acción parece definitiva.  
-**Recomendación:** Añadir botones de "Editar" y "Cancelar" en pedidos recientes.  
+**PROBLEMA #6: Falta de opciones para editar o cancelar un pedido**
+**Severidad:** 2
+**Heurística violada:** Usabilidad - Libertad y control del usuario
+**Problema:** El sistema no deja claro si se pueden modificar o anular pedidos una vez registrados, lo cual limita el control del usuario sobre el flujo.
+**Evidencia:** No se menciona esta posibilidad en la entrevista, y la acción parece definitiva.
+**Recomendación:** Añadir botones de "Editar" y "Cancelar" en pedidos recientes.
 
 ---
 
-**PROBLEMA #7: Flujo de tareas puede ser poco guiado**  
-**Severidad:** 1  
-**Heurística violada:** Arquitectura de información - Is it usable?  
-**Problema:** El proceso de registrar ventas o pedidos implica múltiples pasos que pueden resultar poco intuitivos sin guías.  
-**Evidencia:** "...registrar... seleccionar... luego se descuenta el stock" sugiere un flujo de acciones implícito.  
+**PROBLEMA #7: Flujo de tareas puede ser poco guiado**
+**Severidad:** 1
+**Heurística violada:** Arquitectura de información - Is it usable?
+**Problema:** El proceso de registrar ventas o pedidos implica múltiples pasos que pueden resultar poco intuitivos sin guías.
+**Evidencia:** "...registrar... seleccionar... luego se descuenta el stock" sugiere un flujo de acciones implícito.
 **Recomendación:** Incorporar guías visuales paso a paso.
 
 ---
 
-**PROBLEMA #8: Modal de creación de insumos podría ser más informativo**  
-**Severidad:** 1  
-**Heurística violada:** Usabilidad - Ayuda y documentación  
-**Problema:** El modal para añadir insumos es funcional, pero no proporciona ejemplos ni guías sobre qué información debe colocarse.  
-**Evidencia:** "...tiene ahí la opción de poner cualquiera de sus ítems" indica libertad sin orientación.  
-**Recomendación:** Incluir sugerencias o placeholders dentro del modal (por ejemplo: "Ej: Lechuga romana").  
+**PROBLEMA #8: Modal de creación de insumos podría ser más informativo**
+**Severidad:** 1
+**Heurística violada:** Usabilidad - Ayuda y documentación
+**Problema:** El modal para añadir insumos es funcional, pero no proporciona ejemplos ni guías sobre qué información debe colocarse.
+**Evidencia:** "...tiene ahí la opción de poner cualquiera de sus ítems" indica libertad sin orientación.
+**Recomendación:** Incluir sugerencias o placeholders dentro del modal (por ejemplo: "Ej: Lechuga romana").
 
 ---
 
-**PROBLEMA #9: Notificaciones no especifican acción sugerida**  
-**Severidad:** 2  
-**Heurística violada:** Usabilidad - Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores  
-**Problema:** Las notificaciones informan del stock mínimo o de pedidos, pero no indican directamente qué hacer a continuación.  
-**Evidencia:** "...con esto ya tendríamos las notificaciones que nos alertarían" indica utilidad, pero no orientación.  
-**Recomendación:** Añadir botones de redirección en las notificaciones.  
+**PROBLEMA #9: Notificaciones no especifican acción sugerida**
+**Severidad:** 2
+**Heurística violada:** Usabilidad - Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores
+**Problema:** Las notificaciones informan del stock mínimo o de pedidos, pero no indican directamente qué hacer a continuación.
+**Evidencia:** "...con esto ya tendríamos las notificaciones que nos alertarían" indica utilidad, pero no orientación.
+**Recomendación:** Añadir botones de redirección en las notificaciones.
 
 ---
 
-**PROBLEMA #10: Registro de ventas puede generar confusión por pasos implícitos**  
-**Severidad:** 2  
-**Heurística violada:** Arquitectura de información - Claridad del flujo  
-**Problema:** El proceso de registrar una venta y luego registrarla nuevamente para descontar del inventario puede resultar confuso para usuarios nuevos.  
-**Evidencia:** "...ventas registradas que no se han descontado del inventario..." sugiere un doble paso no evidente.  
-**Recomendación:** Fusionar ambos pasos o hacer explícito el estado intermedio con instrucciones claras ("Venta pendiente de confirmación").  
+**PROBLEMA #10: Registro de ventas puede generar confusión por pasos implícitos**
+**Severidad:** 2
+**Heurística violada:** Arquitectura de información - Claridad del flujo
+**Problema:** El proceso de registrar una venta y luego registrarla nuevamente para descontar del inventario puede resultar confuso para usuarios nuevos.
+**Evidencia:** "...ventas registradas que no se han descontado del inventario..." sugiere un doble paso no evidente.
+**Recomendación:** Fusionar ambos pasos o hacer explícito el estado intermedio con instrucciones claras ("Venta pendiente de confirmación").
 
 ---
 
-**PROBLEMA #11: Panel de análisis no permite filtrar por tipo de cliente**  
-**Severidad:** 2  
-**Heurística violada:** Arquitectura de información - Is it findable?  
-**Problema:** El panel de métricas proporciona datos útiles, pero no permite segmentarlos por tipo de cliente, zona geográfica u otros criterios relevantes para la logística.  
-**Evidencia:** Flor menciona que "el panel de análisis le proporciona métricas claras", pero sugiere que la información está centralizada sin filtros.  
-**Recomendación:** Incluir filtros en el panel (por fecha, zona, tipo de restaurante, etc.) para mayor utilidad.  
+**PROBLEMA #11: Panel de análisis no permite filtrar por tipo de cliente**
+**Severidad:** 2
+**Heurística violada:** Arquitectura de información - Is it findable?
+**Problema:** El panel de métricas proporciona datos útiles, pero no permite segmentarlos por tipo de cliente, zona geográfica u otros criterios relevantes para la logística.
+**Evidencia:** Flor menciona que "el panel de análisis le proporciona métricas claras", pero sugiere que la información está centralizada sin filtros.
+**Recomendación:** Incluir filtros en el panel (por fecha, zona, tipo de restaurante, etc.) para mayor utilidad.
 
 ---
 
-**PROBLEMA #12: Calendario de envíos carece de vista resumen o semanal**  
-**Severidad:** 2  
-**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso  
-**Problema:** Aunque se puede programar fechas de envío, no se ofrece una vista que permita ver de forma semanal o mensual todas las programaciones a la vez.  
-**Evidencia:** Flor menciona que programa fechas de envío en un calendario interactivo, pero no indica capacidad de ver planificación agregada.  
-**Recomendación:** Añadir vistas tipo "semana" o "mes" al calendario para facilitar la gestión logística de varios pedidos.  
+**PROBLEMA #12: Calendario de envíos carece de vista resumen o semanal**
+**Severidad:** 2
+**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso
+**Problema:** Aunque se puede programar fechas de envío, no se ofrece una vista que permita ver de forma semanal o mensual todas las programaciones a la vez.
+**Evidencia:** Flor menciona que programa fechas de envío en un calendario interactivo, pero no indica capacidad de ver planificación agregada.
+**Recomendación:** Añadir vistas tipo "semana" o "mes" al calendario para facilitar la gestión logística de varios pedidos.
 
 ## 5.4. Video About-the-Product
 
