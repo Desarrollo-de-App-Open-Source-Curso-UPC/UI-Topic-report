@@ -217,7 +217,6 @@ El frontend se comunica con el backend a través de HTTP consumiendo la API REST
 * Deploy automático:
   Cada vez que se hace un push a la rama principal del repositorio, Render ejecuta un nuevo despliegue utilizando el Dockerfile, sin necesidad de configurar un pipeline de CI/CD adicional.
 
-
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1 Sprint 1
@@ -791,7 +790,6 @@ Durante el sprint, se adoptaron estrategias de colaboración efectivas que permi
 - Nivel de participación equilibrado entre todos los miembros
 - El gráfico muestra una distribución consistente de actividad a lo largo del sprint
 
-
 ##### **Analíticos de *commits* y *pull requests* en GitHub**
 
 ![Team Collaboration Insight](assets/images/cap5/collaboration-insight/ci_2.png)
@@ -1262,7 +1260,6 @@ Se avanzó considerablemente en el desarrollo del frontend de la plataforma, enf
 | Yaku Guzman/UI-Topic-Frontend         | develop | Yaku Guzman         | 8ad1e8f   | feat(restaurant-inventory): enhance supply management with modals and notifications                                                     |                     | 17-05-2025         |
 | Williams/UI-Topic-Frontend            | develop | Williams            | e113bd1   | first coomit                                                                                                                            |                     | 17-05-2025         |
 
-
 **Web Services (Backend):**
 
 En el backend de la plataforma se realizaron importantes avances enfocados en la gestión de recetas, suministros y lotes. Se implementaron las operaciones CRUD para recetas y el manejo detallado de sus insumos, además de validar y reforzar la integridad de datos mediante objetos de valor específicos. También se añadieron configuraciones para ambientes de desarrollo y producción, y se mejoraron las definiciones de columnas en la base de datos para optimizar el manejo de fechas, precios y cantidades. Se desarrollaron servicios y controladores que facilitan la interacción con los recursos, permitiendo una gestión eficiente y segura de los datos relacionados con el inventario y las operaciones del sistema.
@@ -1334,10 +1331,10 @@ Aunque no se desplegaron endpoints REST aún, se documentan a continuación los 
 
 ### Recursos del Sprint
 
-| Recurso                 | Acción implementada                                | Método HTTP | URL / Endpoint                                                                            | Link de repositorio                                             |
-| ----------------------- | --------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| Landing Page            | Visualización completa y funcional del landing     | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/                            | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing  |
-| UI del sistema (WIP)    | Avance en el sistema (menú, dashboard, inventario) | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/dashboard                                            | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend |
+| Recurso                 | Acción implementada                                | Método HTTP | URL / Endpoint                                                                            | Link de repositorio                                                          |
+| ----------------------- | --------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Landing Page            | Visualización completa y funcional del landing     | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing  |
+| UI del sistema (WIP)    | Avance en el sistema (menú, dashboard, inventario) | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/dashboard                       | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend |
 | Get supply by ID        | Obtener un insumo por ID                            | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
 | Update a supply         | Actualizar un insumo                                | PUT          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
 | Delete a supply         | Eliminar un insumo                                  | DELETE       | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
@@ -1408,6 +1405,57 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 
 ![Team Collaboration Insight](assets/images/cap5/team_ci_3_2.png)
 
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+| Sprint #                             | Sprint 4                                                                                                                                                           |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background** |                                                                                                                                                                    |
+| Date                                 |                                                                                                                                                                    |
+| Time                                 | 08:00 pm (GMT-5)                                                                                                                                                   |
+| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                    |
+| Prepared By                          |                                                                                                                                                                    |
+| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel<br /> / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole |
+| Sprint 3 Review Summary              | Durante el Sprint 3.,,,,,,,,,,,,,                                                                                                                                  |
+| Sprint 3 Retrospective Summary       | Durante el Sprint 3,......................                                                                                                                         |
+| **Sprint Goal & User Stories** |                                                                                                                                                                    |
+| Sprint 4 Goal                        | Nuestro enfoque                                                                                                                                                    |
+| Sprint 4 Velocity                    |                                                                                                                                                                    |
+| Sum of Story Points                  |                                                                                                                                                                    |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+Durante el Sprint 4, se ha definido el desarrollo de los últimos módulos principales del frontend de la aplicación web interna Restock y del backend, abarcando funcionalidades clave como la gestión de productos, pedidos, inventario y compras. Estas implementaciones buscan optimizar los procesos internos y brindar mayor eficiencia a los administradores de restaurantes y proveedores de restaurantes.
+
+Con el fin de mantener una coordinación efectiva y una comunicación fluida entre los integrantes del equipo, se estructuró la matriz de liderazgo y colaboración (LACX), donde se asignó un líder (L) encargado de cada funcionalidad y colaboradores (C) que brindan apoyo en su implementación.
+
+<div style="font-size: 0.75em; overflow-x: auto;">
+
+| Team Member (Last Name, First Name) | GitHub Username    | Planning | Subscription | Profile | IAM | Analytics | Resource | Monitoring |
+| :---------------------------------- | :----------------- | :------- | :----------- | :------ | :-- | :-------- | :------- | :--------- |
+| Navarro Chinga, Antonio Jhair       | AntonioNavarro24   | C        | L            | C       | L   | C         | C        | C          |
+| Castro Alejos, Julio                | JulioXC4           | C        | C            | C       | C   | C         | L        | C          |
+| Guerra Perez, José Jahaziel        | jahazielgg         | L        | C            | C       | C   | L         | C        | C          |
+| Guzmán Cabrejos, Yaku Mateo        | yak-cod            | C        | C            | C       | C   | C         | C        | C          |
+| Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28 | C        | C            | L       | C   | C         | C        | L          |
+
+</div>
+
+#### 5.2.4.3. Sprint Backlog 4
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
@@ -1456,6 +1504,7 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 **Segmento 2: Proveedores de Restaurantes**
 
 * Elementos a validar
+
 - Claridad del valor en el Landing Page.
 - Gestión de catálogo de productos.
 - Eliminación de insumos no disponibles.
@@ -1551,12 +1600,12 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-**Carrera:** Ingeniería de Software
-**Curso:** Desarrollo de Aplicaciones Open Source
-**Sección:** 4292
-**Profesores:** Angel Velasquez
-**Auditor:** Gabriela Nicole Shapiama Rivera y Yaku Mateo Guzman Cabrejos
-**Cliente(s):** Mery Pilar, Alfredo Bernuy y Flor Medina
+**Carrera:** Ingeniería de Software  
+**Curso:** Desarrollo de Aplicaciones Open Source  
+**Sección:** 4292  
+**Profesores:** Angel Velasquez  
+**Auditor:** Gabriela Nicole Shapiama Rivera y Yaku Mateo Guzman Cabrejos  
+**Cliente(s):** Mery Pilar, Alfredo Bernuy y Flor Medina  
 
 **Site o App a evaluar:** Restock
 
@@ -1619,111 +1668,111 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **DESCRIPCIÓN DE PROBLEMAS**
 
-**PROBLEMA #1: Uso de colores sin etiquetas para estados de pedido**
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
-**Problema:** Actualmente, el sistema usa colores para indicar el estado de los pedidos, pero no existe una leyenda textual que acompañe estos colores. Esto puede causar confusión a usuarios que no recuerdan o entienden el significado de cada color.
-**Evidencia:** La usuaria indicó: "Le sale de diferente color...". No mencionó saber qué significa cada color.
-**Recomendación:** Incorporar columna con dato del estado para que sea inequívocamente identificado ("En camino", "En espera", etc.).
+**PROBLEMA #1: Uso de colores sin etiquetas para estados de pedido**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema  
+**Problema:** Actualmente, el sistema usa colores para indicar el estado de los pedidos, pero no existe una leyenda textual que acompañe estos colores. Esto puede causar confusión a usuarios que no recuerdan o entienden el significado de cada color.  
+**Evidencia:** La usuaria indicó: "Le sale de diferente color...". No mencionó saber qué significa cada color.  
+**Recomendación:** Incorporar columna con dato del estado para que sea inequívocamente identificado ("En camino", "En espera", etc.).  
 
 ---
 
-**PROBLEMA #2: Falta de opciones rápidas para reutilizar recetas**
-**Severidad:** 1
-**Heurística violada:** Usabilidad - Reconocer mejor que recordar
-**Problema:** El sistema permite crear recetas, pero no ofrece un mecanismo claro para reutilizarlas o seleccionarlas de forma directa. Esto puede hacer que el usuario deba rehacer pasos innecesarios.
-**Evidencia:** La usuaria comentó: "Y puedo crear acá nuevos productos también", lo cual implica que debe crear nuevamente la receta en vez de seleccionar una ya existente.
-**Recomendación:** Añadir un buscador o selector de recetas guardadas para ser reutilizadas.
+**PROBLEMA #2: Falta de opciones rápidas para reutilizar recetas**  
+**Severidad:** 1  
+**Heurística violada:** Usabilidad - Reconocer mejor que recordar  
+**Problema:** El sistema permite crear recetas, pero no ofrece un mecanismo claro para reutilizarlas o seleccionarlas de forma directa. Esto puede hacer que el usuario deba rehacer pasos innecesarios.  
+**Evidencia:** La usuaria comentó: "Y puedo crear acá nuevos productos también", lo cual implica que debe crear nuevamente la receta en vez de seleccionar una ya existente.  
+**Recomendación:** Añadir un buscador o selector de recetas guardadas para ser reutilizadas.  
 
 ---
 
 **PROBLEMA #3: No existen accesos directos ni funciones para expertos**
-**Severidad:** 3
-**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso
-**Problema:** El sistema está centrado en tareas básicas, pero no contempla accesos rápidos, atajos o funcionalidades para usuarios frecuentes que desean operar con mayor agilidad.
-**Evidencia:** "...tener más tiempo... incluso para poder abrir otra tienda", sugiere que la eficiencia es una necesidad importante para la usuaria.
-**Recomendación:** Incluir accesos directos desde el dashboard, filtros inteligentes o teclas rápidas.
+**Severidad:** 3  
+**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso  
+**Problema:** El sistema está centrado en tareas básicas, pero no contempla accesos rápidos, atajos o funcionalidades para usuarios frecuentes que desean operar con mayor agilidad.  
+**Evidencia:** "...tener más tiempo... incluso para poder abrir otra tienda", sugiere que la eficiencia es una necesidad importante para la usuaria.  
+**Recomendación:** Incluir accesos directos desde el dashboard, filtros inteligentes o teclas rápidas.  
 
 ---
 
-**PROBLEMA #4: Botones y acciones no están claramente etiquetados**
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Correspondencia entre sistema y mundo real
-**Problema:** Algunos botones como "Place Order" no son intuitivos para un usuario hispanohablante, y su comprensión depende del color o la posición.
-**Evidencia:** "Place Order (el morado)" indica que se recuerda el color más que la acción.
-**Recomendación:** Usar etiquetas localizadas ("Realizar pedido").
+**PROBLEMA #4: Botones y acciones no están claramente etiquetados**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Correspondencia entre sistema y mundo real  
+**Problema:** Algunos botones como "Place Order" no son intuitivos para un usuario hispanohablante, y su comprensión depende del color o la posición.  
+**Evidencia:** "Place Order (el morado)" indica que se recuerda el color más que la acción.  
+**Recomendación:** Usar etiquetas localizadas ("Realizar pedido").  
 
 ---
 
-**PROBLEMA #5: No se contempla accesibilidad visual o de navegación**
-**Severidad:** 2
-**Heurística violada:** Inclusive Design - Accesibilidad y compatibilidad
-**Problema:** El sistema no ofrece opción de alto contraste, navegación por teclado o soporte para lectores de pantalla.
-**Evidencia:** No mencionado directamente, pero se infiere por ausencia de referencia.
-**Recomendación:** Añadir opciones de accesibilidad visual y teclas de navegación.
+**PROBLEMA #5: No se contempla accesibilidad visual o de navegación**  
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design - Accesibilidad y compatibilidad  
+**Problema:** El sistema no ofrece opción de alto contraste, navegación por teclado o soporte para lectores de pantalla.  
+**Evidencia:** No mencionado directamente, pero se infiere por ausencia de referencia.  
+**Recomendación:** Añadir opciones de accesibilidad visual y teclas de navegación.  
 
 ---
 
-**PROBLEMA #6: Falta de opciones para editar o cancelar un pedido**
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Libertad y control del usuario
-**Problema:** El sistema no deja claro si se pueden modificar o anular pedidos una vez registrados, lo cual limita el control del usuario sobre el flujo.
-**Evidencia:** No se menciona esta posibilidad en la entrevista, y la acción parece definitiva.
-**Recomendación:** Añadir botones de "Editar" y "Cancelar" en pedidos recientes.
+**PROBLEMA #6: Falta de opciones para editar o cancelar un pedido**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Libertad y control del usuario  
+**Problema:** El sistema no deja claro si se pueden modificar o anular pedidos una vez registrados, lo cual limita el control del usuario sobre el flujo.  
+**Evidencia:** No se menciona esta posibilidad en la entrevista, y la acción parece definitiva.  
+**Recomendación:** Añadir botones de "Editar" y "Cancelar" en pedidos recientes.  
 
 ---
 
-**PROBLEMA #7: Flujo de tareas puede ser poco guiado**
-**Severidad:** 1
-**Heurística violada:** Arquitectura de información - Is it usable?
-**Problema:** El proceso de registrar ventas o pedidos implica múltiples pasos que pueden resultar poco intuitivos sin guías.
-**Evidencia:** "...registrar... seleccionar... luego se descuenta el stock" sugiere un flujo de acciones implícito.
+**PROBLEMA #7: Flujo de tareas puede ser poco guiado**  
+**Severidad:** 1  
+**Heurística violada:** Arquitectura de información - Is it usable?  
+**Problema:** El proceso de registrar ventas o pedidos implica múltiples pasos que pueden resultar poco intuitivos sin guías.  
+**Evidencia:** "...registrar... seleccionar... luego se descuenta el stock" sugiere un flujo de acciones implícito.  
 **Recomendación:** Incorporar guías visuales paso a paso.
 
 ---
 
-**PROBLEMA #8: Modal de creación de insumos podría ser más informativo**
-**Severidad:** 1
-**Heurística violada:** Usabilidad - Ayuda y documentación
-**Problema:** El modal para añadir insumos es funcional, pero no proporciona ejemplos ni guías sobre qué información debe colocarse.
-**Evidencia:** "...tiene ahí la opción de poner cualquiera de sus ítems" indica libertad sin orientación.
-**Recomendación:** Incluir sugerencias o placeholders dentro del modal (por ejemplo: "Ej: Lechuga romana").
+**PROBLEMA #8: Modal de creación de insumos podría ser más informativo**  
+**Severidad:** 1  
+**Heurística violada:** Usabilidad - Ayuda y documentación  
+**Problema:** El modal para añadir insumos es funcional, pero no proporciona ejemplos ni guías sobre qué información debe colocarse.  
+**Evidencia:** "...tiene ahí la opción de poner cualquiera de sus ítems" indica libertad sin orientación.  
+**Recomendación:** Incluir sugerencias o placeholders dentro del modal (por ejemplo: "Ej: Lechuga romana").  
 
 ---
 
-**PROBLEMA #9: Notificaciones no especifican acción sugerida**
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores
-**Problema:** Las notificaciones informan del stock mínimo o de pedidos, pero no indican directamente qué hacer a continuación.
-**Evidencia:** "...con esto ya tendríamos las notificaciones que nos alertarían" indica utilidad, pero no orientación.
-**Recomendación:** Añadir botones de redirección en las notificaciones.
+**PROBLEMA #9: Notificaciones no especifican acción sugerida**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores  
+**Problema:** Las notificaciones informan del stock mínimo o de pedidos, pero no indican directamente qué hacer a continuación.  
+**Evidencia:** "...con esto ya tendríamos las notificaciones que nos alertarían" indica utilidad, pero no orientación.  
+**Recomendación:** Añadir botones de redirección en las notificaciones.  
 
 ---
 
-**PROBLEMA #10: Registro de ventas puede generar confusión por pasos implícitos**
-**Severidad:** 2
-**Heurística violada:** Arquitectura de información - Claridad del flujo
-**Problema:** El proceso de registrar una venta y luego registrarla nuevamente para descontar del inventario puede resultar confuso para usuarios nuevos.
-**Evidencia:** "...ventas registradas que no se han descontado del inventario..." sugiere un doble paso no evidente.
-**Recomendación:** Fusionar ambos pasos o hacer explícito el estado intermedio con instrucciones claras ("Venta pendiente de confirmación").
+**PROBLEMA #10: Registro de ventas puede generar confusión por pasos implícitos**  
+**Severidad:** 2  
+**Heurística violada:** Arquitectura de información - Claridad del flujo  
+**Problema:** El proceso de registrar una venta y luego registrarla nuevamente para descontar del inventario puede resultar confuso para usuarios nuevos.  
+**Evidencia:** "...ventas registradas que no se han descontado del inventario..." sugiere un doble paso no evidente.  
+**Recomendación:** Fusionar ambos pasos o hacer explícito el estado intermedio con instrucciones claras ("Venta pendiente de confirmación").  
 
 ---
 
-**PROBLEMA #11: Panel de análisis no permite filtrar por tipo de cliente**
-**Severidad:** 2
-**Heurística violada:** Arquitectura de información - Is it findable?
-**Problema:** El panel de métricas proporciona datos útiles, pero no permite segmentarlos por tipo de cliente, zona geográfica u otros criterios relevantes para la logística.
-**Evidencia:** Flor menciona que "el panel de análisis le proporciona métricas claras", pero sugiere que la información está centralizada sin filtros.
-**Recomendación:** Incluir filtros en el panel (por fecha, zona, tipo de restaurante, etc.) para mayor utilidad.
+**PROBLEMA #11: Panel de análisis no permite filtrar por tipo de cliente**  
+**Severidad:** 2  
+**Heurística violada:** Arquitectura de información - Is it findable?  
+**Problema:** El panel de métricas proporciona datos útiles, pero no permite segmentarlos por tipo de cliente, zona geográfica u otros criterios relevantes para la logística.  
+**Evidencia:** Flor menciona que "el panel de análisis le proporciona métricas claras", pero sugiere que la información está centralizada sin filtros.  
+**Recomendación:** Incluir filtros en el panel (por fecha, zona, tipo de restaurante, etc.) para mayor utilidad.  
 
 ---
 
-**PROBLEMA #12: Calendario de envíos carece de vista resumen o semanal**
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso
-**Problema:** Aunque se puede programar fechas de envío, no se ofrece una vista que permita ver de forma semanal o mensual todas las programaciones a la vez.
-**Evidencia:** Flor menciona que programa fechas de envío en un calendario interactivo, pero no indica capacidad de ver planificación agregada.
-**Recomendación:** Añadir vistas tipo "semana" o "mes" al calendario para facilitar la gestión logística de varios pedidos.
+**PROBLEMA #12: Calendario de envíos carece de vista resumen o semanal**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso  
+**Problema:** Aunque se puede programar fechas de envío, no se ofrece una vista que permita ver de forma semanal o mensual todas las programaciones a la vez.  
+**Evidencia:** Flor menciona que programa fechas de envío en un calendario interactivo, pero no indica capacidad de ver planificación agregada.  
+**Recomendación:** Añadir vistas tipo "semana" o "mes" al calendario para facilitar la gestión logística de varios pedidos.  
 
 ## 5.4. Video About-the-Product
 
