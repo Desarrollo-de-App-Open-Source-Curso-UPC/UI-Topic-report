@@ -61,8 +61,8 @@ Este escenario To-Be fue construido a partir del análisis del escenario As-Is d
     </tr>
     <tr>
         <td>EP-06</td>
-        <td>Gestión de Stock de Inventario para Operaciones en Restaurantes</td>
-        <td>Como administrador de restaurante, quiero gestionar los niveles de inventario de todos los insumos, para asegurar la continuidad operativa, reducir el desperdicio y mantener el control del stock en todo momento.</td>
+        <td>Gestión de Stock de Inventario</td>
+        <td>Como usuario, quiero gestionar los niveles de inventario de todos los insumos, para asegurar la continuidad operativa, reducir el desperdicio y mantener el control del stock en todo momento.</td>
         <td></td>
         <td></td>
     </tr>
@@ -89,8 +89,8 @@ Este escenario To-Be fue construido a partir del análisis del escenario As-Is d
     </tr>
     <tr>
         <td>EP-10</td>
-        <td>Alertas inteligentes</td>
-        <td>Como administrador de restaurante, quiero recibir alertas automáticas sobre el estado del inventario y eventos importantes, para tomar decisiones oportunas que eviten la escasez de insumos o el exceso de stock.</td>
+        <td>Notificaciones inteligentes</td>
+        <td>Como administrador de restaurante, quiero recibir notificaciones automáticas sobre el estado del inventario y eventos importantes, para tomar decisiones oportunas que eviten la escasez de insumos o el exceso de stock.</td>
         <td></td>
         <td></td>
     </tr>
@@ -124,8 +124,8 @@ Este escenario To-Be fue construido a partir del análisis del escenario As-Is d
     </tr>
     <tr>
         <td>EP-15</td>
-        <td>Historial de Ventas y Acceso a Facturación, para Proveedores</td>
-        <td>Como proveedor, quiero acceder a un historial detallado de mis ventas a cada restaurante, para poder descargar reportes de facturación e identificar a mis mejores clientes.</td>
+        <td>Historial de Ventas, para Proveedores</td>
+        <td>Como proveedor, quiero acceder a un historial detallado de mis ventas a cada restaurante, para poder descargar reportes e identificar a mis mejores clientes.</td>
         <td></td>
         <td></td>
     </tr>
