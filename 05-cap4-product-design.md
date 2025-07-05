@@ -687,91 +687,87 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 
 **Perfil**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/1.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_profile.png)
 
 **Suscripciones**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/2.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_subs.png)
 `<br/>`
 
 **Resumen**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/3.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_summary.png)
 `<br/>`
 
 **Inventario**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/4.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/5.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_inventory.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_inventory2.png)
 `<br/>`
 
 **Provedores**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/6.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_supplier.png)
 `<br/>`
 
-**Alertas**
+**Notificaciones**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/7.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_notification.png)
 `<br/>`
 
 **Pedidos**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/8.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/9.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_orders.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_orders2.png)
 `<br/>`
 
 **Recetas**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/10.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/11.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_recipes.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_recipes2.png)
 `<br/>`
 
 **Ventas**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/12.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/13.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/14.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/15.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_sales.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_sales2.png)
 `<br/>`
 
 **Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
 **Perfil**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/1.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_profile.png)
 `<br/>`
 
 **Suscripciones**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/2.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_subs.png)
 `<br/>`
 
 **Resumen**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/3.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_summary.png)
 `<br/>`
 
 **Inventario**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/4.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/5.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_inventory.png)
 `<br/>`
 
-**Alertas**
+**Notificaciones**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/6.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_notification.png)
 `<br/>`
 
 **Ordenes**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/7.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/8.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_orders.png)
 `<br/>`
 
 **Calificaciones**
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/9.png)
+![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_reviews.png)
 `<br/>`
 
 ### 4.4.2 Web Applications Wireflow Diagrams
