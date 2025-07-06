@@ -266,45 +266,45 @@ El objetivo principal de este Sprint es diseñar, implementar y validar las secc
 
 [[Enlace al Trello](https://trello.com/invite/b/680c05f1fac416bfdb0ea024/ATTI41428da9336a1d11b0878438a247c3531DFD7E76/sprint-backlog-1)]
 
-| User Story ID | User Story Title                                                          | Task ID | Task Title                                     | Task Description                                                                                                                                                                                             | Estimated Hours |
-| ------------- | ------------------------------------------------------------------------- | ------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- |
-| US-001        | Ver testimonios de clientes                                               | T001    | Diseño de la Sección de Testimonios          | Diseñar una sección visualmente destacada para testimonios.                                                                                                                                                | 1/2h           |
-|               |                                                                           | T002    | Implementación de Testimonios                 | Mostrar mínimo tres testimonios con nombre, rol y comentario.                                                                                                                                               | 1h              |
-|               |                                                                           | T003    | Armonización de Estilos UI                    | Aplicar estilos consistentes (tipografía, colores, disposición).                                                                                                                                           | 1/2h            |
-| US-0002       | Consultar Preguntas Frecuentes                                            | T004    | Definición de Preguntas Frecuentes            | Definir al menos tres preguntas frecuentes con sus respuestas claras y breves.                                                                                                                               | 1/2h            |
-|               |                                                                           | T005    | Integración de Contenido Estático en FAQ     | Incluir las preguntas y respuestas directamente en el contenido estático de la sección FAQ.                                                                                                                | 1h              |
-|               |                                                                           | T006    | Asegurar Visibilidad Directa de Respuestas FAQ | Verificar que las respuestas estén visibles de forma directa sin necesidad de interacción.                                                                                                                 | 1/2h            |
-| US-003        | Consultas directas al equipo de la plataforma                             | T007    | Diseño de Formulario de Contacto                                   | Diseñar un formulario limpio con campos de nombre, correo y mensaje.                                                                                                                                        | 1/2h            |
-|               |                                                                           | T008    | Implementación de Validación Visual en Formulario                                   | Aplicar validación visual (mensajes de error si faltan datos).                                                                                                                                              | 1h              |
-|               |                                                                           | T009    | Mensaje de Confirmación de Envío de Formulario                                   | Mostrar un mensaje de confirmación claro tras el envío.                                                                                                                                                    | 1/2h            |
-| US-004        | Visualización persistente de información institucional en todo el sitio | T010    | Implementación de Footer Fijo                                   | Implementar una sección fija en el pie de página con enlaces a redes sociales, contacto y aviso legal.                                                                                                     | 1/2h            |
-|               |                                                                           | T011    | Creación de Sección "Términos y Condiciones"                                   | Crear la sección de "Términos y Condiciones" con contenido legal claro y accesible.                                                                                                                        | 1h              |
-|               |                                                                           | T012    | Visibilidad Global de Información Institucional                                   | Asegurar que la sección de información institucional esté visible en todas las vistas públicas del sitio.                                                                                                | 1/2h            |
-| US-005        | Acceso a secciones principales del sitio                                  | T013    | Definición de Rutas Internas                                   | Definir y estructurar las rutas internas para las secciones: Inicio, Beneficios, Cómo funciona y Contacto.                                                                                                  | 1/2h            |
-|               |                                                                           | T014    | Implementación de Menú de Navegación Principal                                   | Implementar un menú de navegación accesible desde la página principal que enlace a las secciones principales del sitio.                                                                                   | 1h              |
-|               |                                                                           | T015    | Verificación de Redirección de Enlaces de Navegación                                   | Asegurar que cada enlace de navegación redirija correctamente a su respectiva sección dentro del sitio.                                                                                                    | 1/2h            |
-| US-006        | Conocer el funcionamiento general de la plataforma                        | T016    | Definición de Contenido de Etapas Explicativas                                   | Definir el contenido de las cuatro etapas que explican el funcionamiento general de la plataforma. explicativo'.                                                                                             | 1/2h            |
-|               |                                                                           | T017    | Estructuración de Sección "Cómo Funciona"                                   | Estructurar la sección informativa que describa paso a paso cómo utilizar la plataforma.                                                                                                                   | 1h              |
-|               |                                                                           | T018    | Implementación Visual de Etapas Secuenciales                                   | Implementar la visualización de las cuatro etapas de forma secuencial y clara dentro del sitio.                                                                                                             | 1/2h            |
-| US-007        | Opción de comprender el funcionamiento mediante recurso audiovisual      | T019    | Estructura para Visualización de Video Explicativo                                   | Implementación de estructura necesarios para asegurar que el video explicativo se muestre correctamente                                                                                                     | 1/2h            |
-| US-008        | Comprensión del propósito y valor desde el inicio                       | T020    | Estructura para Visualización de Beneficios Generales                                   | Implementación de estructura necesarios para asegurar que los beneficios se muestren correctamente                                                                                                          | 2h              |
-| US-009        | Visualización de beneficios según perfil de usuario                     | T025    | Estructura para Visualización de Beneficios Personalizados                                   | Implementación de estructura necesarios para asegurar que los beneficios adaptados a mi perfil se muestre correctamente.                                                                                    | 1/2h            |
-| US-011        | Selección de idioma para una experiencia personalizada                   | T028    | Preparación de Contenido Multilingüe (ES/EN)                                   | Preparar el contenido de la landing page y web application en dos idiomas (español e inglés).                                                                                                              | 1h              |
-|               |                                                                           | T029    | Implementación de Selector de Idioma                                   | Implementar botón que permita cambiar entre ambos idiomas.                                                                                                                                                  | 1/2h            |
-|               |                                                                           | T030    | Persistencia de Selección de Idioma                                   | Guardar la selección del idioma para que se mantenga al recargar la página.                                                                                                                                | 1h              |
-| US012         | Navegación accesible para personas con discapacidad visual               | T031    | Diseño de Navegación Fluida                                   | Crear diseño visual para 'navegación fluida entre secciones'.                                                                                                                                              | 1/2h            |
-|               |                                                                           | T032    | Codificación de Componente de Navegación Fluida                                   | Codificar el componente necesario para 'navegación fluida entre secciones'.                                                                                                                                 | 1h              |
-|               |                                                                           | T033    | Verificación de Navegación Fluida                                   | Verificar que 'navegación fluida entre secciones' funcione correctamente.                                                                                                                                   | 1/2h            |
-| US-013        | Optimización para pantallas de escritorio                                | T034    | Definición de Breakpoint para Desktop                                   | Definir breakpoint específico para resolución ≥ 1280px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1/2h            |
-|               |                                                                           | T035    | Ajuste de Layout Principal para Desktop                                   | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1h              |
-|               |                                                                           | T036    | Mejora de Legibilidad en Desktop                                   | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h            |
-| US-014        | Optimización para pantallas de tablet                                    | T037    | Definición de Breakpoint para Tablets/Laptops                                   | Definir breakpoint específico para resolución ≥ 1024px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1h              |
-|               |                                                                           | T038    | Ajuste de Layout Principal para Tablets/Laptops                                   | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1/2h            |
-|               |                                                                           | T039    | Mejora de Legibilidad en Tablets/Laptops                                   | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h            |
-| US-015        | Optimización para dispositivos móviles                                  | T040    | Definición de Breakpoint para Tablets                                   | Definir breakpoint específico para resolución ≥ 768px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                          | 1/2h            |
-|               |                                                                           | T041    | Ajuste de Layout Principal para Tablets                                   | Reorganizar layout principal (header, sidebar, content) para optimizar el espacio horizontal                                                                                                                 | 1h              |
-|               |                                                                           | T042    | Mejora de Legibilidad en Tablets                                   | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas pequeñas                                                                                                                     | 1/2h            |
-| US-016        | Navegación fluida entre secciones                                        | T043    | Implementación de Transiciones de Navegación Fluidas                                   | Implementar una experiencia de navegación fluida y sin interrupciones entre las diferentes secciones de la aplicación, garantizando transiciones rápidas, suaves y coherentes con la interfaz de usuario. | 2h              |
+| User Story ID | User Story Title                                                          | Task ID | Task Title                                                  | Task Description                                                                                                                                                                                             | Estimated Hours |
+| ------------- | ------------------------------------------------------------------------- | ------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- |
+| US-001        | Ver testimonios de clientes                                               | T001    | Diseño de la Sección de Testimonios                       | Diseñar una sección visualmente destacada para testimonios.                                                                                                                                                | 1/2h            |
+|               |                                                                           | T002    | Implementación de Testimonios                              | Mostrar mínimo tres testimonios con nombre, rol y comentario.                                                                                                                                               | 1h              |
+|               |                                                                           | T003    | Armonización de Estilos UI                                 | Aplicar estilos consistentes (tipografía, colores, disposición).                                                                                                                                           | 1/2h            |
+| US-0002       | Consultar Preguntas Frecuentes                                            | T004    | Definición de Preguntas Frecuentes                         | Definir al menos tres preguntas frecuentes con sus respuestas claras y breves.                                                                                                                               | 1/2h            |
+|               |                                                                           | T005    | Integración de Contenido Estático en FAQ                  | Incluir las preguntas y respuestas directamente en el contenido estático de la sección FAQ.                                                                                                                | 1h              |
+|               |                                                                           | T006    | Asegurar Visibilidad Directa de Respuestas FAQ              | Verificar que las respuestas estén visibles de forma directa sin necesidad de interacción.                                                                                                                 | 1/2h            |
+| US-003        | Consultas directas al equipo de la plataforma                             | T007    | Diseño de Formulario de Contacto                           | Diseñar un formulario limpio con campos de nombre, correo y mensaje.                                                                                                                                        | 1/2h            |
+|               |                                                                           | T008    | Implementación de Validación Visual en Formulario         | Aplicar validación visual (mensajes de error si faltan datos).                                                                                                                                              | 1h              |
+|               |                                                                           | T009    | Mensaje de Confirmación de Envío de Formulario            | Mostrar un mensaje de confirmación claro tras el envío.                                                                                                                                                    | 1/2h            |
+| US-004        | Visualización persistente de información institucional en todo el sitio | T010    | Implementación de Footer Fijo                              | Implementar una sección fija en el pie de página con enlaces a redes sociales, contacto y aviso legal.                                                                                                     | 1/2h            |
+|               |                                                                           | T011    | Creación de Sección "Términos y Condiciones"             | Crear la sección de "Términos y Condiciones" con contenido legal claro y accesible.                                                                                                                        | 1h              |
+|               |                                                                           | T012    | Visibilidad Global de Información Institucional            | Asegurar que la sección de información institucional esté visible en todas las vistas públicas del sitio.                                                                                                | 1/2h            |
+| US-005        | Acceso a secciones principales del sitio                                  | T013    | Definición de Rutas Internas                               | Definir y estructurar las rutas internas para las secciones: Inicio, Beneficios, Cómo funciona y Contacto.                                                                                                  | 1/2h            |
+|               |                                                                           | T014    | Implementación de Menú de Navegación Principal           | Implementar un menú de navegación accesible desde la página principal que enlace a las secciones principales del sitio.                                                                                   | 1h              |
+|               |                                                                           | T015    | Verificación de Redirección de Enlaces de Navegación     | Asegurar que cada enlace de navegación redirija correctamente a su respectiva sección dentro del sitio.                                                                                                    | 1/2h            |
+| US-006        | Conocer el funcionamiento general de la plataforma                        | T016    | Definición de Contenido de Etapas Explicativas             | Definir el contenido de las cuatro etapas que explican el funcionamiento general de la plataforma. explicativo'.                                                                                             | 1/2h            |
+|               |                                                                           | T017    | Estructuración de Sección "Cómo Funciona"                | Estructurar la sección informativa que describa paso a paso cómo utilizar la plataforma.                                                                                                                   | 1h              |
+|               |                                                                           | T018    | Implementación Visual de Etapas Secuenciales               | Implementar la visualización de las cuatro etapas de forma secuencial y clara dentro del sitio.                                                                                                             | 1/2h            |
+| US-007        | Opción de comprender el funcionamiento mediante recurso audiovisual      | T019    | Estructura para Visualización de Video Explicativo         | Implementación de estructura necesarios para asegurar que el video explicativo se muestre correctamente                                                                                                     | 1/2h            |
+| US-008        | Comprensión del propósito y valor desde el inicio                       | T020    | Estructura para Visualización de Beneficios Generales      | Implementación de estructura necesarios para asegurar que los beneficios se muestren correctamente                                                                                                          | 2h              |
+| US-009        | Visualización de beneficios según perfil de usuario                     | T025    | Estructura para Visualización de Beneficios Personalizados | Implementación de estructura necesarios para asegurar que los beneficios adaptados a mi perfil se muestre correctamente.                                                                                    | 1/2h            |
+| US-011        | Selección de idioma para una experiencia personalizada                   | T028    | Preparación de Contenido Multilingüe (ES/EN)              | Preparar el contenido de la landing page y web application en dos idiomas (español e inglés).                                                                                                              | 1h              |
+|               |                                                                           | T029    | Implementación de Selector de Idioma                       | Implementar botón que permita cambiar entre ambos idiomas.                                                                                                                                                  | 1/2h            |
+|               |                                                                           | T030    | Persistencia de Selección de Idioma                        | Guardar la selección del idioma para que se mantenga al recargar la página.                                                                                                                                | 1h              |
+| US012         | Navegación accesible para personas con discapacidad visual               | T031    | Diseño de Navegación Fluida                               | Crear diseño visual para 'navegación fluida entre secciones'.                                                                                                                                              | 1/2h            |
+|               |                                                                           | T032    | Codificación de Componente de Navegación Fluida           | Codificar el componente necesario para 'navegación fluida entre secciones'.                                                                                                                                 | 1h              |
+|               |                                                                           | T033    | Verificación de Navegación Fluida                         | Verificar que 'navegación fluida entre secciones' funcione correctamente.                                                                                                                                   | 1/2h            |
+| US-013        | Optimización para pantallas de escritorio                                | T034    | Definición de Breakpoint para Desktop                      | Definir breakpoint específico para resolución ≥ 1280px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1/2h            |
+|               |                                                                           | T035    | Ajuste de Layout Principal para Desktop                     | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1h              |
+|               |                                                                           | T036    | Mejora de Legibilidad en Desktop                            | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h            |
+| US-014        | Optimización para pantallas de tablet                                    | T037    | Definición de Breakpoint para Tablets/Laptops              | Definir breakpoint específico para resolución ≥ 1024px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1h              |
+|               |                                                                           | T038    | Ajuste de Layout Principal para Tablets/Laptops             | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1/2h            |
+|               |                                                                           | T039    | Mejora de Legibilidad en Tablets/Laptops                    | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h            |
+| US-015        | Optimización para dispositivos móviles                                  | T040    | Definición de Breakpoint para Tablets                      | Definir breakpoint específico para resolución ≥ 768px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                          | 1/2h            |
+|               |                                                                           | T041    | Ajuste de Layout Principal para Tablets                     | Reorganizar layout principal (header, sidebar, content) para optimizar el espacio horizontal                                                                                                                 | 1h              |
+|               |                                                                           | T042    | Mejora de Legibilidad en Tablets                            | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas pequeñas                                                                                                                     | 1/2h            |
+| US-016        | Navegación fluida entre secciones                                        | T043    | Implementación de Transiciones de Navegación Fluidas      | Implementar una experiencia de navegación fluida y sin interrupciones entre las diferentes secciones de la aplicación, garantizando transiciones rápidas, suaves y coherentes con la interfaz de usuario. | 2h              |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -504,7 +504,7 @@ Trello: [[https:/linkcuts.org/gmhr4kmc](https:/linkcuts.org/gmhr4kmc)]
 
 | User Story ID | User Story Title                                      | Task ID | Task Title                | Task Description                                                                                          | Estimated Hours |
 | ------------- | ----------------------------------------------------- | ------- | ------------------------- | --------------------------------------------------------------------------------------------------------- | --------------- |
-| US-08         | Selector de idioma en landing page                    | T001    | Diseñar sección         | Crear diseño visual para 'mostrar mensaje de valor en la sección principal'.                            | 1/2h          |
+| US-08         | Selector de idioma en landing page                    | T001    | Diseñar sección         | Crear diseño visual para 'mostrar mensaje de valor en la sección principal'.                            | 1/2h            |
 |               |                                                       | T002    | Implementar funcionalidad | Codificar el componente necesario para 'mostrar mensaje de valor en la sección principal'.               | 1h              |
 |               |                                                       | T003    | Realizar pruebas          | Verificar que 'mostrar mensaje de valor en la sección principal' funcione correctamente.                 | 1/2h            |
 | US-09         | Optimización para pantallas de tablet                | T004    | Diseñar sección         | Crear diseño visual para 'mostrar beneficios segmentados por tipo de usuario'.                           | 1/2h            |
@@ -805,20 +805,60 @@ Estas métricas reflejan una colaboración activa, estructurada y bien gestionad
 
 #### 5.2.3.1. Sprint Planning 3
 
-| Sprint #                             | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Date                                 | 2025-06-21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Time                                 | 08:00 pm (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Prepared By                          | Guerra Perez, José Jahaziel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel<br /> / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Sprint 2 Review Summary              | Durante el Sprint 2 se logró una mejora significativa en la experiencia de inicio para nuevos usuarios,<br /> al rediseñar e integrar la landing page con el frontend principal de la aplicación web Restock. Se<br /> avanzó considerablemente en el desarrollo del módulo frontend, incorporando funcionalidades clave <br />como la gestión de inventario, notificaciones, analíticas y suscripciones para los perfiles de administradores <br />y proveedores.<br />El equipo demostró una sólida coordinación y colaboración en la implementación de estos <br />componentes, respetando los lineamientos definidos en la planificación. Como oportunidad de <br />mejora, se identificó la necesidad de fortalecer aún más la alineación del equipo con los objetivos <br />priorizados del sprint, para asegurar una entrega aún más consistente en próximos ciclos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Sprint 2 Retrospective Summary       | Durante el Sprint 2, el equipo mantuvo una comunicación fluida y una coordinación efectiva,<br />lo cual permitió avanzar de forma sólida en varios módulos clave del frontend. La integración <br />continua, las revisiones cruzadas de código y la claridad en las responsabilidades asignadas <br />fueron aspectos destacados que facilitaron un buen ritmo de trabajo.<br />Como oportunidad de mejora, se identificó la necesidad de reforzar el seguimiento y <br />cumplimiento de los objetivos priorizados, así como de mejorar la estimación de tiempos en <br />algunos flujos más complejos. También se mencionó la importancia de alinear aún más los <br />esfuerzos individuales con los objetivos de entrega colectivos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Sprint 3 Goal                       | Nuestro enfoque está en presentar de forma efectiva nuestra propuesta de valor a los nuevos visitantes. También, habilitar la gestión de recetas y pedidos, así como mejorar la sección de ventas, para los administradores de restaurantes; incorporar la gestión de órdenes para los proveedores; y, en general, permitir a ambos segmentos realizar el pago de su suscripción. Asimismo, proporcionar, mediante el API de la plataforma, puntos de accesos a los desarrolladores frontend para que implementen funcionalidades relacionadas con gestión de pedidos, ventas, recetas, inventario, perfil y comentarios.<br />Creemos que esto ofrece a los visitantes mayor confianza hacia el equipo de trabajo y les permite conocer mejor la propuesta de valor. Del mismo modo, mejora los flujos de usuario, al permitir la realización de pagos de suscripción; agiliza las operaciones para los administradores de restaurantes, al facilitar la creación y gestión de ventas, la configuración de recetas y la gestión de pedidos; optimiza el tiempo operativo para los proveedores, al permitir el seguimiento de pedidos. Además, permite a los desarrolladores frontend implementar funcionalidades esenciales de forma más eficiente, incluyendo pedidos, ventas, recetas, inventario, perfil y comentarios.<br />Esto se confirmará cuando aumente la cantidad de visitantes que se registren en la plataforma. Del mismo modo, cuando se incremente la cantidad de ordenes, ventas e insumos que registran administradores de restaurantes en la plataforma; aumente el número de insumos registrados y órdenes gestionadas por los proveedores; y se incremente la cantidad de suscripciones por parte de ambos segmentos. Además, cuando los desarrolladores frontend aumenten la cantidad de funcionalidades relacionadas con el pedidos, ventas, recetas, inventario, perfil y comentarios en el frontend. |
-| Sprint 3 Velocity                    | 60                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Sum of Story Points                  | 57                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+<table>
+    <tr>
+        <td>Sprint #</td>
+        <td>Sprint 3</td>
+    </tr>
+    <tr>
+        <td>**Sprint Planning Background**</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>2025-06-21</td>
+    </tr>
+    <tr>
+        <td>Time</td>
+        <td>08:00 pm (GMT-5)</td>
+    </tr>
+    <tr>
+        <td>Location</td>
+        <td>Modalidad remota mediante la plataforma Discord</td>
+    </tr>
+    <tr>
+        <td>Prepared By</td>
+        <td>Guerra Perez, José Jahaziel</td>
+    </tr>
+    <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel&lt;br /&gt; / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole</td>
+    </tr>
+    <tr>
+        <td>Sprint 2 Review Summary</td>
+        <td>Durante el Sprint 2 se logró una mejora significativa en la experiencia de inicio para nuevos usuarios,&lt;br /&gt; al rediseñar e integrar la landing page con el frontend principal de la aplicación web Restock. Se&lt;br /&gt; avanzó considerablemente en el desarrollo del módulo frontend, incorporando funcionalidades clave &lt;br /&gt;como la gestión de inventario, notificaciones, analíticas y suscripciones para los perfiles de administradores &lt;br /&gt;y proveedores.&lt;br /&gt;El equipo demostró una sólida coordinación y colaboración en la implementación de estos &lt;br /&gt;componentes, respetando los lineamientos definidos en la planificación. Como oportunidad de &lt;br /&gt;mejora, se identificó la necesidad de fortalecer aún más la alineación del equipo con los objetivos &lt;br /&gt;priorizados del sprint, para asegurar una entrega aún más consistente en próximos ciclos.</td>
+    </tr>
+    <tr>
+        <td>Sprint 2 Retrospective Summary</td>
+        <td>Durante el Sprint 2, el equipo mantuvo una comunicación fluida y una coordinación efectiva,&lt;br /&gt;lo cual permitió avanzar de forma sólida en varios módulos clave del frontend. La integración &lt;br /&gt;continua, las revisiones cruzadas de código y la claridad en las responsabilidades asignadas &lt;br /&gt;fueron aspectos destacados que facilitaron un buen ritmo de trabajo.&lt;br /&gt;Como oportunidad de mejora, se identificó la necesidad de reforzar el seguimiento y &lt;br /&gt;cumplimiento de los objetivos priorizados, así como de mejorar la estimación de tiempos en &lt;br /&gt;algunos flujos más complejos. También se mencionó la importancia de alinear aún más los &lt;br /&gt;esfuerzos individuales con los objetivos de entrega colectivos.</td>
+    </tr>
+    <tr>
+        <td>**Sprint Goal &amp; User Stories**</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Sprint 3 Goal</td>
+        <td>Nuestro enfoque está en presentar de forma efectiva nuestra propuesta de valor a los nuevos visitantes. También, habilitar la gestión de recetas y pedidos, así como mejorar la sección de ventas, para los administradores de restaurantes; incorporar la gestión de órdenes para los proveedores; y, en general, permitir a ambos segmentos realizar el pago de su suscripción. Asimismo, proporcionar, mediante el API de la plataforma, puntos de accesos a los desarrolladores frontend para que implementen funcionalidades relacionadas con gestión de pedidos, ventas, recetas, inventario, perfil y comentarios.&lt;br /&gt;Creemos que esto ofrece a los visitantes mayor confianza hacia el equipo de trabajo y les permite conocer mejor la propuesta de valor. Del mismo modo, mejora los flujos de usuario, al permitir la realización de pagos de suscripción; agiliza las operaciones para los administradores de restaurantes, al facilitar la creación y gestión de ventas, la configuración de recetas y la gestión de pedidos; optimiza el tiempo operativo para los proveedores, al permitir el seguimiento de pedidos. Además, permite a los desarrolladores frontend implementar funcionalidades esenciales de forma más eficiente, incluyendo pedidos, ventas, recetas, inventario, perfil y comentarios.&lt;br /&gt;Esto se confirmará cuando aumente la cantidad de visitantes que se registren en la plataforma. Del mismo modo, cuando se incremente la cantidad de ordenes, ventas e insumos que registran administradores de restaurantes en la plataforma; aumente el número de insumos registrados y órdenes gestionadas por los proveedores; y se incremente la cantidad de suscripciones por parte de ambos segmentos. Además, cuando los desarrolladores frontend aumenten la cantidad de funcionalidades relacionadas con el pedidos, ventas, recetas, inventario, perfil y comentarios en el frontend.</td>
+    </tr>
+    <tr>
+        <td>Sprint 3 Velocity</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td>Sum of Story Points</td>
+        <td>57</td>
+    </tr>
+</table>
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
@@ -846,199 +886,480 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
 
 ![Sprint backlog 3](assets/images/cap5/sprint-backlog3-1.png)
 
-| User Story ID | User Story Title                                                           | Task ID | Task Title                                                                                                                 | Task Description                                                                                                                                                                                                                                 | Estimated Hours |
-| ------------- | -------------------------------------------------------------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- |
-| US-02         | Recuperación de contraseña                                               | T001     |Diseñar pantalla de solicitud de recuperación | Diseñar la pantalla de solicitud de recuperación de contraseña'.                                                                                                                                                                                                                                                                                                          | 1h              |
-|               |                                                                            | T002   | Conectar solicitud de recuperación con backend| Conectar la pantalla con el endpoint /api/v1/auth/forgot-password.                                                                                                                                                                                                                                                                                                           | 1h              |
-|               |                                                                            | T003   |Diseñar formulario de nueva contraseña | Diseñar la pantalla de restablecimiento de contraseña (formulario de nueva contraseña).                                                                                                                                                                                                                                                                                   | 1h              |
-|               |                                                                            | T004   | Manejar tokens inválidos o expirados	| Implementar manejo de tokens inválidos o expirados en el frontend                                                                                                                                                                                                                                                                                                           | 1h              |
-|               |                                                                            | T005   | Conectar formulario de restablecimiento con backend	| Conectar formulario de nueva contraseña con endpoint /api/v1/auth/reset-password                                                                                                                                                                                                                                                                                            | 1h              |
-| US-03         | Soporte de acceso según estado de suscripción                            | T001      |Consultar estado de suscripción al iniciar sesión	                                                                                                                            | Consultar el estado de suscripción del usuario al iniciar sesión.                                                                                                                                                                              | 1h              |
-|               |                                                                            | T002   |Controlar acceso según suscripción	 | Mostrar o restringir funcionalidades según el estado de suscripción                                                                                                                                                                                                                                                                                                        | 1h              |
-|               |                                                                            | T003   | Diseñar vista de advertencia por suscripción inactiva	| Diseñar una vista de advertencia para usuarios con suscripción vencida o inactiva                                                                                                                                                                                                                                                                                          | 1h              |
-|               |                                                                            | T004   |Restringir acceso a rutas protegidas	 | Redirigir o bloquear el acceso a rutas protegidas si el estado no es válido                                                                                                                                                                                                                                                                                                 | 1/2h            |
-|               |                                                                            | T005   | Actualizar acceso tras renovación	| Verificar y actualizar el acceso luego de la renovación                                                                                                                                                                                                                                                                                                                     | 1h              |
-| US-04         | Gestión manual de stock e insumos                                         | T001      | Implementar interfaz de edición de stock e insumo                                                                         | Diseñar y desarrollar un formulario o sección para que el administrador registre el stock actual, nivel máximo y descuentos manuales. Incluir campos necesarios y diseño validado con UX básico.                                            | 1h              |
-|               |                                                                            | T002    | Validar entradas de stock en frontend y backend                                                                            | Agregar validaciones tanto para evitar valores negativos o no numéricos en stock, nivel máximo y descuento. Incluir advertencias o bloqueos según corresponda.                                                                                | 1h            |
-|               |                                                                            | T003    | Desarrollar lógica de actualización de stock                                                                             | Implementar lógica para actualizar el stock de un insumo, aplicando registros nuevos, con control de errores y advertencias.                                                                                                                    | 1h              |
-|               |                                                                            | T004    | Registrar compras y actualizar stock                                                                                       | Crear el flujo completo para registrar una compra de insumo: formulario, validaciones, actualización de stock, y registro del costo en historial.                                                                                               | 1h              |
-|               |                                                                            | T005    | Manejar mensajes de éxito y error en la interfaz                                                                          | Integrar mensajes visuales para notificar al usuario sobre operaciones exitosas (registro, actualización, descuento) y errores (validaciones, datos faltantes o inválidos).                                                                    | 2h              |
-| US-05         | Gestión integral de notificaciones de inventario                          | T001     | Mostrar alertas visuales en listado de inventario                                                                          | Implementar lógica y diseño en la vista de inventario                                                                                                                                                                                          | 1/2h            |
-|               |                                                                            | T002    | Integrar bandera de vencimiento                                                                                            | A partir de la fecha de vencimiento de cada insumo, calcular si debe marcarse como próximo a vencer. Mostrar tooltip o badge indicando días restantes si corresponde.                                                                          | 2h              |
-|               |                                                                            | T003    | Habilitar y mostrar configuración de notificaciones automáticas                                                          | Agregar en una sección donde el administrador pueda habilitar/deshabilitar las notificaciones automáticas.                                                                                                                                     | 2h              |
-|               |                                                                            | T004    | Mostrar aviso en la interfaz si hay notificaciones recientes                                                               | Agregar un componente de notificación que muestre alertas recientes de vencimiento o bajo stock si han sido enviadas.                                                                                                                           | 1h              |
-| US-06         | Enviar comentarios y calificaciones sobre pedidos                          | T001    | Crear componente de retroalimentación para pedidos entregados                                                             | Diseñar e implementar un componente reutilizable que permita al administrador de restaurante ver un pedido entregado.                                                                                                                           | 1h              |
-|               |                                                                            | T002    | Validar calificación y comentario en frontend                                                                             | Agregar validaciones al formulario de retroalimentación                                                                                                                                                                                         | 1h              |
-|               |                                                                            | T003    | Enviar retroalimentación y mostrar confirmación                                                                          | Registrar la retroalimentación asegurándose de enviar el ID del pedido, calificación y comentario.                                                                                                                                            | 1h              |
-| US-07         | Gestionar productos en el inventario                                       | T001    | Implementar vista de listado y estados de productos del proveedor                                                          | Crear una vista que muestre todos los productos registrados del proveedor                                                                                                                                                                        | 2h              |
-|               |                                                                            | T002    | Crear formulario unificado para registrar y editar productos                                                               | Implementar un formulario reutilizable para crear o editar productos                                                                                                                                                                             | 1h              |
-|               |                                                                            | T003    | Integrar acciones CRUD en el catálogo del proveedor                                                                       | Desde la vista del listado: Permitir crear un nuevo producto (abre formulario), Permitir editar un producto existente, Permitir eliminar un producto con confirmación, Permitir activar/desactivar un producto con botones de cambio de estado. | 1h               |
-| US-07         | Gestionar productos en el inventario                                       | T001    | Implementar vista de listado y estados de productos del proveedor                                                          | Crear una vista que muestre todos los productos registrados del proveedor                                                                                                                                                                        | 2h              |
-|               |                                                                            | T002    | Crear formulario unificado para registrar y editar productos                                                               | Implementar un formulario reutilizable para crear o editar productos                                                                                                                                                                             | 1h              |
-|               |                                                                            | T003    | Integrar acciones CRUD en el catálogo del proveedor                                                                       | Desde la vista del listado: Permitir crear un nuevo producto (abre formulario), Permitir editar un producto existente, Permitir eliminar un producto con confirmación, Permitir activar/desactivar un producto con botones de cambio de estado. |h              |
-| US-15         | Actualización manual de estado del inventario                             | T001   | Diseñar pantalla de edición manual de inventario	| Diseñar pantalla de edición manual de inventario con campos editables por insumo.                                                                                                                                                                                                                                                                                          | 2h              |
-|               |                                                                            | T002  | Validar cantidades ingresadas en pantalla de edición	 | Implementar la lógica de validación de cantidades ingresadas.                                                                                                                                                                                                                                                                                                              | 2h              |
-|               |                                                                            | T003  |Mostrar confirmación de inventario actualizado	  | Mostrar confirmación visual de inventario actualizado correctamente.                                                                                                                                                                                                                                                                                                        | 1/2h            |
-|               |                                                                            | T004  | Mostrar errores por valores inválidos	 | Agregar mensajes de error si los valores ingresados son inválidos.                                                                                                                                                                                                                                                                                                          | 1h              |
-|               |                                                                            | T005  | Integrar pantalla de edición con vista principal	 | Integrar la pantalla a la vista principal de administración de insumos.                                                                                                                                                                                                                                                                                                     | 1h              |
-|               |                                                                            | T006  |Documentar proceso de actualización manual	  | Documentar el proceso de actualización manual desde el frontend.                                                                                                                                                                                                                                                                                                            | 1h              |
-| US-16         | Gestión de ventas                                                         | T001   | Validar disponibilidad de insumos al vender	| Implementar la lógica de validación de insumos disponibles antes de confirmar una venta.                                                                                                                                                                                                                                                                                   | 1h              |
-|               |                                                                            | T002  | Mostrar impacto de recetas en inventario	 | Integrar el consumo de recetas asociadas para mostrar impacto en insumos.                                                                                                                                                                                                                                                                                                    | 2h              |
-|               |                                                                            | T003  | Documentar flujo de gestión de ventas	 | Documentar el flujo de gestión de ventas desde el frontend.                                                                                                                                                                                                                                                                                                                 | 1h              |
-| US-17         | Seguimiento de una orden                                                   | T001  | Diseñar vista de seguimiento de estado de orden	 | Diseñar vista para mostrar y seleccionar el estado actual de cada orden.                                                                                                                                                                                                                                                                                                    | 1h              |
-|               |                                                                            | T002  | Implementar selector de estado gráfico	 | Implementar selector gráfico para cambiar el estado (en espera, preparando, en camino, entregado).                                                                                                                                                                                                                                                                          | 1h              |
-|               |                                                                            | T003  | Actualizar color según estado	 | Actualizar colores de la fila de la orden de acuerdo al estado actual.                                                                                                                                                                                                                                                                                                       | 1h              |
-|               |                                                                            | T004  | Documentar flujo de seguimiento de órdenes	 | Documentar el flujo visual de seguimiento de una orden.                                                                                                                                                                                                                                                                                                                      | 1/2h            |
-| US-19         | Visualizar y gestionar ordenes recibidas                                   | T001  | Crear listado de órdenes recibidas	 | Crear pantalla con listado de órdenes solicitadas (tabla).                                                                                                                                                                                                                                                                                                                  | 1h              |
-|               |                                                                            | T002  | Implementar modal para actualizar situación de orden	 | Implementar modal para actualizar la situación de una orden (aceptado o denegado) y establecer fecha estimada de entrega.                                                                                                                                                                                                                                                   | 1h              |
-|               |                                                                            | T003  | Habilitar ordenamiento por fecha	 | Permitir ordenamiento por fecha.                                                                                                                                                                                                                                                                                                                                             | 2h              |
-|               |                                                                            | T004  | Optimizar ordenamiento por fecha	 | Permitir ordenamiento por fecha.                                                                                                                                                                                                                                                                                                                                             | 1/2h            |
-|               |                                                                            | T005  | Agregar acceso rápido al detalle de orden	 | Incluir botón de acceso rápido al detalle de cada orden.                                                                                                                                                                                                                                                                                                                   | 1h              |
-|               |                                                                            | T006  | Sincronizar lista de órdenes en tiempo real	 | Actualizar automáticamente lista si hay cambios recientes.                                                                                                                                                                                                                                                                                                                  | 1h              |
-|               |                                                                            | T007  | Documentar vista de gestión de órdenes	 | Documentar funcionalidad de visualización y gestión de órdenes.                                                                                                                                                                                                                                                                                                           | 1h              |
-| US-20         | Visualizar información específica de una orden                           | T001    | Diseñar vista detallada de una orden	 | Diseñar vista detallada que muestre todos los campos de una orden (ítems, cantidades, cliente, etc.).                                                                                                                                                                                                                                                                      | 1h              |
-|               |                                                                            | T002  | Implementar navegación desde listado al detalle	 | Implementar navegación desde listado general a detalle de orden.                                                                                                                                                                                                                                                                                                            | 1h              |
-|               |                                                                            | T003  | Mostrar estado y fecha estimada de entrega	 | Mostrar estado actual y fecha estimada de entrega.                                                                                                                                                                                                                                                                                                                           | 1h              |
-|               |                                                                            | T004  | Agregar sección de observaciones en detalle de orden	 | Agregar sección para observaciones o notas de la orden.                                                                                                                                                                                                                                                                                                                     | 1/2h            |
-|               |                                                                            | T005  | Documentar visualización detallada de orden	 | Documentar visualización específica de orden por ID.                                                                                                                                                                                                                                                                                                                       | 1h              |
-| US-21         | Visualizar historial de órdenes por restaurante                           | T001   |Crear sección de historial por restaurante	 | Crear sección que agrupe órdenes completadas por restaurante.                                                                                                                                                                                                                                                                                                              | 1h              |
-|               |                                                                            | T002  |Implementar búsqueda de restaurante por nombre	 | Permitir búsqueda de restaurante por nombre.                                                                                                                                                                                                                                                                                                                                | 2h              |
-|               |                                                                            | T003  | Ordenar historial por fecha	 | Mostrar las órdenes en orden cronológico según se prefiera.                                                                                                                                                                                                                                                                                                               | 1h              |
-|               |                                                                            | T004  | Mostrar detalles básicos en historial	 | Incluir detalles básicos como fecha, monto y estado.                                                                                                                                                                                                                                                                                                                        | 1h              |
-|               |                                                                            | T005  | Implementar paginación en historial	 | Implementar paginación para historial largo.                                                                                                                                                                                                                                                                                                                                | 2h              |
-|               |                                                                            | T006  | Documentar historial de órdenes por restaurante	 | Documentar flujo del historial por restaurante.                                                                                                                                                                                                                                                                                                                              | 1h              |
-| US-22         | Descargar reportes de historial de órdenes cumplidas                      | T001   | Diseñar botón de exportación de reportes	| Diseñar botón de exportación en pantalla de historial.                                                                                                                                                                                                                                                                                                                    | 1h              |
-|               |                                                                            | T002  | Confirmar descarga de reporte	 | Solicitar confirmación antes de descargar reporte.                                                                                                                                                                                                                                                                                                                          | 1/2h            |
-|               |                                                                            | T003  | Notificar resultado de descarga	 | Dar feedback si la descarga fue exitosa o hubo errores.                                                                                                                                                                                                                                                                                                                      | 1h              |
-|               |                                                                            | T004  | Documentar proceso de exportación de reportes | Documentar proceso de descarga de reportes desde interfaz.                                                                                                                                                                                                                                                                                                                   | 1h              |
-| US-23         | Cambio de contraseña                                                      | T001   | Mostrar opción de cambio de contraseña en perfil	 | Mostrar opción de “Cambiar contraseña” en la configuración de la cuenta                                                                                                                                                                                                                                                                                                 | 1h              |
-|               |                                                                            | T002  | Validar nueva contraseña según políticas	 | Validar que la nueva contraseña cumpla con los requisitos de seguridad                                                                                                                                                                                                                                                                                                      | 2h              |
-|               |                                                                            | T003  | Verificar coincidencia entre nueva contraseña y confirmación	 | Verificar coincidencia entre nueva contraseña y su confirmación                                                                                                                                                                                                                                                                                                            | 1h              |
-|               |                                                                            | T004  | Enviar solicitud de cambio de contraseña al backend	 | Enviar solicitud de cambio de contraseña al servidor                                                                                                                                                                                                                                                                                                                        | 1h              |
-|               |                                                                            | T005  | Mostrar mensaje según resultado del cambio de contraseña	 | Mostrar mensaje de éxito tras el cambio correcto o Mostrar mensaje de error si la contraseña actual es incorrecta                                                                                                                                                                                                                                                          | 1h              |
-| US-24         | Eliminar cuenta                                                            | T001  | Mostrar opción para eliminar cuenta desde perfil	 | Mostrar opción “Eliminar cuenta” en la configuración del perfil                                                                                                                                                                                                                                                                                                          | 1h              |
-|               |                                                                            | T002  | Implementar paso de verificación para confirmar eliminación	 | Solicitar paso de verificación para confirmar la eliminación                                                                                                                                                                                                                                                                                                               | 1h              |
-|               |                                                                            | T003  | Enviar solicitud de eliminación de cuenta al backend	 | Enviar la solicitud de eliminación de cuenta al servidor                                                                                                                                                                                                                                                                                                                    | 1h              |
-|               |                                                                            | T004  | Mostrar confirmación de eliminación	 | Confirmar visualmente al usuario que la cuenta ha sido borrada.                                                                                                                                                                                                                                                                                                              | 1h              |
-|               |                                                                            | T005  | Redirigir tras eliminar cuenta	 | Redirigir al usuario a la página de inicio o despedida tras eliminar la cuenta                                                                                                                                                                                                                                                                                              | 1/2h            |
-| TS-01         | Registro y autenticación de usuarios mediante API RESTful                 | T001   |Diseñar modelo de usuario y su persistencia	 | Diseñar el modelo de usuario y estructura de base de datos                                                                                                                                                                                                                                                                                                                  | 2h              |
-|               |                                                                            | T002  | Crear endpoint de registro de usuarios	 | Implementar endpoint /api/v1/auth/register para registro de usuarios                                                                                                                                                                                                                                                                                                         | 1h              |
-|               |                                                                            | T003  | Crear endpoint de login de usuarios	 | Implementar endpoint /api/v1/auth/login para autenticación                                                                                                                                                                                                                                                                                                                  | 2h              |
-|               |                                                                            | T004  | Configurar autenticación con JWT y manejo de errores	 | Configurar control de errores y middleware de autenticación (JWT)                                                                                                                                                                                                                                                                                                           | 1/2h            |
-| TS-02         | Recuperar contraseña mediante API RESTful usando Resend                   | T001   | Crear endpoint para recuperación de contraseña	| Diseñar e implementar el endpoint /api/v1/auth/forgot-password                                                                                                                                                                                                                                                                                                              | 1h              |
-|               |                                                                            | T002  | Integrar servicio de correo Resend	 | Integrar servicio de correo Resend para envío del enlace de recuperación                                                                                                                                                                                                                                                                                                   | 2h              |
-|               |                                                                            | T003  | Manejar errores y respuestas en recuperación	 | Implementar lógica de manejo de errores y respuestas HTTP estándar                                                                                                                                                                                                                                                                                                         | 1h              |
-|               |                                                                            | T004  | Generar y guardar token seguro para recuperación	 | Crear y almacenar tokens seguros de recuperación de contraseña                                                                                                                                                                                                                                                                                                             | 1h              |
-| TS-03         | Gestión del estado de suscripción mediante API RESTful                   | T001    | Diseñar modelo de suscripción	 | Diseñar el modelo de suscripción de la base de datos                                                                                                                                                                                                                                                                                                                       | 1h              |
-|               |                                                                            | T002  | Crear endpoint GET para estado de suscripción	 | Implementar endpoint GET /api/v1/subscription/status/:id                                                                                                                                                                                                                                                                                                                     | 1h              |
-|               |                                                                            | T003  | Crear endpoint POST para renovación de suscripción	 | Implementar endpoint POST /api/v1/subscription/renew                                                                                                                                                                                                                                                                                                                         | 1h              |
-|               |                                                                            | T004  | Evaluar estado de suscripción desde middleware	 | Agregar middleware o función auxiliar para evaluar el estado de la suscripción                                                                                                                                                                                                                                                                                             | 1/2h            |
-| TS-04         | Sistema de notificaciones de inventario mediante API RESTful               | T001  | Crear endpoint de insumos próximos a vencer	 | Implementar endpoint /api/v1/notifications/expiring-supplies                                                                                                                                                                                                                                                                                                                 | 1h              |
-|               |                                                                            | T002  | Crear endpoint de insumos que exceden stock	 | Implementar endpoint /api/v1/notifications/exceeding-stock                                                                                                                                                                                                                                                                                                                   | 1h              |
-|               |                                                                            | T003  | Diseñar lógica de negocio para filtros de notificaciones	 | Diseñar y aplicar lógica de dominio para filtros de notificaciones                                                                                                                                                                                                                                                                                                         | 1h              |
-|               |                                                                            | T004  | Escribir pruebas unitarias para lógica de notificaciones	 | Escribir pruebas unitarias para lógica de notificaciones                                                                                                                                                                                                                                                                                                                    | 2h              |
-| TS-06         | Gestionar insumos  mediante API RESTful                                    | T001  | Crear endpoint para obtener insumos por ID de proveedor	 | Implementar endpoint GET /api/v1/supplies/:id (Listar insumos del proveedor)                                                                                                                                                                                                                                                                                                 | 1h              |
-|               |                                                                            | T002  | Crear endpoint para registrar nuevos insumos	 | Implementar endpoint POST /api/v1/supplies (Crear nuevo insumo)                                                                                                                                                                                                                                                                                                              |h              |
-|               |                                                                            | T003  | Crear endpoint para actualizar insumo existente	 | Implementar endpoint PUT /api/v1/supplies/{id} (Actualizar insumo)                                                                                                                                                                                                                                                                                                           | 1h              |
-|               |                                                                            | T004  | Crear endpoint para eliminar insumo | Implementar endpoint DELETE /api/v1/productos/{id} (Eliminar insumo)                                                                                                                                                                                                                                                                                                         | 2h              |
-|               |                                                                            | T005  | Crear endpoint para cambiar estado de insumo	 | Implementar endpoint PATCH /api/v1/productos/{id}/estado (Cambiar estado del insumo)                                                                                                                                                                                                                                                                                         | 2h              |
-|               |                                                                            | T006  | Validar entradas y manejar errores en insumos	 | Validación y manejo de errores para creación y actualización                                                                                                                                                                                                                                                                                                              | 1h              |
-|               |                                                                            | T007  | Escribir pruebas unitarias para endpoints de insumos	 | Implementar pruebas unitarias para todos los endpoints                                                                                                                                                                                                                                                                                                                       | 2h              |
-| TS-07         | Registrar comentarios y calificaciones sobre pedidos mediante API RESTful  | T001  | Crear endpoint para registrar retroalimentación	 | Implementar endpoint POST /api/v1/feedback (Registrar retroalimentación)                                                                                                                                                                                                                                                                                                    | 1h              |
-|               |                                                                            | T002  | Validar calificación y comentario en feedback	 | Validar calificación y comentario en POST /api/v1/feedback                                                                                                                                                                                                                                                                                                                  | 1h              |
-|               |                                                                            | T003  | Verificar estado del pedido antes de aceptar feedback	 | Validar estado del pedido antes de aceptar feedback                                                                                                                                                                                                                                                                                                                          | 1h              |
-|               |                                                                            | T004  | Asociar feedback al proveedor correspondiente	 | Asociar retroalimentación al proveedor correspondiente                                                                                                                                                                                                                                                                                                                      | 1h              |
-|               |                                                                            | T005  | Escribir pruebas unitarias para endpoint de feedback	 | Implementar pruebas unitarias del endpoint                                                                                                                                                                                                                                                                                                                                   | 1h              |
-| TS-08         | Registro histórico de eventos críticos de insumos                        | T001    | Crear colección para eventos críticos de insumos	 | Crear colección supply_event_logs con campos: supplyId, type, detectedAt, details, severity.                                                                                                                                                                                                                                                                                | 1h              |
-|               |                                                                            | T002  | Implementar lógica para registrar eventos críticos automáticamente	 | Implementar lógica para detectar condiciones críticas en insumos y registrar evento automáticamente.                                                                                                                                                                                                                                                                      | 1h              |
-|               |                                                                            | T003  | Crear endpoint GET para consultar eventos críticos	 | Crear servicio RESTful GET /api/v1/supplies/events con filtros por tipo, insumo y rango de fechas.                                                                                                                                                                                                                                                                           | 2h              |
-|               |                                                                            | T004  | Documentar tipos de eventos críticos permitidos	 | Documentar tipos de eventos permitidos: "EXPIRATION_SOON", "LOW_STOCK", "OVERSTOCKED".                                                                                                                                                                                                                                                                                       | 2h              |
-|               |                                                                            | T005  | Escribir pruebas unitarias para eventos críticos	 | Agregar pruebas unitarias y de integración para asegurar el correcto registro de eventos críticos.                                                                                                                                                                                                                                                                         | 1/2h            |
-| TS-09         | Crear recetas mediante API RESTful                                         | T001  | Definir endpoint para registrar recetas	 | Definir endpoint POST /api/v1/recipes en el controlador                                                                                                                                                                                                                                                                                                                      | 2h              |
-|               |                                                                            | T002  | Validar campos requeridos en receta	 | Validar campos requeridos en payload (nombre, ingredientes)                                                                                                                                                                                                                                                                                                                  | 1h              |
-|               |                                                                            | T003  | Persistir relación entre receta e insumos	 | Crear lógica de persistencia con relación a insumos                                                                                                                                                                                                                                                                                                                        | 2h            |
-|               |                                                                            | T005  | Escribir pruebas para endpoint de recetas	 | Escribir test unitario y de integración para el endpoint                                                                                                                                                                                                                                                                                                                    | 1h              |
-| TS-13         | Obtener perfil mediante API RESTful                                        | T001  | Crear endpoint GET para obtener perfil protegido	 | Implementar endpoint GET /api/v1/profile/:id protegido por JWT                                                                                                                                                                                                                                                                                                               | 2h              |
-|               |                                                                            | T002  | Validar token JWT antes de procesar perfil	 | Validar que el token sea correcto antes de procesar la solicitud                                                                                                                                                                                                                                                                                                             | 1h              |
-|               |                                                                            | T003  | Consultar y retornar información del perfil	 | Consultar y devolver información del perfil (id, nombre, email, URL de imagen, estado)                                                                                                                                                                                                                                                                                      | 1h              |
-|               |                                                                            | T004  | Gestionar errores 401 por token inválido	 | Gestionar error 401 en caso de token inválido o expirado                                                                                                                                                                                                                                                                                                                    | 1h              |
-|               |                                                                            | T005  | Escribir pruebas unitarias para endpoint de perfil	 | Escribir test unitario y de integración para el endpoint                                                                                                                                                                                                                                                                                                                    | 1h              |
-| TS-14         | Actualizar perfil mediante API RESTful                                     | T001  | Crear endpoint PUT para actualizar perfil	 | Implementar endpoint PUT /api/v1/profile/:id con protección por JWT                                                                                                                                                                                                                                                                                                         | 1/2h            |
-|               |                                                                            | T002  | Validar formato de datos del perfil	 | Validar formato de campos                                                                                                                                                                                                                                                                                                                                                    | 1h              |
-|               |                                                                            | T003  | Actualizar datos del perfil en base de datos	 | Actualizar los datos del perfil en la base de datos                                                                                                                                                                                                                                                                                                                          | 2h              |
-|               |                                                                            | T004  | Retornar datos actualizados con código 200	 | Retornar los datos actualizados con código 200                                                                                                                                                                                                                                                                                                                              | 1h              |
-|               |                                                                            | T005  | Manejar errores 400 con detalles en perfil	 | Retornar errores 400 con detalles si hay datos inválidos                                                                                                                                                                                                                                                                                                                    | 1h              |
-| TS-15         | Subir imagen de perfil mediante API RESTful usando Cloudinary              | T001  | Crear endpoint POST para subir imagen de perfil	 | Implementar endpoint POST /api/v1/profile/images/id.                                                                                                                                                                                                                                                                                                                         | 1h              |
-|               |                                                                            | T002  | Validar formato de archivo de imagen	 | Validar formato de archivo antes de subir (JPG, PNG, WEBP)                                                                                                                                                                                                                                                                                                                   | 1h              |
-|               |                                                                            | T003  | Asociar imagen de perfil subida al usuario	 | Asociar la URL retornada por Cloudinary al usuario correspondiente                                                                                                                                                                                                                                                                                                           | 2h              |
-|               |                                                                            | T004  | Manejar errores por formato no soportado (415)	 | Manejar errores por formato no soportado (415)                                                                                                                                                                                                                                                                                                                               | 1h              |
-| TS-16         | Obtener lista para ingredientes más usados mediante API RESTful           | T001   | Crear endpoint GET para ingredientes más usados	 | Implementar endpoint GET /api/v1/ingredients/most-used                                                                                                                                                                                                                                                                                                                       | 1h              |
-|               |                                                                            | T002  | Permitir filtrado por periodo en ingredientes más usados	 | Permitir parámetro ?period= con valores como 7d o 30d                                                                                                                                                                                                                                                                                                                       | 1h              |
-|               |                                                                            | T003  | Consultar uso agregado de ingredientes según periodo	 | Consultar datos agregados de ingredientes en base al periodo                                                                                                                                                                                                                                                                                                                 | 1/2h            |
-|               |                                                                            | T004  | Retornar lista JSON de ingredientes más usados	 | Retornar JSON con lista de ingredientes, id, nombre y cantidad_utilizada                                                                                                                                                                                                                                                                                                     | 2h              |
-| TS-17         | Obtener lista de alertas recientes  mediante API RESTful                   | T001  | Crear endpoint GET para alertas recientes	 | Implementar endpoint GET /api/v1/alerts                                                                                                                                                                                                                                                                                                                                      | 2h              |
-|               |                                                                            | T002  | Clasificar alertas por tipo	 | Clasificar alertas por tipo: vencimiento, bajo stock, etc                                                                                                                                                                                                                                                                                                                    | 2h              |
-|               |                                                                            | T003  | Retornar lista de alertas como JSON	 | Retornar lista de alertas como JSON                                                                                                                                                                                                                                                                                                                                          | 2h              |
-|               |                                                                            | T004  | Retornar lista vacía si no hay alertas	 | Retornar lista vacía si no hay alertas activas                                                                                                                                                                                                                                                                                                                              | 1h              |
-|               |                                                                            | T004  | Implementar filtros para pruebas de alertas	 | Implementar filtros para pruebas                                                                                                                                                                                                                                                                                                                                             | 1h              |
-| TS-18         | Obtener lista de mejores clientes mediante API RESTful                     | T001  | Crear endpoint para top clientes	 | Implementar endpoint GET /api/v1/supplier/top-clients                                                                                                                                                                                                                                                                                                                        | 1/2h            |
-|               |                                                                            | T002  | Consultar base y ordenar por total de compras	 | Consultar base de datos y ordenar clientes por total de compras                                                                                                                                                                                                                                                                                                              | 1h              |
-|               |                                                                            | T003  | Retornar JSON con nombre y total de compras	 | Retornar JSON con campos: nombre_restaurante, total_compras                                                                                                                                                                                                                                                                                                                  | 2h              |
-|               |                                                                            | T004  | Validar fechas y manejar errores	 | Agregar validación de fechas y manejo de errores                                                                                                                                                                                                                                                                                                                            | 1h              |
-| TS-19         | Actualizar estado de orden mediante API RESTful                            | T001  | Crear endpoint PATCH para actualizar estado de orden	 | Crear endpoint para cambiar estado de una orden por ID.                                                                                                                                                                                                                                                                                                                      | 1/2h            |
-|               |                                                                            | T002  | Validar autenticación y permisos antes de cambio de estado	 | Aplicar lógica de seguridad (autenticación y permisos).                                                                                                                                                                                                                                                                                                                    | 1h              |
-|               |                                                                            | T003  | Validar estado válido antes de actualizar	 | Manejar errores de estado inválido o inexistente.                                                                                                                                                                                                                                                                                                                           | 1h              |
-|               |                                                                            | T004  | Escribir pruebas para cambios de estado	 | Escribir pruebas para transiciones de estado comunes.                                                                                                                                                                                                                                                                                                                        | 2h              |
-|               |                                                                            | T005  | Documentar API para actualizar estado de órdenes	 | Documentar API de actualización de estado de órdenes.                                                                                                                                                                                                                                                                                                                      | 2h              |
-| TS-20         | Consultar estado de entrega mediante API RESTful                           | T001  | Crear endpoint GET para estado de entrega	 | Crear endpoint para obtener estado actual de una orden.                                                                                                                                                                                                                                                                                                                      | 1h              |
-|               |                                                                            | T002  | Aplicar control de acceso por rol (proveedor/restaurante)	 | Implementar control de acceso para proveedor o restaurante.                                                                                                                                                                                                                                                                                                                  | 1h              |
-|               |                                                                            | T003  | Optimizar respuesta con campos esenciales	 | Optimizar respuesta solo con campos necesarios (estado, fecha).                                                                                                                                                                                                                                                                                                              | 2h              |
-|               |                                                                            | T004  | Manejar errores por orden inexistente	 | Manejar errores si orden no existe.                                                                                                                                                                                                                                                                                                                                          | 2h              |
-|               |                                                                            | T005  | Escribir pruebas unitarias para endpoint de estado	 | Escribir pruebas unitarias del endpoint.                                                                                                                                                                                                                                                                                                                                     | 1h              |
-|               |                                                                            | T006  | Documentar consulta de estado de entrega	 | Documentar consulta del estado de entrega por ID.                                                                                                                                                                                                                                                                                                                            | 1h              |
-| TS-21         | Obtener calificaciones de servicios de proveedores mediante API RESTful    | T001  | Crear endpoint GET para calificaciones por proveedor	 | Crear endpoint para obtener calificaciones por proveedor ID.                                                                                                                                                                                                                                                                                                                 | 1h              |
-|               |                                                                            | T002  | Incluir detalles relevantes en la respuesta	 | Incluir datos como puntuación, comentario, fecha.                                                                                                                                                                                                                                                                                                                           | 1h              |
-|               |                                                                            | T003  | Permitir orden cronológico y filtros	 | Agregar orden cronológico o filtros si se requiere.                                                                                                                                                                                                                                                                                                                         | 1h              |
-|               |                                                                            | T004  | Validar proveedor existente y acceso autorizado	 | Validar existencia del proveedor y autorización del solicitante.                                                                                                                                                                                                                                                                                                            | 1h              |
-|               |                                                                            | T005  | Diseñar pruebas para distintos escenarios	 | Diseñar pruebas para distintos escenarios (sin calificaciones, múltiples).                                                                                                                                                                                                                                                                                                 | 1/2h            |
-|               |                                                                            | T006  | Documentar endpoint de calificaciones	 | Documentar la API de calificaciones del proveedor.                                                                                                                                                                                                                                                                                                                           | 2h              |
-| TS-22         | Gestionar órdenes recibidas mediante API RESTful                          | T001   | Crear endpoint GET para listar órdenes recibidas	 | Crear endpoint para listar órdenes recibidas por proveedor.                                                                                                                                                                                                                                                                                                                 | 1h              |
-|               |                                                                            | T002  | Agregar filtros a las órdenes recibidas	 | Agregar filtros por estado, fecha o restaurante.                                                                                                                                                                                                                                                                                                                             | 2h              |
-|               |                                                                            | T003  | Manejar errores en solicitudes de órdenes	 | Manejar errores y datos faltantes en las solicitudes.                                                                                                                                                                                                                                                                                                                        | 1h              |
-|               |                                                                            | T004  | Probar flujo completo de gestión de órdenes	 | Probar la gestión completa de órdenes.                                                                                                                                                                                                                                                                                                                                     |h              |
-|               |                                                                            | T005  | Documentar endpoints de órdenes recibidas	 | Documentar endpoints RESTful para gestión de órdenes recibidas.                                                                                                                                                                                                                                                                                                            | 1h              |
-| TS-23         | Consultar detalles de una orden mediante API RESTful                       | T001  | Crear endpoint GET para detalles completos de una orden	 | Crear endpoint para obtener datos completos de una orden por ID.                                                                                                                                                                                                                                                                                                             | 2h              |
-|               |                                                                            | T002  | Verificar existencia y pertenencia de orden	 | Validar existencia de la orden y su pertenencia al proveedor.                                                                                                                                                                                                                                                                                                                | 2h              |
-|               |                                                                            | T003  | Incluir datos completos en respuesta	 | Incluir ítems, cantidades, fecha de creación, cliente, etc.                                                                                                                                                                                                                                                                                                                | 2h              |
-|               |                                                                            | T004  | Escribir pruebas para consulta de orden	 | Escribir pruebas para orden encontrada y no encontrada.                                                                                                                                                                                                                                                                                                                      | 1h              |
-|               |                                                                            | T005  | Documentar estructura de detalle de orden	 | Documentar la estructura de respuesta y ejemplos de consulta.                                                                                                                                                                                                                                                                                                                | 1h              |
-| TS-24         | Obtener historial de ordenes mediante API RESTful                          | T001  | Crear endpoint GET para historial agrupado por restaurante	 | Crear endpoint que devuelva órdenes de un proveedor agrupadas por restaurante.                                                                                                                                                                                                                                                                                              | 1h              |
-|               |                                                                            | T002  | Ordenar historial por fecha	 | Ordenar por fecha de forma descendente.                                                                                                                                                                                                                                                                                                                                      | 1h              |
-|               |                                                                            | T003  | Agregar filtros a historial de órdenes	 | Permitir incluir filtros como fechas o estado.                                                                                                                                                                                                                                                                                                                               | 2h              |
-|               |                                                                            | T004  | Validar autenticación del proveedor	 | Validar autenticación y permisos del proveedor.                                                                                                                                                                                                                                                                                                                             | 1h              |
-|               |                                                                            | T005  | Documentar endpoint de historial de órdenes | Documentar endpoint de historial cronológico de órdenes.                                                                                                                                                                                                                                                                                                                   | 2h              |
-| TS-25         | Exportar reporte de historial de órdenes completados mediante API RESTful | T001   | Crear endpoint para exportar historial en Excel	 | Crear endpoint para generar archivo Excel del historial de órdenes completadas.                                                                                                                                                                                                                                                                                             | 1h              |
-|               |                                                                            | T002  | Permitir filtros en generación de reporte	 | Permitir parámetros de filtrado (fechas, restaurantes).                                                                                                                                                                                                                                                                                                                     | 2h              |
-|               |                                                                            | T003  | Formatear archivo Excel para reporte	 | Formatear columnas y contenido de forma clara y legible.                                                                                                                                                                                                                                                                                                                     | 2h              |
-|               |                                                                            | T004  | Validar descarga correcta del archivo	 | Asegurar que el archivo se descargue correctamente.                                                                                                                                                                                                                                                                                                                          | 1h              |
-|               |                                                                            | T005  | Probar descarga del reporte en distintos entornos	 | Probar el export en distintos navegadores/sistemas.                                                                                                                                                                                                                                                                                                                          | 1h              |
-|               |                                                                            | T006  | Documentar generación del reporte Excel	 | Documentar generación y descarga del reporte Excel.                                                                                                                                                                                                                                                                                                                         | 1/2h            |
-| TS-26         | Gestionar ventas e inventario mediante API RESTful                         | T001  | Crear endpoint POST para registrar ventas	 | Crear endpoints para registrar ventas.                                                                                                                                                                                                                                                                                                                                       | 1h              |
-|               |                                                                            | T002  | Validar y verificar stock antes de registrar venta	 | Implementar lógica de validación y verificación de stock antes de registrar una venta en el inventario.                                                                                                                                                                                                                                                                   | 2h              |
-|               |                                                                            | T003  | Crear endpoint para actualizar inventario manualmente	 | Crear endpoint para actualizar manualmente el inventario.                                                                                                                                                                                                                                                                                                                    | 1h              |
-|               |                                                                            | T004  | Manejar errores comunes en ventas	 | Aplicar manejo de errores para transacciones inválidas o datos incompletos.                                                                                                                                                                                                                                                                                                 | 1/2h            |
-|               |                                                                            | T005  | Escribir pruebas para endpoints de ventas e inventario	 | Diseñar pruebas unitarias y de integración para ambos endpoints.                                                                                                                                                                                                                                                                                                           | 1h              |
-|               |                                                                            | T006  | Documentar endpoints de ventas e inventario	 | Documentar los endpoints RESTful de ventas.                                                                                                                                                                                                                                                                                                                                  | 1h              |
-| TS-27         | Cambio de contraseña mediante API RESTful                                 | T001   | Crear endpoint seguro para cambio de contraseña	 | Crear endpoint seguro /api/v1/auth/change-password                                                                                                                                                                                                                                                                                                                           | 1h              |
-|               |                                                                            | T002  | Diseñar estructura del cuerpo para cambio de contraseña	 | Diseñar estructura del cuerpo de la solicitud                                                                                                                                                                                                                                                                                                                               | 1h              |
-|               |                                                                            | T003  | Validar entrada del cambio de contraseña	 | Implementar validación de entrada                                                                                                                                                                                                                                                                                                                                           | 1h              |
-|               |                                                                            | T004  | Verificar contraseña actual	 | Verificar contraseña actual del usuario                                                                                                                                                                                                                                                                                                                                     | 1h              |
-|               |                                                                            | T005  | Actualizar nueva contraseña en base de datos	 | Actualizar la contraseña en base de datos                                                                                                                                                                                                                                                                                                                                   | 1h              |
-| TS-28         | Eliminar cuenta mediante API RESTful                                       | T001  | Crear endpoint seguro para eliminación de cuenta	 | Crear endpoint seguro /api/v1/auth/delete-account                                                                                                                                                                                                                                                                                                                            | 1h              |
-|               |                                                                            | T002  | Diseñar estructura del cuerpo de solicitud para eliminación	 | Diseñar estructura del cuerpo de la solicitud                                                                                                                                                                                                                                                                                                                               | 1h              |
-|               |                                                                            | T003  | Validar autenticación del usuario	 | Validar autenticación del usuario                                                                                                                                                                                                                                                                                                                                           | 1h              |
-|               |                                                                            | T004  | Eliminar o desactivar cuenta del usuario	 | Eliminar o desactivar la cuenta del usuario                                                                                                                                                                                                                                                                                                                                  | 2h              |
-|               |                                                                            | T005  | Revocar tokens y cerrar sesiones activas	 | Revocar tokens activos y sesiones                                                                                                                                                                                                                                                                                                                                            | 1/2h            |
+<table>
+    <tr>
+        <td>User Story ID</td>
+        <td>User Story Title</td>
+        <td>Task ID</td>
+        <td>Task Title</td>
+        <td>Task Description</td>
+        <td>Estimated Hours</td>
+    </tr>
+    <tr>
+        <td>US-04</td>
+        <td>Gestión manual de stock e insumos</td>
+        <td>T001</td>
+        <td>Implementar interfaz de edición de stock e insumo</td>
+        <td>Diseñar y desarrollar un formulario o sección para que el administrador registre el stock actual, nivel máximo y descuentos manuales. Incluir campos necesarios y diseño validado con UX básico.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar entradas de stock en frontend y backend</td>
+        <td>Agregar validaciones tanto para evitar valores negativos o no numéricos en stock, nivel máximo y descuento. Incluir advertencias o bloqueos según corresponda.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Desarrollar lógica de actualización de stock</td>
+        <td>Implementar lógica para actualizar el stock de un insumo, aplicando registros nuevos, con control de errores y advertencias.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Registrar compras y actualizar stock</td>
+        <td>Crear el flujo completo para registrar una compra de insumo: formulario, validaciones, actualización de stock, y registro del costo en historial.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Manejar mensajes de éxito y error en la interfaz</td>
+        <td>Integrar mensajes visuales para notificar al usuario sobre operaciones exitosas (registro, actualización, descuento) y errores (validaciones, datos faltantes o inválidos).</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>US-05</td>
+        <td>Gestión integral de notificaciones de inventario</td>
+        <td>T001</td>
+        <td>Mostrar alertas visuales en listado de inventario</td>
+        <td>Implementar lógica y diseño en la vista de inventario</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Integrar bandera de vencimiento</td>
+        <td>A partir de la fecha de vencimiento de cada insumo, calcular si debe marcarse como próximo a vencer. Mostrar tooltip o badge indicando días restantes si corresponde.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Habilitar y mostrar configuración de notificaciones automáticas</td>
+        <td>Agregar en una sección donde el administrador pueda habilitar/deshabilitar las notificaciones automáticas.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Mostrar aviso en la interfaz si hay notificaciones recientes</td>
+        <td>Agregar un componente de notificación que muestre alertas recientes de vencimiento o bajo stock si han sido enviadas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-06</td>
+        <td>Enviar comentarios y calificaciones sobre pedidos</td>
+        <td>T001</td>
+        <td>Crear componente de retroalimentación para pedidos entregados</td>
+        <td>Diseñar e implementar un componente reutilizable que permita al administrador de restaurante ver un pedido entregado.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar calificación y comentario en frontend</td>
+        <td>Agregar validaciones al formulario de retroalimentación</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Enviar retroalimentación y mostrar confirmación</td>
+        <td>Registrar la retroalimentación asegurándose de enviar el ID del pedido, calificación y comentario.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-07</td>
+        <td>Gestionar productos en el inventario</td>
+        <td>T001</td>
+        <td>Implementar vista de listado y estados de productos del proveedor</td>
+        <td>Crear una vista que muestre todos los productos registrados del proveedor</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Crear formulario unificado para registrar y editar productos</td>
+        <td>Implementar un formulario reutilizable para crear o editar productos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Integrar acciones CRUD en el catálogo del proveedor</td>
+        <td>Desde la vista del listado: Permitir crear un nuevo producto (abre formulario), Permitir editar un producto existente, Permitir eliminar un producto con confirmación, Permitir activar/desactivar un producto con botones de cambio de estado.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-15</td>
+        <td>Actualización manual de estado del inventario</td>
+        <td>T001</td>
+        <td>Diseñar pantalla de edición manual de inventario</td>
+        <td>Diseñar pantalla de edición manual de inventario con campos editables por insumo.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar cantidades ingresadas en pantalla de edición</td>
+        <td>Implementar la lógica de validación de cantidades ingresadas.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Mostrar confirmación de inventario actualizado</td>
+        <td>Mostrar confirmación visual de inventario actualizado correctamente.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Mostrar errores por valores inválidos</td>
+        <td>Agregar mensajes de error si los valores ingresados son inválidos.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Integrar pantalla de edición con vista principal</td>
+        <td>Integrar la pantalla a la vista principal de administración de insumos.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar proceso de actualización manual</td>
+        <td>Documentar el proceso de actualización manual desde el frontend.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-17</td>
+        <td>Seguimiento de una orden</td>
+        <td>T001</td>
+        <td>Diseñar vista de seguimiento de estado de orden</td>
+        <td>Diseñar vista para mostrar y seleccionar el estado actual de cada orden.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Implementar selector de estado gráfico</td>
+        <td>Implementar selector gráfico para cambiar el estado (en espera, preparando, en camino, entregado).</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Actualizar color según estado</td>
+        <td>Actualizar colores de la fila de la orden de acuerdo al estado actual.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Documentar flujo de seguimiento de órdenes</td>
+        <td>Documentar el flujo visual de seguimiento de una orden.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>US-19</td>
+        <td>Visualizar y gestionar ordenes recibidas</td>
+        <td>T001</td>
+        <td>Crear listado de órdenes recibidas</td>
+        <td>Crear pantalla con listado de órdenes solicitadas (tabla).</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Implementar modal para actualizar situación de orden</td>
+        <td>Implementar modal para actualizar la situación de una orden (aceptado o denegado) y establecer fecha estimada de entrega.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Habilitar ordenamiento por fecha</td>
+        <td>Permitir ordenamiento por fecha.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Optimizar ordenamiento por fecha</td>
+        <td>Permitir ordenamiento por fecha.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Agregar acceso rápido al detalle de orden</td>
+        <td>Incluir botón de acceso rápido al detalle de cada orden.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Sincronizar lista de órdenes en tiempo real</td>
+        <td>Actualizar automáticamente lista si hay cambios recientes.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T007</td>
+        <td>Documentar vista de gestión de órdenes</td>
+        <td>Documentar funcionalidad de visualización y gestión de órdenes.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-20</td>
+        <td>Visualizar información específica de una orden</td>
+        <td>T001</td>
+        <td>Diseñar vista detallada de una orden</td>
+        <td>Diseñar vista detallada que muestre todos los campos de una orden (ítems, cantidades, cliente, etc.).</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Implementar navegación desde listado al detalle</td>
+        <td>Implementar navegación desde listado general a detalle de orden.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Mostrar estado y fecha estimada de entrega</td>
+        <td>Mostrar estado actual y fecha estimada de entrega.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Agregar sección de observaciones en detalle de orden</td>
+        <td>Agregar sección para observaciones o notas de la orden.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar visualización detallada de orden</td>
+        <td>Documentar visualización específica de orden por ID.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-21</td>
+        <td>Visualizar historial de órdenes por restaurante</td>
+        <td>T001</td>
+        <td>Crear sección de historial por restaurante</td>
+        <td>Crear sección que agrupe órdenes completadas por restaurante.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Implementar búsqueda de restaurante por nombre</td>
+        <td>Permitir búsqueda de restaurante por nombre.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Ordenar historial por fecha</td>
+        <td>Mostrar las órdenes en orden cronológico según se prefiera.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Mostrar detalles básicos en historial</td>
+        <td>Incluir detalles básicos como fecha, monto y estado.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Implementar paginación en historial</td>
+        <td>Implementar paginación para historial largo.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar historial de órdenes por restaurante</td>
+        <td>Documentar flujo del historial por restaurante.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-22</td>
+        <td>Descargar reportes de historial de órdenes cumplidas</td>
+        <td>T001</td>
+        <td>Diseñar botón de exportación de reportes</td>
+        <td>Diseñar botón de exportación en pantalla de historial.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Confirmar descarga de reporte</td>
+        <td>Solicitar confirmación antes de descargar reporte.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Notificar resultado de descarga</td>
+        <td>Dar feedback si la descarga fue exitosa o hubo errores.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Documentar proceso de exportación de reportes</td>
+        <td>Documentar proceso de descarga de reportes desde interfaz.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-06</td>
+        <td>Gestionar insumos  mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint para obtener insumos por ID de proveedor</td>
+        <td>Implementar endpoint GET /api/v1/supplies/:id (Listar insumos del proveedor)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Crear endpoint para registrar nuevos insumos</td>
+        <td>Implementar endpoint POST /api/v1/supplies (Crear nuevo insumo)</td>
+        <td>h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint para actualizar insumo existente</td>
+        <td>Implementar endpoint PUT /api/v1/supplies/{id} (Actualizar insumo)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Crear endpoint para eliminar insumo</td>
+        <td>Implementar endpoint DELETE /api/v1/productos/{id} (Eliminar insumo)</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Crear endpoint para cambiar estado de insumo</td>
+        <td>Implementar endpoint PATCH /api/v1/productos/{id}/estado (Cambiar estado del insumo)</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Validar entradas y manejar errores en insumos</td>
+        <td>Validación y manejo de errores para creación y actualización</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T007</td>
+        <td>Escribir pruebas unitarias para endpoints de insumos</td>
+        <td>Implementar pruebas unitarias para todos los endpoints</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-09</td>
+        <td>Crear recetas mediante API RESTful</td>
+        <td>T001</td>
+        <td>Definir endpoint para registrar recetas</td>
+        <td>Definir endpoint POST /api/v1/recipes en el controlador</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar campos requeridos en receta</td>
+        <td>Validar campos requeridos en payload (nombre, ingredientes)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Persistir relación entre receta e insumos</td>
+        <td>Crear lógica de persistencia con relación a insumos</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas para endpoint de recetas</td>
+        <td>Escribir test unitario y de integración para el endpoint</td>
+        <td>1h</td>
+    </tr>
+</table>
 
 Trello: [https:/linkcuts.org/9b6h7g0n](https://trello.com/b/yD03C08R)
 
@@ -1406,20 +1727,61 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 
 #### 5.2.4.1. Sprint Planning 4
 
-| Sprint #                             | Sprint 4                                                                                                                                                           |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Sprint Planning Background** |                                                                                                                                                                    |
-| Date                                 |                                                                                                                                                                    |
-| Time                                 | 08:00 pm (GMT-5)                                                                                                                                                   |
-| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                    |
-| Prepared By                          |                                                                                                                                                                    |
-| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel<br /> / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole |
-| Sprint 3 Review Summary              | Durante el Sprint 3.,,,,,,,,,,,,,                                                                                                                                  |
-| Sprint 3 Retrospective Summary       | Durante el Sprint 3,......................                                                                                                                         |
-| **Sprint Goal & User Stories** |                                                                                                                                                                    |
-| Sprint 4 Goal                        | Nuestro enfoque                                                                                                                                                    |
-| Sprint 4 Velocity                    |                                                                                                                                                                    |
-| Sum of Story Points                  |                                                                                                                                                                    |
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td>Sprint 4</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint Planning Background</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2025-07-05</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>08:00 pm (GMT-5)</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Modalidad remota mediante la plataforma Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Guerra Perez, José Jahaziel</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>.Castro Alejos, Julio / Guerra Perez, José Jahaziel<br/> / Guzmán Cabrejos, Yaku Mateo / Navarro, Antonio / Shapiama Rivera, Gabriela Nicole</td>
+  </tr>
+  <tr>
+    <td>Sprint 3 Review Summary</td>
+    <td>Durante el Sprint 3 se logró integrar las funcionalidades esenciales para la gestión de recetas, ventas y pedidos, así como la visualización de suscripciones y perfil. Se implementaron flujos completos en frontend y backend para los administradores de restaurantes y proveedores, habilitando además el pago de suscripciones. El equipo demostró gran compromiso y coordinación, permitiendo avances notables en la implementación de casos de uso claves. Sin embargo, se identificaron oportunidades de mejora en la automatización de pruebas y en la gestión de errores complejos.</td>
+  </tr>
+  <tr>
+    <td>Sprint 3 Retrospective Summary</td>
+    <td>El equipo mantuvo una comunicación activa y resolvió bloqueos técnicos con rapidez, destacando el soporte mutuo entre miembros. Se identificó que algunos endpoints requerían mejoras en validación y documentación, lo que motivó a priorizar en este nuevo sprint las tareas técnicas orientadas a robustecer los servicios RESTful, implementar nuevas funcionalidades de cuenta (recuperación, eliminación, cambio de contraseña) y finalizar la lógica de notificaciones y feedback. Como mejora clave se acordó dividir mejor las tareas de testing y codificación para asegurar calidad sin comprometer la velocidad de entrega.</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint Goal &amp; User Stories</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sprint 4 Goal</td>
+    <td>Este sprint está enfocado en robustecer la experiencia de usuario mediante la implementación completa de funcionalidades clave del perfil: recuperación de contraseña, cambio y eliminación de cuenta; reforzar el control de acceso mediante suscripciones activas; además de completar flujos críticos del sistema como la gestión de ventas, retroalimentación y notificaciones por insumos. También se priorizará la entrega de endpoints RESTful estables y bien documentados, permitiendo la integración efectiva entre frontend y backend.<br/>El éxito de este sprint se medirá cuando los usuarios puedan recuperar, cambiar o eliminar sus cuentas correctamente; se restrinja el acceso por suscripciones vencidas; los administradores puedan vender solo si hay insumos disponibles; y los proveedores puedan recibir feedback validado correctamente. Además, cuando se logre obtener notificaciones sobre eventos críticos del inventario, y se validen todos estos flujos mediante pruebas automatizadas.</td>
+  </tr>
+  <tr>
+    <td>Sprint 4 Velocity</td>
+    <td>60</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>59</td>
+  </tr>
+</table>
+
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
@@ -1441,11 +1803,1096 @@ Con el fin de mantener una coordinación efectiva y una comunicación fluida ent
 
 #### 5.2.4.3. Sprint Backlog 4
 
+El objetivo principal de este Sprint es implementar las funcionalidades restantes para completar la experiencia de usuario en la plataforma Restock, incluyendo la gestión de productos, pedidos y usuarios. Se priorizará la integración de los módulos desarrollados en Sprints anteriores y la validación de su funcionamiento en conjunto.
+
+![Sprint backlog 4](assets/images/cap5/sprint-backlog4-1.png)
+
+<table>
+    <tr>
+        <td>User Story ID</td>
+        <td>User Story Title</td>
+        <td>Task ID</td>
+        <td>Task Title</td>
+        <td>Task Description</td>
+        <td>Estimated Hours</td>
+    </tr>  
+    <tr>
+        <td>US-02</td>
+        <td>Recuperación de contraseña</td>
+        <td>T001</td>
+        <td>Diseñar pantalla de solicitud de recuperación</td>
+        <td>Diseñar la pantalla de solicitud de recuperación de contraseña'.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Conectar solicitud de recuperación con backend</td>
+        <td>Conectar la pantalla con el endpoint /api/v1/auth/forgot-password.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Diseñar formulario de nueva contraseña</td>
+        <td>Diseñar la pantalla de restablecimiento de contraseña (formulario de nueva contraseña).</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Manejar tokens inválidos o expirados</td>
+        <td>Implementar manejo de tokens inválidos o expirados en el frontend</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Conectar formulario de restablecimiento con backend</td>
+        <td>Conectar formulario de nueva contraseña con endpoint /api/v1/auth/reset-password</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-03</td>
+        <td>Soporte de acceso según estado de suscripción</td>
+        <td>T001</td>
+        <td>Consultar estado de suscripción al iniciar sesión</td>
+        <td>Consultar el estado de suscripción del usuario al iniciar sesión.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Controlar acceso según suscripción</td>
+        <td>Mostrar o restringir funcionalidades según el estado de suscripción</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Diseñar vista de advertencia por suscripción inactiva</td>
+        <td>Diseñar una vista de advertencia para usuarios con suscripción vencida o inactiva</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Restringir acceso a rutas protegidas</td>
+        <td>Redirigir o bloquear el acceso a rutas protegidas si el estado no es válido</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Actualizar acceso tras renovación</td>
+        <td>Verificar y actualizar el acceso luego de la renovación</td>
+        <td>1h</td>
+    </tr>
+        <tr>
+        <td>US-16</td>
+        <td>Gestión de ventas</td>
+        <td>T001</td>
+        <td>Validar disponibilidad de insumos al vender</td>
+        <td>Implementar la lógica de validación de insumos disponibles antes de confirmar una venta.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Mostrar impacto de recetas en inventario</td>
+        <td>Integrar el consumo de recetas asociadas para mostrar impacto en insumos.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Documentar flujo de gestión de ventas</td>
+        <td>Documentar el flujo de gestión de ventas desde el frontend.</td>
+        <td>1h</td>
+    </tr>
+        <tr>
+        <td>US-23</td>
+        <td>Cambio de contraseña</td>
+        <td>T001</td>
+        <td>Mostrar opción de cambio de contraseña en perfil</td>
+        <td>Mostrar opción de “Cambiar contraseña” en la configuración de la cuenta</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar nueva contraseña según políticas</td>
+        <td>Validar que la nueva contraseña cumpla con los requisitos de seguridad</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Verificar coincidencia entre nueva contraseña y confirmación</td>
+        <td>Verificar coincidencia entre nueva contraseña y su confirmación</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Enviar solicitud de cambio de contraseña al backend</td>
+        <td>Enviar solicitud de cambio de contraseña al servidor</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Mostrar mensaje según resultado del cambio de contraseña</td>
+        <td>Mostrar mensaje de éxito tras el cambio correcto o Mostrar mensaje de error si la contraseña actual es incorrecta</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-24</td>
+        <td>Eliminar cuenta</td>
+        <td>T001</td>
+        <td>Mostrar opción para eliminar cuenta desde perfil</td>
+        <td>Mostrar opción “Eliminar cuenta” en la configuración del perfil</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Implementar paso de verificación para confirmar eliminación</td>
+        <td>Solicitar paso de verificación para confirmar la eliminación</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Enviar solicitud de eliminación de cuenta al backend</td>
+        <td>Enviar la solicitud de eliminación de cuenta al servidor</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Mostrar confirmación de eliminación</td>
+        <td>Confirmar visualmente al usuario que la cuenta ha sido borrada.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Redirigir tras eliminar cuenta</td>
+        <td>Redirigir al usuario a la página de inicio o despedida tras eliminar la cuenta</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-01</td>
+        <td>Registro y autenticación de usuarios mediante API RESTful</td>
+        <td>T001</td>
+        <td>Diseñar modelo de usuario y su persistencia</td>
+        <td>Diseñar el modelo de usuario y estructura de base de datos</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Crear endpoint de registro de usuarios</td>
+        <td>Implementar endpoint /api/v1/auth/register para registro de usuarios</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint de login de usuarios</td>
+        <td>Implementar endpoint /api/v1/auth/login para autenticación</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Configurar autenticación con JWT y manejo de errores</td>
+        <td>Configurar control de errores y middleware de autenticación (JWT)</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-02</td>
+        <td>Recuperar contraseña mediante API RESTful usando Resend</td>
+        <td>T001</td>
+        <td>Crear endpoint para recuperación de contraseña</td>
+        <td>Diseñar e implementar el endpoint /api/v1/auth/forgot-password</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Integrar servicio de correo Resend</td>
+        <td>Integrar servicio de correo Resend para envío del enlace de recuperación</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Manejar errores y respuestas en recuperación</td>
+        <td>Implementar lógica de manejo de errores y respuestas HTTP estándar</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Generar y guardar token seguro para recuperación</td>
+        <td>Crear y almacenar tokens seguros de recuperación de contraseña</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-03</td>
+        <td>Gestión del estado de suscripción mediante API RESTful</td>
+        <td>T001</td>
+        <td>Diseñar modelo de suscripción</td>
+        <td>Diseñar el modelo de suscripción de la base de datos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Crear endpoint GET para estado de suscripción</td>
+        <td>Implementar endpoint GET /api/v1/subscription/status/:id</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint POST para renovación de suscripción</td>
+        <td>Implementar endpoint POST /api/v1/subscription/renew</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Evaluar estado de suscripción desde middleware</td>
+        <td>Agregar middleware o función auxiliar para evaluar el estado de la suscripción</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-04</td>
+        <td>Sistema de notificaciones de inventario mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint de insumos próximos a vencer</td>
+        <td>Implementar endpoint /api/v1/notifications/expiring-supplies</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Crear endpoint de insumos que exceden stock</td>
+        <td>Implementar endpoint /api/v1/notifications/exceeding-stock</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Diseñar lógica de negocio para filtros de notificaciones</td>
+        <td>Diseñar y aplicar lógica de dominio para filtros de notificaciones</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Escribir pruebas unitarias para lógica de notificaciones</td>
+        <td>Escribir pruebas unitarias para lógica de notificaciones</td>
+        <td>2h</td>
+    </tr>
+        <tr>
+        <td>TS-07</td>
+        <td>Registrar comentarios y calificaciones sobre pedidos mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint para registrar retroalimentación</td>
+        <td>Implementar endpoint POST /api/v1/feedback (Registrar retroalimentación)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar calificación y comentario en feedback</td>
+        <td>Validar calificación y comentario en POST /api/v1/feedback</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Verificar estado del pedido antes de aceptar feedback</td>
+        <td>Validar estado del pedido antes de aceptar feedback</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Asociar feedback al proveedor correspondiente</td>
+        <td>Asociar retroalimentación al proveedor correspondiente</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas unitarias para endpoint de feedback</td>
+        <td>Implementar pruebas unitarias del endpoint</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-08</td>
+        <td>Registro histórico de eventos críticos de insumos</td>
+        <td>T001</td>
+        <td>Crear colección para eventos críticos de insumos</td>
+        <td>Crear colección supply_event_logs con campos: supplyId, type, detectedAt, details, severity.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Implementar lógica para registrar eventos críticos automáticamente</td>
+        <td>Implementar lógica para detectar condiciones críticas en insumos y registrar evento automáticamente.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint GET para consultar eventos críticos</td>
+        <td>Crear servicio RESTful GET /api/v1/supplies/events con filtros por tipo, insumo y rango de fechas.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Documentar tipos de eventos críticos permitidos</td>
+        <td>Documentar tipos de eventos permitidos: "EXPIRATION_SOON", "LOW_STOCK", "OVERSTOCKED".</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas unitarias para eventos críticos</td>
+        <td>Agregar pruebas unitarias y de integración para asegurar el correcto registro de eventos críticos.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-13</td>
+        <td>Obtener perfil mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para obtener perfil protegido</td>
+        <td>Implementar endpoint GET /api/v1/profile/:id protegido por JWT</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar token JWT antes de procesar perfil</td>
+        <td>Validar que el token sea correcto antes de procesar la solicitud</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Consultar y retornar información del perfil</td>
+        <td>Consultar y devolver información del perfil (id, nombre, email, URL de imagen, estado)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Gestionar errores 401 por token inválido</td>
+        <td>Gestionar error 401 en caso de token inválido o expirado</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas unitarias para endpoint de perfil</td>
+        <td>Escribir test unitario y de integración para el endpoint</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-14</td>
+        <td>Actualizar perfil mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint PUT para actualizar perfil</td>
+        <td>Implementar endpoint PUT /api/v1/profile/:id con protección por JWT</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar formato de datos del perfil</td>
+        <td>Validar formato de campos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Actualizar datos del perfil en base de datos</td>
+        <td>Actualizar los datos del perfil en la base de datos</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Retornar datos actualizados con código 200</td>
+        <td>Retornar los datos actualizados con código 200</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Manejar errores 400 con detalles en perfil</td>
+        <td>Retornar errores 400 con detalles si hay datos inválidos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-15</td>
+        <td>Subir imagen de perfil mediante API RESTful usando Cloudinary</td>
+        <td>T001</td>
+        <td>Crear endpoint POST para subir imagen de perfil</td>
+        <td>Implementar endpoint POST /api/v1/profile/images/id.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar formato de archivo de imagen</td>
+        <td>Validar formato de archivo antes de subir (JPG, PNG, WEBP)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Asociar imagen de perfil subida al usuario</td>
+        <td>Asociar la URL retornada por Cloudinary al usuario correspondiente</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Manejar errores por formato no soportado (415)</td>
+        <td>Manejar errores por formato no soportado (415)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-16</td>
+        <td>Obtener lista para ingredientes más usados mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para ingredientes más usados</td>
+        <td>Implementar endpoint GET /api/v1/ingredients/most-used</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Permitir filtrado por periodo en ingredientes más usados</td>
+        <td>Permitir parámetro ?period= con valores como 7d o 30d</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Consultar uso agregado de ingredientes según periodo</td>
+        <td>Consultar datos agregados de ingredientes en base al periodo</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Retornar lista JSON de ingredientes más usados</td>
+        <td>Retornar JSON con lista de ingredientes, id, nombre y cantidad_utilizada</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-17</td>
+        <td>Obtener lista de alertas recientes  mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para alertas recientes</td>
+        <td>Implementar endpoint GET /api/v1/alerts</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Clasificar alertas por tipo</td>
+        <td>Clasificar alertas por tipo: vencimiento, bajo stock, etc</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Retornar lista de alertas como JSON</td>
+        <td>Retornar lista de alertas como JSON</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Retornar lista vacía si no hay alertas</td>
+        <td>Retornar lista vacía si no hay alertas activas</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Implementar filtros para pruebas de alertas</td>
+        <td>Implementar filtros para pruebas</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-18</td>
+        <td>Obtener lista de mejores clientes mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint para top clientes</td>
+        <td>Implementar endpoint GET /api/v1/supplier/top-clients</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Consultar base y ordenar por total de compras</td>
+        <td>Consultar base de datos y ordenar clientes por total de compras</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Retornar JSON con nombre y total de compras</td>
+        <td>Retornar JSON con campos: nombre_restaurante, total_compras</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Validar fechas y manejar errores</td>
+        <td>Agregar validación de fechas y manejo de errores</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-19</td>
+        <td>Actualizar estado de orden mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint PATCH para actualizar estado de orden</td>
+        <td>Crear endpoint para cambiar estado de una orden por ID.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar autenticación y permisos antes de cambio de estado</td>
+        <td>Aplicar lógica de seguridad (autenticación y permisos).</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Validar estado válido antes de actualizar</td>
+        <td>Manejar errores de estado inválido o inexistente.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Escribir pruebas para cambios de estado</td>
+        <td>Escribir pruebas para transiciones de estado comunes.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar API para actualizar estado de órdenes</td>
+        <td>Documentar API de actualización de estado de órdenes.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-20</td>
+        <td>Consultar estado de entrega mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para estado de entrega</td>
+        <td>Crear endpoint para obtener estado actual de una orden.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Aplicar control de acceso por rol (proveedor/restaurante)</td>
+        <td>Implementar control de acceso para proveedor o restaurante.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Optimizar respuesta con campos esenciales</td>
+        <td>Optimizar respuesta solo con campos necesarios (estado, fecha).</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Manejar errores por orden inexistente</td>
+        <td>Manejar errores si orden no existe.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas unitarias para endpoint de estado</td>
+        <td>Escribir pruebas unitarias del endpoint.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar consulta de estado de entrega</td>
+        <td>Documentar consulta del estado de entrega por ID.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-21</td>
+        <td>Obtener calificaciones de servicios de proveedores mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para calificaciones por proveedor</td>
+        <td>Crear endpoint para obtener calificaciones por proveedor ID.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Incluir detalles relevantes en la respuesta</td>
+        <td>Incluir datos como puntuación, comentario, fecha.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Permitir orden cronológico y filtros</td>
+        <td>Agregar orden cronológico o filtros si se requiere.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Validar proveedor existente y acceso autorizado</td>
+        <td>Validar existencia del proveedor y autorización del solicitante.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Diseñar pruebas para distintos escenarios</td>
+        <td>Diseñar pruebas para distintos escenarios (sin calificaciones, múltiples).</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar endpoint de calificaciones</td>
+        <td>Documentar la API de calificaciones del proveedor.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-22</td>
+        <td>Gestionar órdenes recibidas mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para listar órdenes recibidas</td>
+        <td>Crear endpoint para listar órdenes recibidas por proveedor.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Agregar filtros a las órdenes recibidas</td>
+        <td>Agregar filtros por estado, fecha o restaurante.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Manejar errores en solicitudes de órdenes</td>
+        <td>Manejar errores y datos faltantes en las solicitudes.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Probar flujo completo de gestión de órdenes</td>
+        <td>Probar la gestión completa de órdenes.</td>
+        <td>h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar endpoints de órdenes recibidas</td>
+        <td>Documentar endpoints RESTful para gestión de órdenes recibidas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-23</td>
+        <td>Consultar detalles de una orden mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para detalles completos de una orden</td>
+        <td>Crear endpoint para obtener datos completos de una orden por ID.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Verificar existencia y pertenencia de orden</td>
+        <td>Validar existencia de la orden y su pertenencia al proveedor.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Incluir datos completos en respuesta</td>
+        <td>Incluir ítems, cantidades, fecha de creación, cliente, etc.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Escribir pruebas para consulta de orden</td>
+        <td>Escribir pruebas para orden encontrada y no encontrada.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar estructura de detalle de orden</td>
+        <td>Documentar la estructura de respuesta y ejemplos de consulta.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-24</td>
+        <td>Obtener historial de ordenes mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para historial agrupado por restaurante</td>
+        <td>Crear endpoint que devuelva órdenes de un proveedor agrupadas por restaurante.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Ordenar historial por fecha</td>
+        <td>Ordenar por fecha de forma descendente.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Agregar filtros a historial de órdenes</td>
+        <td>Permitir incluir filtros como fechas o estado.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Validar autenticación del proveedor</td>
+        <td>Validar autenticación y permisos del proveedor.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar endpoint de historial de órdenes</td>
+        <td>Documentar endpoint de historial cronológico de órdenes.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-25</td>
+        <td>Exportar reporte de historial de órdenes completados mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint para exportar historial en Excel</td>
+        <td>Crear endpoint para generar archivo Excel del historial de órdenes completadas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Permitir filtros en generación de reporte</td>
+        <td>Permitir parámetros de filtrado (fechas, restaurantes).</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Formatear archivo Excel para reporte</td>
+        <td>Formatear columnas y contenido de forma clara y legible.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Validar descarga correcta del archivo</td>
+        <td>Asegurar que el archivo se descargue correctamente.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Probar descarga del reporte en distintos entornos</td>
+        <td>Probar el export en distintos navegadores/sistemas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar generación del reporte Excel</td>
+        <td>Documentar generación y descarga del reporte Excel.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-26</td>
+        <td>Gestionar ventas e inventario mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint POST para registrar ventas</td>
+        <td>Crear endpoints para registrar ventas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar y verificar stock antes de registrar venta</td>
+        <td>Implementar lógica de validación y verificación de stock antes de registrar una venta en el inventario.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint para actualizar inventario manualmente</td>
+        <td>Crear endpoint para actualizar manualmente el inventario.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Manejar errores comunes en ventas</td>
+        <td>Aplicar manejo de errores para transacciones inválidas o datos incompletos.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas para endpoints de ventas e inventario</td>
+        <td>Diseñar pruebas unitarias y de integración para ambos endpoints.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar endpoints de ventas e inventario</td>
+        <td>Documentar los endpoints RESTful de ventas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-27</td>
+        <td>Cambio de contraseña mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint seguro para cambio de contraseña</td>
+        <td>Crear endpoint seguro /api/v1/auth/change-password</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Diseñar estructura del cuerpo para cambio de contraseña</td>
+        <td>Diseñar estructura del cuerpo de la solicitud</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Validar entrada del cambio de contraseña</td>
+        <td>Implementar validación de entrada</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Verificar contraseña actual</td>
+        <td>Verificar contraseña actual del usuario</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Actualizar nueva contraseña en base de datos</td>
+        <td>Actualizar la contraseña en base de datos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-28</td>
+        <td>Eliminar cuenta mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint seguro para eliminación de cuenta</td>
+        <td>Crear endpoint seguro /api/v1/auth/delete-account</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Diseñar estructura del cuerpo de solicitud para eliminación</td>
+        <td>Diseñar estructura del cuerpo de la solicitud</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Validar autenticación del usuario</td>
+        <td>Validar autenticación del usuario</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Eliminar o desactivar cuenta del usuario</td>
+        <td>Eliminar o desactivar la cuenta del usuario</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Revocar tokens y cerrar sesiones activas</td>
+        <td>Revocar tokens activos y sesiones</td>
+        <td>1/2h</td>
+    </tr>
+</table>
+
 #### 5.2.4.4. Development Evidence for Sprint Review
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante este sprint se avanzó considerablemente en la implementación y documentación de los endpoints RESTful que soportan las funcionalidades de gestión de cuenta (recuperación, cambio y eliminación de contraseña), así como la gestión de ventas, feedback, notificaciones y control de acceso por suscripción. El equipo logró implementar y probar múltiples servicios que fortalecen la experiencia del usuario y la arquitectura de backend bajo principios DDD.
+
+### Descripción del Logro
+
+- Implementación completa de recuperación, cambio y eliminación de contraseña.
+- Validación de acceso y suscripciones con control de rutas protegidas.
+- Lógica de negocio para ventas e impacto en inventario.
+- Registro de feedback por parte de restaurantes hacia proveedores.
+- Notificaciones por stock crítico o insumos próximos a vencer.
+- Endpoints protegidos por JWT y validados con pruebas unitarias.
+- Documentación técnica de endpoints en repositorio backend.
+
+### Recursos del Sprint
+
+| Recurso                         | Acción implementada                                     | Método HTTP | Endpoint                                                                 | Repositorio Backend |
+|---------------------------------|----------------------------------------------------------|-------------|---------------------------------------------------------------------------|----------------------|
+| Recuperación de contraseña      | Enviar enlace de recuperación                            | POST        | `/api/v1/auth/forgot-password`                                           | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
+| Restablecer contraseña          | Registrar nueva contraseña con token                     | POST        | `/api/v1/auth/reset-password`                                            | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
+| Cambio de contraseña            | Actualizar contraseña autenticada                        | POST        | `/api/v1/auth/change-password`                                           | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
+| Eliminar cuenta                 | Eliminar o desactivar usuario actual                     | DELETE      | `/api/v1/auth/delete-account`                                            | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
+| Estado de suscripción           | Consultar suscripción por ID                             | GET         | `/api/v1/subscription/status/:id`                                        | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
+| Renovar suscripción             | Renovar suscripción del usuario                          | POST        | `/api/v1/subscription/renew`                                             | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
+| Registrar venta                 | Crear nueva venta con verificación de stock              | POST        | `/api/v1/sales`                                                          | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
+| Notificaciones de insumos       | Ver insumos por vencer o en exceso                       | GET         | `/api/v1/notifications/expiring-supplies`, `/exceeding-stock`           | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
+| Registro de feedback            | Registrar retroalimentación sobre pedidos                | POST        | `/api/v1/feedback`                                                       | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
+| Eventos críticos de insumos     | Consultar historial de eventos críticos                  | GET         | `/api/v1/supplies/events`                                                | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
+| Obtener perfil                  | Ver perfil de usuario autenticado                        | GET         | `/api/v1/profile/:id`                                                    | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
+| Actualizar perfil               | Modificar datos personales del usuario                   | PUT         | `/api/v1/profile/:id`                                                    | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
+| Subir imagen de perfil          | Subir y asociar imagen usando Cloudinary                 | POST        | `/api/v1/profile/images/:id`                                             | [Repo](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend) |
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
