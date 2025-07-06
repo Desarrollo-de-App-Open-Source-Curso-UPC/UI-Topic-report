@@ -1551,10 +1551,10 @@ Segmento 1: Dueños o administradores de Restaurantes
 
 **Entrevista 1:**
 
-**Nombre:** Alfredo Bernuy
-**Edad:** 52 años
-**Distrito:** Chorrillos
-**Timing:** (00:00- 05:18 min)
+**Nombre:** Alfredo Bernuy  
+**Edad:** 52 años  
+**Distrito:** Chorrillos  
+**Timing:** (00:00- 05:18 min)  
 
 ![Foto de Entrevista](assets/images/entrevistaFinal1.png)
 
@@ -1569,10 +1569,10 @@ Por otro lado, subraya que el diseño es moderno y atractivo: la paleta de color
 
 **Entrevista 2:**
 
-**Nombre:** Mery Pilar
-**Edad:** 49 años
-**Distrito:** Chorrillos
-**Timing:** (05:19 - 10:50 min)
+**Nombre:** Mery Pilar  
+**Edad:** 49 años  
+**Distrito:** Chorrillos  
+**Timing:** (05:19 - 10:50 min)  
 
 ![Foto de Entrevista](assets/images/entrevistaFinal2.png)
 
@@ -1590,10 +1590,10 @@ Además, enfatiza que la apariencia es fresca y profesional: los tonos empleados
 
 **Entrevista 1:**
 
-**Nombre:** Flor Medina
-**Edad:** 28 años
-**Distrito:** San Miguel
-**Timing:** (10:51 - 21:05 min)
+**Nombre:** Flor Medina  
+**Edad:** 28 años  
+**Distrito:** San Miguel  
+**Timing:** (10:51 - 21:05 min)  
 
 ![Foto de Entrevista](assets/images/entrevistaFinal3.png)
 
