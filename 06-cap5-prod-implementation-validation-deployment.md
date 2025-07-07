@@ -27,7 +27,6 @@ A continuación se indican los URLs de los repositorios de GitHub para cada prod
 
 - **Landing Page**: [https://shorturl.at/wOqID](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing.git)
 - **Web Services**: [https://shorturl.at/O4PHS](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend.git)
-- _(Incluye el proyecto y los archivos de pruebas unitarias e integración/aceptación)_
 - **Frontend Web Application**: [https://shorturl.at/tnpvh](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend.git)
 
 #### GitFlow Workflow
