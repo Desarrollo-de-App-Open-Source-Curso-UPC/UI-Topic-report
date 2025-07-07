@@ -725,10 +725,34 @@ El objetivo principal fue implementar funcionalidades claves para la gestión de
 
 A continuación, se presenta el video del frontend de la aplicación web interna. Este demuestra la interacción de los usuarios autenticados con los módulos principales del sistema, incluyendo la navegación por el sidebar, la gestión de productos, el seguimiento de alertas y el control de inventario.
 
-**Video del frontend:**
+
+**Sección de resumen (Summary):**  
+Visualización de las órdenes recientes, últimas alertas generadas y los últimos insumos agregados al sistema.
+
+![Evidencia 1](assets/images/cap5/evidence-sprint2/execevidence/evi1.jpeg)
+
+**Sección de inventario (Inventory):**  
+Disponible para el administrador de restaurante. Muestra el catálogo de insumos (supplies) y el inventario asociado. Incluye funcionalidades como filtros, paginación y gestión detallada de lotes.
+
+![Evidencia 2](assets/images/cap5/evidence-sprint2/execevidence/evi2.jpeg)
+
+**Sección de proveedores (Suppliers):**  
+Vista del administrador de restaurante que permite acceder a una lista de proveedores favoritos, con opción de ver información detallada de cada uno.
+
+![Evidencia 3](assets/images/cap5/evidence-sprint2/execevidence/evi3.jpeg)
+
+**Sección de ventas (Sales):**  
+Permite al administrador registrar ventas diarias utilizando recetas (recipes) predefinidas. Se muestra una lista del día con detalles, útil para descontar automáticamente los insumos utilizados.
+
+![Evidencia 4](assets/images/cap5/evidence-sprint2/execevidence/evi4.jpeg)
+
+**Video del frontend:**  
+Demostración en video del uso del sistema.
+
 ![Captura del video](assets/images/cap5/evidence-sprint2/video_evidence.png)
 
-Video: [https:/linkcuts.org/konqfr2w](https:/linkcuts.org/konqfr2w)
+Video: [https://linkcuts.org/konqfr2w](https://linkcuts.org/konqfr2w)
+
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
