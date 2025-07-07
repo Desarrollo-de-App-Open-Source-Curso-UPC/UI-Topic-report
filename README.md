@@ -112,75 +112,127 @@ _Abril 2025_
 
 # Project Report Collaboration Insights
 
-Para el desarrollo del **Project Report**, se utilizó un repositorio dentro de la organización del equipo en GitHub. A continuación, se presenta la evidencia de colaboración correspondiente, en coherencia con el Registro de Versiones del Informe.
+Esta sección detalla cómo el equipo colaboró para construir el **Final Project Documentation Report** del sistema Restock, mostrando evidencia de trabajo conjunto mediante commits, revisiones, herramientas de organización y resultados integrados en el informe final. Se refleja la contribución de cada integrante en la planificación, desarrollo, documentación y presentación de la solución.
 
-**Repositorio del informe del proyecto:**
+**Repositorio del informe del proyecto:**  
 [https://shorturl.at/ujj4j](https://shorturl.at/ujj4j)
 
 ![Evidencia de commits del repositorio](assets/images/ci-overview.png)
 
-- **Total de commits:** 507
+- **Total de commits:** 507  
 - **Autores contribuyentes:**
   - Williams Avendaño (`dev-willy-code`)
   - Yaku Guzmán (`yak-cod`)
   - Julio Castro (`JulioXC4`)
   - Gabriela Shapiama (`GabrielaShapiama28`)
   - Jahaziel Guerra (`jahazielgg`)
-- Actividad distribuida por ramas correspondientes a cada sección del informe.
-- Todos los miembros participaron activamente en la redacción y revisión del contenido.
 
-## TB1 - Informe inicial y Landing Page (5 de abril - 27 de abril de 2025)
+Todas las entregas se desarrollaron sobre ramas específicas con *pull requests* revisados en equipo. Se utilizaron issues de GitHub y tableros Trello para distribuir tareas, y herramientas como Figma, Draw.io, PlantUML y Structurizr para la elaboración de diagramas incluidos en el informe.
 
-Durante esta fase, el equipo elaboró el informe base del proyecto, abarcando la definición del problema, justificación, objetivos y marco teórico. Simultáneamente, se desarrolló la **Landing Page** utilizando HTML5, CSS3 y JavaScript puro.
 
-El trabajo fue organizado mediante ramas temáticas, permitiendo que cada integrante aportara contenido específico y realizara revisiones cruzadas mediante *pull requests*. Las decisiones sobre estructura, estilo y contenido se discutieron de forma colaborativa en los comentarios de los PRs.
+## TB1 – Informe inicial y Landing Page  
+*Periodo:* 5 de abril – 27 de abril de 2025  
+
+Se redactaron las secciones base del informe: Introducción, Justificación, Objetivos, Guias de estilo, Usuarios y Flujo de Valor. Se construyó una **Landing Page estática** con HTML5, CSS3 y JS. Las decisiones se documentaron en Trello, y se utilizó Figma para el primer prototipo visual. Cada sección del informe fue escrita en ramas separadas y luego unificada en `develop`.
 
 ![Colaboraciones TB1](assets/images/ci-tb1.png)
 
-- **Williams Avendaño (`dev-willy-code`)**: 34 commits, 619 adiciones, 189 eliminaciones
-- **Yaku Guzmán (`yak-cod`)**: 42 commits, 812 adiciones, 200 eliminaciones
-- **Julio Castro (`JulioXC4`)**: 26 commits, 387 adiciones, 61 eliminaciones
-- **Gabriela Shapiama (`GabrielaShapiama28`)**: 33 commits, 485 adiciones, 150 eliminaciones
-- **Jahaziel Guerra (`jahazielgg`)**: 10 commits, 1037 adiciones, 770 eliminaciones
-- **Total de commits en TB1:** 145
+- **Contribuciones destacadas del informe:**
+  - Definición de problema y objetivos.
+  - Análisis de herramientas similares.
+  - Diseño de flujo de valor y tipos de usuario.
+  - Prototipo inicial en Figma.
+  - Página informativa y formulario de contacto en Landing.
 
-La colaboración fue activa y equitativa, con contribuciones sustanciales de todos los integrantes.
+- **Commits por integrante:**
+  - Williams Avendaño: 34 commits – 619 adiciones / 189 eliminaciones  
+  - Yaku Guzmán: 42 commits – 812 adiciones / 200 eliminaciones  
+  - Julio Castro: 26 commits – 387 adiciones / 61 eliminaciones  
+  - Gabriela Shapiama: 33 commits – 485 adiciones / 150 eliminaciones  
+  - Jahaziel Guerra: 10 commits – 1037 adiciones / 770 eliminaciones  
 
-## TP1 - Desarrollo del Frontend y mejoras en la Landing Page (28 de abril - 25 de mayo de 2025)
+---
 
-Durante este sprint, el equipo se enfocó en construir la interfaz de usuario de la aplicación web. Se utilizó **Angular**, **Angular Material**, **axios** e **i18n** para implementar los componentes principales, siguiendo principios de **domain-driven design** y organización por *bounded contexts*. También se realizaron correcciones y mejoras en la Landing Page, mejorando la accesibilidad, adaptabilidad móvil y tiempos de carga.
+## TP1 – Desarrollo del Frontend y mejoras al Landing Page  
+*Periodo:* 28 de abril – 25 de mayo de 2025  
 
-En el informe se documentó el diseño de la arquitectura del frontend, la estructura de carpetas y las decisiones tecnológicas adoptadas, incluyendo capturas del prototipo funcional. La colaboración se mantuvo mediante commits individuales y revisiones cruzadas de los PRs.
+Se desarrolló el **frontend** con Angular 19, Angular Material, PrimeNG y arquitectura basada en dominios (`public`, `global`). Se aplicaron patrones como *Request/Response* y *Assembler*. El informe fue ampliado con secciones sobre estructura técnica del frontend, componentes reutilizables, rutas, internacionalización (i18n), y control de roles.
+
+Se añadieron diagramas de carpetas y estructuras en PlantUML. Se mejoró la Landing Page con animaciones y optimización SEO.
 
 ![Colaboraciones TP1](assets/images/ci-tp1.png)
 
-- **Williams Avendaño (`dev-willy-code`)**: 9 commits, 225 adiciones, 58 eliminaciones
-- **Yaku Guzmán (`yak-cod`)**: 10 commits, 853 adiciones, 409 eliminaciones
-- **Julio Castro (`JulioXC4`)**: 16 commits, 405 adiciones, 415 eliminaciones
-- **Gabriela Shapiama (`GabrielaShapiama28`)**: 11 commits, 696 adiciones, 552 eliminaciones
-- **Jahaziel Guerra (`jahazielgg`)**: 8 commits, 364 adiciones, 360 eliminaciones
-- **Total de commits en TP1:** 54
+- **Contribuciones destacadas del informe:**
+  - Explicación de la estructura modular del frontend.
+  - Documentación de componentes, servicios y rutas protegidas.
+  - Capturas de vistas funcionales (`Home`, `Inventory`, `Orders`, etc.).
+  - Detalle de decisiones técnicas y librerías empleadas.
 
-Este nivel de actividad refleja un esfuerzo colaborativo significativo y una distribución equilibrada del trabajo.
+- **Commits por integrante:**
+  - Williams Avendaño: 9 commits – 225 adiciones / 58 eliminaciones  
+  - Yaku Guzmán: 10 commits – 853 adiciones / 409 eliminaciones  
+  - Julio Castro: 16 commits – 405 adiciones / 415 eliminaciones  
+  - Gabriela Shapiama: 11 commits – 696 adiciones / 552 eliminaciones  
+  - Jahaziel Guerra: 8 commits – 364 adiciones / 360 eliminaciones  
 
-## TB2 - Desarrollo del Backend, mejoras en el frontend y Landing Page (26 de mayo - 21 de junio de 2025)
+---
 
-Durante el sprint final, se desarrolló el backend utilizando **Springboot Framewok** bajo una arquitectura DDD. Se diseñaron los agregados principales (`Recipes`,`Supply` y `Batch`), así como servicios de comandos, consultas y controladores REST. También se integró **Swagger** para la documentación automática de las APIs.
+## TB2 – Backend, mejoras e integración  
+*Periodo:* 26 de mayo – 21 de junio de 2025  
 
-Paralelamente, se realizaron mejoras finales tanto en el frontend como en la Landing Page, corrigiendo errores visuales, optimizando flujos y asegurando la integración entre frontend y backend.
+Se diseñó e implementó el **backend con Spring Boot**, siguiendo los principios de **Domain-Driven Design (DDD)**. Se construyeron los agregados `Supply`, `Batch`, `Recipe` y `Order`, junto a value objects (`UnitMeasurement`) y entidades referenciadas (`Category`). El equipo aplicó validaciones, control de excepciones personalizadas y estructura de paquetes clara (`aggregates`, `commands`, `resources`, etc.).
 
-El informe fue ampliado con una sección dedicada al backend, incluyendo diagramas de contexto y contenedores generados con Structurizr, además de descripciones detalladas sobre el diseño basado en dominios. Todos los miembros contribuyeron con documentación técnica, pruebas e integraciones.
+En el informe se documentó el trabajo realizado durante el **Sprint 3**, incluyendo el avance del *Product Backlog*, la implementación y despliegue de los primeros servicios del sistema. Se incluyeron diagramas de arquitectura generados con **Structurizr DSL**, abarcando los niveles C1 (Contexto), C2 (Contenedores) y C3 (Componentes), junto con capturas de Swagger UI y evidencia de los endpoints REST ya operativos.
+
 
 ![Colaboraciones TB2](assets/images/ci-tb2.png)
 
-- **Williams Avendaño (`dev-willy-code`)**: 3 commits, 481 adiciones, 55 eliminaciones
-- **Yaku Guzmán (`yak-cod`)**: 2 commits, 462 adiciones, 1 eliminaciones
-- **Julio Castro (`JulioXC4`)**: 9 commits, 255 adiciones, 30 eliminaciones
-- **Gabriela Shapiama (`GabrielaShapiama28`)**: 7 commits, 4708 adiciones, 4227 eliminaciones
-- **Jahaziel Guerra (`jahazielgg`)**: 7 commits, 349 adiciones, 131 eliminaciones
-- **Total de commits en TB2:** 28
+- **Contribuciones destacadas del informe:**
+  - Correcciones y mejoras en los diagramas Structurizr C1 y C2.
+  - Descripción actualizada de la organización por boundeds del backend.
+  - Registro del trabajo realizado en el Sprint 3, incluyendo backlog, implementación de servicios y despliegue.
 
-La colaboración fue continua y estratégica, con aportes clave en aspectos críticos del backend y del informe final.
+- **Commits por integrante:**
+  - Williams Avendaño: 3 commits – 481 adiciones / 55 eliminaciones  
+  - Yaku Guzmán: 2 commits – 462 adiciones / 1 eliminación  
+  - Julio Castro: 9 commits – 255 adiciones / 30 eliminaciones  
+  - Gabriela Shapiama: 7 commits – 4708 adiciones / 4227 eliminaciones  
+  - Jahaziel Guerra: 7 commits – 349 adiciones / 131 eliminaciones  
+
+## TF – Integración final, autenticación y despliegue  
+**Periodo:** 22 de junio – 6 de julio de 2025  
+
+Durante esta etapa se consolidó el sistema completo, asegurando su funcionamiento integrado y seguro. Se implementó autenticación basada en **JWT (Bearer Tokens)**, gestión de roles, guards, validaciones y redirecciones. El frontend y backend se conectaron exitosamente, y se configuró el **despliegue final** de los productos digitales.
+
+Además, se completaron las secciones finales del informe, incluyendo la validación por entrevistas, resultados del proyecto, **Conclusiones**, **Bibliografía** y **Anexos**. Se incorporaron capturas funcionales del sistema, flujos de autenticación, y scripts de ejemplo. También se aplicó una revisión final al estilo Markdown y se actualizaron tablas y artefactos previos.
+
+![Colaboraciones TF](assets/images/ci-tf.png)
+
+- **Contribuciones destacadas del informe:**
+  - Documentación de la arquitectura final integrada.
+  - Registro de actividades y evidencias correspondientes al Sprint 4.
+  - Validación de requisitos mediante entrevistas y user flows.
+  - Capturas funcionales de la aplicación desplegada, incluyendo autenticación.
+  - Versión final de Conclusiones, lecciones aprendidas, y evaluación de objetivos alcanzados.
+  - Bibliografía actualizada y créditos de herramientas utilizadas.
+
+- **Commits por integrante:**
+  - Antonio Navarro: 5 commits – 285 adiciones / 314 eliminaciones  
+  - Yaku Guzmán: 3 commits – 295 adiciones / 394 eliminaciones  
+  - Julio Castro: 8 commits – 185 adiciones / 147 eliminaciones  
+  - Gabriela Shapiama: 6 commits – 2316 adiciones / 1006 eliminaciones  
+  - Jahaziel Guerra: 5 commits – 3024 adiciones / 535 eliminaciones  
+
+## Herramientas colaborativas utilizadas
+
+- **GitHub Projects & Branching:** Para control de versiones y revisiones.
+- **Trello:** Organización de tareas por entregas y responsables.
+- **Discord y Google Meet:** Reuniones periódicas para coordinación.
+- **Figma:** Bocetos y prototipos de interfaz.
+- **PlantUML & Draw.io:** Diagramas de arquitectura y flujo.
+- **Structurizr DSL:** Modelado de arquitectura de software (C4 Model).
+- **Swagger/OpenAPI:** Documentación interactiva de endpoints REST.
+- **Markdown Preview & VSCode:** Redacción técnica en equipo del informe.
 
 # Tabla de contenidos
 
