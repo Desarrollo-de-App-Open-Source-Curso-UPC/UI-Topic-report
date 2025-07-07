@@ -129,77 +129,111 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 
 ### 4.2.3 SEO Tags and Meta Tags
 
-#### Landing Page
+**1. Landing Page**
 
-##### **Charset**
+ **Charset**
 
     `<meta charset="utf-8">`
 
-##### **Viewport (responsive)**
+Su función principal es indicar al navegador cómo debe interpretar y mostrar los caracteres de texto en la página. Al especificar UTF-8, que es un estándar de codificación universal, se asegura la correcta visualización de todos los caracteres, incluyendo tildes, la letra "ñ" y símbolos especiales, evitando que aparezcan como caracteres ilegibles y garantizando una experiencia de usuario consistente para cualquier visitante, independientemente de su idioma o configuración.
+
+ **Viewport (responsive)**
 
     `<meta name="viewport" content="width=device-width, initial-scale=1">`
 
-##### **Title (SEO)**
+Esta línea de código controla cómo la página web se escala y se adapta a diferentes pantallas de dispositivos, especialmente móviles. Su función es hacer que la página sea responsiva, ajustando el ancho del contenido al ancho del dispositivo y estableciendo un zoom inicial de 1:1 para una visualización óptima y legible en cualquier tamaño de pantalla.
 
-    `<title>`UI-Topic | Automate your restaurant’s inventory and orders `</title>`
+ **Title (SEO)**
 
-##### **Meta Description (SEO)**
+    `<title>`UI-Topic | Automatiza el inventario y pedidos de tu restaurante `</title>`
 
-    `<meta name="description" content="Platform for restaurants that reduces waste and increases profits through smart inventory and order management.">`
+Esta línea de código define el título de la página web que aparece en la pestaña del navegador o en los resultados de búsqueda. Su función es proporcionar una descripción concisa y relevante del contenido de la landing page, siendo crucial para el SEO y la identificación rápida por parte del usuario.
 
-##### **Meta Keywords (SEO, though deprecated for Google)**
+ **Meta Description (SEO)**
 
-    `<meta name="keywords" content="restaurants, inventory management, orders, automation, suppliers, food tech">`
+    `<meta name="description" content="Plataforma para restaurantes que reduce desperdicios y mejora las ganancias mediante la gestión inteligente de inventarios y pedidos.">`
 
-##### **Meta Author**
+Esta línea de código provee un resumen breve y descriptivo del contenido de la página. Su función es mostrarse como un "snippet" en los resultados de búsqueda, atrayendo a los usuarios y brindando un adelanto del tema de la landing page.
+
+ **Meta Keywords (SEO, aunque en desuso para Google)**
+
+    `<meta name="keywords" content="restaurantes, gestión de inventario, pedidos, automatización, proveedores, tecnología gastronómica">`
+
+Esta línea de código especifica palabras clave relevantes para el contenido de la página. Aunque su impacto directo en el SEO moderno es limitado, su función es clasificar el tema de la landing page para sistemas de indexación.
+
+ **Meta Author**
 
     `<meta name="author" content="UI-Topic Team">`
 
-##### **Meta Robots**
+Esta línea de código identifica al creador o la entidad responsable del contenido de la página. Su función es atribuir la autoría del documento HTML.
+
+ **Meta Robots**
 
     `<meta name="robots" content="index, follow">`
 
-##### **Meta Language**
+Esta línea de código instruye a los motores de búsqueda sobre cómo interactuar con la página. Su función es indicar a los "robots" que pueden indexar el contenido de la página y seguir los enlaces que contiene.
 
-    `<meta name="language" content="en">`
+ **Meta Language**
 
-##### **Meta Copyright**
+    `<meta name="language" content="es">`
+
+Esta línea de código declara el idioma principal del contenido de la página. Su función es informar a los navegadores y motores de búsqueda que el texto de la landing page está en español.
+
+ **Meta Copyright**
 
     `<meta name="copyright" content="UI-Topic 2025">`
 
-#### Web Application
+Esta línea de código establece el aviso de derechos de autor para el contenido de la página. Su función es indicar legalmente la titularidad de los derechos de autor y el año correspondiente.
 
-##### **Charset**
+**2. Web Applicatio (Frontend)**
+
+ **Charset**
 
     `<meta charset="utf-8">`
 
-##### **Viewport (responsive)**
+Esta línea de código establece la codificación de caracteres del documento HTML a UTF-8. Su función es asegurar que todos los textos, caracteres especiales, y símbolos de la aplicación web se visualicen correctamente en cualquier navegador y dispositivo, evitando problemas de visualización de texto.
+
+ **Viewport (responsive)**
 
     `<meta name="viewport" content="width=device-width, initial-scale=1">`
 
-##### **Title (SEO)**
+Esta línea de código controla cómo la interfaz de la aplicación web se escala y se adapta a las diferentes pantallas de dispositivos, como computadoras de escritorio, tablets y teléfonos móviles. Su función es garantizar que la aplicación sea responsiva, ajustando el ancho del contenido al ancho del dispositivo y estableciendo un zoom inicial óptimo para una experiencia de usuario consistente y accesible en cualquier tamaño de pantalla.
 
-    `<title>`UI-Topic App | Management Panel `</title>`
+ **Title (SEO)**
 
-##### **Meta Description (SEO)**
+    `<title>`UI-Topic App | Panel de gestión `</title>`
 
-    `<meta name="description" content="Internal UI-Topic panel for managing inventory, orders, and suppliers. Only accessible to authorized users.">`
+Esta línea de código define el título que aparece en la pestaña o ventana del navegador para la aplicación web. Su función es proporcionar una identificación clara y concisa de la aplicación o del módulo específico que el usuario está visualizando, lo cual es útil para la navegación del usuario.
 
-##### **Meta Author**
+ **Meta Description (SEO)**
+
+    `<meta name="description" content="Panel interno de UI-Topic para gestionar inventario, pedidos y proveedores. Solo accesible para usuarios autorizados.">`
+
+Esta línea de código proporciona una breve descripción del propósito o la sección de la aplicación web. Aunque su relevancia para el SEO es limitada en una aplicación interna, su función es describir el contenido para desarrolladores o herramientas de inspección, y en algunos casos, para la interfaz de usuario al compartir enlaces.
+
+ **Meta Author**
 
     `<meta name="author" content="UI-Topic Team">`
 
-##### **Meta Robots**
+Esta línea de código identifica al creador o al equipo de desarrollo de la aplicación web. Su función es atribuir la autoría del código o del proyecto a una entidad específica.
+
+ **Meta Robots**
 
     `<meta name="robots" content="noindex, nofollow">`
 
-##### **Meta Language**
+Esta línea de código instruye a los motores de búsqueda sobre cómo NO deben interactuar con esta parte de la aplicación. Su función es indicar explícitamente a los "robots" que no indexen este contenido (es decir, que no lo incluyan en los resultados de búsqueda) y que no sigan los enlaces que contiene, lo cual es crucial para paneles de gestión internos o áreas privadas de una aplicación.
 
-    `<meta name="language" content="en">`
+ **Meta Language**
 
-##### **Meta Copyright**
+    `<meta name="language" content="es">`
+
+Esta línea de código declara el idioma principal del contenido de la aplicación web. Su función es informar a los navegadores y herramientas que el texto de la interfaz de la aplicación está en español, ayudando a la correcta renderización y posibles traducciones automáticas.
+
+ **Meta Copyright**
 
     `<meta name="copyright" content="UI-Topic 2025">`
+
+Esta línea de código establece el aviso de derechos de autor para el código y el contenido de la aplicación web. Su función es indicar legalmente la titularidad de los derechos de autor del software y el año correspondiente de su creación o actualización.
 
 ### 4.2.4 Searching Systems
 
@@ -521,224 +555,465 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 
  La estructura prioriza la eficiencia operativa, permitiendo a los proveedores registrar productos, atender pedidos y monitorear métricas clave en el menor número de clics posible.
 
-#### Versión Desktop Web Browser
+#### Versión Desktop Wireframes - Administradores de Restaurante
 
-**Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+---
 
-![a1](assets/images/wireframes-admin/a1.png)
+##### Inventario
 
-![b1](assets/images/wireframes-admin/b1.png)
+**Resumen general con tabla y carrusel**  
+Vista que combina una tabla detallada con un carrusel visual para facilitar la navegación por los insumos disponibles.  
+<img src="assets/images/cap4/desktop_wireframes_admin/inventory-table-and-carousel.png" width="600px" alt="inventory-table-and-carousel">
 
-![c1](assets/images/wireframes-admin/c1.png)
+**Inventario vacío**  
+Pantalla mostrada cuando aún no se ha registrado ningún producto en el inventario.  
+<img src="assets/images/cap4/desktop_wireframes_admin/empty-inventory.png" width="600px" alt="empty-inventory">
 
-![c2](assets/images/wireframes-admin/c2.png)
+**Crear insumo**  
+Formulario para registrar un nuevo producto en el sistema.  
+<img src="assets/images/cap4/desktop_wireframes_admin/create-supply.png" width="600px" alt="create-supply">
 
-![d1](assets/images/wireframes-admin/d1.png)
+**Editar insumo**  
+Permite modificar los campos de un producto ya registrado.  
+<img src="assets/images/cap4/desktop_wireframes_admin/edit-supply.png" width="600px" alt="edit-supply">
 
-![d2](assets/images/wireframes-admin/d2.png)
+**Eliminar insumo**  
+Diálogo de confirmación para borrar un producto del inventario.  
+<img src="assets/images/cap4/desktop_wireframes_admin/delete-supply.png" width="600px" alt="delete-supply">
 
-![d3](assets/images/wireframes-admin/d3.png)
+**Agregar insumo al inventario (No perecible)**  
+Formulario para añadir productos no perecibles al inventario.  
+<img src="assets/images/cap4/desktop_wireframes_admin/add-supply-to-inventory.png" width="600px" alt="add-supply-to-inventory">
 
-![d4](assets/images/wireframes-admin/d4.png)
+**Agregar insumo al inventario (Perecible)**  
+Versión del formulario que permite incluir productos con fecha de expiración.  
+<img src="assets/images/cap4/desktop_wireframes_admin/add-supply-to-inventory2.png" width="600px" alt="add-supply-to-inventory2">
 
-![d5](assets/images/wireframes-admin/d5.png)
+---
 
-![d6](assets/images/wireframes-admin/d6.png)
+##### Recetas
 
-![d7](assets/images/wireframes-admin/d7.png)
+**Catálogo de recetas**  
+Pantalla que organiza las recetas disponibles por tipo o categoría.  
+<img src="assets/images/cap4/desktop_wireframes_admin/recipes-catalog.png" width="600px" alt="recipes-catalog">
 
-![d8](assets/images/wireframes-admin/d8.png)
+**Recetas vacías**  
+Vista mostrada cuando no se han registrado recetas aún.  
+<img src="assets/images/cap4/desktop_wireframes_admin/empty-recipes.png" width="600px" alt="empty-recipes">
 
-![e1](assets/images/wireframes-admin/e1.png)
+**Crear receta**  
+Formulario para crear una nueva receta asociando insumos.  
+<img src="assets/images/cap4/desktop_wireframes_admin/create-recipe.png" width="600px" alt="create-recipe">
 
-![e2](assets/images/wireframes-admin/e2.png)
+**Editar receta**  
+Permite actualizar los ingredientes y proporciones de una receta existente.  
+<img src="assets/images/cap4/desktop_wireframes_admin/edit-recipe.png" width="600px" alt="edit-recipe">
 
-![e3](assets/images/wireframes-admin/e3.png)
+**Editar receta (versión 2)**  
+Otra vista alternativa para editar una receta, con distinto orden visual.  
+<img src="assets/images/cap4/desktop_wireframes_admin/edit-recipe2.png" width="600px" alt="edit-recipe2">
 
-![e4](assets/images/wireframes-admin/e4.png)
+**Eliminar receta**  
+Pantalla de confirmación para borrar una receta del sistema.  
+<img src="assets/images/cap4/desktop_wireframes_admin/delete-recipe.png" width="600px" alt="delete-recipe">
 
-![e5](assets/images/wireframes-admin/e5.png)
+---
 
-![f1](assets/images/wireframes-admin/f1.png)
+##### Pedidos
 
-![g1](assets/images/wireframes-admin/g1.png)
+**Órdenes vacías**  
+Vista inicial cuando no se ha registrado ningún pedido.  
+<img src="assets/images/cap4/desktop_wireframes_admin/empty-orders.png" width="600px" alt="empty-orders">
 
-![g2](assets/images/wireframes-admin/g2.png)
+**Lista de órdenes con estado**  
+Organización de pedidos clasificados según su estado de atención.  
+<img src="assets/images/cap4/desktop_wireframes_admin/orders-list-with-status-by-order.png" width="600px" alt="orders-list-with-status-by-order">
 
-![g3](assets/images/wireframes-admin/g3.png)
+**Realizar pedido (popup)**  
+Diálogo para confirmar el envío de un nuevo pedido.  
+<img src="assets/images/cap4/desktop_wireframes_admin/order-now-dialog.png" width="600px" alt="order-now-dialog">
 
-![g4](assets/images/wireframes-admin/g4.png)
+**Seleccionar proveedor para pedido**  
+Pantalla para elegir a qué proveedor se dirigirá el pedido.  
+<img src="assets/images/cap4/desktop_wireframes_admin/order-now-supplier-list.png" width="600px" alt="order-now-supplier-list">
 
-![g5](assets/images/wireframes-admin/g5.png)
+**Comparar precios entre proveedores**  
+Permite revisar los precios ofrecidos por diferentes proveedores para un mismo producto.  
+<img src="assets/images/cap4/desktop_wireframes_admin/order-now-supply-price.png" width="600px" alt="order-now-supply-price">
 
-![g6](assets/images/wireframes-admin/g6.png)
+**Calificar proveedor tras entrega**  
+Formulario de evaluación tras completar un pedido.  
+<img src="assets/images/cap4/desktop_wireframes_admin/rate-your-order.png" width="600px" alt="rate-your-order">
 
-![h1](assets/images/wireframes-admin/h1.png)
+---
 
-![h2](assets/images/wireframes-admin/h2.png)
+##### Ventas
 
-![h3](assets/images/wireframes-admin/h3.png)
+**Registrar una venta**  
+Formulario para ingresar una nueva venta al sistema.  
+<img src="assets/images/cap4/desktop_wireframes_admin/register-a-sale.png" width="600px" alt="register-a-sale">
 
-![h4](assets/images/wireframes-admin/h4.png)
+**Registrar una venta (versión 2)**  
+Diseño alternativo del flujo de registro de ventas.  
+<img src="assets/images/cap4/desktop_wireframes_admin/register-a-sale2.png" width="600px" alt="register-a-sale2">
 
-![h5](assets/images/wireframes-admin/h5.png)
+**Venta registrada con éxito**  
+Mensaje de confirmación tras registrar una venta correctamente.  
+<img src="assets/images/cap4/desktop_wireframes_admin/sale-registered-sucessfully.png" width="600px" alt="sale-registered-sucessfully">
 
-![i1](assets/images/wireframes-admin/i1.png)
+**Actualizar inventario tras venta**  
+Interfaz para ajustar el stock automáticamente después de registrar una venta.  
+<img src="assets/images/cap4/desktop_wireframes_admin/update-inventory-from-a-sale-registered.png" width="600px" alt="update-inventory-from-a-sale-registered">
 
-![i2](assets/images/wireframes-admin/i2.png)
+**Detalle de venta**  
+Vista con la información completa de una venta específica.  
+<img src="assets/images/cap4/desktop_wireframes_admin/sale-detail.png" width="600px" alt="sale-detail">
 
-![i3](assets/images/wireframes-admin/i3.png)
+**Detalle de venta (versión 2)**  
+Diseño alternativo para mostrar el detalle de ventas.  
+<img src="assets/images/cap4/desktop_wireframes_admin/sale-detail2.png" width="600px" alt="sale-detail2">
 
-![i4](assets/images/wireframes-admin/i4.png)
+**Historial de ventas**  
+Lista de todas las ventas realizadas hasta la fecha.  
+<img src="assets/images/cap4/desktop_wireframes_admin/sales-historial.png" width="600px" alt="sales-historial">
 
-![i5](assets/images/wireframes-admin/i5.png)
+**Diálogo de confirmación de venta**  
+Confirmación final de que una venta fue registrada.  
+<img src="assets/images/cap4/desktop_wireframes_admin/registered-sales-dialog.png" width="600px" alt="registered-sales-dialog">
 
-![i6](assets/images/wireframes-admin/i6.png)
+---
 
-![i7](assets/images/wireframes-admin/i7.png)
+##### Proveedores
 
-![i8](assets/images/wireframes-admin/i8.png)
+**Lista de proveedores**  
+Pantalla que muestra a todos los proveedores registrados en el sistema.  
+<img src="assets/images/cap4/desktop_wireframes_admin/suppliers-list.png" width="600px" alt="suppliers-list">
 
-![i9](assets/images/wireframes-admin/i9.png)
+**Detalle del proveedor y catálogo**  
+Muestra los productos ofrecidos por un proveedor específico.  
+<img src="assets/images/cap4/desktop_wireframes_admin/supplier-detail-catalog.png" width="600px" alt="supplier-detail-catalog">
 
-![i10](assets/images/wireframes-admin/i10.png)
+**Vista proveedor individual**  
+Vista completa del perfil y datos relevantes del proveedor.  
+<img src="assets/images/cap4/desktop_wireframes_admin/supplier.png" width="600px" alt="supplier">
 
- **Segmento objetivo: Proveedores de Restaurantes (User Persona 2)**
+**Agregar proveedor**  
+Formulario para registrar un nuevo proveedor al sistema.  
+<img src="assets/images/cap4/desktop_wireframes_admin/add-supplier.png" width="600px" alt="add-supplier">
 
-![p1](assets/images/web-applications-wireframes-proveedor/gestion-perfil.png)
+---
 
-![p2](assets/images/web-applications-wireframes-proveedor/actualiza-datos.png)
+##### Alertas
 
-![p3](assets/images/web-applications-wireframes-proveedor/resumen.png)
+**Alertas registradas**  
+Pantalla donde se listan todas las alertas generadas por el sistema.  
+<img src="assets/images/cap4/desktop_wireframes_admin/registered-alerts.png" width="600px" alt="registered-alerts">
 
-![p4](assets/images/web-applications-wireframes-proveedor/listar-suscripciones.png)
+---
 
-![p5](assets/images/web-applications-wireframes-proveedor/comprar-suscripciones.png)
+##### Perfil
 
-![p6](assets/images/web-applications-wireframes-proveedor/inventario1.png)
+**Datos personales**  
+Sección donde el administrador puede modificar su nombre, correo, etc.  
+<img src="assets/images/cap4/desktop_wireframes_admin/profile-personal-data.png" width="600px" alt="profile-personal-data">
 
-![p7](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo.png)
+**Seguridad y privacidad**  
+Gestión de contraseña y autenticación.  
+<img src="assets/images/cap4/desktop_wireframes_admin/profile-security-privacy.png" width="600px" alt="profile-security-privacy">
 
-![p8](assets/images/web-applications-wireframes-proveedor/inventario-insumos-agregados.png)
+**Datos empresariales**  
+Incluye razón social, RUC y datos relacionados con la empresa.  
+<img src="assets/images/cap4/desktop_wireframes_admin/profile-business-data.png" width="600px" alt="profile-business-data">
 
-![p9](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-no-perecible.png)
+---
 
-![p10](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-perecible.png)
+##### Suscripciones
 
-![p11](assets/images/web-applications-wireframes-proveedor/inventario2.png)
+**Vista principal**  
+Pantalla principal del módulo de suscripción, mostrando el plan actual.  
+<img src="assets/images/cap4/desktop_wireframes_admin/subscriptions.png" width="600px" alt="subscriptions">
 
-![p12](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-no-perecible.png)
+**Detalles de suscripción**  
+Permite ver el historial de pagos y cambiar de plan.  
+<img src="assets/images/cap4/desktop_wireframes_admin/subscriptions2.png" width="600px" alt="subscriptions2">
 
-![p13](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-perecible.png)
+---
 
-![p14](assets/images/web-applications-wireframes-proveedor/inventario-eliminar-insumo.png)
+##### Resumen general
 
-![p15](assets/images/web-applications-wireframes-proveedor/inventario3.png)
+**Dashboard / Summary**  
+Vista que resume las principales métricas operativas del sistema.  
+<img src="assets/images/cap4/desktop_wireframes_admin/summary.png" width="600px" alt="summary">
 
-![p16](assets/images/web-applications-wireframes-proveedor/alertas.png)
+#### Versión Desktop Wireframes - Proveedores
 
-![p17](assets/images/web-applications-wireframes-proveedor/ordenes.png)
+---
 
-![p18](assets/images/web-applications-wireframes-proveedor/ordenes-detalle.png)
+##### Inventario
 
-![p19](assets/images/web-applications-wireframes-proveedor/orden-aceptada.png)
+**Inventario vacío con carrusel**  
+Vista cuando el proveedor aún no tiene productos registrados. Incluye un carrusel con sugerencias.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/carousel-and-empty-inventory.png" width="600px" alt="carousel-and-empty-inventory">
 
-![p20](assets/images/web-applications-wireframes-proveedor/orden-rechazada.png)
+**Inventario con tabla y carrusel**  
+Vista organizada con listado de productos y carrusel de navegación.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/carousel-and-inventory-table.png" width="600px" alt="carousel-and-inventory-table">
 
-![p21](assets/images/web-applications-wireframes-proveedor/calificaciones.png)
+**Crear producto**  
+Formulario base para agregar un nuevo insumo al sistema.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/create-supply.png" width="600px" alt="create-supply">
 
-#### Versión Mobile Web Browser
+**Agregar producto no perecible**  
+Formulario para registrar insumos sin fecha de expiración.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/add-supply-not-perishable-inventory.png" width="600px" alt="add-supply-not-perishable-inventory">
 
-**Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+**Agregar producto perecible**  
+Formulario para registrar productos que requieren control de caducidad.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/add-supply-perishable-inventory.png" width="600px" alt="add-supply-perishable-inventory">
 
-**Perfil**
+**Editar producto no perecible**  
+Permite actualizar insumos sin fecha de expiración.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/edit-supply-not-perishable.png" width="600px" alt="edit-supply-not-perishable">
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/1.png)
+**Editar producto perecible**  
+Permite modificar productos que requieren control de fecha.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/edit-supply-perishable.png" width="600px" alt="edit-supply-perishable">
 
-**Suscripciones**
+**Eliminar producto**  
+Pantalla de confirmación para eliminar un producto del inventario.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/delete-supply.png" width="600px" alt="delete-supply">
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/2.png)
-`<br/>`
+---
 
-**Resumen**
+##### Pedidos
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/3.png)
-`<br/>`
+**Órdenes vacías desde restaurantes**  
+Vista inicial cuando no se han recibido pedidos aún.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/empty-orders-from-restaurants.png" width="600px" alt="empty-orders-from-restaurants">
 
-**Inventario**
+**Lista de pedidos con estado**  
+Vista organizada de los pedidos recibidos por estado (nuevo, en proceso, entregado).  
+<img src="assets/images/cap4/desktop_wireframes_supplier/orders-list.png" width="600px" alt="orders-list">
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/4.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/5.png)
-`<br/>`
+**Filtrar pedidos por nuevos y en proceso**  
+Interfaz para ordenar y filtrar los pedidos recibidos por estado.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/filter-orders-by-new-requests-order-and-mine.png" width="600px" alt="filter-orders">
 
-**Provedores**
+**Mis pedidos ordenados por estado de envío**  
+Vista de pedidos enviados, ordenados según su progreso logístico.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/my-orders-table-sort-by-status-of-shipping.png" width="600px" alt="my-orders">
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/6.png)
-`<br/>`
+**Cancelar pedido**  
+Confirmación para cancelar un pedido pendiente.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/cancel-order.png" width="600px" alt="cancel-order">
 
-**Alertas**
+**Gestionar pedido – seguimiento**  
+Permite actualizar el estado de envío de un pedido.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/manage-order-to-track.png" width="600px" alt="manage-order-to-track">
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/7.png)
-`<br/>`
+**Gestionar pedido – establecer fecha y hora**  
+Formulario para indicar cuándo llegará el pedido.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/manage-order-set-arrive-time.png" width="600px" alt="set-arrive-time">
 
-**Pedidos**
+**Actualizar fecha y hora de entrega**  
+Permite editar los datos de entrega previamente registrados.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/update-order-set-date-and-hour.png" width="600px" alt="update-delivery-time">
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/8.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/9.png)
-`<br/>`
+**Actualizar pedido**  
+Formulario para modificar los productos y cantidades de un pedido.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/update-order.png" width="600px" alt="update-order">
 
-**Recetas**
+**Actualizar pedido ya aprobado**  
+Permite realizar cambios en un pedido incluso si ya fue aceptado.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/update-recently-aproved-order.png" width="600px" alt="update-approved-order">
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/10.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/11.png)
-`<br/>`
+**Dialog de pedido entregado**  
+Pantalla que confirma la entrega de un pedido.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/dialog-order-delivered.png" width="600px" alt="order-delivered">
 
-**Ventas**
+---
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/12.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/13.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/14.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/15.png)
-`<br/>`
+##### Alertas
 
-**Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
+**Alertas registradas**  
+Listado de alertas enviadas por restaurantes al proveedor.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/registered-alerts.png" width="600px" alt="registered-alerts">
 
-**Perfil**
+---
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/1.png)
-`<br/>`
+##### Perfil
 
-**Suscripciones**
+**Datos personales**  
+Vista donde el proveedor puede actualizar sus datos personales.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/profile-personal-data.png" width="600px" alt="profile-personal-data">
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/2.png)
-`<br/>`
+**Seguridad y privacidad**  
+Pantalla para cambiar la contraseña y activar medidas de seguridad.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/profile-security-privacy.png" width="600px" alt="profile-security-privacy">
 
-**Resumen**
+**Datos empresariales**  
+Información de la empresa del proveedor (nombre comercial, RUC, dirección, etc).  
+<img src="assets/images/cap4/desktop_wireframes_supplier/profile-business-data.png" width="600px" alt="profile-business-data">
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/3.png)
-`<br/>`
+---
 
-**Inventario**
+##### Suscripciones
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/4.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/5.png)
-`<br/>`
+**Suscripciones**  
+Muestra el plan actual del proveedor y opciones para actualizar.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/subscriptions.png" width="600px" alt="subscriptions">
 
-**Alertas**
+**Pagos de suscripción**  
+Historial y métodos de pago del proveedor respecto a su plan.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/subscriptions-payments.png" width="600px" alt="subscriptions-payments">
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/6.png)
-`<br/>`
+---
 
-**Ordenes**
+##### Calificaciones
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/7.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/8.png)
-`<br/>`
+**Reseñas de restaurantes al proveedor**  
+Vista donde el proveedor puede revisar las evaluaciones que recibió de los restaurantes.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/reviews-by-restaurants-to-supplier.png" width="600px" alt="reviews-by-restaurants-to-supplier">
 
-**Calificaciones**
+---
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/9.png)
-`<br/>`
+##### Resumen general
+
+**Dashboard / Summary**  
+Vista principal con métricas de pedidos, calificaciones, y estado de suscripción.  
+<img src="assets/images/cap4/desktop_wireframes_supplier/summary.png" width="600px" alt="summary">
+
+#### Versión Mobile Web Browser - Administradores de Restaurante
+
+---
+
+##### Inventario
+
+**Listado y vista general del inventario**  
+Pantallas del módulo de Inventario para administrador: permite visualizar la lista de insumos, editar cantidades y registrar nuevos productos.  
+<img src="assets/images/cap4/mobile_wireframes/w_admin_inventory.png" width="600px" alt="w_admin_inventory">
+
+**Formulario de creación y edición de insumos**  
+Pantallas del flujo de edición y creación de inventario: muestra formularios detallados con campos como nombre, unidad, categoría y fecha.  
+<img src="assets/images/cap4/mobile_wireframes/w_admin_inventory2.png" width="600px" alt="w_admin_inventory2">
+
+---
+
+##### Pedidos
+
+**Vista general de pedidos**  
+Pantallas del módulo de Pedidos para administrador: lista de pedidos, detalles individuales, y estado del pedido.  
+<img src="assets/images/cap4/mobile_wireframes/w_admin_orders.png" width="600px" alt="w_admin_orders">
+
+**Edición de pedido y asignación de proveedor**  
+Pantallas complementarias del flujo de pedidos: edición de pedidos, selección de proveedores y fechas estimadas.  
+<img src="assets/images/cap4/mobile_wireframes/w_admin_orders2.png" width="600px" alt="w_admin_orders2">
+
+---
+
+##### Recetas
+
+**Listado de recetas**  
+Pantallas del módulo de Recetas: listado de recetas con detalles sobre los insumos requeridos y porciones.  
+<img src="assets/images/cap4/mobile_wireframes/w_admin_recipes.png" width="600px" alt="w_admin_recipes">
+
+**Formulario de creación y edición de recetas**  
+Flujo de creación y edición de recetas: permite agregar o editar insumos y cantidades requeridas por receta.  
+<img src="assets/images/cap4/mobile_wireframes/w_admin_recipes2.png" width="600px" alt="w_admin_recipes2">
+
+---
+
+##### Ventas
+
+**Historial de ventas**  
+Pantallas del módulo de Ventas: muestra historial de ventas, métricas clave y búsqueda por rango de fechas.  
+<img src="assets/images/cap4/mobile_wireframes/w_admin_sales.png" width="600px" alt="w_admin_sales">
+
+**Confirmación de eliminación de venta**  
+Popup de advertencia para confirmar acciones destructivas en la sección de ventas.  
+<img src="assets/images/cap4/mobile_wireframes/w_admin_sales2.png" width="600px" alt="w_admin_sales2">
+
+---
+
+##### Suscripciones
+
+**Gestión de planes de suscripción**  
+Pantallas de Suscripciones: incluye vista de planes activos, cambios de plan y pagos asociados.  
+<img src="assets/images/cap4/mobile_wireframes/w_admin_subs.png" width="600px" alt="w_admin_subs">
+
+---
+
+##### Perfil
+
+**Configuración y datos del perfil**  
+Pantallas del perfil del administrador: incluye información personal, configuración de cuenta y opciones de cerrar sesión.  
+<img src="assets/images/cap4/mobile_wireframes/w_admin_profile.png" width="600px" alt="w_admin_profile">
+
+---
+
+##### Resumen / Dashboard
+
+**Panel principal con métricas clave**  
+Dashboard/resumen para administrador: muestra órdenes pendientes, alertas y notificaciones clave.  
+<img src="assets/images/cap4/mobile_wireframes/w_admin_summary.png" width="600px" alt="w_admin_summary">
+
+---
+
+#### Versión Mobile Web Browser - Proveedores
+
+##### Inventario
+
+**Gestión de productos ofrecidos**  
+Pantallas de Inventario para proveedor: gestión de productos ofrecidos, precios, y actualización de stock.  
+<img src="assets/images/cap4/mobile_wireframes/w_supplier_inventory.png" width="600px" alt="w_supplier_inventory">
+
+---
+
+##### Pedidos
+
+**Lista y estado de pedidos recibidos**  
+Pedidos para proveedores: lista de pedidos realizados por restaurantes, detalles de cada uno y fechas.  
+<img src="assets/images/cap4/mobile_wireframes/w_supplier_orders.png" width="600px" alt="w_supplier_orders">
+
+**Detalles de pedido**  
+Pantallas de gestión de pedidos: incluye opciones para editar, cancelar o confirmar pedidos.  
+<img src="assets/images/cap4/mobile_wireframes/w_supplier_orders2.png" width="600px" alt="w_supplier_orders2">
+
+**Actualización de estado de pedidos**  
+Actualización de estado de pedidos: permite al proveedor actualizar el estado de envío y entrega.  
+<img src="assets/images/cap4/mobile_wireframes/w_supplier_orders3.png" width="600px" alt="w_supplier_orders3">
+
+---
+
+##### Alertas
+
+**Alertas registradas**  
+Pantallas de Alertas para proveedores: incluye alertas generadas por restaurantes y opciones de respuesta.  
+<img src="assets/images/cap4/mobile_wireframes/w_supplier_notification.png" width="600px" alt="w_supplier_alerts">
+
+---
+
+##### Calificaciones
+
+**Calificaciones de restaurantes**  
+Pantallas de calificaciones: permite al proveedor revisar las evaluaciones y comentarios de los restaurantes.  
+<img src="assets/images/cap4/mobile_wireframes/w_supplier_reviews.png" width="600px" alt="w_supplier_reviews">
+
+---
+
+##### Resumen / Dashboard
+
+**Panel principal con métricas clave**  
+Pantallas de Resumen para proveedores: incluye métricas de clientes frecuentes, ganancias y alertas.  
+<img src="assets/images/cap4/mobile_wireframes/w_supplier_summary.png" width="600px" alt="w_supplier_summary">
+
+---
+
+##### Perfil
+
+**Configuración del perfil del proveedor**  
+Perfil del proveedor: información personal, métricas de ventas, y accesos rápidos a historial.  
+<img src="assets/images/cap4/mobile_wireframes/w_supplier_profile.png" width="600px" alt="w_supplier_profile">
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
@@ -888,192 +1163,152 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ##### Inventario
 
 **Inventario vacío**
-Vista mostrada cuando aún no se han registrado productos en el sistema.
-![empty-inventory](assets/images/cap4/desktop_mockup_admin/empty-inventory.png)
+Vista mostrada cuando aún no se han registrado productos en el sistema. <img src="assets/images/cap4/desktop_mockup_admin/empty-inventory.png" alt="empty-inventory" width="600px">
 
 **Tabla de inventario con carrusel**
-Visualización organizada de productos junto a un carrusel informativo.
-![inventory-table-and-carousel](assets/images/cap4/desktop_mockup_admin/inventory-table-and-carousel.png)
+Visualización organizada de productos junto a un carrusel informativo. <img src="assets/images/cap4/desktop_mockup_admin/inventory-table-and-carousel.png" alt="inventory-table-and-carousel" width="600px">
 
 **Agregar insumo al inventario**
-Formulario para añadir un nuevo producto al inventario.
-![add-supply-to-inventory](assets/images/cap4/desktop_mockup_admin/add-supply-to-inventory.png)
+Formulario para añadir un nuevo producto al inventario. <img src="assets/images/cap4/desktop_mockup_admin/add-supply-to-inventory.png" alt="add-supply-to-inventory" width="600px">
 
 **Agregar insumo al inventario (variante 2)**
-Versión alternativa del formulario de adición de producto.
-![add-supply-to-inventory2](assets/images/cap4/desktop_mockup_admin/add-supply-to-inventory2.png)
+Versión alternativa del formulario de adición de producto. <img src="assets/images/cap4/desktop_mockup_admin/add-supply-to-inventory2.png" alt="add-supply-to-inventory2" width="600px">
 
 **Crear insumo**
-Formulario base para registrar un nuevo insumo.
-![create-supply](assets/images/cap4/desktop_mockup_admin/create-supply.png)
+Formulario base para registrar un nuevo insumo. <img src="assets/images/cap4/desktop_mockup_admin/create-supply.png" alt="create-supply" width="600px">
 
 **Crear insumo (versión 2)**
-Diseño alternativo para registrar productos.
-![create-supply2](assets/images/cap4/desktop_mockup_admin/create-supply2.png)
+Diseño alternativo para registrar productos. <img src="assets/images/cap4/desktop_mockup_admin/create-supply2.png" alt="create-supply2" width="600px">
 
 **Editar insumo**
-Formulario para modificar información de un producto existente.
-![edit-supply](assets/images/cap4/desktop_mockup_admin/edit-supply.png)
+Formulario para modificar información de un producto existente. <img src="assets/images/cap4/desktop_mockup_admin/edit-supply.png" alt="edit-supply" width="600px">
 
 **Eliminar insumo**
-Diálogo de confirmación para eliminar un insumo del sistema.
-![delete-supply](assets/images/cap4/desktop_mockup_admin/delete-supply.png)
+Diálogo de confirmación para eliminar un insumo del sistema. <img src="assets/images/cap4/desktop_mockup_admin/delete-supply.png" alt="delete-supply" width="600px">
 
 ---
 
 ##### Recetas
 
 **Catálogo de recetas**
-Pantalla principal con el listado completo de recetas registradas.
-![recipes-catalog](assets/images/cap4/desktop_mockup_admin/recipes-catalog.png)
+Pantalla principal con el listado completo de recetas registradas. <img src="assets/images/cap4/desktop_mockup_admin/recipes-catalog.png" alt="recipes-catalog" width="600px">
 
 **Recetas vacías**
-Pantalla mostrada cuando no hay recetas registradas.
-![empty-recipes](assets/images/cap4/desktop_mockup_admin/empty-recipes.png)
+Pantalla mostrada cuando no hay recetas registradas. <img src="assets/images/cap4/desktop_mockup_admin/empty-recipes.png" alt="empty-recipes" width="600px">
 
 **Crear receta**
-Formulario de creación de recetas con insumos seleccionables.
-![create-recipe](assets/images/cap4/desktop_mockup_admin/create-recipe.png)
+Formulario de creación de recetas con insumos seleccionables. <img src="assets/images/cap4/desktop_mockup_admin/create-recipe.png" alt="create-recipe" width="600px">
 
 **Crear receta (versión 2)**
-Otra versión del formulario de registro de recetas.
-![create-recipe2](assets/images/cap4/desktop_mockup_admin/create-recipe2.png)
+Otra versión del formulario de registro de recetas. <img src="assets/images/cap4/desktop_mockup_admin/create-recipe2.png" alt="create-recipe2" width="600px">
 
 **Editar receta**
-Permite modificar las cantidades e ingredientes de una receta existente.
-![edit-recipe](assets/images/cap4/desktop_mockup_admin/edit-recipe.png)
+Permite modificar las cantidades e ingredientes de una receta existente. <img src="assets/images/cap4/desktop_mockup_admin/edit-recipe.png" alt="edit-recipe" width="600px">
 
 **Editar receta (versión 2)**
-Variación en la estructura del formulario de edición.
-![edit-recipe2](assets/images/cap4/desktop_mockup_admin/edit-recipe2.png)
+Variación en la estructura del formulario de edición. <img src="assets/images/cap4/desktop_mockup_admin/edit-recipe2.png" alt="edit-recipe2" width="600px">
 
 **Eliminar receta**
-Pantalla de confirmación para eliminar una receta del sistema.
-![delete-recipe](assets/images/cap4/desktop_mockup_admin/delete-recipe.png)
+Pantalla de confirmación para eliminar una receta del sistema. <img src="assets/images/cap4/desktop_mockup_admin/delete-recipe.png" alt="delete-recipe" width="600px">
 
 ---
 
 ##### Ventas
 
 **Registrar una venta**
-Formulario principal para registrar ventas con productos seleccionados.
-![register-a-sale](assets/images/cap4/desktop_mockup_admin/register-a-sale.png)
+Formulario principal para registrar ventas con productos seleccionados. <img src="assets/images/cap4/desktop_mockup_admin/register-a-sale.png" alt="register-a-sale" width="600px">
 
 **Registrar una venta (versión 2)**
-Diseño alternativo para el flujo de registro de ventas.
-![register-a-sale2](assets/images/cap4/desktop_mockup_admin/register-a-sale2.png)
+Diseño alternativo para el flujo de registro de ventas. <img src="assets/images/cap4/desktop_mockup_admin/register-a-sale2.png" alt="register-a-sale2" width="600px">
 
 **Venta registrada con éxito**
-Confirmación visual de que una venta fue ingresada correctamente.
-![sale-registered-sucessfully](assets/images/cap4/desktop_mockup_admin/sale-registered-sucessfully.png)
+Confirmación visual de que una venta fue ingresada correctamente. <img src="assets/images/cap4/desktop_mockup_admin/sale-registered-sucessfully.png" alt="sale-registered-sucessfully" width="600px">
 
 **Actualizar inventario desde una venta**
-Interfaz para actualizar automáticamente los stocks luego de vender.
-![update-inventory-from-a-sale-registered](assets/images/cap4/desktop_mockup_admin/update-inventory-from-a-sale-registered.png)
+Interfaz para actualizar automáticamente los stocks luego de vender. <img src="assets/images/cap4/desktop_mockup_admin/update-inventory-from-a-sale-registered.png" alt="update-inventory-from-a-sale-registered" width="600px">
 
 **Detalle de venta**
-Vista ampliada de la información de una venta específica.
-![sale-detail](assets/images/cap4/desktop_mockup_admin/sale-detail.png)
+Vista ampliada de la información de una venta específica. <img src="assets/images/cap4/desktop_mockup_admin/sale-detail.png" alt="sale-detail" width="600px">
 
 **Detalle de venta (versión 2)**
-Diseño alternativo de la pantalla de detalle de venta.
-![sale-detail2](assets/images/cap4/desktop_mockup_admin/sale-detail2.png)
+Diseño alternativo de la pantalla de detalle de venta. <img src="assets/images/cap4/desktop_mockup_admin/sale-detail2.png" alt="sale-detail2" width="600px">
 
 **Historial de ventas**
-Listado general de todas las ventas registradas.
-![sales-historial](assets/images/cap4/desktop_mockup_admin/sales-historial.png)
+Listado general de todas las ventas registradas. <img src="assets/images/cap4/desktop_mockup_admin/sales-historial.png" alt="sales-historial" width="600px">
 
 **Diálogo de confirmación de venta**
-Ventana emergente que confirma el registro de una nueva venta.
-![registered-sales-dialog](assets/images/cap4/desktop_mockup_admin/registered-sales-dialog.png)
+Ventana emergente que confirma el registro de una nueva venta. <img src="assets/images/cap4/desktop_mockup_admin/registered-sales-dialog.png" alt="registered-sales-dialog" width="600px">
 
 ---
 
 ##### Pedidos
 
 **Órdenes vacías**
-Pantalla mostrada cuando no hay órdenes registradas.
-![empty-orders](assets/images/cap4/desktop_mockup_admin/empty-orders.png)
+Pantalla mostrada cuando no hay órdenes registradas. <img src="assets/images/cap4/desktop_mockup_admin/empty-orders.png" alt="empty-orders" width="600px">
 
 **Listado de órdenes por estado**
-Organización visual de pedidos clasificados por su estado actual.
-![orders-list-with-status-by-order](assets/images/cap4/desktop_mockup_admin/orders-list-with-status-by-order.png)
+Organización visual de pedidos clasificados por su estado actual. <img src="assets/images/cap4/desktop_mockup_admin/orders-list-with-status-by-order.png" alt="orders-list-with-status-by-order" width="600px">
 
 **Diálogo para confirmar pedido**
-Pantalla emergente para validar la creación de una orden.
-![order-now-dialog](assets/images/cap4/desktop_mockup_admin/order-now-dialog.png)
+Pantalla emergente para validar la creación de una orden. <img src="assets/images/cap4/desktop_mockup_admin/order-now-dialog.png" alt="order-now-dialog" width="600px">
 
 **Lista de proveedores para realizar pedido**
-Permite seleccionar el proveedor y revisar detalles del pedido.
-![order-now-supplier-list](assets/images/cap4/desktop_mockup_admin/order-now-supplier-list.png)
+Permite seleccionar el proveedor y revisar detalles del pedido. <img src="assets/images/cap4/desktop_mockup_admin/order-now-supplier-list.png" alt="order-now-supplier-list" width="600px">
 
 **Comparativa de precios por proveedor**
-Interfaz para comparar precios de productos entre diferentes proveedores.
-![order-now-supply-price](assets/images/cap4/desktop_mockup_admin/order-now-supply-price.png)
+Interfaz para comparar precios de productos entre diferentes proveedores. <img src="assets/images/cap4/desktop_mockup_admin/order-now-supply-price.png" alt="order-now-supply-price" width="600px">
 
 **Calificar proveedor tras pedido**
-Formulario para evaluar el servicio recibido por parte del proveedor.
-![rate-your-order](assets/images/cap4/desktop_mockup_admin/rate-your-order.png)
+Formulario para evaluar el servicio recibido por parte del proveedor. <img src="assets/images/cap4/desktop_mockup_admin/rate-your-order.png" alt="rate-your-order" width="600px">
 
 ---
 
 ##### Proveedores
 
 **Agregar proveedor**
-Formulario para registrar un nuevo proveedor.
-![add-supplier](assets/images/cap4/desktop_mockup_admin/add-supplier.png)
+Formulario para registrar un nuevo proveedor. <img src="assets/images/cap4/desktop_mockup_admin/add-supplier.png" alt="add-supplier" width="600px">
 
 **Proveedores registrados**
-Pantalla con listado general de proveedores activos en el sistema.
-![suppliers-list](assets/images/cap4/desktop_mockup_admin/suppliers-list.png)
+Pantalla con listado general de proveedores activos en el sistema. <img src="assets/images/cap4/desktop_mockup_admin/suppliers-list.png" alt="suppliers-list" width="600px">
 
 **Detalle del catálogo del proveedor**
-Vista de los productos ofrecidos por un proveedor específico.
-![supplier-detail-catalog](assets/images/cap4/desktop_mockup_admin/supplier-detail-catalog.png)
+Vista de los productos ofrecidos por un proveedor específico. <img src="assets/images/cap4/desktop_mockup_admin/supplier-detail-catalog.png" alt="supplier-detail-catalog" width="600px">
 
 **Proveedor vacío**
-Pantalla mostrada cuando no se han registrado proveedores aún.
-![empty-supplier](assets/images/cap4/desktop_mockup_admin/empty-supplier.png)
+Pantalla mostrada cuando no se han registrado proveedores aún. <img src="assets/images/cap4/desktop_mockup_admin/empty-supplier.png" alt="empty-supplier" width="600px">
 
 ---
 
 ##### Perfil
 
 **Datos personales**
-Formulario para editar información básica del administrador.
-![profile-personal-data](assets/images/cap4/desktop_mockup_admin/profile-personal-data.png)
+Formulario para editar información básica del administrador. <img src="assets/images/cap4/desktop_mockup_admin/profile-personal-data.png" alt="profile-personal-data" width="600px">
 
 **Seguridad y privacidad**
-Configuración para modificar contraseña y seguridad de cuenta.
-![profile-security-privacy](assets/images/cap4/desktop_mockup_admin/profile-security-privacy.png)
+Configuración para modificar contraseña y seguridad de cuenta. <img src="assets/images/cap4/desktop_mockup_admin/profile-security-privacy.png" alt="profile-security-privacy" width="600px">
 
 **Datos empresariales**
-Datos fiscales y comerciales del administrador del restaurante.
-![profile-business-data](assets/images/cap4/desktop_mockup_admin/profile-business-data.png)
+Datos fiscales y comerciales del administrador del restaurante. <img src="assets/images/cap4/desktop_mockup_admin/profile-business-data.png" alt="profile-business-data" width="600px">
 
 ---
 
 ##### Suscripciones
 
 **Vista general de suscripción**
-Resumen del plan activo, duración, y características.
-![subscriptions](assets/images/cap4/desktop_mockup_admin/subscriptions.png)
+Resumen del plan activo, duración, y características. <img src="assets/images/cap4/desktop_mockup_admin/subscriptions.png" alt="subscriptions" width="600px">
 
 **Suscripciones (versión 2)**
-Detalle con historial de pagos y opciones de renovación.
-![subscriptions2](assets/images/cap4/desktop_mockup_admin/subscriptions2.png)
+Detalle con historial de pagos y opciones de renovación. <img src="assets/images/cap4/desktop_mockup_admin/subscriptions2.png" alt="subscriptions2" width="600px">
 
 ---
 
 ##### Resumen general
 
 **Panel resumen del sistema**
-Vista central del sistema con KPIs, alertas y estado general.
-![summary](assets/images/cap4/desktop_mockup_admin/summary.png)
+Vista central del sistema con KPIs, alertas y estado general. <img src="assets/images/cap4/desktop_mockup_admin/summary.png" alt="summary" width="600px">
 
 **Alertas registradas**
-Pantalla que muestra las alertas emitidas por el sistema.
-![registered-alerts](assets/images/cap4/desktop_mockup_admin/registered-alerts.png)
+Pantalla que muestra las alertas emitidas por el sistema. <img src="assets/images/cap4/desktop_mockup_admin/registered-alerts.png" alt="registered-alerts" width="600px">
 
 #### Versión Desktop Mockups - Proveedor
 
@@ -1082,140 +1317,111 @@ Pantalla que muestra las alertas emitidas por el sistema.
 ##### Inventario
 
 **Inventario vacío**
-Pantalla mostrada cuando el proveedor aún no tiene productos registrados.
-![empty-inventory](assets/images/cap4/desktop_mockup_supplier/empty-inventory.png)
+Pantalla mostrada cuando el proveedor aún no tiene productos registrados. <img src="assets/images/cap4/desktop_mockup_supplier/empty-inventory.png" alt="empty-inventory" width="600px">
 
 **Inventario con tabla y carrusel**
-Vista que combina listado de productos con carrusel informativo para una navegación más rica.
-![carousel-and-inventory-table](assets/images/cap4/desktop_mockup_supplier/carousel-and-inventory-table.png)
+Vista que combina listado de productos con carrusel informativo para una navegación más rica. <img src="assets/images/cap4/desktop_mockup_supplier/carousel-and-inventory-table.png" alt="carousel-and-inventory-table" width="600px">
 
 **Inventario vacío con carrusel**
-Variante en la que el sistema aún no tiene insumos, pero se muestran sugerencias en carrusel.
-![carousel-and-empty-inventory](assets/images/cap4/desktop_mockup_supplier/carousel-and-empty-inventory.png)
+Variante en la que el sistema aún no tiene insumos, pero se muestran sugerencias en carrusel. <img src="assets/images/cap4/desktop_mockup_supplier/carousel-and-empty-inventory.png" alt="carousel-and-empty-inventory" width="600px">
 
 **Agregar producto no perecible**
-Formulario para registrar insumos sin fecha de caducidad.
-![add-supply-not-perishable-inventory](assets/images/cap4/desktop_mockup_supplier/add-supply-not-perishable-inventory.png)
+Formulario para registrar insumos sin fecha de caducidad. <img src="assets/images/cap4/desktop_mockup_supplier/add-supply-not-perishable-inventory.png" alt="add-supply-not-perishable-inventory" width="600px">
 
 **Agregar producto perecible**
-Formulario para productos que requieren fecha de expiración.
-![add-supply-perishable-inventory](assets/images/cap4/desktop_mockup_supplier/add-supply-perishable-inventory.png)
+Formulario para productos que requieren fecha de expiración. <img src="assets/images/cap4/desktop_mockup_supplier/add-supply-perishable-inventory.png" alt="add-supply-perishable-inventory" width="600px">
 
 **Crear producto**
-Formulario básico para añadir productos al inventario.
-![create-supply](assets/images/cap4/desktop_mockup_supplier/create-supply.png)
+Formulario básico para añadir productos al inventario. <img src="assets/images/cap4/desktop_mockup_supplier/create-supply.png" alt="create-supply" width="600px">
 
 **Editar producto no perecible**
-Pantalla para modificar productos sin fecha de caducidad.
-![edit-supply-not-perishable](assets/images/cap4/desktop_mockup_supplier/edit-supply-not-perishable.png)
+Pantalla para modificar productos sin fecha de caducidad. <img src="assets/images/cap4/desktop_mockup_supplier/edit-supply-not-perishable.png" alt="edit-supply-not-perishable" width="600px">
 
 **Editar producto no perecible (variante 2)**
-Otra versión del formulario de edición para productos sin vencimiento.
-![edit-supply-not-perishable2](assets/images/cap4/desktop_mockup_supplier/edit-supply-not-perishable2.png)
+Otra versión del formulario de edición para productos sin vencimiento. <img src="assets/images/cap4/desktop_mockup_supplier/edit-supply-not-perishable2.png" alt="edit-supply-not-perishable2" width="600px">
 
 **Editar producto perecible**
-Pantalla para modificar productos que manejan fechas límite.
-![edit-supply-perishable](assets/images/cap4/desktop_mockup_supplier/edit-supply-perishable.png)
+Pantalla para modificar productos que manejan fechas límite. <img src="assets/images/cap4/desktop_mockup_supplier/edit-supply-perishable.png" alt="edit-supply-perishable" width="600px">
 
 **Eliminar producto**
-Pantalla de confirmación para eliminar un producto del inventario.
-![delete-supply](assets/images/cap4/desktop_mockup_supplier/delete-supply.png)
+Pantalla de confirmación para eliminar un producto del inventario. <img src="assets/images/cap4/desktop_mockup_supplier/delete-supply.png" alt="delete-supply" width="600px">
 
 ---
 
 ##### Pedidos
 
 **Órdenes vacías desde restaurantes**
-Pantalla mostrada cuando aún no se han recibido pedidos.
-![empty-orders-from-restaurants](assets/images/cap4/desktop_mockup_supplier/empty-orders-from-restaurants.png)
+Pantalla mostrada cuando aún no se han recibido pedidos. <img src="assets/images/cap4/desktop_mockup_supplier/empty-orders-from-restaurants.png" alt="empty-orders-from-restaurants" width="600px">
 
 **Lista de pedidos recibidos**
-Listado de pedidos con columnas de información clave como fecha y estado.
-![orders-list](assets/images/cap4/desktop_mockup_supplier/orders-list.png)
+Listado de pedidos con columnas de información clave como fecha y estado. <img src="assets/images/cap4/desktop_mockup_supplier/orders-list.png" alt="orders-list" width="600px">
 
 **Filtrar pedidos por estado**
-Interfaz para clasificar pedidos por su estado de avance.
-![filter-orders-by-new-requests-order-and-processing](assets/images/cap4/desktop_mockup_supplier/filter-orders-by-new-requests-order-and-mine.png)
+Interfaz para clasificar pedidos por su estado de avance. <img src="assets/images/cap4/desktop_mockup_supplier/filter-orders-by-new-requests-order-and-mine.png" alt="filter-orders-by-status" width="600px">
 
 **Mis pedidos organizados por estado de envío**
-Lista de pedidos organizados por su estado logístico.
-![my-orders-table-sort-by-status-of-shipping](assets/images/cap4/desktop_mockup_supplier/my-orders-table-sort-by-status-of-shipping.png)
+Lista de pedidos organizados por su estado logístico. <img src="assets/images/cap4/desktop_mockup_supplier/my-orders-table-sort-by-status-of-shipping.png" alt="my-orders-table-sort-by-status-of-shipping" width="600px">
 
 **Cancelar pedido**
-Diálogo de confirmación para anular un pedido pendiente.
-![cancel-order](assets/images/cap4/desktop_mockup_supplier/cancel-order.png)
+Diálogo de confirmación para anular un pedido pendiente. <img src="assets/images/cap4/desktop_mockup_supplier/cancel-order.png" alt="cancel-order" width="600px">
 
 **Actualizar pedido**
-Formulario completo para modificar un pedido activo.
-![update-order](assets/images/cap4/desktop_mockup_supplier/update-order.png)
+Formulario completo para modificar un pedido activo. <img src="assets/images/cap4/desktop_mockup_supplier/update-order.png" alt="update-order" width="600px">
 
 **Actualizar pedido ya aprobado**
-Permite hacer cambios menores a un pedido ya aceptado.
-![update-recently-aproved-order](assets/images/cap4/desktop_mockup_supplier/update-recently-aproved-order.png)
+Permite hacer cambios menores a un pedido ya aceptado. <img src="assets/images/cap4/desktop_mockup_supplier/update-recently-aproved-order.png" alt="update-recently-aproved-order" width="600px">
 
 **Asignar fecha y hora de entrega**
-Formulario para establecer cuándo se entregará el pedido.
-![update-order-set-date-and-hour](assets/images/cap4/desktop_mockup_supplier/update-order-set-date-and-hour.png)
+Formulario para establecer cuándo se entregará el pedido. <img src="assets/images/cap4/desktop_mockup_supplier/update-order-set-date-and-hour.png" alt="update-order-set-date-and-hour" width="600px">
 
 **Establecer tiempo estimado de llegada**
-Pantalla donde el proveedor indica la hora en que llegará el pedido.
-![manage-order-set-arrive-time](assets/images/cap4/desktop_mockup_supplier/manage-order-set-arrive-time.png)
+Pantalla donde el proveedor indica la hora en que llegará el pedido. <img src="assets/images/cap4/desktop_mockup_supplier/manage-order-set-arrive-time.png" alt="manage-order-set-arrive-time" width="600px">
 
 **Actualizar estado del pedido (seguimiento)**
-Flujo para cambiar el estado de entrega en tiempo real.
-![manage-order-to-track](assets/images/cap4/desktop_mockup_supplier/manage-order-to-track.png)
+Flujo para cambiar el estado de entrega en tiempo real. <img src="assets/images/cap4/desktop_mockup_supplier/manage-order-to-track.png" alt="manage-order-to-track" width="600px">
 
 **Diálogo de confirmación de entrega**
-Popup que confirma que un pedido fue entregado exitosamente.
-![dialog-order-delivered](assets/images/cap4/desktop_mockup_supplier/dialog-order-delivered.png)
+Popup que confirma que un pedido fue entregado exitosamente. <img src="assets/images/cap4/desktop_mockup_supplier/dialog-order-delivered.png" alt="dialog-order-delivered" width="600px">
 
 ---
 
 ##### Perfil
 
 **Datos personales del proveedor**
-Formulario para actualizar la información personal del proveedor.
-![profile-personal-data](assets/images/cap4/desktop_mockup_supplier/profile-personal-data.png)
+Formulario para actualizar la información personal del proveedor. <img src="assets/images/cap4/desktop_mockup_supplier/profile-personal-data.png" alt="profile-personal-data" width="600px">
 
 **Seguridad y privacidad**
-Configuraciones de contraseña y opciones de privacidad.
-![profile-security-privacy](assets/images/cap4/desktop_mockup_supplier/profile-security-privacy.png)
+Configuraciones de contraseña y opciones de privacidad. <img src="assets/images/cap4/desktop_mockup_supplier/profile-security-privacy.png" alt="profile-security-privacy" width="600px">
 
 **Datos del negocio**
-Información fiscal y legal de la empresa del proveedor.
-![profile-business-data](assets/images/cap4/desktop_mockup_supplier/profile-business-data.png)
+Información fiscal y legal de la empresa del proveedor. <img src="assets/images/cap4/desktop_mockup_supplier/profile-business-data.png" alt="profile-business-data" width="600px">
 
 ---
 
 ##### Suscripciones
 
 **Vista general de suscripciones**
-Pantalla que muestra el plan de suscripción activo.
-![subscriptions](assets/images/cap4/desktop_mockup_supplier/subscriptions.png)
+Pantalla que muestra el plan de suscripción activo. <img src="assets/images/cap4/desktop_mockup_supplier/subscriptions.png" alt="subscriptions" width="600px">
 
 **Historial de pagos y opciones de renovación**
-Pantalla para gestionar pagos y revisar detalles del plan.
-![subscriptions-payments](assets/images/cap4/desktop_mockup_supplier/subscriptions-payments.png)
+Pantalla para gestionar pagos y revisar detalles del plan. <img src="assets/images/cap4/desktop_mockup_supplier/subscriptions-payments.png" alt="subscriptions-payments" width="600px">
 
 ---
 
 ##### Calificaciones
 
 **Reseñas recibidas por restaurantes**
-Muestra las evaluaciones que los restaurantes han otorgado al proveedor.
-![reviews-by-restaurants-to-supplier](assets/images/cap4/desktop_mockup_supplier/reviews-by-restaurants-to-supplier.png)
+Muestra las evaluaciones que los restaurantes han otorgado al proveedor. <img src="assets/images/cap4/desktop_mockup_supplier/reviews-by-restaurants-to-supplier.png" alt="reviews-by-restaurants-to-supplier" width="600px">
 
 ---
 
 ##### Resumen general
 
 **Dashboard principal del proveedor**
-Vista general con métricas clave: pedidos recibidos, entregas, calificaciones, etc.
-![summary](assets/images/cap4/desktop_mockup_supplier/summary.png)
+Vista general con métricas clave: pedidos recibidos, entregas, calificaciones, etc. <img src="assets/images/cap4/desktop_mockup_supplier/summary.png" alt="summary" width="600px">
 
 **Alertas registradas**
-Pantalla con alertas recibidas por parte de los restaurantes.
-![registered-alerts](assets/images/cap4/desktop_mockup_supplier/registered-alerts.png)
+Pantalla con alertas recibidas por parte de los restaurantes. <img src="assets/images/cap4/desktop_mockup_supplier/registered-alerts.png" alt="registered-alerts" width="600px">
 
 #### Versión Mobile Mockups - Administrador de Restaurantes
 
@@ -1224,156 +1430,133 @@ Pantalla con alertas recibidas por parte de los restaurantes.
 ##### Alertas
 
 **Alertas**
-Vista general de alertas importantes para el administrador, con indicadores visuales de color.
-![admin_alerts](assets/images/cap4/mobile_mockups/admin_alerts.png)
+Vista general de alertas importantes para el administrador, con indicadores visuales de color. <img src="assets/images/cap4/mobile_mockups/admin_alerts.png" alt="admin_alerts" width="600px">
 
 ---
 
 ##### Inventario
 
 **Inventario**
-Listado general de insumos con opciones para editar, buscar y ver detalles.
-![admin_inventory](assets/images/cap4/mobile_mockups/admin_inventory.png)
+Listado general de insumos con opciones para editar, buscar y ver detalles. <img src="assets/images/cap4/mobile_mockups/admin_inventory.png" alt="admin_inventory" width="600px">
 
 **Inventario (Editar/Crear)**
-Flujo para registrar o editar un insumo, incluye calendario para fecha de expiración.
-![admin_inventory2](assets/images/cap4/mobile_mockups/admin_inventory2.png)
+Flujo para registrar o editar un insumo, incluye calendario para fecha de expiración. <img src="assets/images/cap4/mobile_mockups/admin_inventory2.png" alt="admin_inventory2" width="600px">
 
 ---
 
 ##### Pedidos
 
 **Pedidos**
-Visualización de pedidos realizados, con filtros por estado.
-![admin_orders](assets/images/cap4/mobile_mockups/admin_orders.png)
+Visualización de pedidos realizados, con filtros por estado. <img src="assets/images/cap4/mobile_mockups/admin_orders.png" alt="admin_orders" width="600px">
 
 **Pedidos (Detalle/Editar)**
-Flujo detallado para ver y modificar un pedido específico.
-![admin_orders2](assets/images/cap4/mobile_mockups/admin_orders2.png)
+Flujo detallado para ver y modificar un pedido específico. <img src="assets/images/cap4/mobile_mockups/admin_orders2.png" alt="admin_orders2" width="600px">
 
 ---
 
 ##### Recetas
 
 **Recetas**
-Listado de recetas disponibles, con imágenes y composición de insumos.
-![admin_recipes](assets/images/cap4/mobile_mockups/admin_recipes.png)
+Listado de recetas disponibles, con imágenes y composición de insumos. <img src="assets/images/cap4/mobile_mockups/admin_recipes.png" alt="admin_recipes" width="600px">
 
 **Recetas (Editar/Ver)**
-Flujo detallado para modificar recetas o ver su detalle completo.
-![admin_recipes2](assets/images/cap4/mobile_mockups/admin_recipes2.png)
+Flujo detallado para modificar recetas o ver su detalle completo. <img src="assets/images/cap4/mobile_mockups/admin_recipes2.png" alt="admin_recipes2" width="600px">
 
 ---
 
 ##### Ventas
 
 **Ventas**
-Historial de ventas con filtros por fecha y montos.
-![admin_sale](assets/images/cap4/mobile_mockups/admin_sale.png)
+Historial de ventas con filtros por fecha y montos. <img src="assets/images/cap4/mobile_mockups/admin_sale.png" alt="admin_sale" width="600px">
 
 **Ventas (Detalle)**
-Detalle específico de una venta con totales y acciones.
-![admin_sale2](assets/images/cap4/mobile_mockups/admin_sale2.png)
+Detalle específico de una venta con totales y acciones. <img src="assets/images/cap4/mobile_mockups/admin_sale2.png" alt="admin_sale2" width="600px">
 
 **Ventas (Popup acción)**
-Confirmación para anular una venta mediante un diálogo de alerta.
-![admin_sale3](assets/images/cap4/mobile_mockups/admin_sale3.png)
+Confirmación para anular una venta mediante un diálogo de alerta. <img src="assets/images/cap4/mobile_mockups/admin_sale3.png" alt="admin_sale3" width="600px">
 
 ---
 
 ##### Suscripciones
 
 **Suscripciones**
-Vista de gestión de suscripciones y planes de pago.
-![admin_subscriptions](assets/images/cap4/mobile_mockups/admin_subscriptions.png)
+Vista de gestión de suscripciones y planes de pago. <img src="assets/images/cap4/mobile_mockups/admin_subscriptions.png" alt="admin_subscriptions" width="600px">
 
 ---
 
 ##### Proveedores
 
 **Proveedores**
-Listado de proveedores registrados con métricas de ventas.
-![admin_supplier](assets/images/cap4/mobile_mockups/admin_supplier.png)
+Listado de proveedores registrados con métricas de ventas. <img src="assets/images/cap4/mobile_mockups/admin_supplier.png" alt="admin_supplier" width="600px">
 
 ---
 
 ##### Resumen
 
 **Dashboard / Resumen**
-Pantalla de resumen con estadísticas clave como pedidos pendientes y capacidad de stock.
-![admin_summary](assets/images/cap4/mobile_mockups/admin_summary.png)
+Pantalla de resumen con estadísticas clave como pedidos pendientes y capacidad de stock. <img src="assets/images/cap4/mobile_mockups/admin_summary.png" alt="admin_summary" width="600px">
 
 ---
 
-#### Versión Mobile Mockups - Proveedores
+### Versión Mobile Mockups - Proveedores
 
 ---
 
 ##### Alertas
 
 **Alertas**
-Resumen de alertas generadas por parte del restaurante.
-![supplier_alerts](assets/images/cap4/mobile_mockups/supplier_alerts.png)
+Resumen de alertas generadas por parte del restaurante. <img src="assets/images/cap4/mobile_mockups/supplier_alerts.png" alt="supplier_alerts" width="600px">
 
 ---
 
 ##### Inventario
 
 **Inventario**
-Vista del inventario ofrecido por el proveedor.
-![supplier_inventory](assets/images/cap4/mobile_mockups/supplier_inventory.png)
+Vista del inventario ofrecido por el proveedor. <img src="assets/images/cap4/mobile_mockups/supplier_inventory.png" alt="supplier_inventory" width="600px">
 
 **Inventario (Editar)**
-Formulario para edición o creación de productos ofrecidos.
-![supplier_inventory2](assets/images/cap4/mobile_mockups/supplier_inventory2.png)
+Formulario para edición o creación de productos ofrecidos. <img src="assets/images/cap4/mobile_mockups/supplier_inventory2.png" alt="supplier_inventory2" width="600px">
 
 ---
 
 ##### Pedidos
 
 **Pedidos**
-Vista general de pedidos recibidos, con estado y fechas.
-![supplier_orders](assets/images/cap4/mobile_mockups/supplier_orders.png)
+Vista general de pedidos recibidos, con estado y fechas. <img src="assets/images/cap4/mobile_mockups/supplier_orders.png" alt="supplier_orders" width="600px">
 
 **Pedidos (Detalle)**
-Vista ampliada para gestión individual de cada pedido.
-![supplier_orders2](assets/images/cap4/mobile_mockups/supplier_orders2.png)
+Vista ampliada para gestión individual de cada pedido. <img src="assets/images/cap4/mobile_mockups/supplier_orders2.png" alt="supplier_orders2" width="600px">
 
 **Pedidos (Historial)**
-Listado cronológico de pedidos con estado y detalles.
-![supplier_orders3](assets/images/cap4/mobile_mockups/supplier_orders3.png)
+Listado cronológico de pedidos con estado y detalles. <img src="assets/images/cap4/mobile_mockups/supplier_orders3.png" alt="supplier_orders3" width="600px">
 
 ---
 
 ##### Perfil
 
 **Perfil**
-Datos personales, empresa, y configuración de cuenta.
-![supplier_profile](assets/images/cap4/mobile_mockups/supplier_profile.png)
+Datos personales, empresa, y configuración de cuenta. <img src="assets/images/cap4/mobile_mockups/supplier_profile.png" alt="supplier_profile" width="600px">
 
 ---
 
 ##### Suscripciones
 
 **Suscripciones**
-Panel para gestionar el plan de suscripción del proveedor.
-![supplier_subscriptions](assets/images/cap4/mobile_mockups/supplier_subscriptions.png)
+Panel para gestionar el plan de suscripción del proveedor. <img src="assets/images/cap4/mobile_mockups/supplier_subscriptions.png" alt="supplier_subscriptions" width="600px">
 
 ---
 
 ##### Resumen
 
 **Dashboard / Resumen**
-Resumen financiero y de pedidos con métricas clave para proveedores.
-![supplier_summary](assets/images/cap4/mobile_mockups/supplier_summary.png)
+Resumen financiero y de pedidos con métricas clave para proveedores. <img src="assets/images/cap4/mobile_mockups/supplier_summary.png" alt="supplier_summary" width="600px">
 
 ---
 
 ##### Calificaciones
 
 **Calificaciones**
-Valoraciones recibidas por parte de restaurantes con comentarios.
-![suppliers_rating](assets/images/cap4/mobile_mockups/suppliers_rating.png)
+Valoraciones recibidas por parte de restaurantes con comentarios. <img src="assets/images/cap4/mobile_mockups/suppliers_rating.png" alt="suppliers_rating" width="600px">
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
@@ -1602,14 +1785,11 @@ A continuación, se incluirá un screenshot extraído de un video por cada tipo 
 
 ![Captura del video](assets/images/cap4/evidence_prototyping_mobile.png)
 
-
 **Web Applications Desktop:**
 
 [https://shorturl.at/Vy2JX](https://shorturl.at/Vy2JX)
 
 ![Captura del video](assets/images/cap4/evidence_prototyping_desktop.png)
-
-
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -1633,51 +1813,57 @@ A continuación, se incluirá un screenshot extraído de un video por cada tipo 
 
 ## 4.7 Software Object-Oriented Design
 
-### 4.7.1 Class Diagram
+### 4.7.1 Class Diagrams
 
-![Class diagram](assets/images/cap4/UML_Java.png "Diagrama de clases")
+![Class diagram](assets/images/cap4/class_diagram/dc-web-general.png)
 
 #### Bounded Context: Resource
 
-El siguiente diagrama de clases representa la estructura orientada a objetos del contexto **Resource** en Java. Se modelan las entidades principales del dominio como clases, incluyendo `Supply`, `CustomerSupply`, `Batch`, `BatchNotification`, `OrderToSupplier`, `OrderToSupplierBatch`, `OrderToSupplierState`, `OrderToSupplierSituation` y `Comment`. Estas clases encapsulan atributos y comportamientos conforme a las reglas de negocio del sistema de gestión de inventario, y se relacionan entre sí mediante asociaciones típicas del lenguaje Java, como composiciones, agregaciones o dependencias. Este diseño promueve una separación clara de responsabilidades y facilita la implementación de una arquitectura basada en el enfoque de Domain-Driven Design (DDD).
+El siguiente diagrama de clases representa la estructura orientada a objetos del contexto **Resource** en C#. Se modelan las entidades principales del dominio como clases, incluyendo `Supply`, `CustomSupply`, `Batch`, `OrderToSupplier`, `OrderToSupplierBatch` y `Comment`. Estas clases encapsulan atributos y comportamientos que reflejan las reglas de negocio del sistema de inventario, y se relacionan entre sí mediante asociaciones que representan dependencias, agregaciones o composiciones. Este diseño permite organizar la lógica del dominio de manera coherente, facilitando su implementación y mantenimiento en una arquitectura basada en DDD.
 
-![Class diagram](assets/images/cap4/class_diagram/resource_bounded_context-os.png "Resource Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-web-resource.png "Resource Class Diagram")
 
-#### Bounded Context: "**Subscriptions and Payments"**
+#### Bounded Context: Subscriptions
 
 El diagrama de clases presentado pertenece al contexto delimitado de  **Subscriptions and Payments** , el cual representa el núcleo de las funcionalidades relacionadas con la gestión de planes de suscripción, características asociadas y métodos de pago.
 
 Este contexto tiene como  **Aggregate Root principal a `Subscription`** , quien orquesta las relaciones con otras entidades y garantiza la consistencia del conjunto. Cada suscripción puede estar compuesta por múltiples funcionalidades (`Feature`), modeladas mediante la entidad asociativa `SubscriptionFeature`, lo que permite un diseño extensible y flexible para personalizar paquetes.
 
-Por otro lado, la entidad `SubscriptionPaymentDetail` encapsula los datos relacionados con el método de pago utilizado y la fecha en la que se efectuó el cobro. Esta clase podría representarse como una entidad o un Value Object, dependiendo del nivel de trazabilidad deseado.
-
 El diseño refleja un enfoque  **modular, desacoplado y alineado con las reglas del negocio** , donde cada entidad cumple una función específica dentro del ciclo de vida de una suscripción, permitiendo futuras integraciones con gateways de pago, facturación o sistemas externos mediante capas de infraestructura o anticorruption layers.
 
-![Class diagram](assets/images/cap4/class_diagram/subscription-java.jpg "Subscription Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-web-subscription.png "Subscription Class Diagram")
 
-#### Bounded Context: "**Identity and Guess Managements"**
+#### Bounded Context: Identity and Guess Managements
 
 Este diagrama representa el contexto de  **Identity and Guess Managements** , el cual centraliza la autenticación, autorización y administración de usuarios del sistema. En este contexto, el  **Aggregate Root es `User`** , el cual contiene la información sensible de acceso y sus vínculos directos con los roles del sistema (`Role`).
 
 El diseño separa claramente las responsabilidades: los datos de autenticación (correo, contraseña) y autorización (rol asignado) se concentran en esta entidad raíz, permitiendo gestionar con seguridad el acceso al sistema. A través de la relación con `Role`, se habilita un sistema de permisos escalable y desacoplado.
 
-Se incluyen también referencias al `subscriptionId` y al `subscriptionPaymentDetailsId`. Estas referencias no indican propiedad sobre los aggregates del contexto de "Subscriptions and Payments", sino únicamente enlaces de lectura. En una implementación robusta, estos campos deben gestionarse mediante anticorruption layers o servicios de consulta para mantener el aislamiento entre bounded contexts,  **preservando la integridad del modelo de dominio** .
-
 Este diseño es extensible a funcionalidades como manejo de invitados, recuperación de contraseñas, doble autenticación (MFA), etc., sin violar el principio de encapsulamiento de los aggregates.
 
-![Class diagram](assets/images/cap4/class_diagram/iam-java.jpg "Identity Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-web-iam.png  "Identity Class Diagram")
 
-#### Bounded Context: "**Profiles and Preferences"**
+#### Bounded Context: Profiles and Preferences
 
 El contexto **Profiles and Preferences** encapsula todo lo relacionado con la representación pública, preferencias de contacto y categorización de los usuarios en el sistema. Aquí, el  **Aggregate Root es `Profile`** , que contiene la información no sensible de los usuarios como nombres, ubicación, contacto y avatar.
 
 El perfil está relacionado con uno o más `BusinessCategory`, lo cual permite clasificar los perfiles de acuerdo con rubros o sectores. Esta relación está modelada a través de la clase asociativa `ProfilesBusinessCategory`, la cual puede ser gestionada como entidad o Value Object compuesto, según la lógica del negocio.
 
-Además, `Profile` se relaciona con `RestaurantContact`, entidad que representa las conexiones entre restaurantes y sus proveedores. En este diseño, ambos extremos podrían ser `Profile`, por lo que se plantea un modelo relacional flexible que podría expandirse a una red de contactos profesionales o recomendaciones.
-
 Este diseño permite a los usuarios personalizar su experiencia, categorizando sus intereses o sectores, y a la vez habilita integraciones futuras con módulos como Analytics, Notifications o Planning. Todo esto bajo una arquitectura de contexto delimitado que promueve la separación de responsabilidades y el modelado explícito del lenguaje ubicuo.
 
-![Class diagram](assets/images/cap4/class_diagram/profiles-java.jpg "Profile Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-web-profile.png  "Profile Class Diagram")
+#### Bounded Context: Planning
+
+El contexto **Planning** se encarga de la creación, edición y gestión de recetas culinarias dentro del sistema. A través de este contexto, los usuarios pueden estructurar recetas que combinan insumos específicos con cantidades determinadas. Estas recetas son utilizadas como base para la planificación de menús o preparación de platos, integrándose con otros contextos como Inventario y Monitoreo para estimar costos y requerimientos. Este diseño permite centralizar la lógica relacionada a la composición de platos y facilita el cálculo automatizado de precios y necesidades de insumos.
+
+![Class diagram](assets/images/cap4/class_diagram/dc-web-planning.png  "Planning Class Diagram")
+
+#### Bounded Context: Monitoring
+
+El contexto **Monitoring** gestiona el seguimiento y registro de las preparaciones realizadas. Cada preparación, conocida como un "dish", está asociada a una receta planificada y a los insumos utilizados desde el inventario. Este contexto permite auditar cuándo, qué y cómo se han preparado los platos, asegurando trazabilidad y control operativo. También sirve como fuente de datos para análisis posteriores, como consumo de inventario, costos por día y eficiencia del uso de recursos, integrándose con los contextos de Inventario y Planificación.
+
+![Class diagram](assets/images/cap4/class_diagram/dc-web-monitoring.png  "Monitoring Class Diagram")
+
 
 ### 4.7.2 Class Dictionary
 
@@ -1704,41 +1890,43 @@ Este diseño permite a los usuarios personalizar su experiencia, categorizando s
 
 ### 4.8.1 Database Diagram
 
-![Database diagram](assets/images/cap4/dbd_bc/diagrama_version_final.png "Diagrama de base de datos")
+![Database diagram](assets/images/cap4/dbd_bc/dbd-general.png)
 
 #### Bounded Context: Planning
 
-Este esquema representa la lógica del contexto de planificación. La tabla recipes almacena recetas con su información básica y usuario asociado. La tabla recipes_supplies define los insumos necesarios para cada receta, permitiendo planificar cantidades específicas.
+Este esquema representa el contexto **Planning**, responsable de estructurar y almacenar las recetas definidas por los usuarios. Permite organizar los ingredientes necesarios para cada receta y establecer relaciones con los insumos del sistema. Este diseño facilita la planificación anticipada de preparaciones culinarias, promoviendo una gestión eficiente de recursos.
 
-![Database diagram](assets/images/cap4/dbd_bc/dbd_planning_bc.png "Planning")
+![Database diagram](assets/images/cap4/dbd_bc/dbd-planning.png "Planning")
 
 #### Bounded Context: Resource
 
-Este esquema representa el contexto **Resource** del sistema de gestión de inventario, incluyendo la gestión de insumos (`supplies`), su personalización por restaurante y proveedor (`customer_supplies`), y los lotes asociados (`batches`). También abarca las notificaciones de lote (`batch_notifications`), el sistema de órdenes a proveedores (`orders_to_suppliers` y `orders_to_supplier_batches`), y los estados y situaciones de estas órdenes. La tabla `comments` permite registrar opiniones sobre las órdenes. Este diseño permite una trazabilidad completa de insumos, lotes y pedidos en el sistema.
+Este esquema representa el contexto **Resource**, encargado de la gestión de insumos, lotes, personalización por restaurante o proveedor, y órdenes de abastecimiento. Permite registrar comentarios, notificaciones de lotes y trazabilidad completa de pedidos. El diseño ofrece una base robusta para el control del inventario y la interacción con proveedores.
 
-![Database diagram](assets/images/cap4/dbd_bc/resource_bounded_context.png "Resource")
+![Database diagram](assets/images/cap4/dbd_bc/dbd-resource.png "Resource")
 
 #### Bounded Context: Monitoring
 
-Este esquema representa la lógica del contexto de monitoring. Las tablas presentes son: sales, sales_recipes, comments, ordertosuppliers, ordertosuppliers_supplies, orderToSupplier_status y order_payments.
+Este esquema representa el contexto **Monitoring**, orientado al seguimiento de las actividades operativas, incluyendo ventas, preparaciones realizadas y uso de insumos. Registra datos relevantes para evaluar el rendimiento y controlar los costos, integrándose con recetas, órdenes y pagos.
 
-![Database diagram](assets/images/cap4/dbd_bc/monitoring_bounded_context.png "Monitoring")
+![Database diagram](assets/images/cap4/dbd_bc/dbd-monitoring.png "Monitoring")
 
 #### Bounded Context: Profile
 
-Este esquema representa la lógica del contexto de profile. Las tablas profile almacena: name, business_name, phone y address.
+Este esquema representa el contexto **Profile**, enfocado en la información pública y de contacto de los usuarios. Permite almacenar detalles como nombres, razón social, teléfono y dirección, facilitando la personalización de la experiencia del usuario y las relaciones comerciales dentro del sistema.
 
-![Database diagram](assets/images/cap4/dbd_bc/db_profile.png "Profile")
+![Database diagram](assets/images/cap4/dbd_bc/dbd-profile.png "Profile")
 
 #### Bounded Context: Subscription
 
-Este esquema representa la lógica del contexto de subscription. La tablas que se muestran son: subscriptions, subscriptions_payment_details, features y subscription_features.
-![Database diagram](assets/images/cap4/dbd_bc/db_subscription.jpg "Subscription")
+Este esquema representa el contexto **Subscription**, encargado de la gestión de planes de suscripción, características disponibles y métodos de pago. Permite una administración flexible de paquetes funcionales y suscripciones activas, apoyando el modelo de negocio basado en acceso por niveles o membresías.
+
+![Database diagram](assets/images/cap4/dbd_bc/dbd-subscription.png "Subscription")
 
 #### Bounded Context: Identity
 
-Este esquema representa la lógica del contexto de identity. Las tablas que se muestran son: users y roles.
-![Database diagram](assets/images/cap4/dbd_bc/db_iam.png "Identity")
+Este esquema representa el contexto **Identity**, centrado en la autenticación y autorización de usuarios. Administra credenciales y roles del sistema, habilitando un control de acceso seguro y escalable para las diferentes funcionalidades del sistema.
+
+![Database diagram](assets/images/cap4/dbd_bc/dbd-iam.png "Identity")
 
 ## 4.9 DDD Estratégico
 
