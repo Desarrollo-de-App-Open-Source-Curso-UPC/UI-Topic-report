@@ -385,12 +385,16 @@ A continuacion se presenta el User Journey Map de Jorge Torres.
 ![user journey mapping jorge torres](./assets/images/user-journey-map-2.png)
 
 ### 2.3.4. Empathy Mapping
+En esta sección, el equipo resume el proceso de elaboración y presenta los Empathy Maps realizados para cada User Persona. El proceso implicó centrar cada User Persona y plasmar las observaciones del equipo, respondiendo a preguntas clave sobre qué piensan, sienten, ven, oyen, dicen y hacen. Finalmente, se identificaron los "Pains" y "Gains" para comprender sus preocupaciones y las soluciones que les convencerían.  
+
 
 #### Carolina Rivas
+Esta sección presenta el Empathy Map elaborado para Carolina Rivas, nuestra User Persona clave que representa a la propietaria de un restaurante. Este mapa visualiza de forma integral sus pensamientos, sentimientos, necesidades y desafíos en el contexto de la gestión de su negocio. A través de este análisis empático, hemos identificado sus principales frustraciones (Pains) y las oportunidades de valor (Gains) que nuestra solución podría ofrecerle.  
 
 ![empathy map carolina rivas](./assets/images/empathy-map-carolina.png)
 
 #### Jorge Torres
+Por otro lado, esta sección presenta el Empathy Map elaborado para Jorge Torres, nuestro User Persona clave que representa a un distribuidor de bebidas y abarrotes en Arequipa, Perú. Este mapa visualiza de forma integral sus pensamientos, sentimientos, necesidades y desafíos en el contexto de la gestión y optimización de su negocio de distribución. A través de este análisis empático, hemos identificado sus principales frustraciones (Pains) y las oportunidades de valor (Gains) que nuestra solución podría ofrecerle.  
 
 ![empathy map jorge torres](./assets/images/empathy-map-jorge.png)
 
