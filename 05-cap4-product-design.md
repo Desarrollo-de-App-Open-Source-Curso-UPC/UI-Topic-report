@@ -555,220 +555,466 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 
  La estructura prioriza la eficiencia operativa, permitiendo a los proveedores registrar productos, atender pedidos y monitorear métricas clave en el menor número de clics posible.
 
-#### Versión Desktop Web Browser
+#### Versión Desktop Wireframes - Administradores de Restaurante
 
-**Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+---
 
-![a1](assets/images/wireframes-admin/a1.png)
+##### Inventario
 
-![b1](assets/images/wireframes-admin/b1.png)
+**Resumen general con tabla y carrusel**
+Vista que combina una tabla detallada con un carrusel visual para facilitar la navegación por los insumos disponibles.
+![inventory-table-and-carousel](assets/images/cap4/desktop_wireframes_admin/inventory-table-and-carousel.png)
 
-![c1](assets/images/wireframes-admin/c1.png)
+**Inventario vacío**
+Pantalla mostrada cuando aún no se ha registrado ningún producto en el inventario.
+![empty-inventory](assets/images/cap4/desktop_wireframes_admin/empty-inventory.png)
 
-![c2](assets/images/wireframes-admin/c2.png)
+**Crear insumo**
+Formulario para registrar un nuevo producto en el sistema.
+![create-supply](assets/images/cap4/desktop_wireframes_admin/create-supply.png)
 
-![d1](assets/images/wireframes-admin/d1.png)
+**Editar insumo**
+Permite modificar los campos de un producto ya registrado.
+![edit-supply](assets/images/cap4/desktop_wireframes_admin/edit-supply.png)
 
-![d2](assets/images/wireframes-admin/d2.png)
+**Eliminar insumo**
+Diálogo de confirmación para borrar un producto del inventario.
+![delete-supply](assets/images/cap4/desktop_wireframes_admin/delete-supply.png)
 
-![d3](assets/images/wireframes-admin/d3.png)
+**Agregar insumo al inventario (No perecible)**
+Formulario para añadir productos no perecibles al inventario.
+![add-supply-to-inventory](assets/images/cap4/desktop_wireframes_admin/add-supply-to-inventory.png)
 
-![d4](assets/images/wireframes-admin/d4.png)
+**Agregar insumo al inventario (Perecible)**
+Versión del formulario que permite incluir productos con fecha de expiración.
+![add-supply-to-inventory2](assets/images/cap4/desktop_wireframes_admin/add-supply-to-inventory2.png)
 
-![d5](assets/images/wireframes-admin/d5.png)
+---
 
-![d6](assets/images/wireframes-admin/d6.png)
+##### Recetas
 
-![d7](assets/images/wireframes-admin/d7.png)
+**Catálogo de recetas**
+Pantalla que organiza las recetas disponibles por tipo o categoría.
+![recipes-catalog](assets/images/cap4/desktop_wireframes_admin/recipes-catalog.png)
 
-![d8](assets/images/wireframes-admin/d8.png)
+**Recetas vacías**
+Vista mostrada cuando no se han registrado recetas aún.
+![empty-recipes](assets/images/cap4/desktop_wireframes_admin/empty-recipes.png)
 
-![e1](assets/images/wireframes-admin/e1.png)
+**Crear receta**
+Formulario para crear una nueva receta asociando insumos.
+![create-recipe](assets/images/cap4/desktop_wireframes_admin/create-recipe.png)
 
-![e2](assets/images/wireframes-admin/e2.png)
+**Editar receta**
+Permite actualizar los ingredientes y proporciones de una receta existente.
+![edit-recipe](assets/images/cap4/desktop_wireframes_admin/edit-recipe.png)
 
-![e3](assets/images/wireframes-admin/e3.png)
+**Editar receta (versión 2)**
+Otra vista alternativa para editar una receta, con distinto orden visual.
+![edit-recipe2](assets/images/cap4/desktop_wireframes_admin/edit-recipe2.png)
 
-![e4](assets/images/wireframes-admin/e4.png)
+**Eliminar receta**
+Pantalla de confirmación para borrar una receta del sistema.
+![delete-recipe](assets/images/cap4/desktop_wireframes_admin/delete-recipe.png)
 
-![e5](assets/images/wireframes-admin/e5.png)
+---
 
-![f1](assets/images/wireframes-admin/f1.png)
+##### Pedidos
 
-![g1](assets/images/wireframes-admin/g1.png)
+**Órdenes vacías**
+Vista inicial cuando no se ha registrado ningún pedido.
+![empty-orders](assets/images/cap4/desktop_wireframes_admin/empty-orders.png)
 
-![g2](assets/images/wireframes-admin/g2.png)
+**Lista de órdenes con estado**
+Organización de pedidos clasificados según su estado de atención.
+![orders-list-with-status-by-order](assets/images/cap4/desktop_wireframes_admin/orders-list-with-status-by-order.png)
 
-![g3](assets/images/wireframes-admin/g3.png)
+**Realizar pedido (popup)**
+Diálogo para confirmar el envío de un nuevo pedido.
+![order-now-dialog](assets/images/cap4/desktop_wireframes_admin/order-now-dialog.png)
 
-![g4](assets/images/wireframes-admin/g4.png)
+**Seleccionar proveedor para pedido**
+Pantalla para elegir a qué proveedor se dirigirá el pedido.
+![order-now-supplier-list](assets/images/cap4/desktop_wireframes_admin/order-now-supplier-list.png)
 
-![g5](assets/images/wireframes-admin/g5.png)
+**Comparar precios entre proveedores**
+Permite revisar los precios ofrecidos por diferentes proveedores para un mismo producto.
+![order-now-supply-price](assets/images/cap4/desktop_wireframes_admin/order-now-supply-price.png)
 
-![g6](assets/images/wireframes-admin/g6.png)
+**Calificar proveedor tras entrega**
+Formulario de evaluación tras completar un pedido.
+![rate-your-order](assets/images/cap4/desktop_wireframes_admin/rate-your-order.png)
 
-![h1](assets/images/wireframes-admin/h1.png)
+---
 
-![h2](assets/images/wireframes-admin/h2.png)
+##### Ventas
 
-![h3](assets/images/wireframes-admin/h3.png)
+**Registrar una venta**
+Formulario para ingresar una nueva venta al sistema.
+![register-a-sale](assets/images/cap4/desktop_wireframes_admin/register-a-sale.png)
 
-![h4](assets/images/wireframes-admin/h4.png)
+**Registrar una venta (versión 2)**
+Diseño alternativo del flujo de registro de ventas.
+![register-a-sale2](assets/images/cap4/desktop_wireframes_admin/register-a-sale2.png)
 
-![h5](assets/images/wireframes-admin/h5.png)
+**Venta registrada con éxito**
+Mensaje de confirmación tras registrar una venta correctamente.
+![sale-registered-sucessfully](assets/images/cap4/desktop_wireframes_admin/sale-registered-sucessfully.png)
 
-![i1](assets/images/wireframes-admin/i1.png)
+**Actualizar inventario tras venta**
+Interfaz para ajustar el stock automáticamente después de registrar una venta.
+![update-inventory-from-a-sale-registered](assets/images/cap4/desktop_wireframes_admin/update-inventory-from-a-sale-registered.png)
 
-![i2](assets/images/wireframes-admin/i2.png)
+**Detalle de venta**
+Vista con la información completa de una venta específica.
+![sale-detail](assets/images/cap4/desktop_wireframes_admin/sale-detail.png)
 
-![i3](assets/images/wireframes-admin/i3.png)
+**Detalle de venta (versión 2)**
+Diseño alternativo para mostrar el detalle de ventas.
+![sale-detail2](assets/images/cap4/desktop_wireframes_admin/sale-detail2.png)
 
-![i4](assets/images/wireframes-admin/i4.png)
+**Historial de ventas**
+Lista de todas las ventas realizadas hasta la fecha.
+![sales-historial](assets/images/cap4/desktop_wireframes_admin/sales-historial.png)
 
-![i5](assets/images/wireframes-admin/i5.png)
+**Diálogo de confirmación de venta**
+Confirmación final de que una venta fue registrada.
+![registered-sales-dialog](assets/images/cap4/desktop_wireframes_admin/registered-sales-dialog.png)
 
-![i6](assets/images/wireframes-admin/i6.png)
+---
 
-![i7](assets/images/wireframes-admin/i7.png)
+##### Proveedores
 
-![i8](assets/images/wireframes-admin/i8.png)
+**Lista de proveedores**
+Pantalla que muestra a todos los proveedores registrados en el sistema.
+![suppliers-list](assets/images/cap4/desktop_wireframes_admin/suppliers-list.png)
 
-![i9](assets/images/wireframes-admin/i9.png)
+**Detalle del proveedor y catálogo**
+Muestra los productos ofrecidos por un proveedor específico.
+![supplier-detail-catalog](assets/images/cap4/desktop_wireframes_admin/supplier-detail-catalog.png)
 
-![i10](assets/images/wireframes-admin/i10.png)
+**Vista proveedor individual**
+Vista completa del perfil y datos relevantes del proveedor.
+![supplier](assets/images/cap4/desktop_wireframes_admin/supplier.png)
 
- **Segmento objetivo: Proveedores de Restaurantes (User Persona 2)**
+**Agregar proveedor**
+Formulario para registrar un nuevo proveedor al sistema.
+![add-supplier](assets/images/cap4/desktop_wireframes_admin/add-supplier.png)
 
-![p1](assets/images/web-applications-wireframes-proveedor/gestion-perfil.png)
+---
 
-![p2](assets/images/web-applications-wireframes-proveedor/actualiza-datos.png)
+##### Alertas
 
-![p3](assets/images/web-applications-wireframes-proveedor/resumen.png)
+**Alertas registradas**
+Pantalla donde se listan todas las alertas generadas por el sistema.
+![registered-alerts](assets/images/cap4/desktop_wireframes_admin/registered-alerts.png)
 
-![p4](assets/images/web-applications-wireframes-proveedor/listar-suscripciones.png)
+---
 
-![p5](assets/images/web-applications-wireframes-proveedor/comprar-suscripciones.png)
+##### Perfil
 
-![p6](assets/images/web-applications-wireframes-proveedor/inventario1.png)
+**Datos personales**
+Sección donde el administrador puede modificar su nombre, correo, etc.
+![profile-personal-data](assets/images/cap4/desktop_wireframes_admin/profile-personal-data.png)
 
-![p7](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo.png)
+**Seguridad y privacidad**
+Gestión de contraseña y autenticación.
+![profile-security-privacy](assets/images/cap4/desktop_wireframes_admin/profile-security-privacy.png)
 
-![p8](assets/images/web-applications-wireframes-proveedor/inventario-insumos-agregados.png)
+**Datos empresariales**
+Incluye razón social, RUC y datos relacionados con la empresa.
+![profile-business-data](assets/images/cap4/desktop_wireframes_admin/profile-business-data.png)
 
-![p9](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-no-perecible.png)
+---
 
-![p10](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-perecible.png)
+##### Suscripciones
 
-![p11](assets/images/web-applications-wireframes-proveedor/inventario2.png)
+**Vista principal**
+Pantalla principal del módulo de suscripción, mostrando el plan actual.
+![subscriptions](assets/images/cap4/desktop_wireframes_admin/subscriptions.png)
 
-![p12](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-no-perecible.png)
+**Detalles de suscripción**
+Permite ver el historial de pagos y cambiar de plan.
+![subscriptions2](assets/images/cap4/desktop_wireframes_admin/subscriptions2.png)
 
-![p13](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-perecible.png)
+---
 
-![p14](assets/images/web-applications-wireframes-proveedor/inventario-eliminar-insumo.png)
+##### Resumen general
 
-![p15](assets/images/web-applications-wireframes-proveedor/inventario3.png)
+**Dashboard / Summary**
+Vista que resume las principales métricas operativas del sistema.
+![summary](assets/images/cap4/desktop_wireframes_admin/summary.png)
 
-![p16](assets/images/web-applications-wireframes-proveedor/alertas.png)
+#### Versión Desktop Wireframes - Proveedores
 
-![p17](assets/images/web-applications-wireframes-proveedor/ordenes.png)
+---
 
-![p18](assets/images/web-applications-wireframes-proveedor/ordenes-detalle.png)
+##### Inventario
 
-![p19](assets/images/web-applications-wireframes-proveedor/orden-aceptada.png)
+**Inventario vacío con carrusel**
+Vista cuando el proveedor aún no tiene productos registrados. Incluye un carrusel con sugerencias.
+![carousel-and-empty-inventory](assets/images/cap4/desktop_wireframes_supplier/carousel-and-empty-inventory.png)
 
-![p20](assets/images/web-applications-wireframes-proveedor/orden-rechazada.png)
+**Inventario con tabla y carrusel**
+Vista organizada con listado de productos y carrusel de navegación.
+![carousel-and-inventory-table](assets/images/cap4/desktop_wireframes_supplier/carousel-and-inventory-table.png)
 
-![p21](assets/images/web-applications-wireframes-proveedor/calificaciones.png)
+**Crear producto**
+Formulario base para agregar un nuevo insumo al sistema.
+![create-supply](assets/images/cap4/desktop_wireframes_supplier/create-supply.png)
 
-#### Versión Mobile Web Browser
+**Agregar producto no perecible**
+Formulario para registrar insumos sin fecha de expiración.
+![add-supply-not-perishable-inventory](assets/images/cap4/desktop_wireframes_supplier/add-supply-not-perishable-inventory.png)
 
-**Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+**Agregar producto perecible**
+Formulario para registrar productos que requieren control de caducidad.
+![add-supply-perishable-inventory](assets/images/cap4/desktop_wireframes_supplier/add-supply-perishable-inventory.png)
 
-**Perfil**
+**Editar producto no perecible**
+Permite actualizar insumos sin fecha de expiración.
+![edit-supply-not-perishable](assets/images/cap4/desktop_wireframes_supplier/edit-supply-not-perishable.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_profile.png)
+**Editar producto perecible**
+Permite modificar productos que requieren control de fecha.
+![edit-supply-perishable](assets/images/cap4/desktop_wireframes_supplier/edit-supply-perishable.png)
+
+**Eliminar producto**
+Pantalla de confirmación para eliminar un producto del inventario.
+![delete-supply](assets/images/cap4/desktop_wireframes_supplier/delete-supply.png)
+
+---
+
+##### Pedidos
+
+**Órdenes vacías desde restaurantes**
+Vista inicial cuando no se han recibido pedidos aún.
+![empty-orders-from-restaurants](assets/images/cap4/desktop_wireframes_supplier/empty-orders-from-restaurants.png)
+
+**Lista de pedidos con estado**
+Vista organizada de los pedidos recibidos por estado (nuevo, en proceso, entregado).
+![orders-list](assets/images/cap4/desktop_wireframes_supplier/orders-list.png)
+
+**Filtrar pedidos por nuevos y en proceso**
+Interfaz para ordenar y filtrar los pedidos recibidos por estado.
+![filter-orders-by-new-requests-order-and-processing](assets/images/cap4/desktop_wireframes_supplier/filter-orders-by-new-requests-order-and-mine.png)
+
+**Mis pedidos ordenados por estado de envío**
+Vista de pedidos enviados, ordenados según su progreso logístico.
+![my-orders-table-sort-by-status-of-shipping](assets/images/cap4/desktop_wireframes_supplier/my-orders-table-sort-by-status-of-shipping.png)
+
+**Cancelar pedido**
+Confirmación para cancelar un pedido pendiente.
+![cancel-order](assets/images/cap4/desktop_wireframes_supplier/cancel-order.png)
+
+**Gestionar pedido – seguimiento**
+Permite actualizar el estado de envío de un pedido.
+![manage-order-to-track](assets/images/cap4/desktop_wireframes_supplier/manage-order-to-track.png)
+
+**Gestionar pedido – establecer fecha y hora**
+Formulario para indicar cuándo llegará el pedido.
+![manage-order-set-arrive-time](assets/images/cap4/desktop_wireframes_supplier/manage-order-set-arrive-time.png)
+
+**Actualizar fecha y hora de entrega**
+Permite editar los datos de entrega previamente registrados.
+![update-order-set-date-and-hour](assets/images/cap4/desktop_wireframes_supplier/update-order-set-date-and-hour.png)
+
+**Actualizar pedido**
+Formulario para modificar los productos y cantidades de un pedido.
+![update-order](assets/images/cap4/desktop_wireframes_supplier/update-order.png)
+
+**Actualizar pedido ya aprobado**
+Permite realizar cambios en un pedido incluso si ya fue aceptado.
+![update-recently-aproved-order](assets/images/cap4/desktop_wireframes_supplier/update-recently-aproved-order.png)
+
+**Dialog de pedido entregado**
+Pantalla que confirma la entrega de un pedido.
+![dialog-order-delivered](assets/images/cap4/desktop_wireframes_supplier/dialog-order-delivered.png)
+
+---
+
+##### Alertas
+
+**Alertas registradas**
+Listado de alertas enviadas por restaurantes al proveedor.
+![registered-alerts](assets/images/cap4/desktop_wireframes_supplier/registered-alerts.png)
+
+---
+
+##### Perfil
+
+**Datos personales**
+Vista donde el proveedor puede actualizar sus datos personales.
+![profile-personal-data](assets/images/cap4/desktop_wireframes_supplier/profile-personal-data.png)
+
+**Seguridad y privacidad**
+Pantalla para cambiar la contraseña y activar medidas de seguridad.
+![profile-security-privacy](assets/images/cap4/desktop_wireframes_supplier/profile-security-privacy.png)
+
+**Datos empresariales**
+Información de la empresa del proveedor (nombre comercial, RUC, dirección, etc).
+![profile-business-data](assets/images/cap4/desktop_wireframes_supplier/profile-business-data.png)
+
+---
+
+##### Suscripciones
 
 **Suscripciones**
+Muestra el plan actual del proveedor y opciones para actualizar.
+![subscriptions](assets/images/cap4/desktop_wireframes_supplier/subscriptions.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_subs.png)
-`<br/>`
+**Pagos de suscripción**
+Historial y métodos de pago del proveedor respecto a su plan.
+![subscriptions-payments](assets/images/cap4/desktop_wireframes_supplier/subscriptions-payments.png)
 
-**Resumen**
+---
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_summary.png)
-`<br/>`
+##### Calificaciones
 
-**Inventario**
+**Reseñas de restaurantes al proveedor**
+Vista donde el proveedor puede revisar las evaluaciones que recibió de los restaurantes.
+![reviews+by-restaurants-to-supplier](assets/images/cap4/desktop_wireframes_supplier/reviews-by-restaurants-to-supplier.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_inventory.png)
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_inventory2.png)
-`<br/>`
+---
 
-**Provedores**
+##### Resumen general
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_supplier.png)
-`<br/>`
+**Dashboard / Summary**
+Vista principal con métricas de pedidos, calificaciones, y estado de suscripción.
+![summary](assets/images/cap4/desktop_wireframes_supplier/summary.png)
 
-**Notificaciones**
+#### Versión Mobile Web Browser - Administradores de Restaurante
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_notification.png)
-`<br/>`
+---
 
-**Pedidos**
+##### Inventario
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_orders.png)
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_orders2.png)
-`<br/>`
+**Listado y vista general del inventario**
+Pantallas del módulo de Inventario para administrador: permite visualizar la lista de insumos, editar cantidades y registrar nuevos productos.
+![w_admin_inventory](assets/images/cap4/mobile_wireframes/w_admin_inventory.png)
 
-**Recetas**
+**Formulario de creación y edición de insumos**
+Pantallas del flujo de edición y creación de inventario: muestra formularios detallados con campos como nombre, unidad, categoría y fecha.
+![w_admin_inventory2](assets/images/cap4/mobile_wireframes/w_admin_inventory2.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_recipes.png)
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_recipes2.png)
-`<br/>`
+---
 
-**Ventas**
+##### Pedidos
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_sales.png)
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_admin_sales2.png)
-`<br/>`
+**Vista general de pedidos**
+Pantallas del módulo de Pedidos para administrador: lista de pedidos, detalles individuales, y estado del pedido.
+![w_admin_orders](assets/images/cap4/mobile_wireframes/w_admin_orders.png)
 
-**Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
+**Edición de pedido y asignación de proveedor**
+Pantallas complementarias del flujo de pedidos: edición de pedidos, selección de proveedores y fechas estimadas.
+![w_admin_orders2](assets/images/cap4/mobile_wireframes/w_admin_orders2.png)
 
-**Perfil**
+---
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_profile.png)
-`<br/>`
+##### Recetas
 
-**Suscripciones**
+**Listado de recetas**
+Pantallas del módulo de Recetas: listado de recetas con detalles sobre los insumos requeridos y porciones.
+![w_admin_recipes](assets/images/cap4/mobile_wireframes/w_admin_recipes.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_subs.png)
-`<br/>`
+**Formulario de creación y edición de recetas**
+Flujo de creación y edición de recetas: permite agregar o editar insumos y cantidades requeridas por receta.
+![w_admin_recipes2](assets/images/cap4/mobile_wireframes/w_admin_recipes2.png)
 
-**Resumen**
+---
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_summary.png)
-`<br/>`
+##### Ventas
 
-**Inventario**
+**Historial de ventas**
+Pantallas del módulo de Ventas: muestra historial de ventas, métricas clave y búsqueda por rango de fechas.
+![w_admin_sales](assets/images/cap4/mobile_wireframes/w_admin_sales.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_inventory.png)
-`<br/>`
+**Confirmación de eliminación de venta**
+Popup de advertencia para confirmar acciones destructivas en la sección de ventas.
+![w_admin_sales2](assets/images/cap4/mobile_wireframes/w_admin_sales2.png)
 
-**Notificaciones**
+---
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_notification.png)
-`<br/>`
+##### Suscripciones
 
-**Ordenes**
+**Gestión de planes de suscripción**
+Pantallas de Suscripciones: incluye vista de planes activos, cambios de plan y pagos asociados.
+![w_admin_subs](assets/images/cap4/mobile_wireframes/w_admin_subs.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_orders.png)
-`<br/>`
+---
 
-**Calificaciones**
+##### Perfil
 
-![Web app wireframes mobile](assets/images/cap4/mobile_wireframes/w_supplier_reviews.png)
-`<br/>`
+**Configuración y datos del perfil**
+Pantallas del perfil del administrador: incluye información personal, configuración de cuenta y opciones de cerrar sesión.
+![w_admin_profile](assets/images/cap4/mobile_wireframes/w_admin_profile.png)
+
+---
+
+##### Resumen / Dashboard
+
+**Panel principal con métricas clave**
+Dashboard/resumen para administrador: muestra órdenes pendientes, alertas y notificaciones clave.
+![w_admin_summary](assets/images/cap4/mobile_wireframes/w_admin_summary.png)
+
+---
+
+#### Versión Mobile Web Browser - Proveedores
+
+##### Inventario
+
+**Gestión de productos ofrecidos**
+Pantallas de Inventario para proveedor: gestión de productos ofrecidos, precios, y actualización de stock.
+![w_supplier_inventory](assets/images/cap4/mobile_wireframes/w_supplier_inventory.png)
+
+---
+
+##### Pedidos
+
+**Lista y estado de pedidos recibidos**
+Pedidos para proveedores: lista de pedidos realizados por restaurantes, detalles de cada uno y fechas.
+
+![w_supplier_orders](assets/images/cap4/mobile_wireframes/w_supplier_orders.png)
+
+**Detalles de pedido**
+Pantallas de gestión de pedidos: incluye opciones para editar, cancelar o confirmar pedidos.
+![w_supplier_orders2](assets/images/cap4/mobile_wireframes/w_supplier_orders2.png)
+|
+**Actualización de estado de pedidos**
+Actualización de estado de pedidos: permite al proveedor actualizar el estado de envío y entrega.
+![w_supplier_orders3](assets/images/cap4/mobile_wireframes/w_supplier_orders3.png)
+
+---
+
+##### Alertas
+
+**Alertas registradas**
+Pantallas de Alertas para proveedores: incluye alertas generadas por restaurantes y opciones de respuesta.
+![w_supplier_alerts](assets/images/cap4/mobile_wireframes/w_supplier_notification.png)
+
+---
+
+##### Calificaciones
+
+**Calificaciones de restaurantes**
+Pantallas de calificaciones: permite al proveedor revisar las evaluaciones y comentarios de los restaurantes.
+![w_supplier_reviews](assets/images/cap4/mobile_wireframes/w_supplier_reviews.png)
+
+---
+
+##### Resumen / Dashboard
+
+**Panel principal con métricas clave**
+Pantallas de Resumen para proveedores: incluye métricas de clientes frecuentes, ganancias y alertas.
+![w_supplier_summary](assets/images/cap4/mobile_wireframes/w_supplier_summary.png)
+
+---
+
+##### Perfil
+
+**Configuración del perfil del proveedor**
+Perfil del proveedor: información personal, métricas de ventas, y accesos rápidos a historial.
+![w_supplier_profile](assets/images/cap4/mobile_wireframes/w_supplier_profile.png)
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
