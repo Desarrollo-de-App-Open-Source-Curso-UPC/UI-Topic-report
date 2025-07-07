@@ -504,57 +504,73 @@ Trello: [[https:/linkcuts.org/gmhr4kmc](https:/linkcuts.org/gmhr4kmc)]
 
 | User Story ID | User Story Title                                      | Task ID | Task Title                | Task Description                                                                                          | Estimated Hours |
 | ------------- | ----------------------------------------------------- | ------- | ------------------------- | --------------------------------------------------------------------------------------------------------- | --------------- |
-| US-08         | Selector de idioma en landing page                    | T001    | Diseñar sección         | Crear diseño visual para 'mostrar mensaje de valor en la sección principal'.                            | 1/2h            |
-|               |                                                       | T002    | Implementar funcionalidad | Codificar el componente necesario para 'mostrar mensaje de valor en la sección principal'.               | 1h              |
-|               |                                                       | T003    | Realizar pruebas          | Verificar que 'mostrar mensaje de valor en la sección principal' funcione correctamente.                 | 1/2h            |
-| US-09         | Optimización para pantallas de tablet                | T004    | Diseñar sección         | Crear diseño visual para 'mostrar beneficios segmentados por tipo de usuario'.                           | 1/2h            |
-|               |                                                       | T005    | Implementar funcionalidad | Codificar el componente necesario para 'mostrar beneficios segmentados por tipo de usuario'.              | 1h              |
-|               |                                                       | T006    | Realizar pruebas          | Verificar que 'mostrar beneficios segmentados por tipo de usuario' funcione correctamente.                | 1/2h            |
-| US-10         | Acceso limitado según estado de suscripción         | T007    | Diseñar sección         | Crear diseño visual para 'incluir llamados a la acción (cta) con redirección y descarga'.              | 1/2h            |
-|               |                                                       | T008    | Implementar funcionalidad | Codificar el componente necesario para 'incluir llamados a la acción (cta) con redirección y descarga'. | 1h              |
-|               |                                                       | T009    | Realizar pruebas          | Verificar que 'incluir llamados a la acción (cta) con redirección y descarga' funcione correctamente.   | 1/2h            |
-| US-05         | Registrar una compra de insumo                        | T010    | Diseñar sección         | Crear diseño visual para 'visualización de la barra de navegación'.                                    | 1/2h            |
-|               |                                                       | T011    | Implementar funcionalidad | Codificar el componente necesario para 'visualización de la barra de navegación'.                       | 1h              |
-|               |                                                       | T012    | Realizar pruebas          | Verificar que 'visualización de la barra de navegación' funcione correctamente.                         | 1/2h            |
-| US-06         | Gestión de perfil del restaurante                    | T013    | Diseñar sección         | Crear diseño visual para 'visualización de pasos del funcionamiento'.                                   | 1/2h            |
-|               |                                                       | T014    | Implementar funcionalidad | Codificar el componente necesario para 'visualización de pasos del funcionamiento'.                      | 1h              |
-|               |                                                       | T015    | Realizar pruebas          | Verificar que 'visualización de pasos del funcionamiento' funcione correctamente.                        | 1/2h            |
-| US-07         | Gestión de perfil del proveedor                      | T016    | Diseñar sección         | Crear diseño visual para 'alternativa con video explicativo'.                                            | 1/2h            |
-|               |                                                       | T017    | Implementar funcionalidad | Codificar el componente necesario para 'alternativa con video explicativo'.                               | 1h              |
-|               |                                                       | T018    | Realizar pruebas          | Verificar que 'alternativa con video explicativo' funcione correctamente.                                 | 1/2h            |
-| US-04         | Actualización manual y edición previa de inventario | T019    | Diseñar sección         | Crear diseño visual para 'visualización de footer en landing page'.                                     | 1/2h            |
-|               |                                                       | T020    | Implementar funcionalidad | Codificar el componente necesario para 'visualización de footer en landing page'.                        | 2h              |
-|               |                                                       | T021    | Realizar pruebas          | Verificar que 'visualización de footer en landing page' funcione correctamente.                          | 1/2h            |
-| US-01         | Visualizar ingredientes más usados                   | T022    | Diseñar sección         | Crear diseño visual para 'ver testimonios de clientes'.                                                  | 2h              |
-|               |                                                       | T023    | Implementar funcionalidad | Codificar el componente necesario para 'ver testimonios de clientes'.                                     | 1/2h            |
-|               |                                                       | T024    | Realizar pruebas          | Verificar que 'ver testimonios de clientes' funcione correctamente.                                       | 1h              |
-| US-02         | Consultar Preguntas Frecuentes                        | T025    | Diseñar sección         | Crear diseño visual para 'consultar preguntas frecuentes'.                                               | 1/2h            |
-|               |                                                       | T026    | Implementar funcionalidad | Codificar el componente necesario para 'consultar preguntas frecuentes'.                                  | 1h              |
-|               |                                                       | T027    | Realizar pruebas          | Verificar que 'consultar preguntas frecuentes' funcione correctamente.                                    | 1/2h            |
-| US-23         | Visualización de feedback                            | T028    | Diseñar sección         | Crear diseño visual para 'enviar formulario de contacto'.                                                | 1h              |
-|               |                                                       | T029    | Implementar funcionalidad | Codificar el componente necesario para 'enviar formulario de contacto'.                                   | 1/2h            |
-|               |                                                       | T030    | Realizar pruebas          | Verificar que 'enviar formulario de contacto' funcione correctamente.                                     | 1h              |
-| US-26         | Navegación fluida entre secciones                    | T031    | Diseñar sección         | Crear diseño visual para 'navegación fluida entre secciones'.                                           | 1/2h            |
-|               |                                                       | T032    | Implementar funcionalidad | Codificar el componente necesario para 'navegación fluida entre secciones'.                              | 1h              |
-|               |                                                       | T033    | Realizar pruebas          | Verificar que 'navegación fluida entre secciones' funcione correctamente.                                | 1/2h            |
-| US-13         | Visualización responsive en desktop                  | T034    | Diseñar sección         | Crear diseño visual para 'visualización responsive en desktop'.                                         | 1/2h            |
-|               |                                                       | T035    | Implementar funcionalidad | Codificar el componente necesario para 'visualización responsive en desktop'.                            | 1h              |
-|               |                                                       | T036    | Realizar pruebas          | Verificar que 'visualización responsive en desktop' funcione correctamente.                              | 1/2h            |
-| US-15         | Visualización responsive en dispositivos móviles    | T037    | Diseñar sección         | Crear diseño visual para 'visualización responsive en dispositivos móviles'.                           | 1h              |
-|               |                                                       | T038    | Implementar funcionalidad | Codificar el componente necesario para 'visualización responsive en dispositivos móviles'.              | 1/2h            |
-|               |                                                       | T039    | Realizar pruebas          | Verificar que 'visualización responsive en dispositivos móviles' funcione correctamente.                | 1/2h            |
-| US-14         | Visualización responsive en tablet                   | T040    | Diseñar sección         | Crear diseño visual para 'visualización responsive en tablet'.                                          | 1/2h            |
-|               |                                                       | T041    | Implementar funcionalidad | Codificar el componente necesario para 'visualización responsive en tablet'.                             | 1h              |
-|               |                                                       | T042    | Realizar pruebas          | Verificar que 'visualización responsive en tablet' funcione correctamente.                               | 1/2h            |
-| US-45         | Estado general del inventario                         | T043    | Diseñar sección         | Crear diseño visual para 'registro'.                                                                     | 2h              |
-|               |                                                       | T044    | Implementar funcionalidad | Codificar el componente necesario para 'registro'.                                                        | 2h              |
-|               |                                                       | T045    | Realizar pruebas          | Verificar que 'registro' funcione correctamente.                                                          | 1h              |
-| US-47         | Identificar a los Mejores Clientes                    | T046    | Diseñar sección         | Crear diseño visual para 'inicio de sesión'.                                                            | 2h              |
-|               |                                                       | T047    | Implementar funcionalidad | Codificar el componente necesario para 'inicio de sesión'.                                               | 1h              |
-|               |                                                       | T048    | Realizar pruebas          | Verificar que 'inicio de sesión' funcione correctamente.                                                 | 1h              |
-| US-49         | Búsqueda y Filtrado de Proveedores                   | T049    | Diseñar sección         | Crear diseño visual para 'recuperación de contraseña'.                                                 | 2h              |
-|               |                                                       | T050    | Implementar funcionalidad | Codificar el componente necesario para 'recuperación de contraseña'.                                    | 1/2h            |
+| US-16         | Gestión de ventas                    | T001    | Formulario de Registro de Venta         | Diseñar la interfaz de formulario para registrar una venta (campos: ítems, cantidad, método de pago).                            | 1/2h          |
+|               |                                                       | T002    | Confirmación de Venta Registrada | Mostrar confirmación de registro y resumen de venta registrada.               | 1h              |
+| US-18         | Visualización de calificaciones recibidas                | T003    | Calificaciones por Orden         | Crear el layout general que contenga las calificaciones por orden completada.                           | 1/2h            |
+|               |                                                       | T004    | Componente de Valoración | Crear componente para mostrar calificación y comentario.              | 1h              |
+|               |                                                       | T005    | Manejo de Errores y Vacíos          | Validar estados vacíos o errores (sin calificaciones, error de conexión, etc.).                | 1/2h            |
+|               |                                                       | T006    | Documentación: Vista de Calificaciones          | Documentar la vista de calificaciones, describiendo cómo se usa, qué datos muestra y cómo se integra con el backend.                | 1/2h            |
+| US-11         | Gestión de perfil         | T007    | Editar mi Información         | Crear formulario editable con campos de su información.              | 1/2h            |
+|               |                                                       | T008    | Vinculación de Formulario con Datos Simulados | Vincular formulario con datos simulados del perfil. | 1h              |
+|               |                                                       | T009    | Validaciones Básicas          | Implementar validaciones básicas.   | 1/2h            |
+|               |                                                       | T010    | Mensaje de Confirmación de Envío de Formulario          | Mostrar mensaje de confirmación tras guardar los cambios.   | 1/2h            |
+|               |                                                       | T011    | Diseño Responsivo y Accesible          | Asegurar que el diseño sea responsivo y accesible.   | 1/2h            |
+| US-04         | Gestión manual de stock e insumos                        | T012    | Formulario de Registro de Insumos         | Diseñar formulario para registrar insumos manualmente (nombre, tipo, cantidad, unidad de medida, fecha).                                    | 1/2h            |
+|               |                                                       | T013    | Visualización del Stock Actual | Implementar vista con tabla dinámica que muestre el stock actual de insumos registrados.                       | 1h              |
+|               |                                                       | T014    | Edición de Insumos | Permitir al usuario editar insumos existentes desde la vista de stock.                       | 1h              |
+| US-12         | Visualizar ingredientes más usados                    | T015    | Maquetar vista del panel de control con selector de período         | Maquetar vista del panel de control con la opción de seleccionar el período de análisis (últimos 7 días, último mes, etc.).                                   | 2h            |
+|               |                                                       | T016    | Simular datos de uso de ingredientes | Simular datos de uso de ingredientes con frecuencia (cantidad utilizada) para los períodos seleccionados (mock JSON).                      | 1/2h              |
+|               |                                                       | T017    | Mostrar ingredientes más usados por período          | Mostrar un gráfico o lista con los ingredientes más usados durante el período seleccionado, incluyendo cantidad usada y nombre del ingrediente.                        | 2h            |
+|               |                                                       | T018    | Funcionalidad para cambiar período de análisis          | Implementar funcionalidad para cambiar el período de análisis (últimos 7 días, último mes, etc.).                        | 1/2h            |
+|               |                                                       | T019    | Actualizar datos según período seleccionado          | Actualizar los datos mostrados de acuerdo con el nuevo período de análisis seleccionado.                        | 1/2h            |
+|               |                                                       | T020    | Cambio de período sin recarga de página          | Asegurar que el cambio de período sea dinámico y no requiera recargar la página.                        | 1h            |
+|               |                                                       | T021    | Mejorar visualización de datos de ingredientes          | Asegurar que los datos de los ingredientes sean claros, visualmente atractivos y fáciles de interpretar.                        | 1/2h            |
+|               |                                                       | T022    | Hacer vista responsiva y accesible          | Asegurar que la vista sea responsiva y accesible en dispositivos móviles y de escritorio.                        | 1h            |
+|               |                                                       | T023    | Probar flujo completo con datos mock          | Probar el flujo completo de selección de período y visualización de ingredientes con datos falsos.                        | 1h            |
+| US-13         | Ver alertas recientes                      | T024    | Maquetar vista de alertas recientes         | Maquetar vista de panel de alertas con lista de alertas recientes (por vencer, bajo stock, etc.).                                            | 2h            |
+|               |                                                       | T025    | Simular alertas con datos mock | Simular alertas usando datos precargados (mock JSON) que incluyan información como tipo de alerta, nombre del producto, cantidad y fecha de vencimiento.                               | 1/2h              |
+|               |                                                       | T026    | Mostrar alertas clasificadas por tipo          | Mostrar alertas clasificada por tipo (por vencimiento, bajo stock, etc.) con una visualización clara y accesible.                                 | 2h            |
+|               |                                                       | T027    | Marcar alertas como revisadas          | Implementar la opción para que el administrador marque las alertas como "revisadas".                                 | 1h            |
+|               |                                                       | T028    | Mover alertas revisadas a sección archivadas          | Al marcar una alerta como revisada, esta debe desaparecer del panel principal y pasar a una sección de "archivadas".                                 | 1/2h            |
+|               |                                                       | T029    | Actualizar alertas dinámicamente al revisar          | Asegurar que el sistema actualice las alertas de manera dinámica al marcar una como revisada.                                 | 1h            |
+|               |                                                       | T030    | Notificar al archivar una alerta          | Implementar mensajes de confirmación o notificación al archivarse una alerta.                                 | 1h            |
+|               |                                                       | T031    | Responsividad de vista de alertas          | Asegurar que la vista sea responsiva y se adapte bien a dispositivos móviles y de escritorio.                                 | 2h            |
+| US-05         | Gestión integral de notificaciones de inventario | T032    | Simular alertas con datos         | Generar un archivo JSON con datos falsos que incluyan tipo de alerta, producto, cantidad y fecha.                                     | 1/2h            |
+|               |                                                       | T033    | 	Marcar alertas como revisadas | Permitir que el administrador marque las alertas como gestionadas (revisadas).                        | 2h              |
+|               |                                                       | T034    | Responsividad de vista de alertas          | Asegurar que la interfaz de alertas se adapte correctamente a móviles y escritorio.                          | 2h            |
+|               |                                                       | T035    | Priorizar alertas críticas          | Ordenar las alertas dando prioridad a las más urgentes (por cercanía de vencimiento o gravedad del stock).                          | 1/2h            |
+| US-06         | Enviar comentarios y calificaciones sobre pedidos                   | T036    | Maquetar formulario de retroalimentación         | Diseñar la vista con campos para calificación (e.g. estrellas o 1–5) y comentario.                                                  | 2h              |
+|               |                                                       | T037    | 	Validar entrega antes de permitir feedback | Implementar validación para permitir comentarios solo si el pedido está marcado como entregado.                                     | 1/2h            |
+|               |                                                       | T038    | 	Validar datos del formulario          | Asegurar que la calificación esté en rango permitido y el comentario no esté vacío.                                       | 1h              |
+|               |                                                       | T039    | Registrar feedback en el sistema | Guardar los datos del comentario y calificación y asociarlos al pedido y proveedor correspondientes.                                  | 2h              |
+| US-07         | Gestionar productos en el inventario                   | T040    | Mostrar listado de productos         | Implementar vista para mostrar todos los productos registrados por el proveedor logueado.                                                  | 1/2h              |
+|               |                                                       | T041    | Maquetar formulario de nuevo producto          | Diseñar formulario con campos: nombre, descripción, categoría y precio unitario.                                    | 1/2h            |
+|               |                                                       | T042    | Validar datos al registrar producto          | Verificar que todos los campos obligatorios estén completos y sean válidos.                                    | 1/2h            |
+|               |                                                       | T043    | Registrar nuevo producto en catálogo          | Enviar y guardar nuevo producto en el sistema, asociándolo al proveedor.                                    | 2h            |
+|               |                                                       | T044    | Mostrar mensaje de éxito o error          | Notificar visualmente si el producto fue registrado correctamente o si hubo un error.                                    | 1h            |
+|               |                                                       | T045    | Editar producto existente          | Permitir modificar nombre, descripción, categoría o precio de un producto.                                    | 1/2h            |
+|               |                                                       | T046    | Guardar cambios al editar producto          | Validar cambios y actualizar producto en el sistema.                                    | 1h            |
+|               |                                                       | T047    | Eliminar producto          | Permitir al proveedor eliminar un producto con confirmación previa.                                    | 1/2h            |
+|               |                                                       | T048    | Manejar errores por datos inválidos          | Mostrar mensaje claro si el proveedor intenta registrar o editar un producto con datos inválidos.                                    | 1h            |
+| US-14         | Identificar a los Mejores Clientes                   | T049    | Sección “Mejores clientes” en panel proveedor         | Agregar opción de navegación o sección “Mejores clientes” en el panel del proveedor.                                                 | 1/2h              |
+|               |                                                       | T050    | Formulario con rango de fechas | Crear formulario con selección de rango de fechas (p-calendar o similar de PrimeVue).                                    | 1h            |
 |               |                                                       | T051    | Realizar pruebas          | Verificar que 'recuperación de contraseña' funcione correctamente.                                      | 1h              |
+|               |                                                       | T052    | Validar selección de fechas completas          | Validar que ambas fechas estén seleccionadas antes de permitir la solicitud.                                      | 1h              |
+|               |                                                       | T053    | Definir interfaz DTO de respuesta          | Definir interfaz del DTO de respuesta esperado (ej: nombreCliente, totalComprado, cantidadPedidos).                                      | 1h              |
+|               |                                                       | T054    | Configurar servicio axios para mejores clientes          | Configurar servicio con axios para llamar al endpoint /proveedores/{id}/mejores-clientes con fechas como parámetros.                                      | 1/2h              |
+|               |                                                       | T055    | Simular respuesta de mejores clientes (mock)          | Simular respuesta del backend con datos mockeados en formato final mientras no exista el backend.                                      | 1/2h              |
+|               |                                                       | T056    | Renderizar tabla con p-datatable          | Renderizar tabla de resultados usando p-datatable, ordenada por total comprado.                                      | 1/2h              |
+|               |                                                       | T057    | Agregar feedback de carga y errores          | Incluir feedback visual para estados de carga (p-progressSpinner) y errores.                                      | 1h              |
+|               |                                                       | T058    | Mostrar mensaje si no hay resultados          | Mostrar mensaje amigable si no hay resultados para el rango seleccionado.                                      | 1h              |
+|               |                                                       | T059    | Función para exportar tabla (stub)          | Preparar función de exportación de tabla a Excel/PDF (dejar stub si depende de backend).                                      | 1/2h              |
+| US-08         | Gestión de Proveedores                   | T060    | Vista de proveedores disponibles         | Maquetar y mostrar todos los proveedores registrados en la plataforma.                                                 | 1/2h              |
+|               |                                                       | T061    | Buscar proveedor por nombre | Implementar campo de búsqueda por nombre parcial o completo.                                    | 1h            |
+|               |                                                       | T062    | Filtrar proveedores por categoría          | Agregar filtro por categoría y aplicar al listado de proveedores.                                      | 1h              |
+|               |                                                       | T063    | Combinar filtros de nombre y categoría          | Permitir aplicar búsqueda y filtro de forma combinada.                                      | 1/2h              |
+|               |                                                       | T064    | Agregar proveedor a lista personal          | Permitir seleccionar un proveedor y añadirlo a la lista del administrador.                                      | 1/2h              |
+|               |                                                       | T065    | Confirmar y guardar proveedor agregado          | Mostrar confirmación y guardar el proveedor seleccionado.                                      | 1h              |
+|               |                                                       | T066    | Mostrar lista personal de proveedores          | Renderizar lista de proveedores guardados con nombre, contacto y estado.                                      | 1/2h              |
+|               |                                                       | T067    | Eliminar proveedor de lista          | Permitir eliminar un proveedor de la lista personal con confirmación.                                      | 1h              |
 
 #### 5.2.2.4 Development Evidence for Sprint Review
 
@@ -715,19 +731,52 @@ A continuación, se presenta el video del frontend de la aplicación web interna
 
 Video: [https:/linkcuts.org/konqfr2w](https:/linkcuts.org/konqfr2w)
 
-#### 5.2.2.6 Services Documentation Evidence for Sprint Review.
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
-Durante este sprint se completó al 100% el desarrollo del Landing Page del sistema, consolidando su estructura visual, diseño responsivo, traducción multilenguaje y funcionalidades de navegación. Asimismo, se avanzó de forma significativa en la construcción del frontend del sistema, incluyendo componentes claves como el menú lateral, el dashboard inicial, el módulo de gestión de insumos y la arquitectura modular en Angular bajo DDD (Domain-Driven Design).
-
-Aunque no se desplegaron endpoints REST aún, se documentan a continuación los recursos y avances relevantes del sprint, junto con evidencia de despliegue y repositorio de código.
+Durante este Sprint se avanzó en el desarrollo del **frontend interno de Restock**, habilitando múltiples rutas navegables para los usuarios autenticados (administradores de restaurante y proveedores), en una estructura basada en Angular Router, Domain-Driven Design y componentes cargados dinámicamente. Aunque aún no se han documentado endpoints REST con OpenAPI, se despliegan a continuación los recursos navegables disponibles, que forman parte del ecosistema de consumo de servicios web del sistema.
 
 **Descripción del Logro:**
 
-- Finalización del Landing Page (100%).
-- Implementación completa de diseño responsivo, i18n, y redirecciones funcionales.
-- Estructura de frontend modular iniciada (menu sidebar, dashboard y componentes base).
-- Aplicación de buenas prácticas de organización por bounded contexts en Angular.
-- Integración visual basada en Angular y Angular Material.
+* Finalización del Landing Page e implementación multilenguaje.
+* Desarrollo modular del frontend con rutas específicas por rol (restaurante y proveedor).
+* Estructura basada en Angular Router, DDD y carga lazy de componentes.
+* Integración visual con Angular Material y buenas prácticas de separación por contextos.
+
+##### Rutas accesibles del sistema (Frontend)
+
+| Recurso / Vista               | Acción implementada                        | Método HTTP | URL relativa                          | Propósito funcional                                   |
+| ----------------------------- | ------------------------------------------ | ----------- | ------------------------------------- | ----------------------------------------------------- |
+| Landing Page                  | Visualización pública inicial              | GET         | `/` (con redirección de rol)          | Acceso inicial y redirección por tipo de usuario      |
+| Supplier Inventory            | Visualización de inventario de proveedor   | GET         | `/dashboard/supplier/inventory`       | Gestión del inventario del proveedor                  |
+| Restaurant Inventory          | Visualización de inventario de restaurante | GET         | `/dashboard/restaurant/inventory`     | Control de insumos del restaurante                    |
+| Restaurant Summary Overview   | Resumen analítico del restaurante          | GET         | `/dashboard/restaurant/summary`       | Dashboard de datos clave del restaurante              |
+| Supplier Summary Overview     | Resumen analítico del proveedor            | GET         | `/dashboard/supplier/summary`         | Dashboard de datos clave del proveedor                |
+| Supplier Catalog (Restaurant) | Catálogo de proveedores                    | GET         | `/dashboard/restaurant/suppliers`     | Visualización y exploración de proveedores            |
+| Supplier Detail (Restaurant)  | Detalle de proveedor específico            | GET         | `/dashboard/restaurant/suppliers/:id` | Información detallada del proveedor y su catálogo     |
+| Supplier Reviews              | Visualización de calificaciones            | GET         | `/dashboard/supplier/ratings`         | Revisión de calificaciones recibidas por el proveedor |
+
+##### Despliegue de recursos
+
+| Recurso          | Acción implementada   | Método HTTP | URL / Endpoint                                                                | Repositorio                                                                            |
+| ---------------- | --------------------- | ----------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Landing Page     | Visualización inicial | GET         | [Landing URL](https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/) | [UI-Topic-landing](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing) |
+| Frontend Interno | Navegación por rutas  | GET         | [App URL](https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory)                               | [UI-Topic-frontend](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-Frontend)   |
+
+##### Evidencia de interacción
+
+* Video de navegación por módulos del sistema:
+  [https://short-link.me/16eW0](https://short-link.me/16eW0)
+
+* Captura de la interfaz en funcionamiento:
+  ![Captura del video](assets/images/cap-5/evidence_sprint_2/video_evidence.png)
+
+##### Commits relacionados
+
+| Commit ID | Descripción                                                                 | Autor       |
+| --------- | --------------------------------------------------------------------------- | ----------- |
+| `0d31b31` | `feat(inventory): integrate inventory management with modal for adding and editing supplies`    | JulioXC4  |
+| `61f2e4b` | `feat(restaurant-supplier): add restaurant supplier catalog.`               | Yaku Guzman |
+| `55dbceb` | `feat(sidebar): restructure app layout with sidebar and router integration` | jahazielgg  |
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
@@ -3035,10 +3084,10 @@ Segmento 1: Dueños o administradores de Restaurantes
 
 **Entrevista 1:**
 
-**Nombre:** Alfredo Bernuy
-**Edad:** 52 años
-**Distrito:** Chorrillos
-**Timing:** (00:00- 05:18 min)
+**Nombre:** Alfredo Bernuy  
+**Edad:** 52 años  
+**Distrito:** Chorrillos  
+**Timing:** (00:00- 05:18 min)  
 
 ![Foto de Entrevista](assets/images/entrevistaFinal1.png)
 
@@ -3053,10 +3102,10 @@ Por otro lado, subraya que el diseño es moderno y atractivo: la paleta de color
 
 **Entrevista 2:**
 
-**Nombre:** Mery Pilar
-**Edad:** 49 años
-**Distrito:** Chorrillos
-**Timing:** (05:19 - 10:50 min)
+**Nombre:** Mery Pilar  
+**Edad:** 49 años  
+**Distrito:** Chorrillos  
+**Timing:** (05:19 - 10:50 min)  
 
 ![Foto de Entrevista](assets/images/entrevistaFinal2.png)
 
@@ -3074,10 +3123,10 @@ Además, enfatiza que la apariencia es fresca y profesional: los tonos empleados
 
 **Entrevista 1:**
 
-**Nombre:** Flor Medina
-**Edad:** 28 años
-**Distrito:** San Miguel
-**Timing:** (10:51 - 21:05 min)
+**Nombre:** Flor Medina  
+**Edad:** 28 años  
+**Distrito:** San Miguel  
+**Timing:** (10:51 - 21:05 min)  
 
 ![Foto de Entrevista](assets/images/entrevistaFinal3.png)
 
@@ -3163,111 +3212,111 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **DESCRIPCIÓN DE PROBLEMAS**
 
-**PROBLEMA #1: Uso de colores sin etiquetas para estados de pedido**
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
-**Problema:** Actualmente, el sistema usa colores para indicar el estado de los pedidos, pero no existe una leyenda textual que acompañe estos colores. Esto puede causar confusión a usuarios que no recuerdan o entienden el significado de cada color.
-**Evidencia:** La usuaria indicó: "Le sale de diferente color...". No mencionó saber qué significa cada color.
-**Recomendación:** Incorporar columna con dato del estado para que sea inequívocamente identificado ("En camino", "En espera", etc.).
+**PROBLEMA #1: Uso de colores sin etiquetas para estados de pedido**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema  
+**Problema:** Actualmente, el sistema usa colores para indicar el estado de los pedidos, pero no existe una leyenda textual que acompañe estos colores. Esto puede causar confusión a usuarios que no recuerdan o entienden el significado de cada color.  
+**Evidencia:** La usuaria indicó: "Le sale de diferente color...". No mencionó saber qué significa cada color.  
+**Recomendación:** Incorporar columna con dato del estado para que sea inequívocamente identificado ("En camino", "En espera", etc.).  
 
 ---
 
-**PROBLEMA #2: Falta de opciones rápidas para reutilizar recetas**
-**Severidad:** 1
-**Heurística violada:** Usabilidad - Reconocer mejor que recordar
-**Problema:** El sistema permite crear recetas, pero no ofrece un mecanismo claro para reutilizarlas o seleccionarlas de forma directa. Esto puede hacer que el usuario deba rehacer pasos innecesarios.
-**Evidencia:** La usuaria comentó: "Y puedo crear acá nuevos productos también", lo cual implica que debe crear nuevamente la receta en vez de seleccionar una ya existente.
-**Recomendación:** Añadir un buscador o selector de recetas guardadas para ser reutilizadas.
+**PROBLEMA #2: Falta de opciones rápidas para reutilizar recetas**  
+**Severidad:** 1  
+**Heurística violada:** Usabilidad - Reconocer mejor que recordar  
+**Problema:** El sistema permite crear recetas, pero no ofrece un mecanismo claro para reutilizarlas o seleccionarlas de forma directa. Esto puede hacer que el usuario deba rehacer pasos innecesarios.  
+**Evidencia:** La usuaria comentó: "Y puedo crear acá nuevos productos también", lo cual implica que debe crear nuevamente la receta en vez de seleccionar una ya existente.  
+**Recomendación:** Añadir un buscador o selector de recetas guardadas para ser reutilizadas.  
 
 ---
 
-**PROBLEMA #3: No existen accesos directos ni funciones para expertos**
-**Severidad:** 3
-**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso
-**Problema:** El sistema está centrado en tareas básicas, pero no contempla accesos rápidos, atajos o funcionalidades para usuarios frecuentes que desean operar con mayor agilidad.
-**Evidencia:** "...tener más tiempo... incluso para poder abrir otra tienda", sugiere que la eficiencia es una necesidad importante para la usuaria.
-**Recomendación:** Incluir accesos directos desde el dashboard, filtros inteligentes o teclas rápidas.
+**PROBLEMA #3: No existen accesos directos ni funciones para expertos**  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso  
+**Problema:** El sistema está centrado en tareas básicas, pero no contempla accesos rápidos, atajos o funcionalidades para usuarios frecuentes que desean operar con mayor agilidad.  
+**Evidencia:** "...tener más tiempo... incluso para poder abrir otra tienda", sugiere que la eficiencia es una necesidad importante para la usuaria.  
+**Recomendación:** Incluir accesos directos desde el dashboard, filtros inteligentes o teclas rápidas.  
 
 ---
 
-**PROBLEMA #4: Botones y acciones no están claramente etiquetados**
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Correspondencia entre sistema y mundo real
-**Problema:** Algunos botones como "Place Order" no son intuitivos para un usuario hispanohablante, y su comprensión depende del color o la posición.
-**Evidencia:** "Place Order (el morado)" indica que se recuerda el color más que la acción.
-**Recomendación:** Usar etiquetas localizadas ("Realizar pedido").
+**PROBLEMA #4: Botones y acciones no están claramente etiquetados**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Correspondencia entre sistema y mundo real  
+**Problema:** Algunos botones como "Place Order" no son intuitivos para un usuario hispanohablante, y su comprensión depende del color o la posición.  
+**Evidencia:** "Place Order (el morado)" indica que se recuerda el color más que la acción.  
+**Recomendación:** Usar etiquetas localizadas ("Realizar pedido").  
 
 ---
 
-**PROBLEMA #5: No se contempla accesibilidad visual o de navegación**
-**Severidad:** 2
-**Heurística violada:** Inclusive Design - Accesibilidad y compatibilidad
-**Problema:** El sistema no ofrece opción de alto contraste, navegación por teclado o soporte para lectores de pantalla.
-**Evidencia:** No mencionado directamente, pero se infiere por ausencia de referencia.
-**Recomendación:** Añadir opciones de accesibilidad visual y teclas de navegación.
+**PROBLEMA #5: No se contempla accesibilidad visual o de navegación**  
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design - Accesibilidad y compatibilidad  
+**Problema:** El sistema no ofrece opción de alto contraste, navegación por teclado o soporte para lectores de pantalla.  
+**Evidencia:** No mencionado directamente, pero se infiere por ausencia de referencia.  
+**Recomendación:** Añadir opciones de accesibilidad visual y teclas de navegación.  
 
 ---
 
-**PROBLEMA #6: Falta de opciones para editar o cancelar un pedido**
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Libertad y control del usuario
-**Problema:** El sistema no deja claro si se pueden modificar o anular pedidos una vez registrados, lo cual limita el control del usuario sobre el flujo.
-**Evidencia:** No se menciona esta posibilidad en la entrevista, y la acción parece definitiva.
-**Recomendación:** Añadir botones de "Editar" y "Cancelar" en pedidos recientes.
+**PROBLEMA #6: Falta de opciones para editar o cancelar un pedido**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Libertad y control del usuario  
+**Problema:** El sistema no deja claro si se pueden modificar o anular pedidos una vez registrados, lo cual limita el control del usuario sobre el flujo.  
+**Evidencia:** No se menciona esta posibilidad en la entrevista, y la acción parece definitiva.  
+**Recomendación:** Añadir botones de "Editar" y "Cancelar" en pedidos recientes.  
 
 ---
 
-**PROBLEMA #7: Flujo de tareas puede ser poco guiado**
-**Severidad:** 1
-**Heurística violada:** Arquitectura de información - Is it usable?
-**Problema:** El proceso de registrar ventas o pedidos implica múltiples pasos que pueden resultar poco intuitivos sin guías.
-**Evidencia:** "...registrar... seleccionar... luego se descuenta el stock" sugiere un flujo de acciones implícito.
-**Recomendación:** Incorporar guías visuales paso a paso.
+**PROBLEMA #7: Flujo de tareas puede ser poco guiado**  
+**Severidad:** 1  
+**Heurística violada:** Arquitectura de información - Is it usable?  
+**Problema:** El proceso de registrar ventas o pedidos implica múltiples pasos que pueden resultar poco intuitivos sin guías.  
+**Evidencia:** "...registrar... seleccionar... luego se descuenta el stock" sugiere un flujo de acciones implícito.  
+**Recomendación:** Incorporar guías visuales paso a paso.  
 
 ---
 
-**PROBLEMA #8: Modal de creación de insumos podría ser más informativo**
-**Severidad:** 1
-**Heurística violada:** Usabilidad - Ayuda y documentación
-**Problema:** El modal para añadir insumos es funcional, pero no proporciona ejemplos ni guías sobre qué información debe colocarse.
-**Evidencia:** "...tiene ahí la opción de poner cualquiera de sus ítems" indica libertad sin orientación.
-**Recomendación:** Incluir sugerencias o placeholders dentro del modal (por ejemplo: "Ej: Lechuga romana").
+**PROBLEMA #8: Modal de creación de insumos podría ser más informativo**  
+**Severidad:** 1  
+**Heurística violada:** Usabilidad - Ayuda y documentación  
+**Problema:** El modal para añadir insumos es funcional, pero no proporciona ejemplos ni guías sobre qué información debe colocarse.  
+**Evidencia:** "...tiene ahí la opción de poner cualquiera de sus ítems" indica libertad sin orientación.  
+**Recomendación:** Incluir sugerencias o placeholders dentro del modal (por ejemplo: "Ej: Lechuga romana").  
 
 ---
 
-**PROBLEMA #9: Notificaciones no especifican acción sugerida**
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores
-**Problema:** Las notificaciones informan del stock mínimo o de pedidos, pero no indican directamente qué hacer a continuación.
-**Evidencia:** "...con esto ya tendríamos las notificaciones que nos alertarían" indica utilidad, pero no orientación.
-**Recomendación:** Añadir botones de redirección en las notificaciones.
+**PROBLEMA #9: Notificaciones no especifican acción sugerida**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores  
+**Problema:** Las notificaciones informan del stock mínimo o de pedidos, pero no indican directamente qué hacer a continuación.  
+**Evidencia:** "...con esto ya tendríamos las notificaciones que nos alertarían" indica utilidad, pero no orientación.  
+**Recomendación:** Añadir botones de redirección en las notificaciones.  
 
 ---
 
-**PROBLEMA #10: Registro de ventas puede generar confusión por pasos implícitos**
-**Severidad:** 2
-**Heurística violada:** Arquitectura de información - Claridad del flujo
-**Problema:** El proceso de registrar una venta y luego registrarla nuevamente para descontar del inventario puede resultar confuso para usuarios nuevos.
-**Evidencia:** "...ventas registradas que no se han descontado del inventario..." sugiere un doble paso no evidente.
-**Recomendación:** Fusionar ambos pasos o hacer explícito el estado intermedio con instrucciones claras ("Venta pendiente de confirmación").
+**PROBLEMA #10: Registro de ventas puede generar confusión por pasos implícitos**  
+**Severidad:** 2  
+**Heurística violada:** Arquitectura de información - Claridad del flujo  
+**Problema:** El proceso de registrar una venta y luego registrarla nuevamente para descontar del inventario puede resultar confuso para usuarios nuevos.  
+**Evidencia:** "...ventas registradas que no se han descontado del inventario..." sugiere un doble paso no evidente.  
+**Recomendación:** Fusionar ambos pasos o hacer explícito el estado intermedio con instrucciones claras ("Venta pendiente de confirmación").  
 
 ---
 
-**PROBLEMA #11: Panel de análisis no permite filtrar por tipo de cliente**
-**Severidad:** 2
-**Heurística violada:** Arquitectura de información - Is it findable?
-**Problema:** El panel de métricas proporciona datos útiles, pero no permite segmentarlos por tipo de cliente, zona geográfica u otros criterios relevantes para la logística.
-**Evidencia:** Flor menciona que "el panel de análisis le proporciona métricas claras", pero sugiere que la información está centralizada sin filtros.
-**Recomendación:** Incluir filtros en el panel (por fecha, zona, tipo de restaurante, etc.) para mayor utilidad.
+**PROBLEMA #11: Panel de análisis no permite filtrar por tipo de cliente**  
+**Severidad:** 2  
+**Heurística violada:** Arquitectura de información - Is it findable?  
+**Problema:** El panel de métricas proporciona datos útiles, pero no permite segmentarlos por tipo de cliente, zona geográfica u otros criterios relevantes para la logística.  
+**Evidencia:** Flor menciona que "el panel de análisis le proporciona métricas claras", pero sugiere que la información está centralizada sin filtros.  
+**Recomendación:** Incluir filtros en el panel (por fecha, zona, tipo de restaurante, etc.) para mayor utilidad.  
 
 ---
 
-**PROBLEMA #12: Calendario de envíos carece de vista resumen o semanal**
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso
-**Problema:** Aunque se puede programar fechas de envío, no se ofrece una vista que permita ver de forma semanal o mensual todas las programaciones a la vez.
-**Evidencia:** Flor menciona que programa fechas de envío en un calendario interactivo, pero no indica capacidad de ver planificación agregada.
-**Recomendación:** Añadir vistas tipo "semana" o "mes" al calendario para facilitar la gestión logística de varios pedidos.
+**PROBLEMA #12: Calendario de envíos carece de vista resumen o semanal**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso  
+**Problema:** Aunque se puede programar fechas de envío, no se ofrece una vista que permita ver de forma semanal o mensual todas las programaciones a la vez.  
+**Evidencia:** Flor menciona que programa fechas de envío en un calendario interactivo, pero no indica capacidad de ver planificación agregada.  
+**Recomendación:** Añadir vistas tipo "semana" o "mes" al calendario para facilitar la gestión logística de varios pedidos.  
 
 ## 5.4. Video About-the-Product
 
