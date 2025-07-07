@@ -1788,33 +1788,42 @@ A continuación, se incluirá un screenshot extraído de un video por cada tipo 
 
 ### 4.6.1 Software Architecture Context Diagram
 
-**Context Diagram**
+**Context Diagram**  
+Este diagrama muestra una vista general del sistema dentro de su entorno, identificando a los actores externos (como proveedores o administradores) y cómo interactúan con el sistema. Permite entender los límites del software y sus principales flujos de comunicación con otros sistemas o usuarios.
+
 ![Context Diagram](assets/images/opensource-context.png)
 
 ### 4.6.2 Software Architecture Container Diagrams
 
-**Container Diagrams**
+**Container Diagrams**  
+Aquí se describen los principales contenedores del sistema (por ejemplo, SPA frontend, backend REST API y base de datos). El diagrama detalla cómo se divide la aplicación en diferentes partes desplegables, sus responsabilidades y cómo se comunican entre sí.
+
 ![Container Diagrams](assets/images/opensource-container.png)
 
 ### 4.6.3. Software Architecture Component Diagrams
 
-**Component Diagram: Web Service**
+**Component Diagram: Web Service**  
+Este diagrama se enfoca en los componentes internos del contenedor backend (Web Service). Muestra los módulos y servicios que lo conforman, como controladores REST, servicios de dominio y repositorios, ilustrando cómo colaboran para cumplir los casos de uso del sistema.
+
 ![Container Diagrams](assets/images/opensource-component.jpg)
 
-**Component Diagram: SPA UI-Topic**
+**Component Diagram: SPA UI-Topic**  
+Este diagrama representa la estructura de componentes dentro del frontend SPA. Describe los módulos visuales y funcionales de la interfaz, como vistas, componentes compartidos y servicios de comunicación con el backend.
+
 ![Component diagram SPA](assets/images/opensource-component-spa.png)
+
 
 ## 4.7 Software Object-Oriented Design
 
 ### 4.7.1 Class Diagrams
 
-![Class diagram](assets/images/cap4/class_diagram/dc-web-general.png)
+![Class diagram](assets/images/cap4/class_diagram/dc-open-general.png)
 
 #### Bounded Context: Resource
 
 El siguiente diagrama de clases representa la estructura orientada a objetos del contexto **Resource** en C#. Se modelan las entidades principales del dominio como clases, incluyendo `Supply`, `CustomSupply`, `Batch`, `OrderToSupplier`, `OrderToSupplierBatch` y `Comment`. Estas clases encapsulan atributos y comportamientos que reflejan las reglas de negocio del sistema de inventario, y se relacionan entre sí mediante asociaciones que representan dependencias, agregaciones o composiciones. Este diseño permite organizar la lógica del dominio de manera coherente, facilitando su implementación y mantenimiento en una arquitectura basada en DDD.
 
-![Class diagram](assets/images/cap4/class_diagram/dc-web-resource.png "Resource Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-open-resource.png "Resource Class Diagram")
 
 #### Bounded Context: Subscriptions
 
@@ -1824,7 +1833,7 @@ Este contexto tiene como  **Aggregate Root principal a `Subscription`** , quien 
 
 El diseño refleja un enfoque  **modular, desacoplado y alineado con las reglas del negocio** , donde cada entidad cumple una función específica dentro del ciclo de vida de una suscripción, permitiendo futuras integraciones con gateways de pago, facturación o sistemas externos mediante capas de infraestructura o anticorruption layers.
 
-![Class diagram](assets/images/cap4/class_diagram/dc-web-subscription.png "Subscription Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-open-subscription.png "Subscription Class Diagram")
 
 #### Bounded Context: Identity and Guess Managements
 
@@ -1834,7 +1843,8 @@ El diseño separa claramente las responsabilidades: los datos de autenticación 
 
 Este diseño es extensible a funcionalidades como manejo de invitados, recuperación de contraseñas, doble autenticación (MFA), etc., sin violar el principio de encapsulamiento de los aggregates.
 
-![Class diagram](assets/images/cap4/class_diagram/dc-web-iam.png "Identity Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-open-iam.png  "Identity Class Diagram")
+
 
 #### Bounded Context: Profiles and Preferences
 
@@ -1844,19 +1854,19 @@ El perfil está relacionado con uno o más `BusinessCategory`, lo cual permite c
 
 Este diseño permite a los usuarios personalizar su experiencia, categorizando sus intereses o sectores, y a la vez habilita integraciones futuras con módulos como Analytics, Notifications o Planning. Todo esto bajo una arquitectura de contexto delimitado que promueve la separación de responsabilidades y el modelado explícito del lenguaje ubicuo.
 
-![Class diagram](assets/images/cap4/class_diagram/dc-web-profile.png "Profile Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-open-profile.png  "Profile Class Diagram")
 
 #### Bounded Context: Planning
 
 El contexto **Planning** se encarga de la creación, edición y gestión de recetas culinarias dentro del sistema. A través de este contexto, los usuarios pueden estructurar recetas que combinan insumos específicos con cantidades determinadas. Estas recetas son utilizadas como base para la planificación de menús o preparación de platos, integrándose con otros contextos como Inventario y Monitoreo para estimar costos y requerimientos. Este diseño permite centralizar la lógica relacionada a la composición de platos y facilita el cálculo automatizado de precios y necesidades de insumos.
 
-![Class diagram](assets/images/cap4/class_diagram/dc-web-planning.png "Planning Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-open-planning.png  "Planning Class Diagram")
 
 #### Bounded Context: Monitoring
 
 El contexto **Monitoring** gestiona el seguimiento y registro de las preparaciones realizadas. Cada preparación, conocida como un "dish", está asociada a una receta planificada y a los insumos utilizados desde el inventario. Este contexto permite auditar cuándo, qué y cómo se han preparado los platos, asegurando trazabilidad y control operativo. También sirve como fuente de datos para análisis posteriores, como consumo de inventario, costos por día y eficiencia del uso de recursos, integrándose con los contextos de Inventario y Planificación.
 
-![Class diagram](assets/images/cap4/class_diagram/dc-web-monitoring.png "Monitoring Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-open-monitoring.png  "Monitoring Class Diagram")
 
 ### 4.7.2 Class Dictionary
 
