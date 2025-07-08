@@ -1868,6 +1868,10 @@ Este diagrama representa la estructura de componentes dentro del frontend SPA. D
 
 ![Component diagram SPA](assets/images/opensource-component-spa.png)
 
+**Component Diagram: UI-Topic Platform**
+Este diagrama representa la estructura de componentes del backend de la plataforma Topic Platform. El sistema está dividido en módulos funcionales que encapsulan la lógica de negocio de cada dominio, como autenticación, gestión de perfiles, administración de temas y control de acceso.
+![Component Platform](assets/images/opensource-component-platform.png)
+
 ## 4.7 Software Object-Oriented Design
 
 ### 4.7.1 Class Diagrams
