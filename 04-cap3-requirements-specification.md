@@ -16,6 +16,8 @@ Este escenario To-Be fue construido a partir del análisis del escenario As-Is d
 
 ## 3.2 User Stories
 
+Para el presente proyecto, se definieron historias de usuario a partir de las epics principales identificadas durante la fase de análisis. Estas historias permiten describir, de forma concreta y centrada en el usuario, las funcionalidades clave del sistema, sirviendo como base para su diseño, desarrollo y validación.
+
 <table>
     <tr>
         <td>Epic / Story ID</td>
@@ -160,7 +162,7 @@ Este escenario To-Be fue construido a partir del análisis del escenario As-Is d
     <tr>
         <td>US-04</td>
         <td>Gestión manual de stock e insumos</td>
-        <td>Como visitante del sitio web, quiero acceder fácilmente a información sobre redes sociales, contacto y aspectos legales, para obtener soporte o informarme sobre las condiciones de uso de la plataforma.</td>
+        <td>Como administrador de restaurante, quiero gestionar manualmente el stock y las compras de insumos, para mantener actualizado el inventario y asegurar un control preciso de entradas y salidas.</td>
         <td>**Escenario 1: Registro manual de stock**<br />Dado que el administrador de restaurante se encuentra en la sección de inventario, <br />cuando agrega un insumo al catalogo de insumos registra el tipo de insumo, <br />así como el stock mínimo y máximo, <br />entonces el sistema actualiza el inventario y muestra un mensaje de éxito.<br /><br />Escenario 2: Registro manual de stoc<br />Dado que el administrador de restaurante está en la sección de inventario, <br />cuando agrega un insumo del catálogo registra el stock actual y la fecha de expiración si es perecible, <br />entonces el sistema actualiza el inventario y muestra un mensaje de éxito<br /><br />Escenario 3: Validación de datos de stock<br />Dado que el administrador ingresa datos para el stock,<br /> cuando los datos son negativos o no numéricos, <br />entonces el sistema muestra un mensaje de error y evita la actualización<br /><br />Escenario 4: Descuento manual de stock <br />Dado que el administrador identifica un insumo para descontar del stock del inventario,<br /> cuando registra una cantidad válida para descuento, <br />entonces el sistema actualiza el stock y confirma la operación; <br /><br />Escenario 5: Advertencia por descuento excesivo <br />Dado que el administrador ingresa una cantidad de descuento de stock mayor al stock actual, <br />cuando intenta guardar el descuento, <br />entonces el sistema muestra una advertencia y solicita confirmación antes de proceder.<br /></td>
         <td>EP-06</td>
     </tr>
