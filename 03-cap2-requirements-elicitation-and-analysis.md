@@ -274,6 +274,8 @@ Se analizaron **3 entrevistas** a administradores con amplia experiencia en el m
 | Dificultades por complejidad o soporte deficiente | 2/3      | 66.7% | Señalan postventa lenta y sistemas poco intuitivos                                           |
 | Necesidad de personalización                     | 3/3      | 100%  | Indican que los sistemas son genéricos y complicados de adaptar                              |
 | Valor por facilidad de uso y adaptabilidad        | 3/3      | 100%  | Expresan deseo de una solución autogestionable                                               |
+| Canales usados                                    | 3/3      | 100%  | Usan Whatsapp, youtube, facebook                                                              |
+| Tecnología usada                                 | 3/3      | 100%  | Utilizan Android y Windows                                                                    |
 
 ##### Insights
 
@@ -308,6 +310,8 @@ Se analizaron **3 entrevistas** a proveedores de productos para restaurantes (ab
 | Importancia de la confianza con el cliente                 | 3/3      | 100%  | Señalan que la confianza es clave para continuidad y créditos        |
 | Valoración de la puntualidad y cumplimiento               | 3/3      | 100%  | Mencionan cumplimiento de horario y entregas completas como vitales    |
 | Necesidad de mejorar la facturación con tecnología       | 2/3      | 66.7% | Describen problemas con gestión manual de facturas y cobros           |
+| Tecnología usada                                          | 3/3      | 100%  | Utilizan Android y Windows                                             |
+| Canales usados                                             | 3/3      | 100%  | Whatsapp, telefono, facebook                                           |
 
 ##### Insights
 
@@ -385,16 +389,18 @@ A continuacion se presenta el User Journey Map de Jorge Torres.
 ![user journey mapping jorge torres](./assets/images/user-journey-map-2.png)
 
 ### 2.3.4. Empathy Mapping
-En esta sección, el equipo resume el proceso de elaboración y presenta los Empathy Maps realizados para cada User Persona. El proceso implicó centrar cada User Persona y plasmar las observaciones del equipo, respondiendo a preguntas clave sobre qué piensan, sienten, ven, oyen, dicen y hacen. Finalmente, se identificaron los "Pains" y "Gains" para comprender sus preocupaciones y las soluciones que les convencerían.  
 
+En esta sección, el equipo resume el proceso de elaboración y presenta los Empathy Maps realizados para cada User Persona. El proceso implicó centrar cada User Persona y plasmar las observaciones del equipo, respondiendo a preguntas clave sobre qué piensan, sienten, ven, oyen, dicen y hacen. Finalmente, se identificaron los "Pains" y "Gains" para comprender sus preocupaciones y las soluciones que les convencerían.
 
 #### Carolina Rivas
-Esta sección presenta el Empathy Map elaborado para Carolina Rivas, nuestra User Persona clave que representa a la propietaria de un restaurante. Este mapa visualiza de forma integral sus pensamientos, sentimientos, necesidades y desafíos en el contexto de la gestión de su negocio. A través de este análisis empático, hemos identificado sus principales frustraciones (Pains) y las oportunidades de valor (Gains) que nuestra solución podría ofrecerle.  
+
+Esta sección presenta el Empathy Map elaborado para Carolina Rivas, nuestra User Persona clave que representa a la propietaria de un restaurante. Este mapa visualiza de forma integral sus pensamientos, sentimientos, necesidades y desafíos en el contexto de la gestión de su negocio. A través de este análisis empático, hemos identificado sus principales frustraciones (Pains) y las oportunidades de valor (Gains) que nuestra solución podría ofrecerle.
 
 ![empathy map carolina rivas](./assets/images/empathy-map-carolina.png)
 
 #### Jorge Torres
-Por otro lado, esta sección presenta el Empathy Map elaborado para Jorge Torres, nuestro User Persona clave que representa a un distribuidor de bebidas y abarrotes en Arequipa, Perú. Este mapa visualiza de forma integral sus pensamientos, sentimientos, necesidades y desafíos en el contexto de la gestión y optimización de su negocio de distribución. A través de este análisis empático, hemos identificado sus principales frustraciones (Pains) y las oportunidades de valor (Gains) que nuestra solución podría ofrecerle.  
+
+Por otro lado, esta sección presenta el Empathy Map elaborado para Jorge Torres, nuestro User Persona clave que representa a un distribuidor de bebidas y abarrotes en Arequipa, Perú. Este mapa visualiza de forma integral sus pensamientos, sentimientos, necesidades y desafíos en el contexto de la gestión y optimización de su negocio de distribución. A través de este análisis empático, hemos identificado sus principales frustraciones (Pains) y las oportunidades de valor (Gains) que nuestra solución podría ofrecerle.
 
 ![empathy map jorge torres](./assets/images/empathy-map-jorge.png)
 
@@ -439,4 +445,4 @@ En esta sección se presentan los términos clave del proyecto UI-Topic. Estos t
 | **Service charge / Tip** *(Cargo por servicio / Propina)* | Porcentaje o monto fijo añadido a la cuenta por concepto de atención.                                             |
 | **Promotion** *(Promoción)*                              | Regla o campaña que aplica descuentos o beneficios a ciertos ítems o cuentas.                                     |
 | **Reservation** *(Reserva)*                               | Bloqueo anticipado de una mesa y horario solicitado por uno o más comensales.                                      |
-| **Sale** *(Venta)*                                       | Transacción que registra la venta de un ítem del menú a un comensal.                                             |
+| **Sale** *(Venta)*                                        | Transacción que registra la venta de un ítem del menú a un comensal.                                             |
