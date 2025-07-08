@@ -747,7 +747,7 @@ Durante este Sprint se avanzó en el desarrollo del **frontend interno de Restoc
 
 | Recurso / Vista               | Acción implementada                        | Método HTTP | URL relativa                          | Propósito funcional                                   |
 | ----------------------------- | ------------------------------------------ | ----------- | ------------------------------------- | ----------------------------------------------------- |
-| Landing Page                  | Visualización pública inicial              | GET         | `/` (con redirección de rol)          | Acceso inicial y redirección por tipo de usuario      |
+| Landing Page                  | Visualización pública inicial              | GET         |           | Acceso inicial y redirección por tipo de usuario      |
 | Supplier Inventory            | Visualización de inventario de proveedor   | GET         | `/dashboard/supplier/inventory`       | Gestión del inventario del proveedor                  |
 | Restaurant Inventory          | Visualización de inventario de restaurante | GET         | `/dashboard/restaurant/inventory`     | Control de insumos del restaurante                    |
 | Restaurant Summary Overview   | Resumen analítico del restaurante          | GET         | `/dashboard/restaurant/summary`       | Dashboard de datos clave del restaurante              |
@@ -760,8 +760,8 @@ Durante este Sprint se avanzó en el desarrollo del **frontend interno de Restoc
 
 | Recurso          | Acción implementada   | Método HTTP | URL / Endpoint                                                                | Repositorio                                                                            |
 | ---------------- | --------------------- | ----------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| Landing Page     | Visualización inicial | GET         | [Landing URL](https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/) | [UI-Topic-landing](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing) |
-| Frontend Interno | Navegación por rutas  | GET         | [App URL](https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory)                               | [UI-Topic-frontend](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-Frontend)   |
+| Landing Page     | Visualización inicial | GET         | [Landing URL](https://tinyurl.com/4tevkysh) | [UI-Topic-landing](https://tinyurl.com/yc8e53xk) |
+| Frontend Interno | Navegación por rutas  | GET         | [App URL](https://tinyurl.com/4arcsbc3)                               | [UI-Topic-frontend](https://tinyurl.com/he3hanhx)   |
 
 ##### Evidencia de interacción
 
@@ -769,7 +769,7 @@ Durante este Sprint se avanzó en el desarrollo del **frontend interno de Restoc
   [https://short-link.me/16eW0](https://short-link.me/16eW0)
 
 * Captura de la interfaz en funcionamiento:
-  ![Captura del video](assets/images/cap-5/evidence_sprint_2/video_evidence.png)
+  ![Captura del video](assets/images/cap5/s_d_e-f_s_r_2.png)
 
 ##### Commits relacionados
 
