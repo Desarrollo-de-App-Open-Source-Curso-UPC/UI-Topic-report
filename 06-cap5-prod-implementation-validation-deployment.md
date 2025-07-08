@@ -25,7 +25,7 @@ En esta sección el equipo establece los medios y esquema de organización que a
 
 A continuación se indican los URLs de los repositorios de GitHub para cada producto:
 
-- **Landing Page**: [https://shorturl.at/wOqID](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing.git)
+- **Landing Page**: https://restock-4292.github.io/UI-Topic-landing/
 - **Web Services**: [https://shorturl.at/O4PHS](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend.git)
 - **Frontend Web Application**: [https://shorturl.at/tnpvh](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend.git)
 
@@ -71,8 +71,8 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 - **Indentación**: 2 espacios.
 - **Formato de archivos**: `.html`, `.css`, `.js`
 - **Estilo de código adoptado**:
-  - [W3Schools HTML Style Guide](https://www.w3schools.com/html/html5_syntax.asp)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+  - W3Schools HTML Style Guide: https://www.w3schools.com/html/html5_syntax.asp
+  - Google HTML/CSS Style Guide : https://google.github.io/styleguide/htmlcssguide.html
 
 ##### Nomenclatura:
 
@@ -92,8 +92,8 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ##### Estilo de código adoptado:
 
-- [Angular Style Guide (Oficial)](https://angular.io/guide/styleguide)
-- [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+- Angular Style Guide (Oficial): https://angular.io/guide/styleguide
+- Google TypeScript Style Guide: https://google.github.io/styleguide/tsguide.html
 
 ##### Nomenclatura:
 
@@ -113,8 +113,8 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ##### Estilo de código adoptado:
 
-- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
-- [Spring Boot Features &amp; Best Practices](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html)
+- Google Java Style Guide: https://google.github.io/styleguide/javaguide.html
+- Spring Boot Features & Best Practices: https://shorturl.at/kzf6Z
 
 ##### Nomenclatura:
 
@@ -152,7 +152,7 @@ Esta sección detalla los pasos necesarios para desplegar de forma satisfactoria
 
 **Publicación** :
 
-Una vez guardada la configuración, GitHub generará automáticamente una URL pública donde la Landing Page estará disponible. Esta URL sigue el formato: `https://<usuario>.github.io/<repositorio>/`
+Una vez guardada la configuración, GitHub generará automáticamente una URL pública donde la Landing Page estará disponible. Esta URL sigue el formato: `https://<organizacion>.github.io/<repositorio>/`
 
 **Actualizaciones** :
 
@@ -263,54 +263,54 @@ El objetivo principal de este Sprint es diseñar, implementar y validar las secc
 
 ![Container Diagrams](assets/images/cap5/board-sprint-detallado.png)
 
-[[Enlace al Trello](https://trello.com/invite/b/680c05f1fac416bfdb0ea024/ATTI41428da9336a1d11b0878438a247c3531DFD7E76/sprint-backlog-1)]
+Enlace al Trello: https://shorturl.at/WJm9O
 
 | Sprint #   | Sprint n                                                                  |                  |                                                                |                                                                                                                                                                                                              |                    |                    |                                                 |
 | ---------- | ------------------------------------------------------------------------- | ---------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | ------------------ | ----------------------------------------------- |
 | User Story |                                                                           | Work-item / Task |                                                                |                                                                                                                                                                                                              |                    |                    |                                                 |
 | ID         | Title                                                                     | Id               | Title                                                          | Description                                                                                                                                                                                                  | Estimation (hours) | Assigned To        | Status (To-do / In-Process / To-Review / Done)) |
 | US-001     | Ver testimonios de clientes                                               | T001             | Diseño de la Sección de Testimonios                          | Diseñar una sección visualmente destacada para testimonios.                                                                                                                                                | 1/2h               | Williams Avendaño | Done                                            |
-|            |                                                                           | T002             | Implementación de Testimonios                                 | Mostrar mínimo tres testimonios con nombre, rol y comentario.                                                                                                                                               | 1h                 | Williams Avendaño |                        Done                        |
-|            |                                                                           | T003             | Armonización de Estilos UI                                    | Aplicar estilos consistentes (tipografía, colores, disposición).                                                                                                                                           | 1/2h               | Williams Avendaño |                         Done                       |
-| US-0002    | Consultar Preguntas Frecuentes                                            | T001             | Definición de Preguntas Frecuentes                            | Definir al menos tres preguntas frecuentes con sus respuestas claras y breves.                                                                                                                               | 1/2h               | Williams Avendaño |                       Done                         |
-|            |                                                                           | T002             | Integración de Contenido Estático en FAQ                     | Incluir las preguntas y respuestas directamente en el contenido estático de la sección FAQ.                                                                                                                | 1h                 | Williams Avendaño |                          Done                      |
-|            |                                                                           | T003             | Asegurar Visibilidad Directa de Respuestas FAQ                 | Verificar que las respuestas estén visibles de forma directa sin necesidad de interacción.                                                                                                                 | 1/2h               | Williams Avendaño |                        Done                        |
-| US-003     | Consultas directas al equipo de la plataforma                             | T001             | Diseño de Formulario de Contacto                              | Diseñar un formulario limpio con campos de nombre, correo y mensaje.                                                                                                                                        | 1/2h               | Julio Castro       |                       Done                         |
-|            |                                                                           | T002             | Implementación de Validación Visual en Formulario            | Aplicar validación visual (mensajes de error si faltan datos).                                                                                                                                              | 1h                 | Julio Castro       |                        Done                        |
-|            |                                                                           | T003             | Mensaje de Confirmación de Envío de Formulario               | Mostrar un mensaje de confirmación claro tras el envío.                                                                                                                                                    | 1/2h               | Julio Castro       |                         Done                       |
-| US-004     | Visualización persistente de información institucional en todo el sitio | T001             | Implementación de Footer Fijo                                 | Implementar una sección fija en el pie de página con enlaces a redes sociales, contacto y aviso legal.                                                                                                     | 1/2h               | Julio Castro       |                          Done                      |
-|            |                                                                           | T002             | Creación de Sección "Términos y Condiciones"                | Crear la sección de "Términos y Condiciones" con contenido legal claro y accesible.                                                                                                                        | 1h                 | Julio Castro       |                          Done                      |
-|            |                                                                           | T003             | Visibilidad Global de Información Institucional               | Asegurar que la sección de información institucional esté visible en todas las vistas públicas del sitio.                                                                                                | 1/2h               | Julio Castro       |                          Done                      |
-| US-005     | Acceso a secciones principales del sitio                                  | T001             | Definición de Rutas Internas                                  | Definir y estructurar las rutas internas para las secciones: Inicio, Beneficios, Cómo funciona y Contacto.                                                                                                  | 1/2h               | Julio Castro       |                       Done                         |
-|            |                                                                           | T002             | Implementación de Menú de Navegación Principal              | Implementar un menú de navegación accesible desde la página principal que enlace a las secciones principales del sitio.                                                                                   | 1h                 | Yaku Guzmán       |                            Done                    |
-|            |                                                                           | T003             | Verificación de Redirección de Enlaces de Navegación        | Asegurar que cada enlace de navegación redirija correctamente a su respectiva sección dentro del sitio.                                                                                                    | 1/2h               | Yaku Guzmán       |                           Done                     |
-| US-006     | Conocer el funcionamiento general de la plataforma                        | T001             | Definición de Contenido de Etapas Explicativas                | Definir el contenido de las cuatro etapas que explican el funcionamiento general de la plataforma. explicativo'.                                                                                             | 1/2h               | Yaku Guzmán       |                       Done                         |
-|            |                                                                           | T002             | Estructuración de Sección "Cómo Funciona"                   | Estructurar la sección informativa que describa paso a paso cómo utilizar la plataforma.                                                                                                                   | 1h                 | Yaku Guzmán       |                           Done                     |
-|            |                                                                           | T003             | Implementación Visual de Etapas Secuenciales                  | Implementar la visualización de las cuatro etapas de forma secuencial y clara dentro del sitio.                                                                                                             | 1/2h               | Yaku Guzmán       |                        Done                        |
-| US-007     | Opción de comprender el funcionamiento mediante recurso audiovisual      | T001             | Estructura para Visualización de Video Explicativo            | Implementación de estructura necesarios para asegurar que el video explicativo se muestre correctamente                                                                                                     | 1/2h               | Yaku Guzmán       |                         Done                       |
-| US-008     | Comprensión del propósito y valor desde el inicio                       | T001             | Estructura para Visualización de Beneficios Generales         | Implementación de estructura necesarios para asegurar que los beneficios se muestren correctamente                                                                                                          | 2h                 | Yaku Guzmán       |                          Done                      |
-| US-009     | Visualización de beneficios según perfil de usuario                     | T001             | Estructura para Visualización de Beneficios Personalizados    | Implementación de estructura necesarios para asegurar que los beneficios adaptados a mi perfil se muestre correctamente.                                                                                    | 1/2h               | Gabriela Shapiama  |                         Done                       |
-| US-010     | Selección de idioma para una experiencia personalizada                   | T001             | Preparación de Contenido Multilingüe (ES/EN)                 | Preparar el contenido de la landing page y web application en dos idiomas (español e inglés).                                                                                                              | 1h                 | Gabriela Shapiama  |                          Done                      |
-|            |                                                                           | T002             | Implementación de Selector de Idioma                          | Implementar botón que permita cambiar entre ambos idiomas.                                                                                                                                                  | 1/2h               | Gabriela Shapiama  |                       Done                         |
-|            |                                                                           | T003             | Persistencia de Selección de Idioma                           | Guardar la selección del idioma para que se mantenga al recargar la página.                                                                                                                                | 1h                 | Gabriela Shapiama  |                        Done                        |
-| US011      | Navegación accesible para personas con discapacidad visual               | T001             | Diseño de Navegación Fluida                                  | Crear diseño visual para 'navegación fluida entre secciones'.                                                                                                                                              | 1/2h               | Gabriela Shapiama  |                          Done                      |
-|            |                                                                           | T002             | Codificación de Componente de Navegación Fluida              | Codificar el componente necesario para 'navegación fluida entre secciones'.                                                                                                                                 | 1h                 | Gabriela Shapiama  |                        Done                        |
-|            |                                                                           | T003             | Verificación de Navegación Fluida                            | Verificar que 'navegación fluida entre secciones' funcione correctamente.                                                                                                                                   | 1/2h               | Gabriela Shapiama  |                        Done                        |
-| US-012     | Optimización para pantallas de escritorio                                | T001             | Definición de Breakpoint para Desktop                         | Definir breakpoint específico para resolución ≥ 1280px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1/2h               | Gabriela Shapiama  |                          Done                      |
-|            |                                                                           | T002             | Ajuste de Layout Principal para Desktop                        | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1h                 | Gabriela Shapiama  |                      Done                          |
-|            |                                                                           | T003             | Mejora de Legibilidad en Desktop                               | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h               | Gabriela Shapiama  |                       Done                         |
-| US-013     | Optimización para pantallas de tablet                                    | T001             | Definición de Breakpoint para Tablets/Laptops                 | Definir breakpoint específico para resolución ≥ 1024px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1h                 | Jahaziel Guerra    |                          Done                      |
-|            |                                                                           | T002             | Ajuste de Layout Principal para Tablets/Laptops                | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1/2h               | Jahaziel Guerra    |                      Done                          |
-|            |                                                                           | T003             | Mejora de Legibilidad en Tablets/Laptops                       | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h               | Jahaziel Guerra    |                       Done                         |
-| US-014     | Optimización para dispositivos móviles                                  | T001             | Definición de Breakpoint para Tablets                         | Definir breakpoint específico para resolución ≥ 768px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                          | 1/2h               | Jahaziel Guerra    |                           Done                     |
-|            |                                                                           | T002             | Ajuste de Layout Principal para Tablets                        | Reorganizar layout principal (header, sidebar, content) para optimizar el espacio horizontal                                                                                                                 | 1h                 | Jahaziel Guerra    |                     Done                           |
-|            |                                                                           | T003             | Mejora de Legibilidad en Tablets                               | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas pequeñas                                                                                                                     | 1/2h               | Jahaziel Guerra    |                        Done                        |
-| US-015     | Navegación fluida entre secciones                                        | T001             | Implementación de Transiciones de Navegación Fluidas         | Implementar una experiencia de navegación fluida y sin interrupciones entre las diferentes secciones de la aplicación, garantizando transiciones rápidas, suaves y coherentes con la interfaz de usuario. | 2h                 | Jahaziel Guerra    |                           Done                     |
-| US-016     | Inclusión de videos explicativos en el sitio web                         | T001             | Estructura para Visualización de video explicativo            | Implementación de video explicativo mostrado correctamente                                                                                                                                                  | 1h                 | Jahaziel Guerra    |                        Done                        |
-| US-017     | Acceso a la plataforma                                                    | T001             | Mostrar formulario de inicio de sesión                        | Mostrar un formulario sencillo con campos para correo electrónico y contraseña. Asegurarse de que sea accesible y responsivo.                                                                              | 1h                 | Jahaziel Guerra    |                        Done                        |
-|            |                                                                           | T002             | Validar formato de correo y requerir contraseña obligatoria.  | Validar que el formato del correo electrónico sea correcto y que el campo de la contraseña no quede vacío. Mostrar mensajes de error apropiados.                                                          | 2h                 | Jahaziel Guerra    |                         Done                       |
-|            |                                                                           | T003             | Implementar botón de "Iniciar sesión" para enviar los datos. | Implementar botón de "Iniciar sesión" para enviar los datos                                                                                                                                                | 1h                 | Jahaziel Guerra    |                         Done                       |
-|            |                                                                           | T004             | Redirigir al usuario tras el inicio de sesión exitoso         | Redirigir al usuario tras el inicio de sesión exitoso                                                                                                                                                       | 1h                 | Jahaziel Guerra    |                       Done                         |
+|            |                                                                           | T002             | Implementación de Testimonios                                 | Mostrar mínimo tres testimonios con nombre, rol y comentario.                                                                                                                                               | 1h                 | Williams Avendaño | Done                                            |
+|            |                                                                           | T003             | Armonización de Estilos UI                                    | Aplicar estilos consistentes (tipografía, colores, disposición).                                                                                                                                           | 1/2h               | Williams Avendaño | Done                                            |
+| US-0002    | Consultar Preguntas Frecuentes                                            | T001             | Definición de Preguntas Frecuentes                            | Definir al menos tres preguntas frecuentes con sus respuestas claras y breves.                                                                                                                               | 1/2h               | Williams Avendaño | Done                                            |
+|            |                                                                           | T002             | Integración de Contenido Estático en FAQ                     | Incluir las preguntas y respuestas directamente en el contenido estático de la sección FAQ.                                                                                                                | 1h                 | Williams Avendaño | Done                                            |
+|            |                                                                           | T003             | Asegurar Visibilidad Directa de Respuestas FAQ                 | Verificar que las respuestas estén visibles de forma directa sin necesidad de interacción.                                                                                                                 | 1/2h               | Williams Avendaño | Done                                            |
+| US-003     | Consultas directas al equipo de la plataforma                             | T001             | Diseño de Formulario de Contacto                              | Diseñar un formulario limpio con campos de nombre, correo y mensaje.                                                                                                                                        | 1/2h               | Julio Castro       | Done                                            |
+|            |                                                                           | T002             | Implementación de Validación Visual en Formulario            | Aplicar validación visual (mensajes de error si faltan datos).                                                                                                                                              | 1h                 | Julio Castro       | Done                                            |
+|            |                                                                           | T003             | Mensaje de Confirmación de Envío de Formulario               | Mostrar un mensaje de confirmación claro tras el envío.                                                                                                                                                    | 1/2h               | Julio Castro       | Done                                            |
+| US-004     | Visualización persistente de información institucional en todo el sitio | T001             | Implementación de Footer Fijo                                 | Implementar una sección fija en el pie de página con enlaces a redes sociales, contacto y aviso legal.                                                                                                     | 1/2h               | Julio Castro       | Done                                            |
+|            |                                                                           | T002             | Creación de Sección "Términos y Condiciones"                | Crear la sección de "Términos y Condiciones" con contenido legal claro y accesible.                                                                                                                        | 1h                 | Julio Castro       | Done                                            |
+|            |                                                                           | T003             | Visibilidad Global de Información Institucional               | Asegurar que la sección de información institucional esté visible en todas las vistas públicas del sitio.                                                                                                | 1/2h               | Julio Castro       | Done                                            |
+| US-005     | Acceso a secciones principales del sitio                                  | T001             | Definición de Rutas Internas                                  | Definir y estructurar las rutas internas para las secciones: Inicio, Beneficios, Cómo funciona y Contacto.                                                                                                  | 1/2h               | Julio Castro       | Done                                            |
+|            |                                                                           | T002             | Implementación de Menú de Navegación Principal              | Implementar un menú de navegación accesible desde la página principal que enlace a las secciones principales del sitio.                                                                                   | 1h                 | Yaku Guzmán       | Done                                            |
+|            |                                                                           | T003             | Verificación de Redirección de Enlaces de Navegación        | Asegurar que cada enlace de navegación redirija correctamente a su respectiva sección dentro del sitio.                                                                                                    | 1/2h               | Yaku Guzmán       | Done                                            |
+| US-006     | Conocer el funcionamiento general de la plataforma                        | T001             | Definición de Contenido de Etapas Explicativas                | Definir el contenido de las cuatro etapas que explican el funcionamiento general de la plataforma. explicativo'.                                                                                             | 1/2h               | Yaku Guzmán       | Done                                            |
+|            |                                                                           | T002             | Estructuración de Sección "Cómo Funciona"                   | Estructurar la sección informativa que describa paso a paso cómo utilizar la plataforma.                                                                                                                   | 1h                 | Yaku Guzmán       | Done                                            |
+|            |                                                                           | T003             | Implementación Visual de Etapas Secuenciales                  | Implementar la visualización de las cuatro etapas de forma secuencial y clara dentro del sitio.                                                                                                             | 1/2h               | Yaku Guzmán       | Done                                            |
+| US-007     | Opción de comprender el funcionamiento mediante recurso audiovisual      | T001             | Estructura para Visualización de Video Explicativo            | Implementación de estructura necesarios para asegurar que el video explicativo se muestre correctamente                                                                                                     | 1/2h               | Yaku Guzmán       | Done                                            |
+| US-008     | Comprensión del propósito y valor desde el inicio                       | T001             | Estructura para Visualización de Beneficios Generales         | Implementación de estructura necesarios para asegurar que los beneficios se muestren correctamente                                                                                                          | 2h                 | Yaku Guzmán       | Done                                            |
+| US-009     | Visualización de beneficios según perfil de usuario                     | T001             | Estructura para Visualización de Beneficios Personalizados    | Implementación de estructura necesarios para asegurar que los beneficios adaptados a mi perfil se muestre correctamente.                                                                                    | 1/2h               | Gabriela Shapiama  | Done                                            |
+| US-010     | Selección de idioma para una experiencia personalizada                   | T001             | Preparación de Contenido Multilingüe (ES/EN)                 | Preparar el contenido de la landing page y web application en dos idiomas (español e inglés).                                                                                                              | 1h                 | Gabriela Shapiama  | Done                                            |
+|            |                                                                           | T002             | Implementación de Selector de Idioma                          | Implementar botón que permita cambiar entre ambos idiomas.                                                                                                                                                  | 1/2h               | Gabriela Shapiama  | Done                                            |
+|            |                                                                           | T003             | Persistencia de Selección de Idioma                           | Guardar la selección del idioma para que se mantenga al recargar la página.                                                                                                                                | 1h                 | Gabriela Shapiama  | Done                                            |
+| US011      | Navegación accesible para personas con discapacidad visual               | T001             | Diseño de Navegación Fluida                                  | Crear diseño visual para 'navegación fluida entre secciones'.                                                                                                                                              | 1/2h               | Gabriela Shapiama  | Done                                            |
+|            |                                                                           | T002             | Codificación de Componente de Navegación Fluida              | Codificar el componente necesario para 'navegación fluida entre secciones'.                                                                                                                                 | 1h                 | Gabriela Shapiama  | Done                                            |
+|            |                                                                           | T003             | Verificación de Navegación Fluida                            | Verificar que 'navegación fluida entre secciones' funcione correctamente.                                                                                                                                   | 1/2h               | Gabriela Shapiama  | Done                                            |
+| US-012     | Optimización para pantallas de escritorio                                | T001             | Definición de Breakpoint para Desktop                         | Definir breakpoint específico para resolución ≥ 1280px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1/2h               | Gabriela Shapiama  | Done                                            |
+|            |                                                                           | T002             | Ajuste de Layout Principal para Desktop                        | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1h                 | Gabriela Shapiama  | Done                                            |
+|            |                                                                           | T003             | Mejora de Legibilidad en Desktop                               | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h               | Gabriela Shapiama  | Done                                            |
+| US-013     | Optimización para pantallas de tablet                                    | T001             | Definición de Breakpoint para Tablets/Laptops                 | Definir breakpoint específico para resolución ≥ 1024px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1h                 | Jahaziel Guerra    | Done                                            |
+|            |                                                                           | T002             | Ajuste de Layout Principal para Tablets/Laptops                | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1/2h               | Jahaziel Guerra    | Done                                            |
+|            |                                                                           | T003             | Mejora de Legibilidad en Tablets/Laptops                       | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h               | Jahaziel Guerra    | Done                                            |
+| US-014     | Optimización para dispositivos móviles                                  | T001             | Definición de Breakpoint para Tablets                         | Definir breakpoint específico para resolución ≥ 768px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                          | 1/2h               | Jahaziel Guerra    | Done                                            |
+|            |                                                                           | T002             | Ajuste de Layout Principal para Tablets                        | Reorganizar layout principal (header, sidebar, content) para optimizar el espacio horizontal                                                                                                                 | 1h                 | Jahaziel Guerra    | Done                                            |
+|            |                                                                           | T003             | Mejora de Legibilidad en Tablets                               | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas pequeñas                                                                                                                     | 1/2h               | Jahaziel Guerra    | Done                                            |
+| US-015     | Navegación fluida entre secciones                                        | T001             | Implementación de Transiciones de Navegación Fluidas         | Implementar una experiencia de navegación fluida y sin interrupciones entre las diferentes secciones de la aplicación, garantizando transiciones rápidas, suaves y coherentes con la interfaz de usuario. | 2h                 | Jahaziel Guerra    | Done                                            |
+| US-016     | Inclusión de videos explicativos en el sitio web                         | T001             | Estructura para Visualización de video explicativo            | Implementación de video explicativo mostrado correctamente                                                                                                                                                  | 1h                 | Jahaziel Guerra    | Done                                            |
+| US-017     | Acceso a la plataforma                                                    | T001             | Mostrar formulario de inicio de sesión                        | Mostrar un formulario sencillo con campos para correo electrónico y contraseña. Asegurarse de que sea accesible y responsivo.                                                                              | 1h                 | Jahaziel Guerra    | Done                                            |
+|            |                                                                           | T002             | Validar formato de correo y requerir contraseña obligatoria.  | Validar que el formato del correo electrónico sea correcto y que el campo de la contraseña no quede vacío. Mostrar mensajes de error apropiados.                                                          | 2h                 | Jahaziel Guerra    | Done                                            |
+|            |                                                                           | T003             | Implementar botón de "Iniciar sesión" para enviar los datos. | Implementar botón de "Iniciar sesión" para enviar los datos                                                                                                                                                | 1h                 | Jahaziel Guerra    | Done                                            |
+|            |                                                                           | T004             | Redirigir al usuario tras el inicio de sesión exitoso         | Redirigir al usuario tras el inicio de sesión exitoso                                                                                                                                                       | 1h                 | Jahaziel Guerra    | Done                                            |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -621,9 +621,9 @@ Durante este sprint se completó el diseño e implementación del Landing Page d
 
 ### Recursos del Sprint
 
-| Recurso      | Acción implementada   | Método HTTP | URL / Endpoint                                                              | Link de repositorio                                                         |
-| ------------ | ---------------------- | ------------ | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| Landing Page | Visualización inicial | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/ | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing |
+| Recurso      | Acción implementada   | Método HTTP | URL / Endpoint                                   | Link de repositorio             |
+| ------------ | ---------------------- | ------------ | ------------------------------------------------ | ------------------------------- |
+| Landing Page | Visualización inicial | GET          | https://restock-4292.github.io/UI-Topic-landing/ | https://github.com/Restock-4292 |
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
@@ -636,19 +636,19 @@ Se guardaron los cambios para activar la publicación automática.
 
 ![Foto deployment step 1](assets/images/cap5/step-1.png)
 
-**2- Por default ya esta activado el https**
+2- Por default ya esta activado el https
 
 ![Foto deployment step 2](assets/images/cap5/step-2.png)
 
-**3- En la seccion "All workflows" se puede ver que la app se esta deployando.**
+3- En la seccion "All workflows" se puede ver que la app se esta deployando.
 
 ![Foto deployment step 3](assets/images/cap5/step-3.png)
 
-**4- El landing page fue exitosamente deployado**
+4- El landing page fue exitosamente desplegado
 
 ![Foto deployment step 4](assets/images/cap5/step-4.png)
 
-**5- Se obtuvo y verificó la URL pública proporcionada por GitHub Pages.**
+5- Se obtuvo y verificó la URL pública proporcionada por GitHub Pages.
 
 ![Foto deployment step 5](assets/images/cap5/step-5.png)
 
@@ -685,6 +685,8 @@ Se presenta a continuación la captura de los insights del repositorio de GitHub
 
 #### 5.2.2.1. Sprint Planning 2
 
+A continuación, se presenta la planificación correspondiente a nuestro Sprint 2, el cual tiene como enfoque principal el desarrollo de la landing page y frontend de Restock. En esta etapa, el equipo definió el objetivo del sprint, seleccionó las historias de usuario más relevantes y estableció los entregables clave que permitirán construir una segunda versión funcional y visualmente atractiva de la página. Esta planificación busca asegurar un entendimiento compartido entre todos los miembros del equipo con el fin de proporcionar las funcionalidades iniciales a los usuarios.
+
 | Sprint #                             | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -694,11 +696,11 @@ Se presenta a continuación la captura de los insights del repositorio de GitHub
 | Prepared By                          | Guzmán Cabrejos, Yaku Mateo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Sprint 1 Review Summary              | Durante el Sprint 1 se logró implementar casi en su totalidad la Landing Page del sistema Restock, desarrollando secciones clave como el header, footer, sección de beneficios y preguntas frecuentes, así como la integración inicial de estilos globales y tipografía. Quedó faltante la funcionalidad de cambio de idioma, la cual será prioridad para el siguiente sprint. El equipo cumplió con los entregables establecidos, respetando el diseño de mockups y la guía de estilos. Se identificaron oportunidades de mejora en la velocidad de desarrollo y gestión de tiempos.                                                                                                                                                                                                   |
-| Sprint 1 Retrospective Summary       | Durante el Sprint 1, el equipo logró avanzar de forma coordinada y efectiva en el desarrollo de la landing page, sin enfrentar mayores dificultades. Cada integrante cumplió puntualmente con las secciones asignadas, lo que permitió avanzar según lo planificado. La adopción de convenciones comunes en el código y el diseño contribuyó a mantener la coherencia del producto y facilitó la integración entre partes. Como mejora para el siguiente sprint, se acordó implementar revisiones diarias (daily reviews) que permitan alinear mejor los avances, detectar bloqueos tempranos y mejorar la comunicación continua entre miembros.                                                                                                                                       |
+| Sprint 1 Retrospective Summary       | Durante el Sprint 1, el equipo logró avanzar de forma coordinada y efectiva en el desarrollo de la landing page, sin enfrentar mayores dificultades. Cada integrante cumplió puntualmente con las secciones asignadas, lo que permitió avanzar según lo planificado. La adopción de convenciones comunes en el código y el diseño contribuyó a mantener la coherencia del producto y facilitó la integración entre partes. Como mejora para el siguiente sprint, se acordó con los miembros implementar revisiones diarias (daily reviews) que permitan alinear mejor los avances, detectar bloqueos tempranos y mejorar la comunicación continua.                                                                                                                                    |
 | **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Sprint 2 Goal                        | Nuestro enfoque está en  brindar información clara y detallada a los visitantes de la plataforma, así como habilitar la gestión de inventario, configuración de perfil, notificaciones, resumen de datos y gestión deventas para los usuarios del sistema  interno.<br />Creemos que esto proporciona  mayor comprensión del propósito de la solución a los visitantes y mejora la eficiencia operativa de insumos de los administradores de restaurantes y proveedores.<br />Esto se confirmará cuando  los visitantes puedan explorar contenido relevante desde el acceso  público, y los usuarios autenticados naveguen por el panel principal y accedan a los módulos de gestión de inventario, configuración de perfil, notificaciones, resumen de datos y ventas del sistema. |
-| Sprint 2 Velocity                    | 45                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Sum of Story Points                  | 42                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint 2 Velocity                    | 30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points                  | 28                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 #### 5.2.2.2 Aspect Leaders and Collaborators
 
@@ -1046,34 +1048,32 @@ La siguiente tabla resume los commits realizados en el repositorio `UI-Topic-Fro
 
 A continuación, se presenta el video del frontend de la aplicación web interna. Este demuestra la interacción de los usuarios autenticados con los módulos principales del sistema, incluyendo la navegación por el sidebar, la gestión de productos, el seguimiento de alertas y el control de inventario.
 
-
-**Sección de resumen (Summary):**  
+**Sección de resumen (Summary):**
 Visualización de las órdenes recientes, últimas alertas generadas y los últimos insumos agregados al sistema.
 
 ![Evidencia 1](assets/images/cap5/evidence-sprint2/execevidence/evi1.jpeg)
 
-**Sección de inventario (Inventory):**  
+**Sección de inventario (Inventory):**
 Disponible para el administrador de restaurante. Muestra el catálogo de insumos (supplies) y el inventario asociado. Incluye funcionalidades como filtros, paginación y gestión detallada de lotes.
 
 ![Evidencia 2](assets/images/cap5/evidence-sprint2/execevidence/evi2.jpeg)
 
-**Sección de proveedores (Suppliers):**  
+**Sección de proveedores (Suppliers):**
 Vista del administrador de restaurante que permite acceder a una lista de proveedores favoritos, con opción de ver información detallada de cada uno.
 
 ![Evidencia 3](assets/images/cap5/evidence-sprint2/execevidence/evi3.jpeg)
 
-**Sección de ventas (Sales):**  
+**Sección de ventas (Sales):**
 Permite al administrador registrar ventas diarias utilizando recetas (recipes) predefinidas. Se muestra una lista del día con detalles, útil para descontar automáticamente los insumos utilizados.
 
 ![Evidencia 4](assets/images/cap5/evidence-sprint2/execevidence/evi4.jpeg)
 
-**Video del frontend:**  
+**Video del frontend:**
 Demostración en video del uso del sistema.
 
 ![Captura del video](assets/images/cap5/evidence-sprint2/video_evidence.png)
 
 Video: [https://linkcuts.org/konqfr2w](https://linkcuts.org/konqfr2w)
-
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
@@ -1101,10 +1101,10 @@ Durante este Sprint se avanzó en el desarrollo del **frontend interno de Restoc
 
 ##### Despliegue de recursos
 
-| Recurso          | Acción implementada   | Método HTTP | URL / Endpoint                                                                                                     | Repositorio                                                                                    |
-| ---------------- | ---------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| Landing Page     | Visualización inicial | GET          | [Landing URL](https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/)                            | [UI-Topic-landing](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing)   |
-| Frontend Interno | Navegación por rutas  | GET          | [App URL](https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory) | [UI-Topic-frontend](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-Frontend) |
+| Recurso          | Acción implementada   | Método HTTP | URL / Endpoint                                   | Repositorio                  |
+| ---------------- | ---------------------- | ------------ | ------------------------------------------------ | ---------------------------- |
+| Landing Page     | Visualización inicial | GET          | https://restock-4292.github.io/UI-Topic-landing/ | https:/linkcuts.org/uxcn1r3n |
+| Frontend Interno | Navegación por rutas  | GET          | https:/linkcuts.org/b23u94pf                     | https://shorturl.at/vWjRG    |
 
 ##### Evidencia de interacción
 
@@ -1123,7 +1123,34 @@ Durante este Sprint se avanzó en el desarrollo del **frontend interno de Restoc
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
-Durante este Sprint, se realizaron las actividades de despliegue del frontend de la aplicación web `UI-Topic-frontend` utilizando la plataforma **GitHub Pages**. A continuación, se detallan los pasos ejecutados:
+Durante este Sprint, se realizaron actividades de despliegue de la Landing Page y el Frontend utilizando GitHub Pages como plataforma de hosting. A continuación, se detallan los pasos ejecutados para el despliegue del **Landing Page:**
+
+1- Se accedió a la sección Settings del repositorio.
+
+Dentro de Pages, se seleccionó la rama (main o master) y la carpeta (root o /docs) desde la cual GitHub Pages debía publicar el sitio.
+Se guardaron los cambios para activar la publicación automática.
+
+![Foto deployment step 1](assets/images/cap5/step-1.png)
+
+2- Por default ya esta activado el https
+
+![Foto deployment step 2](assets/images/cap5/step-2.png)
+
+3- En la seccion "All workflows" se puede ver que la app se esta deployando.
+
+![Foto deployment step 3](assets/images/cap5/step-3.png)
+
+4- El landing page fue exitosamente desplegado
+
+![Foto deployment step 4](assets/images/cap5/step-4.png)
+
+5- Se obtuvo y verificó la URL pública proporcionada por GitHub Pages.
+
+![Foto deployment step 5](assets/images/cap5/step-5.png)
+
+Link del landing page desplegado: https://restock-4292.github.io/UI-Topic-landing/
+
+ A continuación, se detallan los pasos ejecutados para el despliegue del **Frontend**:
 
 1. Se preparó la aplicación Angular para producción ejecutando el comando de compilación con la ruta base correspondiente:
 
@@ -1159,7 +1186,7 @@ Esto creó la rama gh-pages, subió los archivos de producción y habilitó el s
 
 ![Paso 1](assets/images/cap5/evidence-sprint2/evidence_4.png)
 
-Link del frontend: [https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory](https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend/dashboard/restaurant/inventory)
+Link del frontend: https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-Frontend
 
 #### 5.2.2.8 Team Collaboration Insights During Sprint
 
@@ -1208,6 +1235,8 @@ Estas métricas reflejan una colaboración activa, estructurada y bien gestionad
 
 #### 5.2.3.1. Sprint Planning 3
 
+A continuación, se presenta la planificación correspondiente a nuestro Sprint 3, el cual tiene como enfoque principal el desarrollo del frontend y backend de Restock. En esta etapa, el equipo definió el objetivo del sprint, seleccionó las user stories y technical stories más relevantes. Se establecieron los entregables clave que permitirán construir una tercera versión funcional y visualmente atractiva de la plataforme. Esta planificación busca asegurar un entendimiento compartido entre todos los miembros del equipo con el fin de proporcionar las funcionalidades consolidadas a los usuarios.
+
 <table>
     <tr>
         <td>Sprint #</td>
@@ -1239,11 +1268,11 @@ Estas métricas reflejan una colaboración activa, estructurada y bien gestionad
     </tr>
     <tr>
         <td>Sprint 2 Review Summary</td>
-        <td>Durante el Sprint 2 se logró una mejora significativa en la experiencia de inicio para nuevos usuarios,<br /> al rediseñar e integrar la landing page con el frontend principal de la aplicación web Restock. Se<br /> avanzó considerablemente en el desarrollo del módulo frontend, incorporando funcionalidades clave <br />como la gestión de inventario, notificaciones, analíticas y suscripciones para los perfiles de administradores <br />y proveedores.<br />El equipo demostró una sólida coordinación y colaboración en la implementación de estos <br />componentes, respetando los lineamientos definidos en la planificación. Como oportunidad de <br />mejora, se identificó la necesidad de fortalecer aún más la alineación del equipo con los objetivos <br />priorizados del sprint, para asegurar una entrega aún más consistente en próximos ciclos.</td>
+        <td>Durante el Sprint 2 se logró una mejora significativa en la experiencia de inicio para nuevos usuarios, al rediseñar e integrar la landing page con el frontend principal de la aplicación web Restock. Se avanzó considerablemente en el desarrollo del módulo frontend, incorporando funcionalidades clave como la gestión de inventario, notificaciones, analíticas y suscripciones para los perfiles de administradores y proveedores. El equipo demostró una sólida coordinación y colaboración en la implementación de estos componentes, respetando los lineamientos definidos en la planificación. Como oportunidad de mejora, se identificó la necesidad de fortalecer aún más la alineación del equipo con los objetivos priorizados del sprint, para asegurar una entrega aún más consistente en próximos ciclos.</td>
     </tr>
     <tr>
         <td>Sprint 2 Retrospective Summary</td>
-        <td>Durante el Sprint 2, el equipo mantuvo una comunicación fluida y una coordinación efectiva,<br />lo cual permitió avanzar de forma sólida en varios módulos clave del frontend. La integración <br />continua, las revisiones cruzadas de código y la claridad en las responsabilidades asignadas <br />fueron aspectos destacados que facilitaron un buen ritmo de trabajo.<br />Como oportunidad de mejora, se identificó la necesidad de reforzar el seguimiento y <br />cumplimiento de los objetivos priorizados, así como de mejorar la estimación de tiempos en <br />algunos flujos más complejos. También se mencionó la importancia de alinear aún más los <br />esfuerzos individuales con los objetivos de entrega colectivos.</td>
+        <td>Durante el Sprint 2, el equipo mantuvo una comunicación fluida y una coordinación efectiva, lo cual permitió avanzar de forma sólida en varios módulos clave del frontend. La integración continua, las revisiones cruzadas de código y la claridad en las responsabilidades asignadas fueron aspectos destacados que facilitaron un buen ritmo de trabajo. Como oportunidad de mejora, se identificó la necesidad de reforzar el seguimiento y cumplimiento de los objetivos priorizados, así como de mejorar la estimación de tiempos en algunos flujos más complejos. También se mencionó la importancia de alinear aún más los esfuerzos individuales con los objetivos de entrega colectivos.</td>
     </tr>
     <tr>
         <td>**Sprint Goal & User Stories**</td>
@@ -1251,15 +1280,15 @@ Estas métricas reflejan una colaboración activa, estructurada y bien gestionad
     </tr>
     <tr>
         <td>Sprint 3 Goal</td>
-        <td>Nuestro enfoque está en presentar de forma efectiva nuestra propuesta de valor a los nuevos visitantes. También, habilitar la gestión de recetas y pedidos, así como mejorar la sección de ventas, para los administradores de restaurantes; incorporar la gestión de órdenes para los proveedores; y, en general, permitir a ambos segmentos realizar el pago de su suscripción. Asimismo, proporcionar, mediante el API de la plataforma, puntos de accesos a los desarrolladores frontend para que implementen funcionalidades relacionadas con gestión de pedidos, ventas, recetas, inventario, perfil y comentarios.<br />Creemos que esto ofrece a los visitantes mayor confianza hacia el equipo de trabajo y les permite conocer mejor la propuesta de valor. Del mismo modo, mejora los flujos de usuario, al permitir la realización de pagos de suscripción; agiliza las operaciones para los administradores de restaurantes, al facilitar la creación y gestión de ventas, la configuración de recetas y la gestión de pedidos; optimiza el tiempo operativo para los proveedores, al permitir el seguimiento de pedidos. Además, permite a los desarrolladores frontend implementar funcionalidades esenciales de forma más eficiente, incluyendo pedidos, ventas, recetas, inventario, perfil y comentarios.<br />Esto se confirmará cuando aumente la cantidad de visitantes que se registren en la plataforma. Del mismo modo, cuando se incremente la cantidad de ordenes, ventas e insumos que registran administradores de restaurantes en la plataforma; aumente el número de insumos registrados y órdenes gestionadas por los proveedores; y se incremente la cantidad de suscripciones por parte de ambos segmentos. Además, cuando los desarrolladores frontend aumenten la cantidad de funcionalidades relacionadas con el pedidos, ventas, recetas, inventario, perfil y comentarios en el frontend.</td>
+        <td>Nuestro enfoque está en presentar de forma efectiva nuestra propuesta de valor a los nuevos visitantes. También, habilitar la gestión de recetas y pedidos, así como mejorar la sección de ventas, para los administradores de restaurantes; incorporar la gestión de órdenes para los proveedores; y, en general, permitir a ambos segmentos realizar el pago de su suscripción. Asimismo, proporcionar, mediante el API de la plataforma, puntos de accesos a los desarrolladores frontend para que implementen funcionalidades relacionadas con gestión de pedidos, ventas, recetas, inventario, perfil y comentarios. Creemos que esto ofrece a los visitantes mayor confianza hacia el equipo de trabajo y les permite conocer mejor la propuesta de valor. Del mismo modo, mejora los flujos de usuario, al permitir la realización de pagos de suscripción; agiliza las operaciones para los administradores de restaurantes, al facilitar la creación y gestión de ventas, la configuración de recetas y la gestión de pedidos; optimiza el tiempo operativo para los proveedores, al permitir el seguimiento de pedidos. Además, permite a los desarrolladores frontend implementar funcionalidades esenciales de forma más eficiente, incluyendo pedidos, ventas, recetas, inventario, perfil y comentarios. Esto se confirmará cuando aumente la cantidad de visitantes que se registren en la plataforma. Del mismo modo, cuando se incremente la cantidad de ordenes, ventas e insumos que registran administradores de restaurantes en la plataforma; aumente el número de insumos registrados y órdenes gestionadas por los proveedores; y se incremente la cantidad de suscripciones por parte de ambos segmentos. Además, cuando los desarrolladores frontend aumenten la cantidad de funcionalidades relacionadas con pedidos, ventas, recetas, inventario, perfil y comentarios en el frontend.</td>
     </tr>
     <tr>
         <td>Sprint 3 Velocity</td>
-        <td>60</td>
+        <td>38</td>
     </tr>
     <tr>
         <td>Sum of Story Points</td>
-        <td>57</td>
+        <td>35</td>
     </tr>
 </table>
 
@@ -1271,13 +1300,13 @@ Con el fin de mantener una coordinación efectiva y una comunicación fluida ent
 
 <div style="font-size: 0.75em; overflow-x: auto;">
 
-| Team Member (Last Name, First Name) | GitHub Username    | Planning | Subscription | Profile | IAM | Analytics | Resource | Monitoring |
-| :---------------------------------- | :----------------- | :------- | :----------- | :------ | :-- | :-------- | :------- | :--------- |
-| Vendaño Balarezo, Williams Eduardo | dev-willy-code     | C        | L            | L       | L   | C         | C        | C          |
-| Castro Alejos, Julio                | JulioXC4           | C        | C            | C       | C   | C         | C        | C          |
-| Guerra Perez, José Jahaziel        | jahazielgg         | L        | C            | C       | C   | L         | L        | L          |
-| Guzmán Cabrejos, Yaku Mateo        | yak-cod            | C        | C            | C       | C   | C         | C        | C          |
-| Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28 | C        | C            | C       | C   | C         | C        | C          |
+| Team Member (Last Name, First Name)  | GitHub Username    | Planning | Subscription | Profile | IAM | Analytics | Resource | Monitoring |
+| :----------------------------------- | :----------------- | :------- | :----------- | :------ | :-- | :-------- | :------- | :--------- |
+| Avendaño Balarezo, Williams Eduardo | dev-willy-code     | C        | L            | L       | L   | C         | C        | C          |
+| Castro Alejos, Julio                 | JulioXC4           | C        | C            | C       | C   | C         | C        | C          |
+| Guerra Perez, José Jahaziel         | jahazielgg         | L        | C            | C       | C   | L         | L        | L          |
+| Guzmán Cabrejos, Yaku Mateo         | yak-cod            | C        | C            | C       | C   | C         | C        | C          |
+| Shapiama Rivera, Gabriela Nicole     | GabrielaShapiama28 | C        | C            | C       | C   | C         | C        | C          |
 
 </div>
 
@@ -2028,6 +2057,7 @@ En el backend de la plataforma se realizaron importantes avances enfocados en la
 | GabrielaShapiama28/UI-Topic-backend | develop | GabrielaShapiama28 | 2fe5383   | chore: initial commit.                                                                                                                               | Initial commit for the project setup.                                                                                                     | 03-06-2025         |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
 En este Sprint 3, se avanzó significativamente en el desarrollo de la landing page y en la implementación tanto del frontend como del backend. A continuación, se presenta un video que muestra los avances y explica la visualización y navegación de las funcionalidades desarrolladas durante este Sprint.
 
 A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
@@ -2035,9 +2065,7 @@ A continuación, se muestra un video con los avances realizados durante el Sprin
 **Resumen de avances del Sprint 3:**
 
 - Desarrollo y diseño de la landing page.
-
 - Implementación del frontend y backend para la página principal.
-
 - Optimización de la interfaz para una navegación fluida y accesible.
 
 **Video del sprint 3:**
@@ -2046,7 +2074,7 @@ A continuación, se muestra un video con los avances realizados durante el Sprin
 
 [https://shorturl.at/77Cv2](https://shorturl.at/77Cv2)
 
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+#### [5.2.3.6.]() Services Documentation Evidence for Sprint Review
 
 Durante este sprint se completó al 100% el desarrollo del Landing Page del sistema, consolidando su estructura visual, diseño responsivo, traducción multilenguaje y funcionalidades de navegación. Asimismo, se avanzó de forma significativa en la construcción del frontend del sistema, incluyendo componentes claves como el menú lateral, el dashboard inicial, el módulo de gestión de insumos y la arquitectura modular en Angular bajo DDD (Domain-Driven Design).
 
@@ -2064,8 +2092,8 @@ Aunque no se desplegaron endpoints REST aún, se documentan a continuación los 
 
 | Recurso                 | Acción implementada                                | Método HTTP | URL / Endpoint                                                                            | Link de repositorio                                                          |
 | ----------------------- | --------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| Landing Page            | Visualización completa y funcional del landing     | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/UI-Topic-landing/               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing  |
-| UI del sistema (WIP)    | Avance en el sistema (menú, dashboard, inventario) | GET          | https://desarrollo-de-app-open-source-curso-upc.github.io/dashboard                       | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend |
+| Landing Page            | Visualización completa y funcional del landing     | GET          | https://github.com/Restock-4292UI-Topic-landing/                                          | https://github.com/Restock-4292                                              |
+| UI del sistema (WIP)    | Avance en el sistema (menú, dashboard, inventario) | GET          | https://github.com/Restock-4292dashboard                                                  | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend |
 | Get supply by ID        | Obtener un insumo por ID                            | GET          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
 | Update a supply         | Actualizar un insumo                                | PUT          | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
 | Delete a supply         | Eliminar un insumo                                  | DELETE       | https://restock-platform-sprint-boot.onrender.com/api/v1/supplies/{id}                    | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend  |
@@ -2208,15 +2236,17 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
   </tr>
   <tr>
     <td>Sprint 4 Goal</td>
-    <td>Este sprint está enfocado en robustecer la experiencia de usuario mediante la implementación completa de funcionalidades clave del perfil: recuperación de contraseña, cambio y eliminación de cuenta; reforzar el control de acceso mediante suscripciones activas; además de completar flujos críticos del sistema como la gestión de ventas, retroalimentación y notificaciones por insumos. También se priorizará la entrega de endpoints RESTful estables y bien documentados, permitiendo la integración efectiva entre frontend y backend.<br/>El éxito de este sprint se medirá cuando los usuarios puedan recuperar, cambiar o eliminar sus cuentas correctamente; se restrinja el acceso por suscripciones vencidas; los administradores puedan vender solo si hay insumos disponibles; y los proveedores puedan recibir feedback validado correctamente. Además, cuando se logre obtener notificaciones sobre eventos críticos del inventario, y se validen todos estos flujos mediante pruebas automatizadas.</td>
+    <td>Nuestro enfoque está en mejorar la experiencia de los administradores de restaurantes y proveedores de restaurantes, mediante la implementación completa de funcionalidades clave del perfil, además de finalizar flujos críticos como la gestión de ventas y la gestión de insumos. En paralelo, proporcionar, mediante el API de la plataforma, puntos de accesos a los desarrolladores frontend para que implementen funcionalidades relacionadas con perfiles, gestión de insumos, inicio de sesión y registro validados. 
+Creemos que esto ofrece un flujo de usuario más seguro, al proteger el ingreso de a la plataforma; agiliza las operaciones para los administradores de restaurantes, al facilitar la creación y gestión de insumos y la gestión de recetas; optimiza el tiempo operativo para los proveedores, al permitir el seguimiento de sus insumos disponibles. Además, permite a los desarrolladores frontend implementar funcionalidades esenciales de forma más eficiente, incluyendo inventario, recetas y perfil. 
+Esto se confirmará cuando los usuarios puedan gestionar correctamente sus cuentas, iniciar sesión y registrarse de forma segura; se incremente la cantidad de insumos y recetas que registran administradores de restaurantes en la plataforma; y se aumente el número de insumos registrados por los proveedores. Además, cuando los desarrolladores frontend consoliden las funcionalidades relacionadas con recetas, inventario, inicio de sesión, registro y perfil.</td>
   </tr>
   <tr>
     <td>Sprint 4 Velocity</td>
-    <td>60</td>
+    <td>48</td>
   </tr>
   <tr>
     <td>Sum of Story Points</td>
-    <td>59</td>
+    <td>46</td>
   </tr>
 </table>
 
@@ -2244,6 +2274,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
 
 ![Sprint backlog 4](assets/images/cap5/sprint-backlog4-1.png)
 
+Trello: https:/linkcuts.org/dbgrf3vr
+
 <table>
     <tr>
         <td>User Story ID</td>
@@ -2260,7 +2292,7 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Recuperación de contraseña</td>
         <td>T001</td>
         <td>Diseñar pantalla de solicitud de recuperación</td>
-        <td>Diseñar la pantalla de solicitud de recuperación de contraseña&#39;.</td>
+        <td>Diseñar la pantalla de solicitud de recuperación de contraseña'.</td>
         <td>1h</td>
         <td>Antonio Navarro</td>
         <td>Done</td>
