@@ -27,7 +27,6 @@ A continuación se indican los URLs de los repositorios de GitHub para cada prod
 
 - **Landing Page**: https://restock-4292.github.io/UI-Topic-landing/
 - **Web Services**: [https://shorturl.at/O4PHS](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-backend.git)
-- _(Incluye el proyecto y los archivos de pruebas unitarias e integración/aceptación)_
 - **Frontend Web Application**: [https://shorturl.at/tnpvh](https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-frontend.git)
 
 #### GitFlow Workflow
@@ -266,45 +265,52 @@ El objetivo principal de este Sprint es diseñar, implementar y validar las secc
 
 Enlace al Trello: https://shorturl.at/WJm9O
 
-| User Story ID | User Story Title                                                          | Task ID | Task Title                                                  | Task Description                                                                                                                                                                                             | Estimated Hours |
-| ------------- | ------------------------------------------------------------------------- | ------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- |
-| US-001        | Ver testimonios de clientes                                               | T001    | Diseño de la Sección de Testimonios                       | Diseñar una sección visualmente destacada para testimonios.                                                                                                                                                | 1/2h            |
-|               |                                                                           | T002    | Implementación de Testimonios                              | Mostrar mínimo tres testimonios con nombre, rol y comentario.                                                                                                                                               | 1h              |
-|               |                                                                           | T003    | Armonización de Estilos UI                                 | Aplicar estilos consistentes (tipografía, colores, disposición).                                                                                                                                           | 1/2h            |
-| US-0002       | Consultar Preguntas Frecuentes                                            | T004    | Definición de Preguntas Frecuentes                         | Definir al menos tres preguntas frecuentes con sus respuestas claras y breves.                                                                                                                               | 1/2h            |
-|               |                                                                           | T005    | Integración de Contenido Estático en FAQ                  | Incluir las preguntas y respuestas directamente en el contenido estático de la sección FAQ.                                                                                                                | 1h              |
-|               |                                                                           | T006    | Asegurar Visibilidad Directa de Respuestas FAQ              | Verificar que las respuestas estén visibles de forma directa sin necesidad de interacción.                                                                                                                 | 1/2h            |
-| US-003        | Consultas directas al equipo de la plataforma                             | T007    | Diseño de Formulario de Contacto                           | Diseñar un formulario limpio con campos de nombre, correo y mensaje.                                                                                                                                        | 1/2h            |
-|               |                                                                           | T008    | Implementación de Validación Visual en Formulario         | Aplicar validación visual (mensajes de error si faltan datos).                                                                                                                                              | 1h              |
-|               |                                                                           | T009    | Mensaje de Confirmación de Envío de Formulario            | Mostrar un mensaje de confirmación claro tras el envío.                                                                                                                                                    | 1/2h            |
-| US-004        | Visualización persistente de información institucional en todo el sitio | T010    | Implementación de Footer Fijo                              | Implementar una sección fija en el pie de página con enlaces a redes sociales, contacto y aviso legal.                                                                                                     | 1/2h            |
-|               |                                                                           | T011    | Creación de Sección "Términos y Condiciones"             | Crear la sección de "Términos y Condiciones" con contenido legal claro y accesible.                                                                                                                        | 1h              |
-|               |                                                                           | T012    | Visibilidad Global de Información Institucional            | Asegurar que la sección de información institucional esté visible en todas las vistas públicas del sitio.                                                                                                | 1/2h            |
-| US-005        | Acceso a secciones principales del sitio                                  | T013    | Definición de Rutas Internas                               | Definir y estructurar las rutas internas para las secciones: Inicio, Beneficios, Cómo funciona y Contacto.                                                                                                  | 1/2h            |
-|               |                                                                           | T014    | Implementación de Menú de Navegación Principal           | Implementar un menú de navegación accesible desde la página principal que enlace a las secciones principales del sitio.                                                                                   | 1h              |
-|               |                                                                           | T015    | Verificación de Redirección de Enlaces de Navegación     | Asegurar que cada enlace de navegación redirija correctamente a su respectiva sección dentro del sitio.                                                                                                    | 1/2h            |
-| US-006        | Conocer el funcionamiento general de la plataforma                        | T016    | Definición de Contenido de Etapas Explicativas             | Definir el contenido de las cuatro etapas que explican el funcionamiento general de la plataforma. explicativo'.                                                                                             | 1/2h            |
-|               |                                                                           | T017    | Estructuración de Sección "Cómo Funciona"                | Estructurar la sección informativa que describa paso a paso cómo utilizar la plataforma.                                                                                                                   | 1h              |
-|               |                                                                           | T018    | Implementación Visual de Etapas Secuenciales               | Implementar la visualización de las cuatro etapas de forma secuencial y clara dentro del sitio.                                                                                                             | 1/2h            |
-| US-007        | Opción de comprender el funcionamiento mediante recurso audiovisual      | T019    | Estructura para Visualización de Video Explicativo         | Implementación de estructura necesarios para asegurar que el video explicativo se muestre correctamente                                                                                                     | 1/2h            |
-| US-008        | Comprensión del propósito y valor desde el inicio                       | T020    | Estructura para Visualización de Beneficios Generales      | Implementación de estructura necesarios para asegurar que los beneficios se muestren correctamente                                                                                                          | 2h              |
-| US-009        | Visualización de beneficios según perfil de usuario                     | T025    | Estructura para Visualización de Beneficios Personalizados | Implementación de estructura necesarios para asegurar que los beneficios adaptados a mi perfil se muestre correctamente.                                                                                    | 1/2h            |
-| US-011        | Selección de idioma para una experiencia personalizada                   | T028    | Preparación de Contenido Multilingüe (ES/EN)              | Preparar el contenido de la landing page y web application en dos idiomas (español e inglés).                                                                                                              | 1h              |
-|               |                                                                           | T029    | Implementación de Selector de Idioma                       | Implementar botón que permita cambiar entre ambos idiomas.                                                                                                                                                  | 1/2h            |
-|               |                                                                           | T030    | Persistencia de Selección de Idioma                        | Guardar la selección del idioma para que se mantenga al recargar la página.                                                                                                                                | 1h              |
-| US012         | Navegación accesible para personas con discapacidad visual               | T031    | Diseño de Navegación Fluida                               | Crear diseño visual para 'navegación fluida entre secciones'.                                                                                                                                              | 1/2h            |
-|               |                                                                           | T032    | Codificación de Componente de Navegación Fluida           | Codificar el componente necesario para 'navegación fluida entre secciones'.                                                                                                                                 | 1h              |
-|               |                                                                           | T033    | Verificación de Navegación Fluida                         | Verificar que 'navegación fluida entre secciones' funcione correctamente.                                                                                                                                   | 1/2h            |
-| US-013        | Optimización para pantallas de escritorio                                | T034    | Definición de Breakpoint para Desktop                      | Definir breakpoint específico para resolución ≥ 1280px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1/2h            |
-|               |                                                                           | T035    | Ajuste de Layout Principal para Desktop                     | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1h              |
-|               |                                                                           | T036    | Mejora de Legibilidad en Desktop                            | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h            |
-| US-014        | Optimización para pantallas de tablet                                    | T037    | Definición de Breakpoint para Tablets/Laptops              | Definir breakpoint específico para resolución ≥ 1024px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1h              |
-|               |                                                                           | T038    | Ajuste de Layout Principal para Tablets/Laptops             | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1/2h            |
-|               |                                                                           | T039    | Mejora de Legibilidad en Tablets/Laptops                    | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h            |
-| US-015        | Optimización para dispositivos móviles                                  | T040    | Definición de Breakpoint para Tablets                      | Definir breakpoint específico para resolución ≥ 768px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                          | 1/2h            |
-|               |                                                                           | T041    | Ajuste de Layout Principal para Tablets                     | Reorganizar layout principal (header, sidebar, content) para optimizar el espacio horizontal                                                                                                                 | 1h              |
-|               |                                                                           | T042    | Mejora de Legibilidad en Tablets                            | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas pequeñas                                                                                                                     | 1/2h            |
-| US-016        | Navegación fluida entre secciones                                        | T043    | Implementación de Transiciones de Navegación Fluidas      | Implementar una experiencia de navegación fluida y sin interrupciones entre las diferentes secciones de la aplicación, garantizando transiciones rápidas, suaves y coherentes con la interfaz de usuario. | 2h              |
+| Sprint #   | Sprint n                                                                  |                  |                                                                |                                                                                                                                                                                                              |                    |                    |                                                 |
+| ---------- | ------------------------------------------------------------------------- | ---------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | ------------------ | ----------------------------------------------- |
+| User Story |                                                                           | Work-item / Task |                                                                |                                                                                                                                                                                                              |                    |                    |                                                 |
+| ID         | Title                                                                     | Id               | Title                                                          | Description                                                                                                                                                                                                  | Estimation (hours) | Assigned To        | Status (To-do / In-Process / To-Review / Done)) |
+| US-001     | Ver testimonios de clientes                                               | T001             | Diseño de la Sección de Testimonios                          | Diseñar una sección visualmente destacada para testimonios.                                                                                                                                                | 1/2h               | Williams Avendaño | Done                                            |
+|            |                                                                           | T002             | Implementación de Testimonios                                 | Mostrar mínimo tres testimonios con nombre, rol y comentario.                                                                                                                                               | 1h                 | Williams Avendaño |                        Done                        |
+|            |                                                                           | T003             | Armonización de Estilos UI                                    | Aplicar estilos consistentes (tipografía, colores, disposición).                                                                                                                                           | 1/2h               | Williams Avendaño |                         Done                       |
+| US-0002    | Consultar Preguntas Frecuentes                                            | T001             | Definición de Preguntas Frecuentes                            | Definir al menos tres preguntas frecuentes con sus respuestas claras y breves.                                                                                                                               | 1/2h               | Williams Avendaño |                       Done                         |
+|            |                                                                           | T002             | Integración de Contenido Estático en FAQ                     | Incluir las preguntas y respuestas directamente en el contenido estático de la sección FAQ.                                                                                                                | 1h                 | Williams Avendaño |                          Done                      |
+|            |                                                                           | T003             | Asegurar Visibilidad Directa de Respuestas FAQ                 | Verificar que las respuestas estén visibles de forma directa sin necesidad de interacción.                                                                                                                 | 1/2h               | Williams Avendaño |                        Done                        |
+| US-003     | Consultas directas al equipo de la plataforma                             | T001             | Diseño de Formulario de Contacto                              | Diseñar un formulario limpio con campos de nombre, correo y mensaje.                                                                                                                                        | 1/2h               | Julio Castro       |                       Done                         |
+|            |                                                                           | T002             | Implementación de Validación Visual en Formulario            | Aplicar validación visual (mensajes de error si faltan datos).                                                                                                                                              | 1h                 | Julio Castro       |                        Done                        |
+|            |                                                                           | T003             | Mensaje de Confirmación de Envío de Formulario               | Mostrar un mensaje de confirmación claro tras el envío.                                                                                                                                                    | 1/2h               | Julio Castro       |                         Done                       |
+| US-004     | Visualización persistente de información institucional en todo el sitio | T001             | Implementación de Footer Fijo                                 | Implementar una sección fija en el pie de página con enlaces a redes sociales, contacto y aviso legal.                                                                                                     | 1/2h               | Julio Castro       |                          Done                      |
+|            |                                                                           | T002             | Creación de Sección "Términos y Condiciones"                | Crear la sección de "Términos y Condiciones" con contenido legal claro y accesible.                                                                                                                        | 1h                 | Julio Castro       |                          Done                      |
+|            |                                                                           | T003             | Visibilidad Global de Información Institucional               | Asegurar que la sección de información institucional esté visible en todas las vistas públicas del sitio.                                                                                                | 1/2h               | Julio Castro       |                          Done                      |
+| US-005     | Acceso a secciones principales del sitio                                  | T001             | Definición de Rutas Internas                                  | Definir y estructurar las rutas internas para las secciones: Inicio, Beneficios, Cómo funciona y Contacto.                                                                                                  | 1/2h               | Julio Castro       |                       Done                         |
+|            |                                                                           | T002             | Implementación de Menú de Navegación Principal              | Implementar un menú de navegación accesible desde la página principal que enlace a las secciones principales del sitio.                                                                                   | 1h                 | Yaku Guzmán       |                            Done                    |
+|            |                                                                           | T003             | Verificación de Redirección de Enlaces de Navegación        | Asegurar que cada enlace de navegación redirija correctamente a su respectiva sección dentro del sitio.                                                                                                    | 1/2h               | Yaku Guzmán       |                           Done                     |
+| US-006     | Conocer el funcionamiento general de la plataforma                        | T001             | Definición de Contenido de Etapas Explicativas                | Definir el contenido de las cuatro etapas que explican el funcionamiento general de la plataforma. explicativo'.                                                                                             | 1/2h               | Yaku Guzmán       |                       Done                         |
+|            |                                                                           | T002             | Estructuración de Sección "Cómo Funciona"                   | Estructurar la sección informativa que describa paso a paso cómo utilizar la plataforma.                                                                                                                   | 1h                 | Yaku Guzmán       |                           Done                     |
+|            |                                                                           | T003             | Implementación Visual de Etapas Secuenciales                  | Implementar la visualización de las cuatro etapas de forma secuencial y clara dentro del sitio.                                                                                                             | 1/2h               | Yaku Guzmán       |                        Done                        |
+| US-007     | Opción de comprender el funcionamiento mediante recurso audiovisual      | T001             | Estructura para Visualización de Video Explicativo            | Implementación de estructura necesarios para asegurar que el video explicativo se muestre correctamente                                                                                                     | 1/2h               | Yaku Guzmán       |                         Done                       |
+| US-008     | Comprensión del propósito y valor desde el inicio                       | T001             | Estructura para Visualización de Beneficios Generales         | Implementación de estructura necesarios para asegurar que los beneficios se muestren correctamente                                                                                                          | 2h                 | Yaku Guzmán       |                          Done                      |
+| US-009     | Visualización de beneficios según perfil de usuario                     | T001             | Estructura para Visualización de Beneficios Personalizados    | Implementación de estructura necesarios para asegurar que los beneficios adaptados a mi perfil se muestre correctamente.                                                                                    | 1/2h               | Gabriela Shapiama  |                         Done                       |
+| US-010     | Selección de idioma para una experiencia personalizada                   | T001             | Preparación de Contenido Multilingüe (ES/EN)                 | Preparar el contenido de la landing page y web application en dos idiomas (español e inglés).                                                                                                              | 1h                 | Gabriela Shapiama  |                          Done                      |
+|            |                                                                           | T002             | Implementación de Selector de Idioma                          | Implementar botón que permita cambiar entre ambos idiomas.                                                                                                                                                  | 1/2h               | Gabriela Shapiama  |                       Done                         |
+|            |                                                                           | T003             | Persistencia de Selección de Idioma                           | Guardar la selección del idioma para que se mantenga al recargar la página.                                                                                                                                | 1h                 | Gabriela Shapiama  |                        Done                        |
+| US011      | Navegación accesible para personas con discapacidad visual               | T001             | Diseño de Navegación Fluida                                  | Crear diseño visual para 'navegación fluida entre secciones'.                                                                                                                                              | 1/2h               | Gabriela Shapiama  |                          Done                      |
+|            |                                                                           | T002             | Codificación de Componente de Navegación Fluida              | Codificar el componente necesario para 'navegación fluida entre secciones'.                                                                                                                                 | 1h                 | Gabriela Shapiama  |                        Done                        |
+|            |                                                                           | T003             | Verificación de Navegación Fluida                            | Verificar que 'navegación fluida entre secciones' funcione correctamente.                                                                                                                                   | 1/2h               | Gabriela Shapiama  |                        Done                        |
+| US-012     | Optimización para pantallas de escritorio                                | T001             | Definición de Breakpoint para Desktop                         | Definir breakpoint específico para resolución ≥ 1280px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1/2h               | Gabriela Shapiama  |                          Done                      |
+|            |                                                                           | T002             | Ajuste de Layout Principal para Desktop                        | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1h                 | Gabriela Shapiama  |                      Done                          |
+|            |                                                                           | T003             | Mejora de Legibilidad en Desktop                               | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h               | Gabriela Shapiama  |                       Done                         |
+| US-013     | Optimización para pantallas de tablet                                    | T001             | Definición de Breakpoint para Tablets/Laptops                 | Definir breakpoint específico para resolución ≥ 1024px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1h                 | Jahaziel Guerra    |                          Done                      |
+|            |                                                                           | T002             | Ajuste de Layout Principal para Tablets/Laptops                | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1/2h               | Jahaziel Guerra    |                      Done                          |
+|            |                                                                           | T003             | Mejora de Legibilidad en Tablets/Laptops                       | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h               | Jahaziel Guerra    |                       Done                         |
+| US-014     | Optimización para dispositivos móviles                                  | T001             | Definición de Breakpoint para Tablets                         | Definir breakpoint específico para resolución ≥ 768px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                          | 1/2h               | Jahaziel Guerra    |                           Done                     |
+|            |                                                                           | T002             | Ajuste de Layout Principal para Tablets                        | Reorganizar layout principal (header, sidebar, content) para optimizar el espacio horizontal                                                                                                                 | 1h                 | Jahaziel Guerra    |                     Done                           |
+|            |                                                                           | T003             | Mejora de Legibilidad en Tablets                               | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas pequeñas                                                                                                                     | 1/2h               | Jahaziel Guerra    |                        Done                        |
+| US-015     | Navegación fluida entre secciones                                        | T001             | Implementación de Transiciones de Navegación Fluidas         | Implementar una experiencia de navegación fluida y sin interrupciones entre las diferentes secciones de la aplicación, garantizando transiciones rápidas, suaves y coherentes con la interfaz de usuario. | 2h                 | Jahaziel Guerra    |                           Done                     |
+| US-016     | Inclusión de videos explicativos en el sitio web                         | T001             | Estructura para Visualización de video explicativo            | Implementación de video explicativo mostrado correctamente                                                                                                                                                  | 1h                 | Jahaziel Guerra    |                        Done                        |
+| US-017     | Acceso a la plataforma                                                    | T001             | Mostrar formulario de inicio de sesión                        | Mostrar un formulario sencillo con campos para correo electrónico y contraseña. Asegurarse de que sea accesible y responsivo.                                                                              | 1h                 | Jahaziel Guerra    |                        Done                        |
+|            |                                                                           | T002             | Validar formato de correo y requerir contraseña obligatoria.  | Validar que el formato del correo electrónico sea correcto y que el campo de la contraseña no quede vacío. Mostrar mensajes de error apropiados.                                                          | 2h                 | Jahaziel Guerra    |                         Done                       |
+|            |                                                                           | T003             | Implementar botón de "Iniciar sesión" para enviar los datos. | Implementar botón de "Iniciar sesión" para enviar los datos                                                                                                                                                | 1h                 | Jahaziel Guerra    |                         Done                       |
+|            |                                                                           | T004             | Redirigir al usuario tras el inicio de sesión exitoso         | Redirigir al usuario tras el inicio de sesión exitoso                                                                                                                                                       | 1h                 | Jahaziel Guerra    |                       Done                         |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -313,47 +319,256 @@ El objetivo principal fue construir una página pública funcional, atractiva vi
 A lo largo del Sprint se diseñaron e implementaron secciones clave como Hero, Sobre Nosotros, Beneficios, Testimonios, Preguntas Frecuentes, Tutoriales, Contacto y el Footer.
 También se trabajó en asegurar la adaptabilidad móvil, el cumplimiento de criterios de accesibilidad y la optimización inicial para motores de búsqueda (SEO).
 
-| Repository                        | Branch                             | Commit Id | Commit Message                                                                  | Commit Message Body                                                                            | Commited on (Date) |
-| --------------------------------- | ---------------------------------- | --------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------ |
-| GabrielaShapiama/UI-Topic-landing | feature/acces                      | f3de2d0   | fix(access): remove incorrect image.                                            | Removed an incorrect image that was incorrectly placed in the access module.                   | 26-04-2025         |
-| Yaku Guzman/UI-Topic-landing      | feature/tutorial-section           | 1c1d5e2   | fix(tutorial-section): fix tutorial links width                                 | Fixed the width issue affecting the layout of tutorial links on different screens.             | 26-04-2025         |
-| Williams/UI-Topic-landing         | feature/seo-tags-meta-tags         | b50e3c3   | feat(seo-tags-meta-tags): adding seo tags and meta tags                         | Added SEO and meta tags to improve page indexing and online visibility.                        | 26-04-2025         |
-| JulioXC4/UI-Topic-landing         | feature/voice-reader-accessibility | 936c01d   | feat(voice): add file voice.js                                                  | Added a new JavaScript file to handle voice-related functionalities.                           | 26-04-2025         |
-| JulioXC4/UI-Topic-landing         | feature/language-toggle            | 5bf2a4f   | feat(navbar): add language switch icon and console log for future functionality | Introduced a language switcher icon and set up console logs for future multi-language support. | 26-04-2025         |
-| GabrielaShapiama/UI-Topic-landing | feature/acces                      | 4fd9958   | fix(access): fix text position.                                                 | Adjusted the text alignment issues on the access screen.                                       | 26-04-2025         |
-| GabrielaShapiama/UI-Topic-landing | feature/acces                      | a9b89b2   | fix(access): remove incorrect css.                                              | Removed unnecessary or incorrect CSS rules from the access styles.                             | 26-04-2025         |
-| GabrielaShapiama/UI-Topic-landing | feature/acces                      | c0f15db   | style(access): change buttons format.                                           | Updated the button styles to align with the platform's visual guidelines.                      | 25-04-2025         |
-| jahazielgp/UI-Topic-landing       | feature/fix-navbar                 | e293098   | fix(navbar): fix navbar.                                                        | Fixed layout and functionality issues in the navigation bar.                                   | 25-04-2025         |
-| jahazielgp/UI-Topic-landing       | feature/benefits-section           | d6cee23   | feat(benefits): add benefits section.                                           | Added HTML and CSS structure for the Benefits section.                                         | 25-04-2025         |
-| Yaku Guzman/UI-Topic-landing      | feature/tutorial-section           | 4d7e12d   | fix(tutorial-section): add tutorial css file                                    | Added a dedicated CSS file to improve the Tutorial section styling.                            | 25-04-2025         |
-| Yaku Guzman/UI-Topic-landing      | feature/footer-section             | a3187cc   | fix(footer-section): fix link to css                                            | Fixed broken or incorrect link to the footer’s CSS file.                                      | 25-04-2025         |
-| Williams/UI-Topic-landing         | feature/preguntas                  | c307001   | fix(preguntas): adding other files                                              | Added missing assets and files needed for the FAQ section.                                     | 25-04-2025         |
-| Williams/UI-Topic-landing         | feature/preguntas                  | 057ba2e   | fix(preguntas): adding add dropdown menu                                        | Implemented the dropdown functionality for the FAQ section.                                    | 25-04-2025         |
-| GabrielaShapiama/UI-Topic-landing | feature/access                     | 57c525a   | feat(access): add navebar.                                                      | Created and styled the navbar for the access page.                                             | 25-04-2025         |
-| GabrielaShapiama/UI-Topic-landing | feature/access                     | 1269f12   | chore(access): translate some comments.                                         | Translated developer comments into English for better clarity.                                 | 25-04-2025         |
-| GabrielaShapiama/UI-Topic-landing | feature/access                     | e48c646   | fix(access): remove incorrect function.                                         | Removed a non-functional or unnecessary JavaScript function.                                   | 25-04-2025         |
-| GabrielaShapiama/UI-Topic-landing | feature/access                     | 84764de   | feat(access): add recovery password logic.                                      | Implemented logic for the password recovery feature.                                           | 25-04-2025         |
-| GabrielaShapiama/UI-Topic-landing | feature/access                     | f787614   | feat(access): add access to plataform.                                          | Added login and basic access functionality to the platform.                                    | 25-04-2025         |
-| Williams/UI-Topic-landing         | feature/descargar                  | 06f232a   | fix(descargar): make section fully responsive for all screen sizes              | Made the Descargar section fully responsive across all devices.                                | 25-04-2025         |
-| Yaku Guzman/UI-Topic-landing      | feature/footer-section             | ef64a65   | fix(footer-section): fix vh                                                     | Adjusted viewport height (vh) settings in the footer section.                                  | 23-04-2025         |
-| Yaku Guzman/UI-Topic-landing      | feature/footer-section             | 5bcde82   | feat(tutorial-section): add tutorial section                                    | Built the complete Tutorial section (HTML and CSS).                                            | 23-04-2025         |
-| Yaku Guzman/UI-Topic-landing      | feature/footer-section             | 7ecf4f2   | fix(footer-section): fix responsive                                             | Fixed responsiveness issues in the footer layout.                                              | 23-04-2025         |
-| Yaku Guzman/UI-Topic-landing      | feature/footer-section             | 1dea22f   | feat(contacto-section): add responsive                                          | Made the Contact section fully responsive.                                                     | 23-04-2025         |
-| Williams/UI-Topic-landing         | feature/descargar                  | e4598c3   | feat(descargar): create descargar section(html,css)                             | Created the Download section with full HTML and CSS styling.                                   | 22-04-2025         |
-| Williams/UI-Topic-landing         | feature/preguntas                  | 64f1af0   | feat(preguntas): create preguntas frecuentes(html,css)                          | Developed the FAQ (Preguntas Frecuentes) section structure and style.                          | 22-04-2025         |
-| Williams/UI-Topic-landing         | feature/testimonios                | 74f270e   | fix(testimonios): moving section to main tag                                    | Moved the Testimonials section to the main content area for better semantics.                  | 22-04-2025         |
-| Williams/UI-Topic-landing         | feature/testimonios                | 9e3685a   | fix(testimonios): updating testimonios(html)                                    | Updated the Testimonials section HTML content.                                                 | 22-04-2025         |
-| Yaku Guzman/UI-Topic-landing      | feature/footer-section             | cdc23c1   | feat(footer-section): add responsive                                            | Implemented responsive behavior for the footer section.                                        | 22-04-2025         |
-| jahazielgp/UI-Topic-landing       | feature/about-us-section           | 71e82c6   | feat(about-us): add about-us section.                                           | Added the About Us section including structure and initial styling.                            | 22-04-2025         |
-| Yaku Guzman/UI-Topic-landing      | feature/footer-section             | 7bb7da7   | feat(footer-section): add icons                                                 | Added social media icons into the footer layout.                                               | 22-04-2025         |
-| jahazielgp/UI-Topic-landing       | feature/develop                    | f6e104a   | chore: refactor directories.                                                    | Restructured project folders for better organization and scalability.                          | 21-04-2025         |
-| Williams/UI-Topic-landing         | feature/testimonios                | 27377d0   | feat(testimonios): add testimonios(html,css,img)                                | Created the Testimonials section including text and images.                                    | 21-04-2025         |
-| Yaku Guzman/UI-Topic-landing      | feature/contacto-section           | b469827   | feat(contacto-section): add contacto html and css                               | Built the Contact section with full HTML and CSS.                                              | 21-04-2025         |
-| Yaku Guzman/UI-Topic-landing      | feature/footer-section             | efd9aac   | feat(footer/section): add footer html and css                                   | Implemented the complete Footer section including structure and styles.                        | 21-04-2025         |
-| jahazielgp/UI-Topic-landing       | feature/hero-section               | 9341bde   | feat(hero-section): add responsive design.                                      | Made the Hero section fully responsive for mobile and desktop.                                 | 20-04-2025         |
-| jahazielgp/UI-Topic-landing       | feature/hero-section               | 7746107   | feat(hero-section): add hero html, css and js components.                       | Built the Hero section with its respective HTML, CSS, and JavaScript.                          | 20-04-2025         |
-| jahazielgp/UI-Topic-landing       | feature/develop                    | 303ad89   | chore: initial commit                                                           | Project initialization with base structure.                                                    | 20-04-2025         |
-| jahazielgp/UI-Topic-landing       | main                               | 556268a   | Initial commit                                                                  | Setup initial project files and base structure.                                                | 02-04-2025         |
+<table>
+    <tr>
+        <td>Repository</td>
+        <td>Branch</td>
+        <td>Commit Id</td>
+        <td>Commit Message</td>
+        <td>Commit Message Body</td>
+        <td>Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>jahazielgp/UI-Topic-landing</td>
+        <td>feature/benefits-section</td>
+        <td>d6cee23</td>
+        <td>feat(benefits): add benefits section.</td>
+        <td>Added HTML and CSS structure for the Benefits section.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>Yaku Guzman/UI-Topic-landing</td>
+        <td>feature/tutorial-section</td>
+        <td>4d7e12d</td>
+        <td>fix(tutorial-section): add tutorial css file</td>
+        <td>Added a dedicated CSS file to improve the Tutorial section styling.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>Yaku Guzman/UI-Topic-landing</td>
+        <td>feature/footer-section</td>
+        <td>a3187cc</td>
+        <td>fix(footer-section): fix link to css</td>
+        <td>Fixed broken or incorrect link to the footer’s CSS file.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>Williams/UI-Topic-landing</td>
+        <td>feature/preguntas</td>
+        <td>c307001</td>
+        <td>fix(preguntas): adding other files</td>
+        <td>Added missing assets and files needed for the FAQ section.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>Williams/UI-Topic-landing</td>
+        <td>feature/preguntas</td>
+        <td>057ba2e</td>
+        <td>fix(preguntas): adding add dropdown menu</td>
+        <td>Implemented the dropdown functionality for the FAQ section.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/access</td>
+        <td>57c525a</td>
+        <td>feat(access): add navebar.</td>
+        <td>Created and styled the navbar for the access page.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/access</td>
+        <td>1269f12</td>
+        <td>chore(access): translate some comments.</td>
+        <td>Translated developer comments into English for better clarity.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/access</td>
+        <td>e48c646</td>
+        <td>fix(access): remove incorrect function.</td>
+        <td>Removed a non-functional or unnecessary JavaScript function.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/access</td>
+        <td>84764de</td>
+        <td>feat(access): add recovery password logic.</td>
+        <td>Implemented logic for the password recovery feature.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/access</td>
+        <td>f787614</td>
+        <td>feat(access): add access to plataform.</td>
+        <td>Added login and basic access functionality to the platform.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>Williams/UI-Topic-landing</td>
+        <td>feature/descargar</td>
+        <td>06f232a</td>
+        <td>fix(descargar): make section fully responsive for all screen sizes</td>
+        <td>Made the Descargar section fully responsive across all devices.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>Yaku Guzman/UI-Topic-landing</td>
+        <td>feature/footer-section</td>
+        <td>ef64a65</td>
+        <td>fix(footer-section): fix vh</td>
+        <td>Adjusted viewport height (vh) settings in the footer section.</td>
+        <td>23-04-2025</td>
+    </tr>
+    <tr>
+        <td>Yaku Guzman/UI-Topic-landing</td>
+        <td>feature/footer-section</td>
+        <td>5bcde82</td>
+        <td>feat(tutorial-section): add tutorial section</td>
+        <td>Built the complete Tutorial section (HTML and CSS).</td>
+        <td>23-04-2025</td>
+    </tr>
+    <tr>
+        <td>Yaku Guzman/UI-Topic-landing</td>
+        <td>feature/footer-section</td>
+        <td>7ecf4f2</td>
+        <td>fix(footer-section): fix responsive</td>
+        <td>Fixed responsiveness issues in the footer layout.</td>
+        <td>23-04-2025</td>
+    </tr>
+    <tr>
+        <td>Yaku Guzman/UI-Topic-landing</td>
+        <td>feature/footer-section</td>
+        <td>1dea22f</td>
+        <td>feat(contacto-section): add responsive</td>
+        <td>Made the Contact section fully responsive.</td>
+        <td>23-04-2025</td>
+    </tr>
+    <tr>
+        <td>Williams/UI-Topic-landing</td>
+        <td>feature/descargar</td>
+        <td>e4598c3</td>
+        <td>feat(descargar): create descargar section(html,css)</td>
+        <td>Created the Download section with full HTML and CSS styling.</td>
+        <td>22-04-2025</td>
+    </tr>
+    <tr>
+        <td>Williams/UI-Topic-landing</td>
+        <td>feature/preguntas</td>
+        <td>64f1af0</td>
+        <td>feat(preguntas): create preguntas frecuentes(html,css)</td>
+        <td>Developed the FAQ (Preguntas Frecuentes) section structure and style.</td>
+        <td>22-04-2025</td>
+    </tr>
+    <tr>
+        <td>Williams/UI-Topic-landing</td>
+        <td>feature/testimonios</td>
+        <td>74f270e</td>
+        <td>fix(testimonios): moving section to main tag</td>
+        <td>Moved the Testimonials section to the main content area for better semantics.</td>
+        <td>22-04-2025</td>
+    </tr>
+    <tr>
+        <td>Williams/UI-Topic-landing</td>
+        <td>feature/testimonios</td>
+        <td>9e3685a</td>
+        <td>fix(testimonios): updating testimonios(html)</td>
+        <td>Updated the Testimonials section HTML content.</td>
+        <td>22-04-2025</td>
+    </tr>
+    <tr>
+        <td>Yaku Guzman/UI-Topic-landing</td>
+        <td>feature/footer-section</td>
+        <td>cdc23c1</td>
+        <td>feat(footer-section): add responsive</td>
+        <td>Implemented responsive behavior for the footer section.</td>
+        <td>22-04-2025</td>
+    </tr>
+    <tr>
+        <td>jahazielgp/UI-Topic-landing</td>
+        <td>feature/about-us-section</td>
+        <td>71e82c6</td>
+        <td>feat(about-us): add about-us section.</td>
+        <td>Added the About Us section including structure and initial styling.</td>
+        <td>22-04-2025</td>
+    </tr>
+    <tr>
+        <td>Yaku Guzman/UI-Topic-landing</td>
+        <td>feature/footer-section</td>
+        <td>7bb7da7</td>
+        <td>feat(footer-section): add icons</td>
+        <td>Added social media icons into the footer layout.</td>
+        <td>22-04-2025</td>
+    </tr>
+    <tr>
+        <td>jahazielgp/UI-Topic-landing</td>
+        <td>feature/develop</td>
+        <td>f6e104a</td>
+        <td>chore: refactor directories.</td>
+        <td>Restructured project folders for better organization and scalability.</td>
+        <td>21-04-2025</td>
+    </tr>
+    <tr>
+        <td>Williams/UI-Topic-landing</td>
+        <td>feature/testimonios</td>
+        <td>27377d0</td>
+        <td>feat(testimonios): add testimonios(html,css,img)</td>
+        <td>Created the Testimonials section including text and images.</td>
+        <td>21-04-2025</td>
+    </tr>
+    <tr>
+        <td>Yaku Guzman/UI-Topic-landing</td>
+        <td>feature/contacto-section</td>
+        <td>b469827</td>
+        <td>feat(contacto-section): add contacto html and css</td>
+        <td>Built the Contact section with full HTML and CSS.</td>
+        <td>21-04-2025</td>
+    </tr>
+    <tr>
+        <td>Yaku Guzman/UI-Topic-landing</td>
+        <td>feature/footer-section</td>
+        <td>efd9aac</td>
+        <td>feat(footer/section): add footer html and css</td>
+        <td>Implemented the complete Footer section including structure and styles.</td>
+        <td>21-04-2025</td>
+    </tr>
+    <tr>
+        <td>jahazielgp/UI-Topic-landing</td>
+        <td>feature/hero-section</td>
+        <td>9341bde</td>
+        <td>feat(hero-section): add responsive design.</td>
+        <td>Made the Hero section fully responsive for mobile and desktop.</td>
+        <td>20-04-2025</td>
+    </tr>
+    <tr>
+        <td>jahazielgp/UI-Topic-landing</td>
+        <td>feature/hero-section</td>
+        <td>7746107</td>
+        <td>feat(hero-section): add hero html, css and js components.</td>
+        <td>Built the Hero section with its respective HTML, CSS, and JavaScript.</td>
+        <td>20-04-2025</td>
+    </tr>
+    <tr>
+        <td>jahazielgp/UI-Topic-landing</td>
+        <td>feature/develop</td>
+        <td>303ad89</td>
+        <td>chore: initial commit</td>
+        <td>Project initialization with base structure.</td>
+        <td>20-04-2025</td>
+    </tr>
+    <tr>
+        <td>jahazielgp/UI-Topic-landing</td>
+        <td>main</td>
+        <td>556268a</td>
+        <td>Initial commit</td>
+        <td>Setup initial project files and base structure.</td>
+        <td>02-04-2025</td>
+    </tr>
+</table>
 
 #### Productos según alcance del Sprint:
 
@@ -370,6 +585,23 @@ Los principales avances fueron:
 - Validación de compatibilidad en navegadores y dispositivos.
 
 #### 5.2.1.5 Execution Evidence for Sprint Review
+
+En este primer sprint, se desarrolló la Landing Page de Restock, que sirve como punto de entrada para los usuarios interesados en la plataforma. Esto incluye la presentación de nuestro servicio, información sobre la empresa y acceso a funcionalidades clave.
+
+Se implementaron secciones como:
+
+**Hero Section**: Presentación visual atractiva con un llamado a la acción.
+![Hero Section](assets/images/cap5/execution-evidence/sprint1-hero.png)
+
+**Sobre Nosotros**: Información sobre la misión y visión de Restock.
+![Sobre Nosotros](assets/images/cap5/execution-evidence/sprint1-aboutus.png)
+
+**Beneficios**: Sección que destaca las ventajas de utilizar Restock.
+![Beneficios](assets/images/cap5/execution-evidence/sprint1-benefits-admins.png)
+![Beneficios](assets/images/cap5/execution-evidence/sprint1-benefits-suppliers.png)
+
+**Testimonios**: Opiniones de usuarios satisfechos con la plataforma.
+![Testimonios](assets/images/cap5/execution-evidence/sprint1-testimonials.png)
 
 A continuación, se presenta el video de la landing page. Este muestra la interacción principal de los usuarios con la plataforma, destacando los flujos de navegación, diseño responsivo y la estructura general de la aplicación.
 
@@ -577,7 +809,96 @@ Trello: [[https:/linkcuts.org/gmhr4kmc](https:/linkcuts.org/gmhr4kmc)]
 #### 5.2.2.4 Development Evidence for Sprint Review
 
 En esta sección se presentan los avances realizados durante el Sprint 2, centrado en el desarrollo de los módulos principales de la aplicación web interna de Restock.
-El objetivo principal fue implementar funcionalidades claves para la gestión de productos, inventario y resumen, con el fin de mejorar la eficiencia operativa y la trazabilidad de los recursos dentro de los administradores de restaurantes y proveedores.
+
+ 
+**Landing Page:**
+La siguiente tabla resume los commits realizados en el repositorio `UI-Topic-landing`, que incluyen mejoras en la accesibilidad, correcciones de errores y adición de nuevas funcionalidades.
+
+<table>
+    <tr>
+        <td>Repository</td>
+        <td>Branch</td>
+        <td>Commit Id</td>
+        <td>Commit Message</td>
+        <td>Commit Message Body</td>
+        <td>Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/acces</td>
+        <td>f3de2d0</td>
+        <td>fix(access): remove incorrect image.</td>
+        <td>Removed an incorrect image that was incorrectly placed in the access module.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>Yaku Guzman/UI-Topic-landing</td>
+        <td>feature/tutorial-section</td>
+        <td>1c1d5e2</td>
+        <td>fix(tutorial-section): fix tutorial links width</td>
+        <td>Fixed the width issue affecting the layout of tutorial links on different screens.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>Williams/UI-Topic-landing</td>
+        <td>feature/seo-tags-meta-tags</td>
+        <td>b50e3c3</td>
+        <td>feat(seo-tags-meta-tags): adding seo tags and meta tags</td>
+        <td>Added SEO and meta tags to improve page indexing and online visibility.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>JulioXC4/UI-Topic-landing</td>
+        <td>feature/voice-reader-accessibility</td>
+        <td>936c01d</td>
+        <td>feat(voice): add file voice.js</td>
+        <td>Added a new JavaScript file to handle voice-related functionalities.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>JulioXC4/UI-Topic-landing</td>
+        <td>feature/language-toggle</td>
+        <td>5bf2a4f</td>
+        <td>feat(navbar): add language switch icon and console log for future functionality</td>
+        <td>Introduced a language switcher icon and set up console logs for future multi-language support.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/acces</td>
+        <td>4fd9958</td>
+        <td>fix(access): fix text position.</td>
+        <td>Adjusted the text alignment issues on the access screen.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/acces</td>
+        <td>a9b89b2</td>
+        <td>fix(access): remove incorrect css.</td>
+        <td>Removed unnecessary or incorrect CSS rules from the access styles.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/acces</td>
+        <td>c0f15db</td>
+        <td>style(access): change buttons format.</td>
+        <td>Updated the button styles to align with the platform's visual guidelines.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>jahazielgp/UI-Topic-landing</td>
+        <td>feature/fix-navbar</td>
+        <td>e293098</td>
+        <td>fix(navbar): fix navbar.</td>
+        <td>Fixed layout and functionality issues in the navigation bar.</td>
+        <td>25-04-2025</td>
+    </tr>
+</table>
+
+**Web Application (Frontend):**
+La siguiente tabla resume los commits realizados en el repositorio `UI-Topic-Frontend`, que incluyen la implementación de la gestión de productos, inventario y resumen, con el fin de mejorar la eficiencia operativa y la trazabilidad de los recursos dentro de los administradores de restaurantes y proveedores.
 
 | Repository                           | Branch                      | Commit Id | Commit Message                                                                           | Commit Message Body                                                                                            | Commited on (Date) |
 | ------------------------------------ | --------------------------- | --------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------ |
@@ -728,10 +1049,34 @@ El objetivo principal fue implementar funcionalidades claves para la gestión de
 
 A continuación, se presenta el video del frontend de la aplicación web interna. Este demuestra la interacción de los usuarios autenticados con los módulos principales del sistema, incluyendo la navegación por el sidebar, la gestión de productos, el seguimiento de alertas y el control de inventario.
 
-**Video del frontend:**
+
+**Sección de resumen (Summary):**  
+Visualización de las órdenes recientes, últimas alertas generadas y los últimos insumos agregados al sistema.
+
+![Evidencia 1](assets/images/cap5/evidence-sprint2/execevidence/evi1.jpeg)
+
+**Sección de inventario (Inventory):**  
+Disponible para el administrador de restaurante. Muestra el catálogo de insumos (supplies) y el inventario asociado. Incluye funcionalidades como filtros, paginación y gestión detallada de lotes.
+
+![Evidencia 2](assets/images/cap5/evidence-sprint2/execevidence/evi2.jpeg)
+
+**Sección de proveedores (Suppliers):**  
+Vista del administrador de restaurante que permite acceder a una lista de proveedores favoritos, con opción de ver información detallada de cada uno.
+
+![Evidencia 3](assets/images/cap5/evidence-sprint2/execevidence/evi3.jpeg)
+
+**Sección de ventas (Sales):**  
+Permite al administrador registrar ventas diarias utilizando recetas (recipes) predefinidas. Se muestra una lista del día con detalles, útil para descontar automáticamente los insumos utilizados.
+
+![Evidencia 4](assets/images/cap5/evidence-sprint2/execevidence/evi4.jpeg)
+
+**Video del frontend:**  
+Demostración en video del uso del sistema.
+
 ![Captura del video](assets/images/cap5/evidence-sprint2/video_evidence.png)
 
-Video: [https:/linkcuts.org/konqfr2w](https:/linkcuts.org/konqfr2w)
+Video: [https://linkcuts.org/konqfr2w](https://linkcuts.org/konqfr2w)
+
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
@@ -748,6 +1093,7 @@ Durante este Sprint se avanzó en el desarrollo del **frontend interno de Restoc
 
 | Recurso / Vista               | Acción implementada                        | Método HTTP | URL relativa                            | Propósito funcional                                   |
 | ----------------------------- | ------------------------------------------- | ------------ | --------------------------------------- | ------------------------------------------------------ |
+| Landing Page                  | Visualización pública inicial             | GET          | `/` (con redirección de rol)         | Acceso inicial y redirección por tipo de usuario      |
 | Supplier Inventory            | Visualización de inventario de proveedor   | GET          | `/dashboard/supplier/inventory`       | Gestión del inventario del proveedor                  |
 | Restaurant Inventory          | Visualización de inventario de restaurante | GET          | `/dashboard/restaurant/inventory`     | Control de insumos del restaurante                     |
 | Restaurant Summary Overview   | Resumen analítico del restaurante          | GET          | `/dashboard/restaurant/summary`       | Dashboard de datos clave del restaurante               |
@@ -858,6 +1204,17 @@ Durante el sprint, se adoptaron estrategias de colaboración efectivas que permi
 - El equipo también se enfocó en la calidad del código, utilizando estructuras consistentes, siguiendo estándares de codificación, y asegurando coherencia en estilos y convenciones.
 
 ##### **Analíticos de colaboración**
+
+**1. Landing Page:**
+
+![Team Collaboration Insight](assets/images/cap5/collaboration-insight/sprint2-landing.png)
+
+- Total de commits realizados: **39**
+- Total de autores contribuyentes: **5**
+- Nivel de participación equilibrado entre todos los miembros
+- El gráfico muestra una distribución consistente de actividad a lo largo del sprint
+
+**2. Web Application (Frontend):**
 
 ![Team Collaboration Insight](assets/images/cap5/collaboration-insight/ci_1.png)
 
@@ -1703,8 +2060,17 @@ En el backend de la plataforma se realizaron importantes avances enfocados en la
 | GabrielaShapiama28/UI-Topic-backend | develop | GabrielaShapiama28 | 2fe5383   | chore: initial commit.                                                                                                                               | Initial commit for the project setup.                                                                                                     | 03-06-2025         |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
+En este Sprint 3, se avanzó significativamente en el desarrollo de la landing page y en la implementación tanto del frontend como del backend. A continuación, se presenta un video que muestra los avances y explica la visualización y navegación de las funcionalidades desarrolladas durante este Sprint.
 
 A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
+
+**Resumen de avances del Sprint 3:**
+
+- Desarrollo y diseño de la landing page.
+
+- Implementación del frontend y backend para la página principal.
+
+- Optimización de la interfaz para una navegación fluida y accesible.
 
 **Video del sprint 3:**
 
@@ -1796,7 +2162,32 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 
 ##### **Analíticos de colaboración**
 
+**1. Landing Page:**
+
+![Team Collaboration Insight](assets/images/cap5/collaboration-insight/sprint2-landing.png)
+
+- Total de commits realizados: **39**
+- Total de autores contribuyentes: **5**
+- Nivel de participación equilibrado entre todos los miembros
+- El gráfico muestra una distribución consistente de actividad a lo largo del sprint
+
+**2. Web Application (Frontend):**
+
+![Team Collaboration Insight](assets/images/cap5/collaboration-insight/ci_1.png)
+
+- Total de commits realizados: **146**
+- Total de autores contribuyentes: **5**
+- Nivel de participación equilibrado entre todos los miembros
+- El gráfico muestra una distribución consistente de actividad a lo largo del sprint
+
+**3. Web Services (Backend):**
+
 ![Team Collaboration Insight](assets/images/cap5/team_ci_3_1.png)
+
+- Total de commits realizados: **76**
+- Total de autores contribuyentes: **5**
+- Nivel de participación equilibrado entre todos los miembros
+- El gráfico muestra una distribución consistente de actividad a lo largo del sprint
 
 ##### **Analíticos de commits de GitHub**
 
@@ -1895,14 +2286,18 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Task Title</td>
         <td>Task Description</td>
         <td>Estimated Hours</td>
-    </tr>  
+        <td>Assigned To</td>
+        <td>Status (To do / In-Process / To-Review / Done)</td>
+    </tr>
     <tr>
         <td>US-02</td>
         <td>Recuperación de contraseña</td>
         <td>T001</td>
         <td>Diseñar pantalla de solicitud de recuperación</td>
-        <td>Diseñar la pantalla de solicitud de recuperación de contraseña'.</td>
+        <td>Diseñar la pantalla de solicitud de recuperación de contraseña&#39;.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1911,6 +2306,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Conectar solicitud de recuperación con backend</td>
         <td>Conectar la pantalla con el endpoint /api/v1/auth/forgot-password.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1919,6 +2316,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Diseñar formulario de nueva contraseña</td>
         <td>Diseñar la pantalla de restablecimiento de contraseña (formulario de nueva contraseña).</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -1927,6 +2326,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Manejar tokens inválidos o expirados</td>
         <td>Implementar manejo de tokens inválidos o expirados en el frontend</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -1935,6 +2336,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Conectar formulario de restablecimiento con backend</td>
         <td>Conectar formulario de nueva contraseña con endpoint /api/v1/auth/reset-password</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>US-03</td>
@@ -1943,6 +2346,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Consultar estado de suscripción al iniciar sesión</td>
         <td>Consultar el estado de suscripción del usuario al iniciar sesión.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -1951,6 +2356,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Controlar acceso según suscripción</td>
         <td>Mostrar o restringir funcionalidades según el estado de suscripción</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1959,6 +2366,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Diseñar vista de advertencia por suscripción inactiva</td>
         <td>Diseñar una vista de advertencia para usuarios con suscripción vencida o inactiva</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -1967,6 +2376,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Restringir acceso a rutas protegidas</td>
         <td>Redirigir o bloquear el acceso a rutas protegidas si el estado no es válido</td>
         <td>1/2h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -1975,14 +2386,18 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Actualizar acceso tras renovación</td>
         <td>Verificar y actualizar el acceso luego de la renovación</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
-        <tr>
+    <tr>
         <td>US-16</td>
         <td>Gestión de ventas</td>
         <td>T001</td>
         <td>Validar disponibilidad de insumos al vender</td>
         <td>Implementar la lógica de validación de insumos disponibles antes de confirmar una venta.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -1991,6 +2406,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Mostrar impacto de recetas en inventario</td>
         <td>Integrar el consumo de recetas asociadas para mostrar impacto en insumos.</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -1999,14 +2416,18 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Documentar flujo de gestión de ventas</td>
         <td>Documentar el flujo de gestión de ventas desde el frontend.</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
-        <tr>
+    <tr>
         <td>US-23</td>
         <td>Cambio de contraseña</td>
         <td>T001</td>
         <td>Mostrar opción de cambio de contraseña en perfil</td>
         <td>Mostrar opción de “Cambiar contraseña” en la configuración de la cuenta</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2015,6 +2436,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar nueva contraseña según políticas</td>
         <td>Validar que la nueva contraseña cumpla con los requisitos de seguridad</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2023,6 +2446,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Verificar coincidencia entre nueva contraseña y confirmación</td>
         <td>Verificar coincidencia entre nueva contraseña y su confirmación</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2031,6 +2456,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Enviar solicitud de cambio de contraseña al backend</td>
         <td>Enviar solicitud de cambio de contraseña al servidor</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2039,6 +2466,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Mostrar mensaje según resultado del cambio de contraseña</td>
         <td>Mostrar mensaje de éxito tras el cambio correcto o Mostrar mensaje de error si la contraseña actual es incorrecta</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>US-24</td>
@@ -2047,6 +2476,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Mostrar opción para eliminar cuenta desde perfil</td>
         <td>Mostrar opción “Eliminar cuenta” en la configuración del perfil</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2055,6 +2486,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Implementar paso de verificación para confirmar eliminación</td>
         <td>Solicitar paso de verificación para confirmar la eliminación</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2063,6 +2496,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Enviar solicitud de eliminación de cuenta al backend</td>
         <td>Enviar la solicitud de eliminación de cuenta al servidor</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2071,6 +2506,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Mostrar confirmación de eliminación</td>
         <td>Confirmar visualmente al usuario que la cuenta ha sido borrada.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2079,6 +2516,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Redirigir tras eliminar cuenta</td>
         <td>Redirigir al usuario a la página de inicio o despedida tras eliminar la cuenta</td>
         <td>1/2h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-01</td>
@@ -2087,6 +2526,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Diseñar modelo de usuario y su persistencia</td>
         <td>Diseñar el modelo de usuario y estructura de base de datos</td>
         <td>2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2095,6 +2536,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint de registro de usuarios</td>
         <td>Implementar endpoint /api/v1/auth/register para registro de usuarios</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2103,6 +2546,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint de login de usuarios</td>
         <td>Implementar endpoint /api/v1/auth/login para autenticación</td>
         <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2111,6 +2556,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Configurar autenticación con JWT y manejo de errores</td>
         <td>Configurar control de errores y middleware de autenticación (JWT)</td>
         <td>1/2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>TS-02</td>
@@ -2119,6 +2566,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint para recuperación de contraseña</td>
         <td>Diseñar e implementar el endpoint /api/v1/auth/forgot-password</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2127,6 +2576,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Integrar servicio de correo Resend</td>
         <td>Integrar servicio de correo Resend para envío del enlace de recuperación</td>
         <td>2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2135,6 +2586,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Manejar errores y respuestas en recuperación</td>
         <td>Implementar lógica de manejo de errores y respuestas HTTP estándar</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2143,6 +2596,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Generar y guardar token seguro para recuperación</td>
         <td>Crear y almacenar tokens seguros de recuperación de contraseña</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td>TS-03</td>
@@ -2151,6 +2606,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Diseñar modelo de suscripción</td>
         <td>Diseñar el modelo de suscripción de la base de datos</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2159,6 +2616,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint GET para estado de suscripción</td>
         <td>Implementar endpoint GET /api/v1/subscription/status/:id</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2167,6 +2626,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint POST para renovación de suscripción</td>
         <td>Implementar endpoint POST /api/v1/subscription/renew</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2175,6 +2636,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Evaluar estado de suscripción desde middleware</td>
         <td>Agregar middleware o función auxiliar para evaluar el estado de la suscripción</td>
         <td>1/2h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-04</td>
@@ -2183,6 +2646,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint de insumos próximos a vencer</td>
         <td>Implementar endpoint /api/v1/notifications/expiring-supplies</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2191,6 +2656,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint de insumos que exceden stock</td>
         <td>Implementar endpoint /api/v1/notifications/exceeding-stock</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2199,6 +2666,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Diseñar lógica de negocio para filtros de notificaciones</td>
         <td>Diseñar y aplicar lógica de dominio para filtros de notificaciones</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2207,14 +2676,18 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Escribir pruebas unitarias para lógica de notificaciones</td>
         <td>Escribir pruebas unitarias para lógica de notificaciones</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
-        <tr>
+    <tr>
         <td>TS-07</td>
         <td>Registrar comentarios y calificaciones sobre pedidos mediante API RESTful</td>
         <td>T001</td>
         <td>Crear endpoint para registrar retroalimentación</td>
         <td>Implementar endpoint POST /api/v1/feedback (Registrar retroalimentación)</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2223,6 +2696,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar calificación y comentario en feedback</td>
         <td>Validar calificación y comentario en POST /api/v1/feedback</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2231,6 +2706,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Verificar estado del pedido antes de aceptar feedback</td>
         <td>Validar estado del pedido antes de aceptar feedback</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2239,6 +2716,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Asociar feedback al proveedor correspondiente</td>
         <td>Asociar retroalimentación al proveedor correspondiente</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2247,6 +2726,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Escribir pruebas unitarias para endpoint de feedback</td>
         <td>Implementar pruebas unitarias del endpoint</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-08</td>
@@ -2255,6 +2736,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear colección para eventos críticos de insumos</td>
         <td>Crear colección supply_event_logs con campos: supplyId, type, detectedAt, details, severity.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2263,6 +2746,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Implementar lógica para registrar eventos críticos automáticamente</td>
         <td>Implementar lógica para detectar condiciones críticas en insumos y registrar evento automáticamente.</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2271,14 +2756,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint GET para consultar eventos críticos</td>
         <td>Crear servicio RESTful GET /api/v1/supplies/events con filtros por tipo, insumo y rango de fechas.</td>
         <td>2h</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>T004</td>
-        <td>Documentar tipos de eventos críticos permitidos</td>
-        <td>Documentar tipos de eventos permitidos: "EXPIRATION_SOON", "LOW_STOCK", "OVERSTOCKED".</td>
-        <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2287,6 +2766,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Escribir pruebas unitarias para eventos críticos</td>
         <td>Agregar pruebas unitarias y de integración para asegurar el correcto registro de eventos críticos.</td>
         <td>1/2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-13</td>
@@ -2295,6 +2776,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint GET para obtener perfil protegido</td>
         <td>Implementar endpoint GET /api/v1/profile/:id protegido por JWT</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2303,6 +2786,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar token JWT antes de procesar perfil</td>
         <td>Validar que el token sea correcto antes de procesar la solicitud</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2311,6 +2796,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Consultar y retornar información del perfil</td>
         <td>Consultar y devolver información del perfil (id, nombre, email, URL de imagen, estado)</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2319,6 +2806,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Gestionar errores 401 por token inválido</td>
         <td>Gestionar error 401 en caso de token inválido o expirado</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2327,6 +2816,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Escribir pruebas unitarias para endpoint de perfil</td>
         <td>Escribir test unitario y de integración para el endpoint</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td>TS-14</td>
@@ -2335,6 +2826,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint PUT para actualizar perfil</td>
         <td>Implementar endpoint PUT /api/v1/profile/:id con protección por JWT</td>
         <td>1/2h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2343,6 +2836,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar formato de datos del perfil</td>
         <td>Validar formato de campos</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2351,6 +2846,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Actualizar datos del perfil en base de datos</td>
         <td>Actualizar los datos del perfil en la base de datos</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2359,6 +2856,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Retornar datos actualizados con código 200</td>
         <td>Retornar los datos actualizados con código 200</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2367,6 +2866,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Manejar errores 400 con detalles en perfil</td>
         <td>Retornar errores 400 con detalles si hay datos inválidos</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td>TS-15</td>
@@ -2375,6 +2876,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint POST para subir imagen de perfil</td>
         <td>Implementar endpoint POST /api/v1/profile/images/id.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2383,6 +2886,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar formato de archivo de imagen</td>
         <td>Validar formato de archivo antes de subir (JPG, PNG, WEBP)</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2391,6 +2896,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Asociar imagen de perfil subida al usuario</td>
         <td>Asociar la URL retornada por Cloudinary al usuario correspondiente</td>
         <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2399,6 +2906,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Manejar errores por formato no soportado (415)</td>
         <td>Manejar errores por formato no soportado (415)</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-16</td>
@@ -2407,6 +2916,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint GET para ingredientes más usados</td>
         <td>Implementar endpoint GET /api/v1/ingredients/most-used</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2415,6 +2926,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Permitir filtrado por periodo en ingredientes más usados</td>
         <td>Permitir parámetro ?period= con valores como 7d o 30d</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2423,6 +2936,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Consultar uso agregado de ingredientes según periodo</td>
         <td>Consultar datos agregados de ingredientes en base al periodo</td>
         <td>1/2h</td>
+        <td>Yaku Guzman</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2431,6 +2946,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Retornar lista JSON de ingredientes más usados</td>
         <td>Retornar JSON con lista de ingredientes, id, nombre y cantidad_utilizada</td>
         <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-17</td>
@@ -2439,6 +2956,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint GET para alertas recientes</td>
         <td>Implementar endpoint GET /api/v1/alerts</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2447,6 +2966,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Clasificar alertas por tipo</td>
         <td>Clasificar alertas por tipo: vencimiento, bajo stock, etc</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2455,6 +2976,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Retornar lista de alertas como JSON</td>
         <td>Retornar lista de alertas como JSON</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2463,6 +2986,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Retornar lista vacía si no hay alertas</td>
         <td>Retornar lista vacía si no hay alertas activas</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2471,6 +2996,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Implementar filtros para pruebas de alertas</td>
         <td>Implementar filtros para pruebas</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td>TS-18</td>
@@ -2479,6 +3006,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint para top clientes</td>
         <td>Implementar endpoint GET /api/v1/supplier/top-clients</td>
         <td>1/2h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2487,6 +3016,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Consultar base y ordenar por total de compras</td>
         <td>Consultar base de datos y ordenar clientes por total de compras</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2495,6 +3026,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Retornar JSON con nombre y total de compras</td>
         <td>Retornar JSON con campos: nombre_restaurante, total_compras</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2503,6 +3036,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar fechas y manejar errores</td>
         <td>Agregar validación de fechas y manejo de errores</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-19</td>
@@ -2511,6 +3046,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint PATCH para actualizar estado de orden</td>
         <td>Crear endpoint para cambiar estado de una orden por ID.</td>
         <td>1/2h</td>
+        <td>Yaku Guzman</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2519,6 +3056,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar autenticación y permisos antes de cambio de estado</td>
         <td>Aplicar lógica de seguridad (autenticación y permisos).</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2527,6 +3066,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar estado válido antes de actualizar</td>
         <td>Manejar errores de estado inválido o inexistente.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2535,6 +3076,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Escribir pruebas para cambios de estado</td>
         <td>Escribir pruebas para transiciones de estado comunes.</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2543,6 +3086,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Documentar API para actualizar estado de órdenes</td>
         <td>Documentar API de actualización de estado de órdenes.</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>TS-20</td>
@@ -2551,6 +3096,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint GET para estado de entrega</td>
         <td>Crear endpoint para obtener estado actual de una orden.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2559,6 +3106,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Aplicar control de acceso por rol (proveedor/restaurante)</td>
         <td>Implementar control de acceso para proveedor o restaurante.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2567,6 +3116,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Optimizar respuesta con campos esenciales</td>
         <td>Optimizar respuesta solo con campos necesarios (estado, fecha).</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2575,6 +3126,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Manejar errores por orden inexistente</td>
         <td>Manejar errores si orden no existe.</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2583,6 +3136,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Escribir pruebas unitarias para endpoint de estado</td>
         <td>Escribir pruebas unitarias del endpoint.</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2591,6 +3146,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Documentar consulta de estado de entrega</td>
         <td>Documentar consulta del estado de entrega por ID.</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-21</td>
@@ -2599,6 +3156,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint GET para calificaciones por proveedor</td>
         <td>Crear endpoint para obtener calificaciones por proveedor ID.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2607,6 +3166,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Incluir detalles relevantes en la respuesta</td>
         <td>Incluir datos como puntuación, comentario, fecha.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2615,6 +3176,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Permitir orden cronológico y filtros</td>
         <td>Agregar orden cronológico o filtros si se requiere.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2623,6 +3186,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar proveedor existente y acceso autorizado</td>
         <td>Validar existencia del proveedor y autorización del solicitante.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2631,6 +3196,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Diseñar pruebas para distintos escenarios</td>
         <td>Diseñar pruebas para distintos escenarios (sin calificaciones, múltiples).</td>
         <td>1/2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2639,6 +3206,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Documentar endpoint de calificaciones</td>
         <td>Documentar la API de calificaciones del proveedor.</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-22</td>
@@ -2647,6 +3216,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint GET para listar órdenes recibidas</td>
         <td>Crear endpoint para listar órdenes recibidas por proveedor.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2655,6 +3226,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Agregar filtros a las órdenes recibidas</td>
         <td>Agregar filtros por estado, fecha o restaurante.</td>
         <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2663,6 +3236,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Manejar errores en solicitudes de órdenes</td>
         <td>Manejar errores y datos faltantes en las solicitudes.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2671,6 +3246,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Probar flujo completo de gestión de órdenes</td>
         <td>Probar la gestión completa de órdenes.</td>
         <td>h</td>
+        <td>Antonio Navarro</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2679,6 +3256,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Documentar endpoints de órdenes recibidas</td>
         <td>Documentar endpoints RESTful para gestión de órdenes recibidas.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td>TS-23</td>
@@ -2687,6 +3266,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint GET para detalles completos de una orden</td>
         <td>Crear endpoint para obtener datos completos de una orden por ID.</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2695,6 +3276,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Verificar existencia y pertenencia de orden</td>
         <td>Validar existencia de la orden y su pertenencia al proveedor.</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2703,6 +3286,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Incluir datos completos en respuesta</td>
         <td>Incluir ítems, cantidades, fecha de creación, cliente, etc.</td>
         <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2711,6 +3296,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Escribir pruebas para consulta de orden</td>
         <td>Escribir pruebas para orden encontrada y no encontrada.</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2719,6 +3306,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Documentar estructura de detalle de orden</td>
         <td>Documentar la estructura de respuesta y ejemplos de consulta.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>TS-24</td>
@@ -2727,6 +3316,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint GET para historial agrupado por restaurante</td>
         <td>Crear endpoint que devuelva órdenes de un proveedor agrupadas por restaurante.</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2735,6 +3326,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Ordenar historial por fecha</td>
         <td>Ordenar por fecha de forma descendente.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2743,6 +3336,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Agregar filtros a historial de órdenes</td>
         <td>Permitir incluir filtros como fechas o estado.</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2751,6 +3346,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar autenticación del proveedor</td>
         <td>Validar autenticación y permisos del proveedor.</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2759,6 +3356,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Documentar endpoint de historial de órdenes</td>
         <td>Documentar endpoint de historial cronológico de órdenes.</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>TS-25</td>
@@ -2767,6 +3366,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint para exportar historial en Excel</td>
         <td>Crear endpoint para generar archivo Excel del historial de órdenes completadas.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2775,6 +3376,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Permitir filtros en generación de reporte</td>
         <td>Permitir parámetros de filtrado (fechas, restaurantes).</td>
         <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2783,6 +3386,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Formatear archivo Excel para reporte</td>
         <td>Formatear columnas y contenido de forma clara y legible.</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2791,6 +3396,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar descarga correcta del archivo</td>
         <td>Asegurar que el archivo se descargue correctamente.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2799,6 +3406,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Probar descarga del reporte en distintos entornos</td>
         <td>Probar el export en distintos navegadores/sistemas.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2807,6 +3416,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Documentar generación del reporte Excel</td>
         <td>Documentar generación y descarga del reporte Excel.</td>
         <td>1/2h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td>TS-26</td>
@@ -2815,6 +3426,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint POST para registrar ventas</td>
         <td>Crear endpoints para registrar ventas.</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2823,6 +3436,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar y verificar stock antes de registrar venta</td>
         <td>Implementar lógica de validación y verificación de stock antes de registrar una venta en el inventario.</td>
         <td>2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2831,6 +3446,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint para actualizar inventario manualmente</td>
         <td>Crear endpoint para actualizar manualmente el inventario.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2839,6 +3456,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Manejar errores comunes en ventas</td>
         <td>Aplicar manejo de errores para transacciones inválidas o datos incompletos.</td>
         <td>1/2h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2847,6 +3466,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Escribir pruebas para endpoints de ventas e inventario</td>
         <td>Diseñar pruebas unitarias y de integración para ambos endpoints.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2855,6 +3476,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Documentar endpoints de ventas e inventario</td>
         <td>Documentar los endpoints RESTful de ventas.</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-27</td>
@@ -2863,6 +3486,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint seguro para cambio de contraseña</td>
         <td>Crear endpoint seguro /api/v1/auth/change-password</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2871,6 +3496,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Diseñar estructura del cuerpo para cambio de contraseña</td>
         <td>Diseñar estructura del cuerpo de la solicitud</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2879,6 +3506,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar entrada del cambio de contraseña</td>
         <td>Implementar validación de entrada</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2887,6 +3516,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Verificar contraseña actual</td>
         <td>Verificar contraseña actual del usuario</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2895,6 +3526,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Actualizar nueva contraseña en base de datos</td>
         <td>Actualizar la contraseña en base de datos</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-28</td>
@@ -2903,6 +3536,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Crear endpoint seguro para eliminación de cuenta</td>
         <td>Crear endpoint seguro /api/v1/auth/delete-account</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2911,6 +3546,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Diseñar estructura del cuerpo de solicitud para eliminación</td>
         <td>Diseñar estructura del cuerpo de la solicitud</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2919,6 +3556,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Validar autenticación del usuario</td>
         <td>Validar autenticación del usuario</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2927,6 +3566,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Eliminar o desactivar cuenta del usuario</td>
         <td>Eliminar o desactivar la cuenta del usuario</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2935,6 +3576,8 @@ Trello: https:/linkcuts.org/dbgrf3vr
         <td>Revocar tokens y cerrar sesiones activas</td>
         <td>Revocar tokens activos y sesiones</td>
         <td>1/2h</td>
+        <td>Yaku Guzman</td>
+        <td>Done</td>
     </tr>
 </table>
 
